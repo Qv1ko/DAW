@@ -1,0 +1,23 @@
+div {
+    border-color: black;
+    float: left;
+    width: 49%;
+    box-sizing: border-box;
+    min-height: 150px;
+}
+
+#saludo {
+    background-color: blue;
+}
+
+main p {
+    color: red;
+}
+
+div p {
+    padding: 0 5px 0 5px;
+}
+
+p {
+    font-size: 16px;
+}
