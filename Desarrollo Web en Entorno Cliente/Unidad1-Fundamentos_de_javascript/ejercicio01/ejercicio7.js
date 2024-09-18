@@ -6,11 +6,15 @@ let rows = prompt("Escriba el número de filas");
 let columns = prompt("Escriba el número de columnas");
 let table = "";
 
-// if (rows === "" || rows == null) {
-//     table(8, 8);
-// } else if (number > 0 && number % 2 === 0) {
-//     table(number);
-// }
+if ((rows == "" || rows == null) && (columns == "" || columns == null)) {
+    tableGenerator(8, 8);
+} else if (rows == "" || rows == null) {
+    tableGenerator(8, columns);
+} else if (columns == "" || columns == null) {
+    tableGenerator(rows, 8);
+} else if (rows > 0 && rows % 2 == 0 && columns > 0 && columns % 2 == 0) {
+    tableGenerator(rows, columns);
+}
 
 tableGenerator(rows, columns);
 
