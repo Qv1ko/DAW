@@ -1,17 +1,21 @@
+// "use strict";
 console.log("--- Ejercicio 1 ---");
 
 let age = prompt("Introduce una edad");
+let text;
 
-if (isNaN(age) || age == null) {
-    alert("ERROR: La edad tiene un valor incorrecto");
+if (isNaN(age) || age == null || age <= 0) {
+    text = "ERROR: La edad tiene un valor incorrecto";
 } else {
     if (age > 0 && age < 13) {
-        alert("Niño");
+        text = "Niño";
     } else if (age >= 13 && age < 26) {
-        alert("Joven");
+        text = "Joven";
     } else if (age >= 26 && age < 60) {
-        alert("Adulto");
+        text = "Adulto";
     } else {
-        alert("Jubilado");
+        text = "Jubilado";
     }
 }
+
+alert(text);
