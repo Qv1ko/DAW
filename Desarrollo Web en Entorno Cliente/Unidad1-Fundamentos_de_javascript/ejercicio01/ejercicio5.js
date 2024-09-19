@@ -11,3 +11,20 @@ for (min = 0; hour <= 22; min += 5) {
         min = -5;
     }
 }
+
+console.log("--- Ejercicio 5 v2 ---");
+
+let hora = new Date();
+hora.setHours(9, 0, 0);
+
+let horafin = new Date();
+horafin.setHours(21, 30, 0);
+
+while (hora <= horafin) {
+    console.log(
+        hora.getHours().toString().padStart(2, "0") +
+            ":" +
+            hora.getMinutes().toString().padStart(2, "0")
+    );
+    hora.setMinutes(hora.getMinutes() + 5);
+}
