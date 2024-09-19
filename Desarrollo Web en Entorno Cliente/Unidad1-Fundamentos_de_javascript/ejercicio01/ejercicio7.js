@@ -7,18 +7,16 @@ let columns = prompt("Escriba el número de columnas");
 let table = "";
 
 if ((rows == "" || rows == null) && (columns == "" || columns == null)) {
-    tableGenerator(8, 8);
+    tableGenerator();
 } else if (rows == "" || rows == null) {
     tableGenerator(8, columns);
 } else if (columns == "" || columns == null) {
-    tableGenerator(rows, 8);
-} else if (rows > 0 && rows % 2 == 0 && columns > 0 && columns % 2 == 0) {
+    tableGenerator(rows);
+} else if (rows > 0 && rows % 1 == 0 && columns > 0 && columns % 1 == 0) {
     tableGenerator(rows, columns);
 }
 
-tableGenerator(rows, columns);
-
-function tableGenerator(rows, columns) {
+function tableGenerator(rows = 8, columns = 8) {
     for (let i = 0; i < rows; i++) {
         table += "|" + (i % 2 == 0 ? BLACK : WHITE);
 
