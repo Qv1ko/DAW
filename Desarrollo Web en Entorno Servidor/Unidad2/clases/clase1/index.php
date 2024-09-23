@@ -20,6 +20,7 @@
     <?php echo '<p>Número: ' . $num .  '</p> '?>
 
     <?php
+        // Ejemplos echo
         $nombre = 'Pedro';
         echo "Hola" , $nombre;
         echo "Hola <br>" , $nombre;
