@@ -6,7 +6,7 @@ function min(a, b) {
 }
 
 // Expresión de función
-let min = function (a, b) {
+const MIN = function (a, b) {
     return a < b ? a : a > b ? b : "Iguales";
 };
 
