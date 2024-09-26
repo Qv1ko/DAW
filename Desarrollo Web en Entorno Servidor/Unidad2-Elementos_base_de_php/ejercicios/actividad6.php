@@ -5,19 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad 6 - Víctor García Murillo</title>
+    <title>Actividad 6</title>
 </head>
 
 <body>
     <?php
+        
+        $dinero = 534;
+        $billetes = [
+            "100" => 0,
+            "50" => 0,
+            "20" => 0,
+            "10" => 0,
+            "5" => 0
+        ];
 
-        $result = 0;
-
-        for ($i = 1; $i <= 100; $i++) { 
-            $result += ($i % 10 != 3 ? $i : 0);
+        if ($dinero <= 0) {
+            echo "<p>No tienes dinero</p>";
+        } else {
+            echo "<p>$dinero € es equivalente a:</p>";
+            while ($dinero >= 5) {
+                if ($dinero > 100) {
+                    $billetes["100"]++;
+                    $dinero -= 100;
+                }
+            }
         }
-
-        echo "La suma es igual a " . $result;
 
     ?>
 </body>

@@ -9,36 +9,22 @@
 </head>
 
 <body>
-    <?php
+    <table>
+        <?php
 
-        $num1 = 8;
-        $num2 = 4;
-        $result;
+            $number = 4;
+            $result;
 
-        $char = "-";
+            for ($i = 0; $i <= 10; $i++) { 
+                $result = $number * $i;
+                echo "<tr>";
+                echo "<td>$number * $i = </td>";
+                echo "<td>$result</td>";
+                echo "</tr>";
+            }
 
-        switch ($char) {
-            case '+':
-                $result = $num1 + $num2;
-                break;
-            case '-':
-                $result = $num1 - $num2;
-                break;
-            case '/':
-                $result = $num1 / $num2;
-                break;
-            case 'x':
-                $result = $num1 * $num2;
-                break;
-                        
-            default:
-                echo "<p>Tipo de operación invalido</p>";
-                break;
-        }
-
-        echo "<p>Resultado de la operación: $result</p>";
-
-    ?>
+        ?>
+    </table>
 </body>
 
 </html>

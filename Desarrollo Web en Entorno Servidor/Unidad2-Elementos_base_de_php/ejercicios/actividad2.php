@@ -11,27 +11,13 @@
 <body>
     <?php
 
-        $num1 = 7;
-        $num2 = 7;
-        $num3 = 15;
-        // $max = max($num1, $num2, $num3);
-        $max = 0;
-        $maxCounter = 1;
+        $NUMBER = 4;
+        $text = "*";
 
-        // echo "Número mayor: " , $max;
-        // echo "<br>Número de máximos: " , array_count_values([$num1, $num2, $num3])[$max];
-
-        foreach ([$num1, $num2, $num3] as $number) {
-            if ($max == $number) {
-                $maxCounter++;
-            } else if ($max < $number) {
-                $maxCounter = 1;
-                $max = $number;
-            }
+        for ($i = 0; $i < $NUMBER; $i++) { 
+            echo "<p>$text</p>";
+            $text = $text . "*";
         }
-
-        echo "Número mayor: " , $max;
-        echo "<br>Número de máximos: " , $maxCounter;
 
     ?>
 </body>

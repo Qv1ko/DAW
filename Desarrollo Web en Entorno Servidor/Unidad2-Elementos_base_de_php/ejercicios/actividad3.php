@@ -11,18 +11,16 @@
 <body>
     <?php
 
-        $num1 = 303;
-        $num2 = "";
-        $aux = $num1;
+        $NUMBER = 4;
+        $value = 1;
 
-        // echo "El número " , $num1 , ($num1 == (int)strrev((string)$num1) ? " es capicúa" : " no es capicúa");
-
-        while ($aux > 0) {
-            $num2 = $num2 . (string)($aux % 10);
-            $aux = (int)($aux / 10);
+        for ($i = 1; $i <= $NUMBER; $i++) {
+            for ($j = 0; $j < $i; $j++) {
+                echo $value;
+                $value++;
+            }
+            echo "<br>";
         }
-
-        echo "El número " , $num1 , ($num1 == (int)$num2 ? " es capicúa" : " no es capicúa");
 
     ?>
 </body>

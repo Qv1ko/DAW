@@ -9,22 +9,17 @@
 </head>
 
 <body>
-    <table>
-        <?php
+    <?php
 
-            $number = 4;
-            $result;
+        $result = 0;
 
-            for ($i = 0; $i <= 10; $i++) { 
-                $result = $number * $i;
-                echo "<tr>";
-                echo "<td>$number * $i = </td>";
-                echo "<td>$result</td>";
-                echo "</tr>";
-            }
+        for ($i = 1; $i <= 100; $i++) { 
+            $result += ($i % 10 != 3 ? $i : 0);
+        }
 
-        ?>
-    </table>
+        echo "La suma es igual a " . $result;
+
+    ?>
 </body>
 
 </html>
