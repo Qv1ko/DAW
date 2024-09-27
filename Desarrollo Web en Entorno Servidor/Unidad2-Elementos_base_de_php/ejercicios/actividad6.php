@@ -25,11 +25,45 @@
         } else {
             echo "<p>$dinero € es equivalente a:</p>";
             while ($dinero >= 5) {
-                if ($dinero > 100) {
-                    $billetes["100"]++;
-                    $dinero -= 100;
+                switch (true) {
+                    case $dinero > 100:
+                        $billetes["100"]++;
+                        $dinero -= 100;
+                        break;
+                    case $dinero > 50:
+                        $billetes["50"]++;
+                        $dinero -= 50;
+                        break;
+                    case $dinero > 20:
+                        $billetes["20"]++;
+                        $dinero -= 20;
+                        break;
+                    case $dinero > 10:
+                        $billetes["10"]++;
+                        $dinero -= 10;
+                        break;
+                    case $dinero > 5:
+                        $billetes["5"]++;
+                        $dinero -= 5;
+                        break;
+                    default:
+                        break;
+                }
+                
+            }
+
+            foreach ($billetes as $billete => $contador) {
+                if ($contador > 1) {
+                    echo "<p>$contador billetes de $billete</p>";
+                } else if ($contador == 1) {
+                    echo "<p>$contador billete de $billete</p>";
                 }
             }
+
+            if ($dinero > 0) {
+                echo "<p>Sobran $dinero euros</p>";
+            }
+
         }
 
     ?>
