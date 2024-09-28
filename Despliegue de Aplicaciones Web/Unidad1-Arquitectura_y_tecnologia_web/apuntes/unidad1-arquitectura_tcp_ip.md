@@ -31,7 +31,7 @@ Los principios teóricos en los que se basa:
 - **La función** de cada capa **se definirá en los protocolos correspondientes** diseñados por los organismos de estandarización.
 - Para que dos computadoras se comuniquen a través de una red, los protocolos utilizados en cada nivel del sistema emisor deben estar duplicados en el sistema receptor.
 
-![imagen1.png](imagen1.png)
+![imagen1](./imagenes/imagen1.png)
 
 **Nivel físico**: **Transmisión de una cadena de bits a través de medios físicos** (cables, fibra óptica, señales inalámbricas). Codifica los datos binarios proporcionados por el nivel de enlace de datos, convirtiéndolos en voltajes eléctricos, pulsos de luz, etc. para ser transmitidos por el medio físico de la red.
 
@@ -57,9 +57,9 @@ La primera red fue desarrollada en 1969 por la Agencia de proyectos avanzados de
 
 **TCP/IP** se suele confundir muchas veces con un protocolo de comunicaciones cuando en realidad es una **compleja arquitectura de red que incluye varios protocolos apilados en cuatro capas**. No sigue estrictamente la estructura del modelo OSI (siete capas) pero se puede establecer un paralelismo entre ellas.
 
-![imagen2.png](imagen2.png)
+![imagen2](./imagenes/imagen2.png)
 
-![imagen3.png](imagen3.png)
+![imagen3](./imagenes/imagen3.png)
 
 - La organización encargada de definir los protocolos de Internet es la IETF (The Internet Engineering Task Force, http://www.ietf.org).
 - En 1969 se inició una serie de documentos llamados RFC (Request for Comments), que describen el conjunto de protocolos y estándares de Internet. En español, algunos RFCs importantes pueden consultarse en www.rfc-es.org, aunque solo se han traducido los más relevantes.
@@ -80,7 +80,7 @@ Las utilidades TCP/IP son comandos del sistema que solo están disponibles si TC
     
     `-i TTL` → Especifica el valor TTL de IP para cada paquete Petición de eco.
     
-    ![imagen4.png](imagen4.png)
+    ![imagen4](./imagenes/imagen4.png)
     
 - Utilidad `ipconfig`: se utiliza para **consultar la configuración de los parámetros TCP/IP** del equipo. También se puede utilizar para activar o desactivar la configuración de red. Para modificar estos parámetros hay que hacerlo desde Windows.
     
@@ -92,7 +92,7 @@ Las utilidades TCP/IP son comandos del sistema que solo están disponibles si TC
     
     `ipconfig /renew` → Activa la configuración (TCP/IP y asigna los parámetros de red establecidos).
     
-    ![imagen5.png](imagen5.png)
+    ![imagen5](./imagenes/imagen5.png)
     
 - Utilidad `tracert`: se utiliza para **conocer la ruta de acceso a un destino mediante** el envío de mensajes **ICMP**.
     
@@ -108,11 +108,11 @@ Las utilidades TCP/IP son comandos del sistema que solo están disponibles si TC
     
     `target_host` → Especifica el nombre (ej: www.google.es o la dirección IP del host objetivo).
     
-    ![imagen6.png](imagen6.png)
+    ![imagen6](./imagenes/imagen6.png)
     
 - Utilidad `route print`: se utiliza para **conocer la tabla de enrutamiento** que posee el propio ordenador.
     
-    ![imagen7.png](imagen7.png)
+    ![imagen7](./imagenes/imagen7.png)
     
 
 ## Cómo ver configuración de red de nuestro ordenador
@@ -121,7 +121,7 @@ Las utilidades TCP/IP son comandos del sistema que solo están disponibles si TC
 2. Botón derecho en una de ellas → Propiedades
 3. Protocolo de Internet versión 4 → Propiedades
 
-![imagen8.png](imagen8.png)
+![imagen8](./imagenes/imagen8.png)
 
 ## Trabajar en red
 
@@ -130,7 +130,7 @@ Las utilidades TCP/IP son comandos del sistema que solo están disponibles si TC
 - La mayoría de los servicios ofrecidos por una red de comunicaciones de ordenadores se basan en el funcionamiento en modo cliente-servidor.
 - La arquitectura cliente/servidor consiste básicamente en que **un programa** (el cliente informático), **realiza peticiones a otro programa** (el servidor), que les da respuesta.
 
-![imagen9.png](imagen9.png)
+![imagen9](./imagenes/imagen9.png)
 
 - Herramientas de trabajo
     
@@ -164,34 +164,34 @@ Servicios de **alto nivel**:
 **NAT**: La VM obtendrá una dirección IP privada de una subred definida por el
 propio VirtualBox.
 
-![imagen10.png](imagen10.png)
+![imagen10](./imagenes/imagen10.png)
 
 Máquina virtual
 
-![imagen11.png](imagen11.png)
+![imagen11](./imagenes/imagen11.png)
 
 PC Real
 
-![imagen12.png](imagen12.png)
+![imagen12](./imagenes/imagen12.png)
 
 Podemos conectarnos a cualquier equipo de la red local a la que el PC real alcance y tenemos internet automáticamente (si el PC real tiene internet)
 
 **Adaptador puente**: La VM obtendrá una dirección IP de la red a la que está conectado el PC real.
 
-![imagen13.png](imagen13.png)
+![imagen13](./imagenes/imagen13.png)
 
 Máquina virtual
 
-![imagen14.png](imagen14.png)
+![imagen14](./imagenes/imagen14.png)
 
 PC Real
 
-![imagen15.png](imagen15.png)
+![imagen15](./imagenes/imagen15.png)
 
 Tenemos comunicación con el resto de equipos de la red local y con internet. El resto de equipos puede comunicarse con la VM sin problemas.
 
 **Red interna**: Se puede crear una red local de dos o más máquinas virtuales para que se comuniquen entre sí. No tendrán acceso a la red local.
 
-![imagen16.png](imagen16.png)
+![imagen16](./imagenes/imagen16.png)
 
 **Adaptador solo-anfitrión**: Solo se tendrá conectividad con el equipo anfitrión (el PC real).
