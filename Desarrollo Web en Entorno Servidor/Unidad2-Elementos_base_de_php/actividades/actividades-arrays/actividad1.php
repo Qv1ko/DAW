@@ -35,13 +35,23 @@
         // echo "<p>", (array_sum($numbers) / count($numbers)) , "</p>";
         echo "<p>" . $total / $counter . "</p>";
 
-        echo "<p>Posiciones del cuadrado de su valor</p>";
+        echo "<p>Posciciones en las que se almacena como valor el cuadrado de su posición</p>";
 
-        foreach ($numbers as $number) {
-            if (array_key_exists($numbers[$number * $number])) {
-                echo $numbers[$number * $number];
+        $finded = false;
+
+        for ($i = 0; $i < $counter; $i++) {
+            for ($j = 0; $j < $counter; $j++) {
+                if ($i * $i == $numbers[$j]) {
+                    echo $j . "&emsp;&emsp;";
+                    $finded = true;
+                }
             }
         }
+
+        if (!$finded) {
+            echo "<p>No se da la circunstancia</p>";
+        }
+
 
         echo "<p>Array en orden invertido</p>";
 

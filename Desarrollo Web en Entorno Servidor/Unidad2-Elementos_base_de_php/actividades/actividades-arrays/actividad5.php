@@ -24,7 +24,7 @@
             echo "<br>";
         }
 
-        echo "<p>Comprobar simetría</p>";
+        echo "<p>Comprobar simetría: </p>";
 
         $matrizSimetrica = true;
 
@@ -40,6 +40,24 @@
         }
 
         echo "<p>La matriz" . ($matrizSimetrica ? " " : " no ") . "es simetrica</p>";
+
+        echo "<p>Valor de las filas</p>";
+
+        $filas = array();
+
+        for ($i = 0; $i < count($matriz); $i++) {
+            for ($j = 0; $j < count($matriz[$i]); $j++) {
+                if (count($filas) <= $i) {
+                    $filas[$i] = $matriz[$i][$j];
+                } else {
+                    $filas[$i] += $matriz[$i][$j];
+                }
+            }
+        }
+
+        foreach ($filas as $valor) {
+            echo "$valor&emsp;";
+        }
 
         echo "<p>Valor de las columnas</p>";
 
