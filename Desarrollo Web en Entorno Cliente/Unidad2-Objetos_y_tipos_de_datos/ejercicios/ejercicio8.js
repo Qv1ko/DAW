@@ -1,10 +1,10 @@
 console.log("--- Ejercicio 8 ---");
 
-function Accumulator(valorInicial) {
+function Accumulator(valorInicial = 0) {
     this.value = valorInicial;
 
     this.read = function () {
-        this.value = prompt("Escribe el valor de la variable value");
+        this.value += +prompt("Escribe el valor de la variable value");
     };
 }
 

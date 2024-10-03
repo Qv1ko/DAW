@@ -14,15 +14,15 @@ function Vehiculo(matricula, precio, velocidadMaxima) {
     };
 
     this.distanciaMax = function (time) {
-        return velocidadMaxima * time + " kilometros";
+        return this.velocidadMaxima * time + " kilometros";
     };
 
     this.toString = function () {
-        console.log("Coche con matrícula " + this.matricula);
+        return "Coche con matrícula " + this.matricula;
     };
 
-    this.valueof = function () {
-        return precio + " €";
+    this.valueOf = function () {
+        return this.precio;
     };
 }
 
@@ -34,6 +34,6 @@ volvo.parar();
 
 console.log(volvo.distanciaMax(2));
 
-volvo.toString();
+console.log(volvo.toString());
 
-console.log(volvo.valueof());
+console.log(volvo.valueOf());
