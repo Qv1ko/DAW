@@ -1,7 +1,6 @@
 console.log("--- Ejercicio 12 ---");
 
 function contarBs(str) {
-
     let counter = 0;
 
     for (let char of str.split("")) {
@@ -11,19 +10,18 @@ function contarBs(str) {
     }
 
     return counter;
-
 }
 
 function contarCaracter(str, character) {
-
     let counter = 0;
+    str = str.toLowerCase();
+    character = character.toLowerCase();
 
     for (let char of str.split("")) {
-        if (char == character || char == character.toLowerCase()) {
+        if (char == character) {
             counter++;
         }
     }
 
     return counter;
-
 }

@@ -6,19 +6,20 @@ let complementario;
 let reintegro;
 
 let ganadorRepetido = function ganadorRepetido(ganadores, number) {
-    // ganadores.forEach(ganador => {
+    let exist = false;
+    ganadores.forEach((ganador) => {
+        if (number == ganador) {
+            exist = true;
+        }
+    });
+    return exist;
+    // for (let ganador of ganadores) {
     //     if (number == ganador) {
     //         return true;
     //     }
-    // });
+    // }
     // return false;
-    for (let ganador of ganadores) {
-        if (number == ganador) {
-            return true;
-        }
-    }
-    return false;
-}
+};
 
 for (let i = 0; i < 6; i++) {
     do {
