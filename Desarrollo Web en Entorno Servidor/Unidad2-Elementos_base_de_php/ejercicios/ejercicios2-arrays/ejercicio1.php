@@ -15,11 +15,16 @@
 
         echo "<p>Componentes negativos</p>";
 
+        $countNegative = 0;
+
         foreach ($numbers as $number) {
             if ($number < 0) {
                 echo "$number&emsp;&emsp;";
+                $countNegative++;
             }
         }
+
+        echo "<p>Hay $countNegative números negativos</p>";
 
         echo "<p>Media de los componentes</p>";
 
@@ -35,7 +40,7 @@
         // echo "<p>", (array_sum($numbers) / count($numbers)) , "</p>";
         echo "<p>" . $total / $counter . "</p>";
 
-        echo "<p>Posciciones en las que se almacena como valor el cuadrado de su posición</p>";
+        echo "<p>Posiciciones en las que se almacena como valor el cuadrado de su posición</p>";
 
         $finded = false;
 

@@ -12,10 +12,10 @@
     <?php
         
         $estaciones = [
-            "Invierno" => [65, 14],
-            "Primavera" => [65, 12],
-            "Verano" => [15, 0],
-            "Otoño" => [50, 2],
+            "Invierno" => [65, 14], // 13 semanas // 14 vacaciones
+            "Primavera" => [65, 10], // 13 semanas // 10 vacaciones
+            "Verano" => [0, 0], // 0 semanas // 0 vacaciones
+            "Otoño" => [65, 5], // 13 semanas // 5 vacaciones
         ];
 
         $est = "";

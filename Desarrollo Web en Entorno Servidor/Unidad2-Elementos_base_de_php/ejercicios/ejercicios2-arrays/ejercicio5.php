@@ -28,14 +28,11 @@
 
         $matrizSimetrica = true;
 
-        for ($i = 0; $i < count($matriz); $i++) {
-            for ($j = 0; $j < count($matriz[$i]); $j++) {
+        for ($i = 0; ($i < count($matriz) && $matrizSimetrica); $i++) {
+            for ($j = 0; ($j < count($matriz[$i]) && $matrizSimetrica); $j++) {
                 if ($matriz[$i][$j] != $matriz[$j][$i]) {
                     $matrizSimetrica = false;
                 }
-            }
-            if (!$matrizSimetrica) {
-                break;
             }
         }
 
@@ -83,8 +80,8 @@
         $encontrado = false;
         $posicion = null;
 
-        for ($i = 0; $i < count($matriz); $i++) {
-            for ($j = 0; $j < count($matriz[$i]); $j++) {
+        for ($i = 0; ($i < count($matriz) && !$encontrado); $i++) {
+            for ($j = 0; ($j < count($matriz[$i]) && !$encontrado); $j++) {
                 if ($matriz[$i][$j] == $numero) {
                     $columnas[$j] = $matriz[$i][$j];
                     $posicion = [$i, $j];
@@ -92,16 +89,9 @@
                     $encontrado = true;
                 }
             }
-            if ($encontrado) {
-                break;
-            }
         }
 
-        if ($encontrado) {
-            echo "<p>El valor $numero se a encontrado en la fila $posicion[0] y el la columna $posicion[1]</p>";
-        } else {
-            echo "<p>El valor $numero no se a encontrado en la matriz</p>";
-        }
+        echo "<p>El valor $numero " . ($encontrado ? "se a encontrado en la fila $posicion[0] y el la columna $posicion[1]</p>" : "no se a encontrado en la matriz</p>")
 
     ?>
 </body>
