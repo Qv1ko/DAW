@@ -2,15 +2,55 @@ console.log("--- Ejercicio 14 ---");
 
 function dni_nie(str) {
     let correct = true;
-    let table = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E'];
+    let table = [
+        "T",
+        "R",
+        "W",
+        "A",
+        "G",
+        "M",
+        "Y",
+        "F",
+        "P",
+        "D",
+        "X",
+        "B",
+        "N",
+        "J",
+        "Z",
+        "S",
+        "Q",
+        "V",
+        "H",
+        "L",
+        "C",
+        "K",
+        "E",
+    ];
     let text = "El texto pasado es ";
 
     str = str.toUpperCase();
-    let number = isNaN(str.slice(0,1)) ? (parseInt(str[0] == "X" ? "0" : str[0] == "Y" ? "1" : str[0] == "Z" ? "2" : undefined) + str.slice(1,8)) : parseInt(str.slice(0,8));
-    let letter = str.slice(8,9);
+    let number = isNaN(str.slice(0, 1))
+        ? parseInt(
+              str[0] == "X"
+                  ? "0"
+                  : str[0] == "Y"
+                  ? "1"
+                  : str[0] == "Z"
+                  ? "2"
+                  : undefined
+          ) + str.slice(1, 8)
+        : parseInt(str.slice(0, 8));
+    let letter = str.slice(8, 9);
 
     if (str.length == 9) {
-        text = "El " + (str[0] != "X" && str[0] != "Y" && str[0] != "Z" ? "DNI " : "NIE ") + str + " es ";
+        text =
+            "El " +
+            (str[0] != "X" && str[0] != "Y" && str[0] != "Z"
+                ? "DNI "
+                : "NIE ") +
+            str +
+            " es ";
         correct = table[number % 23] == letter;
     } else {
         correct = false;
