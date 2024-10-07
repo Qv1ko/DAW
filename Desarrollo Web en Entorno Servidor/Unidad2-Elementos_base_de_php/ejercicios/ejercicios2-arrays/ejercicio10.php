@@ -205,7 +205,7 @@
                     $soloJovenes = false;
                 }
             }
-            echo "<p>- $menores " . ($menores == 1 ? "menor" : "menores") . " de edad</p>";
+            echo "<p>- $menores " . ($menores == 1 ? "alumno menor" : "alumnos menores") . " de edad</p>";
             echo "<p>- $jovenes " . ($jovenes == 1 ? "alumno" : "alumnos") . " entre los 18 y 22 años</p>";
             echo "<p>- $adultos " . ($adultos == 1 ? "alumno" : "alumnos") . " mayores de 22 años</p>";
             if ($soloJovenes) {
