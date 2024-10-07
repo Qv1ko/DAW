@@ -8,9 +8,8 @@ function almacenarEntrada() {
         value = prompt("Ingresse un valor");
         if (isNaN(value) || value == "" || value == undefined) {
             break;
-        } else {
-            values.push(value);
         }
+        values.push(value);
     }
 
     return values;
