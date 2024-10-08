@@ -11,10 +11,7 @@
 <body>
     <?php
 
-        $text = "Dabale arroz a la zorra el abad";
-
-        echo palindromo($text);
-
+        echo palindromo("Dabale arroz a la zorra el abad");
         echo palindromo("A mi me mima");
         echo palindromo("A mi no me mima");
 
