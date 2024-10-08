@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Clase 2</title>
+        <link href="prism.css" rel="stylesheet" />
+    </head>
+    <body>
+        <main>
+            <div>
+                <p>Etiqueta de parrafo (no se pueden anidar entre si)</p>
+                <hr />
+                <p>Etiqueta hr para separar parrafos</p>
+            </div>
+            <div>
+                <ol type="i" start="10" reversed>
+                    <li>Primer elemento de la lista ordenada</li>
+                    <li>Segundo elemento de la lista ordenada</li>
+                    <li>Tercer elemento de la lista ordenada</li>
+                    <li value="10">Decimo elemento de la lista ordenada</li>
+                </ol>
+                <ul>
+                    <li>Primer elemento de la lista desordenada</li>
+                    <li>Segundo elemento de la lista desordenada</li>
+                    <li>Tercer elemento de la lista desordenada</li>
+                </ul>
+                <menu>
+                    <li>Primer elemento del menu</li>
+                    <li>Segundo elemento del menu</li>
+                    <li>Tercer elemento del menu</li>
+                </menu>
+                <dl>
+                    <dt>Gallina</dt>
+                    <dd>Animal de granja</dd>
+                    <dd>Cobarde</dd>
+                </dl>
+                <blockquote cite="http://url-cite">
+                    <p>Insertamos una cita</p>
+                    <p>Segundo parrafo de la cita</p>
+                </blockquote>
+                <q>Elemento q de citas</q>
+                <pre>
+                    Esto
+                    es
+                    un
+                    elemento
+                    preformateado
+
+                    function mensaje(str) {
+                        console.log(str);
+                    }
+                </pre>
+                <script src="prism.js"></script>
+                prism.css prism.js
+                <pre>
+                    <code class="language-javascript">
+                        function mensaje(str) {
+                            console.log(str);
+                        }
+                    </code>
+                </pre>
+            </div>
+        </main>
+    </body>
+</html>
