@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Clase 3</title>
+        <link rel="stylesheet" href="style.css" />
+        <!-- Añadir estilos de impresión -->
+        <link rel="stylesheet" href="style.css" media="print" />
+        <style>
+            body {
+                color: green;
+            }
+            @media print {
+                body * {
+                    color: black;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <section>
+                <article>
+                    <p>
+                        Mi parrafo
+                        <a href="#ancla">link al ancla</a>
+                    </p>
+                    <p>
+                        Mi PDF:
+                        <a
+                            href="mipdf.pdf"
+                            hreflang="es"
+                            download="producto.pdf"
+                            >descarga pdf</a
+                        >
+                    </p>
+                    <p>
+                        Google:
+                        <a
+                            href="https://google.com"
+                            hreflang="es"
+                            target="_blank"
+                            >link</a
+                        >
+                    </p>
+                </article>
+                <p>
+                    Texto <strong>importante</strong>, texto en <b>negrita</b>
+                </p>
+                <p>Texto importante <em>marcado</em></p>
+                <p>
+                    Este texto contiene una
+                    <span class="bold_text">etiqueta span</span>
+                </p>
+                <p>Contenido no <s>relevante</s></p>
+                <q class="ita">Etiqueta para poner referencias o citas: q</q>
+                <p>
+                    Etiqueta para nombres de autores o libros. Por ejemplo
+                    <cite>Miguel de Cervantes</cite>
+                </p>
+                <p>Etiqueta br para<br />saltar de linea</p>
+                <p>
+                    Mauris mollis sem eget elit condimentum dignissim. Etiam non
+                    ullamcorper magna. Sed sit amet commodo justo, sit amet
+                    ullamcorper ex. Donec est enim, efficitur eu ipsum at,
+                    iaculis sodales diam. Pellentesque turpis lorem, aliquam nec
+                    felis elementum, lacinia dapibus ligula. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit.<br />Praesent laoreet
+                    ipsum sit amet enim ornare suscipit. Integer ac tempor
+                    dolor. Sed id rutrum tortor, ut maximus arcu.
+                </p>
+                <!-- <pre>Integer nec molestie ligula. Praesent vel quam orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam cursus scelerisque aliquet.<br>Aliquam eget lectus malesuada eros bibendum accumsan. Aliquam sit amet nisl vel leo facilisis posuere. Sed sit amet turpis mattis, mollis elit sit amet, tincidunt urna. In nec eros nec massa accumsan tempus.<br>Sed tincidunt lorem risus, eget dictum odio convallis vel. Duis vitae orci massa. Ut posuere, mauris ut tristique commodo, odio arcu porttitor est, id tincidunt sem nulla ut nunc.<br>Sed luctus leo sed orci porta faucibus. Ut euismod luctus ex, quis sollicitudin velit rhoncus sed. Suspendisse viverra, nunc ut semper iaculis, mauris dui lacinia felis, eu interdum leo nisi quis lorem. Phasellus in pellentesque enim, ut rutrum ipsum.<br>Suspendisse id est justo. Nulla a felis eget enim posuere pretium. Sed nec tellus vulputate, euismod risus id, rutrum libero. Aliquam nibh lacus, egestas et nulla in, eleifend luctus ante. Sed blandit lectus dui, vel condimentum libero fermentum id. Donec vitae varius orci, vitae posuere nulla. Duis ac facilisis ipsum. </pre> -->
+                <p>
+                    <span>Palabra gigante:</span>
+                    <strong>malesuadafamesa<wbr />cturpisegestas</strong>
+                </p>
+            </section>
+            <section id="ancla">
+                <article>
+                    <p>Parrafo de la sección ancla</p>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>
