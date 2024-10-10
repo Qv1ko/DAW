@@ -42,11 +42,10 @@ function delLastAddNew(arr) {
 }
 
 delLastAddNew(arr);
-
 console.log(arr);
 
 function maxValue(arr) {
-    return Math.max(arr);
+    return Math.max(...arr.filter(value => !isNaN(value)));
 }
 
-console.log(arr);
+console.log("Valor más alto del array: " + maxValue(arr));
