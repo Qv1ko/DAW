@@ -26,11 +26,28 @@
         ];
 
         echo "<p>Plataformas web que usan Apache</p>";
+        // foreach ($plataformas as $plataforma => $componentes) {
+        //     foreach ($componentes as $componente => $nombre) {
+        //         if ($componente == "Servidor web" && $nombre == "Apache") {
+        //             echo "<p>- $plataforma</p>";
+        //             goto next;
+        //         }
+        //     }
+        //     next:
+        // }
+
         foreach ($plataformas as $plataforma => $componentes) {
             foreach ($componentes as $componente => $nombre) {
-                if ($componente == "Servidor web" && $nombre == "Apache") {
-                    echo "<p>- $plataforma</p>";
-                    goto next;
+                if (is_array($nombre)) {
+                    if (in_array("Apache", $nombre)) {
+                        echo "<p>- $plataforma</p>";
+                        goto next;
+                    }
+                } else {
+                    if ($componente == "Servidor web" && $nombre == "Apache") {
+                        echo "<p>- $plataforma</p>";
+                        goto next;
+                    }
                 }
             }
             next:
