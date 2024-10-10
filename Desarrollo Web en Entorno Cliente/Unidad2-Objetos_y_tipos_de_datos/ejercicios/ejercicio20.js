@@ -7,19 +7,17 @@ console.log(camelize("list-style-image"));
 console.log(camelize("-webkit-transition"));
 
 function camelize(str) {
-    
     let result = "";
     str = str.split("");
-    
+
     str.forEach((char, i) => {
         if (char == "-") {
             str.splice(i, 1);
             result += str[i].toUpperCase();
         } else {
-            result += char
+            result += char;
         }
     });
 
     return result;
-
 }

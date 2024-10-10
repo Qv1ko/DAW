@@ -7,5 +7,5 @@ ordenaDecreciente(arr);
 console.log(arr);
 
 function ordenaDecreciente(arr) {
-    arr = arr.sort((a, b) => a - b);
+    arr = arr.sort((a, b) => b - a);
 }

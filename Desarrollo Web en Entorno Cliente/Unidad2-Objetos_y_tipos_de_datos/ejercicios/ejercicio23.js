@@ -8,5 +8,7 @@ console.log(arrOrdenado);
 
 function copiaOrdenada(arr) {
     let copy = [...arr];
+    // let copy = arr.concat();
+    // let copy = arr.slice();
     return copy.sort((a, b) => a > b);
 }

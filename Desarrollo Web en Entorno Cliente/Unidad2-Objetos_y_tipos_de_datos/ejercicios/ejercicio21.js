@@ -7,11 +7,5 @@ console.log(filtrado);
 console.log(arr);
 
 function filterRange(arr, a, b) {
-    
-    let result = arr.filter((number) => {
-        return number >= a && number <= b;
-    });
-
-    return result;
-
+    return arr.filter((number) => number >= a && number <= b);
 }

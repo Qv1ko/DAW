@@ -17,8 +17,7 @@ let mary = {
 };
 
 let usuarios = [john, pete, mary];
-
-let usuariosMapeados = usuarios.map((usuario, i) => ({
+let usuariosMapeados = usuarios.map((usuario) => ({
     id: usuario.id,
     nombreCompleto: usuario.nombre + " " + usuario.apellido,
 }));

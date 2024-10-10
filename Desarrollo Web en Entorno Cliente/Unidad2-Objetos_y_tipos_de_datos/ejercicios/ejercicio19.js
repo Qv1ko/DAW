@@ -7,11 +7,9 @@ filterRangeInPlace(arr, 1, 4);
 alert(arr);
 
 function filterRangeInPlace(arr, a, b) {
-    
-    for (let i = 0; i < arr.length; i++) {
+    for (let i = arr.length; i >= 0; i--) {
         if (arr[i] < Math.min(a, b) || arr[i] > Math.max(a, b)) {
             arr.splice(i, 1);
         }
     }
-
 }
