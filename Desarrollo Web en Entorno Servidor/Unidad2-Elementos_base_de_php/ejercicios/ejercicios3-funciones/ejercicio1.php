@@ -11,16 +11,20 @@
 <body>
     <?php
         
-        $numbers = array(rand(-15, 15), rand(-15, 15), rand(-15, 15), rand(-15, 15), rand(-15, 15));
+        $numbers = array(rand(-17, 17), rand(-17, 17), rand(-17, 17), rand(-17, 17), rand(-17, 17));
 
+        print_r($numbers);
+        echo "<br><br>";
         echo "<p>Número de componentes negativos: " . componentesNegativos($numbers) . "</p>";
         echo "<p>La media de los componentes es: " . componentesMedia($numbers) . "</p>";
         echo "<p>Posiciciones en las que se almacena como valor el cuadrado de su posición: " . valoresCuadradoPosicion($numbers) . "</p>";
         echo "<p>Array en orden invertido: " . arrayInvertido($numbers) . "</p>";
         echo "<p>Valores dobles del array: " . arrayDoble($numbers) . "</p>";
         echo "<p>Mitad de los valores del array: " . arrayMitad($numbers) . "</p>";
-        echo "<p>Ordenación con sort():" . ordenarSort($numbers) . "</p>";
-        echo "<p>Ordenación con rsort():" . ordenarRsort($numbers) . "</p>";
+        echo "<p>Ordenación con sort(): " . ordenarSort($numbers) . "</p>";
+        echo "<p>Ordenación con rsort(): " . ordenarRsort($numbers) . "</p>";
+        echo "<p>Resultado de la busqueda: " . buscar($numbers, "3") . "</p>";
+        echo "<p>Resultado de la busqueda estricta: " . buscarEstricto($numbers, 7) . "</p>";
 
         function componentesNegativos(array $numbers): int {
 
@@ -68,12 +72,26 @@
             return implode(", ", array_map(fn(int $number): float => $number / 2, $numbers));
         }
 
-        function ordenarSort(array $numbers): string {
-            // return implode(", ", sort($numbers));
+        function ordenarSort(array &$numbers): string {
+            sort($numbers);
+            array_push($numbers, rand(-17, 17));
+            sort($numbers);
+            return implode(", ", $numbers);
         }
 
-        function ordenarRsort(array $numbers): string {
+        function ordenarRsort(array &$numbers): string {
+            rsort($numbers);
+            array_push($numbers, rand(-17, 17));
+            rsort($numbers);
+            return implode(", ", $numbers);
+        }
 
+        function buscar(array $numbers, mixed $value): string {
+            return "El valor $value" . (in_array($value, $numbers) ? " se a encontrado" : " no se a encontrado");
+        }
+
+        function buscarEstricto(array $numbers, mixed $value): string {
+            return "El valor $value" . (!is_bool(array_search($value, $numbers, true)) ? " se a encontrado en la posición " . array_search($value, $numbers, true) . " del array": " no se a encontrado");
         }
 
     ?>
