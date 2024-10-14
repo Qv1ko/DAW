@@ -36,21 +36,18 @@ function Disco(
     grupo = "",
     anoPublicacion = "",
     genero = "",
-    localizacion = 0,
-    prestado = false
+    localizacion = 0
 ) {
     this.nombre = nombre;
     this.grupo = grupo;
     this.publicacion = isNaN(anoPublicacion) ? 0 : anoPublicacion;
-    this.genero =
-        genero.toLowerCase() == "rock" ||
-        genero.toLowerCase() == "pop" ||
-        genero.toLowerCase() == "punk" ||
-        genero.toLowerCase() == "indie"
-            ? genero
-            : "";
+    this.genero = ["rock", "pop", "punk", "indie"].includes(
+        genero.toLocaleLowerCase()
+    )
+        ? genero
+        : "";
     this.localizacion = localizacion;
-    this.prestado = prestado;
+    this.prestado = false;
     this.cambioEstanteria = (nuevaEstanteria) => {
         if (
             nuevaEstanteria != null &&

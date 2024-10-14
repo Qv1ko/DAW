@@ -9,8 +9,9 @@ let modificado = false;
 let alum;
 
 while (continuar) {
-
-    opcion = prompt("Menú de gestión de alumnos:\n\t1) Dar de alta un alumno\n\t2) Eliminar un alumno\n\t3) Modificar los dato de un alumno\n\t4) Mostar datos de un alumno\n\t5) Mostrar los datos de todos los alumnos\n\t0) Salir");
+    opcion = prompt(
+        "Menú de gestión de alumnos:\n\t1) Dar de alta un alumno\n\t2) Eliminar un alumno\n\t3) Modificar los dato de un alumno\n\t4) Mostar datos de un alumno\n\t5) Mostrar los datos de todos los alumnos\n\t0) Salir"
+    );
 
     switch (opcion) {
         case "1":
@@ -20,11 +21,15 @@ while (continuar) {
         case "2":
             if (alumnos.length != 0) {
                 datos = pedirDatos(false, true);
-                contador = alumnos.length;
-                alumnos = alumnos.filter(alumno => alumno.dni !== datos);
-                if (contador == alumnos.length) {
-                    console.log("No se ha encontrado al alumno con DNI " + datos);
-                    
+                if (alumnos.indexOf((alumno) => alumno.dni == datos) != -1) {
+                    alumnos.splice(
+                        alumnos.indexOf((alumno) => alumno.dni == datos),
+                        1
+                    );
+                } else {
+                    console.log(
+                        "No se ha encontrado al alumno con DNI " + datos
+                    );
                 }
             } else {
                 console.log("No hay alumnos almacenados");
@@ -42,10 +47,12 @@ while (continuar) {
                         console.log("Alumno modificado correctamente");
                         modificado = true;
                         break;
-                    }                    
+                    }
                 }
                 if (!modificado) {
-                    console.log("No se ha encontrado al alumno con DNI " + datos);
+                    console.log(
+                        "No se ha encontrado al alumno con DNI " + datos
+                    );
                 }
             } else {
                 console.log("No hay alumnos almacenados");
@@ -56,9 +63,18 @@ while (continuar) {
                 datos = pedirDatos(false, true);
                 alum = alumnos.find((alumno) => alumno.dni === datos);
                 if (alum) {
-                    console.log(alum.nombre + " " + alum.apellido1 + " " + alum.apellido2 + " con DNI " + alum.dni);
+                    console.log(
+                        alum.nombre +
+                            " " +
+                            alum.apellido1 +
+                            (alum.apellido2 ? " " + alum.apellido2 : "") +
+                            " con DNI " +
+                            alum.dni
+                    );
                 } else {
-                    console.log("No se ha encontrado al alumno con DNI " + datos);
+                    console.log(
+                        "No se ha encontrado al alumno con DNI " + datos
+                    );
                 }
             } else {
                 console.log("No hay alumnos almacenados");
@@ -90,9 +106,17 @@ while (continuar) {
                             }
                         }
                     }
-                })
+                });
                 for (const alumno of alumnos) {
-                    console.log("  - " + alumno.nombre + " " + alumno.apellido1 + " " + alumno.apellido2 + " / DNI " + alumno.dni);
+                    console.log(
+                        "  - " +
+                            alumno.nombre +
+                            " " +
+                            alumno.apellido1 +
+                            (alumno.apellido2 ? " " + alumno.apellido2 : "") +
+                            " / DNI " +
+                            alumno.dni
+                    );
                 }
             } else {
                 console.log("No hay alumnos almacenados");
@@ -100,17 +124,15 @@ while (continuar) {
             break;
         case "0":
             continuar = false;
-            console.log("Saliendo...")
+            console.log("Saliendo...");
             break;
         default:
             console.log("La opción seleccionada no es valida");
             break;
     }
-    
 }
 
 function pedirDatos(info, pedirDni) {
-
     let nombre;
     let apellido1;
     let apellido2;
@@ -130,23 +152,26 @@ function pedirDatos(info, pedirDni) {
     if (pedirDni) {
         do {
             dni = prompt("Escribe el DNI del alumno");
-        } while (!comprobarDniNie(dni) && (alta ? !dniNieRepetido(dni) : dniNieRepetido(dni)));
+        } while (
+            !comprobarDniNie(dni) &&
+            (info ? !dniNieRepetido(dni) : dniNieRepetido(dni))
+        );
     }
 
     if (info && pedirDni) {
         if (apellido2 !== undefined) {
             retorno = [dni, nombre, apellido1, apellido2];
         } else {
-            retorno = [dni, nombre, apellido1]
+            retorno = [dni, nombre, apellido1];
         }
     } else if (info) {
         if (apellido2 !== undefined) {
             retorno = [nombre, apellido1, apellido2];
         } else {
-            retorno = [nombre, apellido1]
+            retorno = [nombre, apellido1];
         }
     } else {
-        retorno = dni
+        retorno = dni;
     }
 
     return retorno;
@@ -186,7 +211,7 @@ function comprobarDniNie(str = "") {
         "E",
     ];
 
-    str = str.toUpperCase();
+    str = str == null ? "" : str.toUpperCase();
     let number = isNaN(str.slice(0, 1))
         ? parseInt(
               str[0] == "X"
@@ -204,15 +229,13 @@ function comprobarDniNie(str = "") {
 }
 
 function dniNieRepetido(dni) {
-
     let repetido = false;
 
     for (const alumno of alumnos) {
         if (alumno.dni == dni) {
-            repetido = true
+            repetido = true;
         }
     }
 
-    return repetido
-
+    return repetido;
 }
