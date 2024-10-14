@@ -34,30 +34,28 @@ function valoresCuadradoPosicion(array $numbers): string {
 
 }
 
-function arrayInvertido(array $numbers): string {
-    return implode(", ", array_reverse($numbers));
+function arrayInvertido(array $numbers): array {
+    return array_reverse($numbers);
 }
 
-function arrayDoble(array $numbers): string {
-    return implode(", ", array_map(fn(int $number): int => $number * 2, $numbers));
+function arrayDoble(array $numbers): array {
+    return array_map(fn(int $number): int => $number * 2, $numbers);
 }
 
-function arrayMitad(array $numbers): string {
-    return implode(", ", array_map(fn(int $number): float => $number / 2, $numbers));
+function arrayMitad(array $numbers): array {
+    return array_map(fn(int $number): float => $number / 2, $numbers);
 }
 
-function ordenarSort(array &$numbers): string {
+function ordenarSort(array &$numbers) {
     sort($numbers);
     array_push($numbers, rand(-17, 17));
     sort($numbers);
-    return implode(", ", $numbers);
 }
 
-function ordenarRsort(array &$numbers): string {
+function ordenarRsort(array &$numbers) {
     rsort($numbers);
     array_push($numbers, rand(-17, 17));
     rsort($numbers);
-    return implode(", ", $numbers);
 }
 
 function buscar(array $numbers, mixed $value): string {
@@ -69,9 +67,7 @@ function buscarEstricto(array $numbers, mixed $value): string {
 }
 
 function incrementarDos(array &$numbers) {
-    foreach ($numbers as &$number) {
-        $number += 2;
-    }
+    array_push($numbers, rand(-17, 17), rand(-17, 17));
 }
 
 function borrarUltimoValor(array &$numbers) {
