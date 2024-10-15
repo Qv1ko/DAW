@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Clase 5</title>
+    </head>
+    <body>
+        <form action="">
+            <input
+                type="text"
+                name="nombre"
+                placeholder="nombre"
+                title="El campo es obligatorio"
+                minlength="3"
+                maxlength="10"
+                required
+            />
+            <input type="number" name="numero" min="18" max="100" step="5" />
+            <input type="url" name="url" placeholder="URL" />
+            <!-- Validaciones por defecto -->
+            <input type="email" name="" placeholder="email" />
+            <button type="submit">Enviar</button>
+        </form>
+        <form action="">
+            <input
+                type="text"
+                name="regex"
+                pattern="[A-Z][a-z ]+"
+                placeholder="Primera letra de la frase en mayuscula"
+                title="Primera letra de la frase en mayuscula"
+            />
+            <!-- <input
+                type="text"
+                name="regex"
+                pattern="[0-9][0-9][0-9]"
+                placeholder="Tres número consecutivos"
+                title="Tres número consecutivos"
+            /> -->
+            <input
+                type="text"
+                name="regex"
+                pattern="[0-9]{3}"
+                placeholder="Tres número consecutivos"
+                title="Tres número consecutivos"
+            />
+            <!-- <input
+                type="text"
+                name="regex"
+                pattern="/d/d/d"
+                placeholder="Tres número consecutivos"
+                title="Tres número consecutivos"
+            /> -->
+            <input
+                type="text"
+                name="ies"
+                pattern=".+IES.+"
+                title="Tiene que tener IES en mitad del texto"
+            />
+            <button type="submit">Enviar</button>
+        </form>
+        <form action="">
+            <input
+                type="text"
+                pattern="(?=.*[A-Z])"
+                title="Tiene que tener una letra mayuscula"
+            />
+            <input
+                type="text"
+                pattern=".*[A-Z].*"
+                title="Tiene que tener una letra mayuscula"
+            />
+            <input
+                type="text"
+                pattern="(?=.*[A-Z])(?=.*\d).*"
+                title="Tiene que tener una letra mayuscula y números"
+            />
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
