@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ejercicios HTML5</title>
+    </head>
+    <body>
+        <form action="">
+            <input
+                type="text"
+                name="usuario"
+                placeholder="Escriba el nombre del usuario"
+                minlength="5"
+                maxlength="15"
+                required
+            />
+            <input
+                type="password"
+                name="contrasena"
+                placeholder="Escriba la contraseña"
+                minlength="8"
+                required
+            />
+            <button type="submit">Enviar</button>
+        </form>
+        <form action="">
+            <input
+                type="number"
+                name="edad"
+                placeholder="Edad"
+                min="18"
+                max="65"
+                required
+            />
+            <button type="submit">Enviar</button>
+        </form>
+        <form action="">
+            <input
+                type="text"
+                name="nombre"
+                placeholder="Escriba su nombre"
+                required
+            />
+            <input
+                type="email"
+                name="email"
+                placeholder="Escriba su email"
+                required
+            />
+            <input
+                type="checkbox"
+                name="terminos_y_condiciones"
+                required
+            />Aceptar términos y condiciones
+            <button type="submit">Enviar</button>
+        </form>
+        <form action="">
+            <input
+                type="date"
+                name="reserva"
+                placeholder="Seleccina una fecha"
+                min="2024-10-15"
+                required
+            />
+            <button type="submit">Enviar</button>
+        </form>
+        <form action="">
+            <input type="radio" name="eva1" value="1" required />
+            <input type="radio" name="eva1" value="2" required />
+            <input type="radio" name="eva1" value="3" required />
+            <input type="radio" name="eva1" value="4" required />
+            <input type="radio" name="eva1" value="5" required />
+            <input type="url" name="web" placeholder="Introduca su sitio web" />
+            <input
+                type="email"
+                name="email"
+                placeholder="Introduca su correo electronico"
+            />
+            <button type="submit">Enviar</button>
+        </form>
+        <form action="">
+            <input
+                type="text"
+                name="tarjeta"
+                pattern="([0-9]{4} ){3}[0-9]{4}"
+                title="Tarjeta de credito xxxx xxxx xxxx xxxx"
+            />
+            <input
+                type="text"
+                name="telefono"
+                pattern="([0-9]{3}-){2}[0-9]{4}"
+                title="Teléfono xxx-xxx-xxxx"
+            />
+            <input
+                type="text"
+                name="mayus"
+                pattern="[A-Z]+"
+                title="Solo letras mayúsculas"
+            />
+            <input
+                type="text"
+                name="usuario"
+                placeholder="Nombre de usuario"
+                pattern="[A-Za-z][A-Za-z0-9._]*"
+                minlength="5"
+                maxlength="12"
+                title="Solo se permiten letras, números, _ y ."
+            />
+            <input
+                type="text"
+                name="url"
+                placeholder="Escriba la una URL"
+                pattern="https://.+\.(es|com)"
+                title="Tiene que tener 'https://' y un dominio valido '.com o .es'"
+            />
+            <input
+                type="text"
+                name="password"
+                placeholder="Escriba la contraseña"
+                pattern="(.*[A-Z])+(.*[a-z])+(.*[0-9])+(.*[!#$%&*+,-.:;?@^_`|]+)+"
+                minlength="8"
+                title="Al menos 8 caracteres, al menos una letra mayúscula, una minúscula, un número y un carácter especial"
+            />
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
