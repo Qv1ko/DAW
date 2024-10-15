@@ -5,7 +5,7 @@ let pan = {
     deAjo: 5,
     deSemillas: {
         deAvena: 3,
-        deLino: 6
+        deLino: 6,
     },
 };
 
