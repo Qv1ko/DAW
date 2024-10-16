@@ -13,6 +13,6 @@ delete pan.deAjo;
 
 pan.deQueso = 3;
 
-//pan["sinSemillas"]["deLino"]; // Da error porque intenta acceder al valor del objeto como si fuera un array
+//pan["sinSemillas"]["deLino"]; // Da error porque la propiedad "sinSemillas" no existe
 
-//console.log(pan.deAjo); // Muestra undefined porque el atributo "deAjo" fue eliminado anteriormente
+//console.log(pan.deAjo); // Muestra undefined porque la propiedad "deAjo" fue eliminado anteriormente
