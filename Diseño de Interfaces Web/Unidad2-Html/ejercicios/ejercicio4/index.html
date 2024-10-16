@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ejercicio 4</title>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Víctor García" />
+        <meta name="description" content="Ejercicio 4 - Formularios" />
+        <meta
+            name="keywords"
+            content="Formularios, Desarrollo de Interfaces Web"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <header>
+            <img src="#" alt="Icono" />
+            <h2>Mi Web</h2>
+        </header>
+        <section>
+            <h1>The best way to xyz on abc with your friends!</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse pulvinar enim in efficitur commodo. Ut lacinia, odio
+                non porta varius, justo eros pretium odio, in interdum sapien
+                elit vitae leo. Vestibulum non velit nisl. Nullam in turpis ut
+                nisl posuere tristique. Aliquam non nibh non sapien convallis
+                ullamcorper. Maecenas ullamcorper euismod condimentum. Vivamus
+                ultricies, lacus a laoreet ultrices, nisi sem cursus purus,
+                vitae ornare justo lacus sed est. Sed sapien arcu, ultricies et
+                ex vel, ultricies placerat leo. Donec tristique, ex at dictum
+                varius, dui turpis sagittis ante, et congue felis arcu eu metus.
+                Morbi sit amet diam sed neque aliquet convallis eget at tellus.
+                Mauris viverra quam luctus eros condimentum, vel pretium justo
+                imperdiet.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse pulvinar enim in efficitur commodo. Ut lacinia, odio
+                non porta varius, justo eros pretium odio, in interdum sapien
+                elit vitae leo. Vestibulum non velit nisl. Nullam in turpis ut
+                nisl posuere tristique. Aliquam non nibh non sapien convallis
+                ullamcorper. Maecenas ullamcorper euismod condimentum. Vivamus
+                ultricies, lacus a laoreet ultrices, nisi sem cursus purus,
+                vitae ornare justo lacus sed est. Sed sapien arcu, ultricies et
+                ex vel, ultricies placerat leo. Donec tristique, ex at dictum
+                varius, dui turpis sagittis ante, et congue felis arcu eu metus.
+                Morbi sit amet diam sed neque aliquet convallis eget at tellus.
+                Mauris viverra quam luctus eros condimentum, vel pretium justo
+                imperdiet.
+            </p>
+            <img src="#" alt="Icono de iniciar " /><a href=""
+                >See it in action</a
+            >
+        </section>
+        <section>
+            <h3>Registrate en nuestra página web</h3>
+            <hr />
+            <p>Registro rápido</p>
+            <button
+                onclick="location.href='https://accounts.google.com/AccountChooser'"
+                type="button"
+            >
+                <img src="#" alt="Icono Google" /> Sign up with Google
+            </button>
+            <h4>Crear una nueva cuenta</h4>
+            <form action="#">
+                <section>
+                    <p>Datos personales</p>
+                    <div>
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="Nombre"
+                            minlength="2"
+                            maxlength="25"
+                            pattern="[A-Z][A-Za-z]+"
+                            title="Solo admite letras (1ª letra mayúscula)"
+                            required
+                        />
+                        <input
+                            type="text"
+                            name="surnames"
+                            placeholder="Apellidos"
+                            pattern="[A-Z][a-z]+( [A-Z][a-z]+){0,3}"
+                            title="Solo admite letras y espacios (1ª letra mayúscula y máximo 4 apellidos)"
+                        />
+                    </div>
+                    <div>
+                        <input type="number" name="age" placeholder="Edad" />
+                        <input
+                            type="text"
+                            name="phone"
+                            placeholder="Teléfono"
+                            maxlength="12"
+                        />
+                    </div>
+                    <div>
+                        <div>
+                            <p>Lugar de nacimiento</p>
+                            <input
+                                type="text"
+                                list="birthplace_values"
+                                name="birthplace"
+                                placeholder="Burgos"
+                            />
+                            <datalist id="birthplace_values">
+                                <option value="Burgos">Burgos</option>
+                                <option value="Palencia">Palencia</option>
+                                <option value="Valladolid">Valladolid</option>
+                            </datalist>
+                        </div>
+                        <div>
+                            <p>Fecha de nacimiento</p>
+                            <input
+                                type="date"
+                                name="birthday"
+                                max="2010-01-01"
+                                title="Seleccione una fecha que no sea menor que 01/01/2010"
+                            />
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Foto</p>
+                            <input type="file" name="photo" accept="image/*" />
+                        </div>
+                        <div>
+                            <p>Sexo</p>
+                            <input type="radio" name="gen" required />Hombre
+                            <input type="radio" name="gen" required />Mujer
+                        </div>
+                    </div>
+                </section>
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Dirección de email"
+                    required
+                />
+                <br />
+                <input
+                    type="password"
+                    name="password"
+                    placeholder="Password"
+                    minlength="7"
+                    pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).*"
+                    title="Tiene que contener una mayúscula, una minúscula y un número"
+                    required
+                />
+                <p>Usa por lo menos una letra, un número y siete caracteres</p>
+                <input type="checkbox" name="check" required />Acepto las
+                condiciones de uso
+                <br />
+                <button type="submit">Registrate en la web</button>
+            </form>
+        </section>
+        <section>
+            <article>
+                <img src="#" alt="Foto" />
+                <p>
+                    Nunc felis nunc, commodo quis interdum ut, condimentum sed
+                    risus. Praesent finibus vehicula tortor, ut varius elit
+                    ullamcorper et. Sed et euismod erat. Donec ut leo in enim
+                    molestie sodales. Morbi condimentum ut risus tempor tempor.
+                    Donec sodales, lorem sed lobortis dignissim, eros libero
+                    tempus arcu, vulputate ultrices mauris mauris id sapien.
+                    Vivamus non orci aliquam, efficitur tellus ac, posuere
+                    felis. In sed ante consequat, imperdiet ligula id, sodales
+                    quam. Sed non vehicula leo. Phasellus ut elit cursus,
+                    laoreet metus eu, dapibus risus. Phasellus nec velit risus.
+                    Suspendisse pharetra massa et faucibus condimentum.
+                </p>
+            </article>
+            <article>
+                <img src="#" alt="Foto" />
+                <p>
+                    Morbi auctor ex a sapien ultrices pharetra. Nunc et sem in
+                    tellus maximus porttitor. Integer et ipsum finibus, tempus
+                    odio a, elementum lacus. In quis tempor eros. Pellentesque
+                    lacinia semper nisl, quis rutrum dolor ullamcorper in. Duis
+                    et nunc at enim hendrerit condimentum id in ligula. Nullam
+                    auctor ante vitae turpis vestibulum consectetur. In vel nibh
+                    augue. Donec a fringilla mauris, nec vestibulum felis.
+                </p>
+            </article>
+            <article>
+                <img src="#" alt="Foto" />
+                <p>
+                    Aliquam sed tortor pharetra, tristique nunc non, laoreet
+                    elit. Integer a diam rhoncus, maximus ante vel, suscipit
+                    ipsum. Donec non nibh vulputate, volutpat felis ut,
+                    sollicitudin magna. Nam ultricies nisl at egestas maximus.
+                    Vestibulum pulvinar vestibulum neque, eu iaculis urna
+                    finibus eu. Etiam gravida cursus sagittis. Mauris
+                    pellentesque elit vitae leo consequat vehicula. Praesent
+                    ornare interdum accumsan. Sed nec dolor id tortor ultrices
+                    porttitor vitae sit amet eros. Cras semper mi magna, sit
+                    amet maximus urna venenatis ac. Praesent sed velit ut nulla
+                    porta mollis ac ut sapien. Suspendisse potenti. Vestibulum
+                    placerat hendrerit dignissim. Cras lectus velit, aliquet sed
+                    dictum tempus, dignissim et justo. Nulla sit amet dictum ex.
+                    Phasellus id maximus sapien.
+                </p>
+            </article>
+            <article>
+                <img src="#" alt="Foto" />
+                <p>
+                    Curabitur et justo tempor, mattis diam feugiat, commodo
+                    metus. Ut vitae malesuada neque, vitae euismod felis.
+                    Suspendisse imperdiet eros in purus gravida tempor. Maecenas
+                    iaculis, sapien ut dignissim gravida, purus quam ullamcorper
+                    justo, nec scelerisque quam tortor eu enim. Nunc id nibh
+                    augue. Duis tristique sit amet arcu nec pellentesque. Proin
+                    et vulputate felis, non ornare neque. Maecenas suscipit
+                    pretium mauris ac semper. Curabitur tristique augue justo,
+                    quis placerat ante porta eget. Nullam a turpis in massa
+                    fringilla dapibus. Sed blandit egestas libero vitae
+                    ullamcorper.
+                </p>
+            </article>
+        </section>
+    </body>
+</html>
