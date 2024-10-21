@@ -1,9 +1,8 @@
 <?php
 
-    namespace ejercicio3\segundo;
+    namespace actividad3\segundo;
 
-    use ejercicio3\alumno as Al;
-    use ejercicio3\primero as Pr;
+    use actividad3\alumno as Al;
 
     class Segundo extends Al\Alumno {
 
@@ -20,6 +19,10 @@
 
         function supera_curso(bool $supera_primero): bool {
             return $this->notaMedia >= 5 and $this->proyecto >= 5 and $fct == "Apto" and $supera_primero;
+        }
+
+        function visualizar(bool $supera_primero): string {
+            return parent::visualizar() . ($this->supera_curso($supera_primero) ? "" : " no") . " ha superado el segundo curso";
         }
 
     }

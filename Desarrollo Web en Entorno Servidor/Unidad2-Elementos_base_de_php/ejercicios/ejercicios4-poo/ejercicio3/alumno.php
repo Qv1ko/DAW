@@ -1,6 +1,6 @@
 <?php
 
-    namespace ejercicio3\alumno;
+    namespace actividad3\alumno;
 
     class Alumno {
 
