@@ -5,7 +5,7 @@ let user = {
     years: 30,
 };
 
-let [name, age, isAdmin = false] = [user.name, user.years, user.isAdmin];
+let { name, years: age, isAdmin = false } = user;
 
 alert(name);
 alert(age);
