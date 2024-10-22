@@ -20,3 +20,13 @@ alert("Suma de " + v + " + " + i + " = " + (Number(v) + Number(i)));
 
 alert(confirm("test"));
 alert(+confirm("test"));
+
+let n1 = 1,
+  n2 = "test";
+
+console.log(n1);
+console.log(n2);
+
+for (let i = 0, j = 100; i <= 3; i++, j--) {
+  console.log(`i = ${i}; j = ${j}`);
+}
