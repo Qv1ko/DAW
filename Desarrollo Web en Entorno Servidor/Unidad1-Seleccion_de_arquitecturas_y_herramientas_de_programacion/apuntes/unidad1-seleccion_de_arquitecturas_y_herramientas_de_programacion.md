@@ -4,74 +4,74 @@
 
 ### Web 1.0 (1990-2004)
 
-- Se caracterizó por el uso de páginas estáticas y unidireccionales, donde los usuarios solo podían consumir contenido sin interactuar. Estas páginas estaban escritas en HTML y servidas por los primeros servidores web.
-- Las tecnologías del lado del servidor, como CGI (Common Gateway Interface), empezaron a permitir una interacción básica entre el cliente y el servidor. En 1994, surge PHP, uno de los primeros lenguajes para la programación del lado del servidor.
+-   Se caracterizó por el uso de páginas estáticas y unidireccionales, donde los usuarios solo podían consumir contenido sin interactuar. Estas páginas estaban escritas en HTML y servidas por los primeros servidores web.
+-   Las tecnologías del lado del servidor, como CGI (Common Gateway Interface), empezaron a permitir una interacción básica entre el cliente y el servidor. En 1994, surge PHP, uno de los primeros lenguajes para la programación del lado del servidor.
 
 ### Web 2.0 (2004-2010)
 
-- Las aplicaciones web comienzan a ser dinámicas y colaborativas. Los usuarios no solo consumen contenido, sino que también pueden crearlo e interactuar. Este periodo está marcado por el auge de las redes sociales, blogs, foros y diversas plataformas colaborativas.
-- La arquitectura de las aplicaciones se modela en capas, con una clara distinción entre la interfaz de usuario, la lógica de negocio y la gestión de datos.
+-   Las aplicaciones web comienzan a ser dinámicas y colaborativas. Los usuarios no solo consumen contenido, sino que también pueden crearlo e interactuar. Este periodo está marcado por el auge de las redes sociales, blogs, foros y diversas plataformas colaborativas.
+-   La arquitectura de las aplicaciones se modela en capas, con una clara distinción entre la interfaz de usuario, la lógica de negocio y la gestión de datos.
 
 ### Web 3.0 (2010-2016)
 
-- La web semántica introduce una manera más inteligente de buscar y gestionar información, con aplicaciones que pueden entender y procesar datos de manera más eficiente.
-- El crecimiento de dispositivos móviles (smartphones y tablets) impulsó la necesidad de aplicaciones web más personalizadas y optimizadas para diferentes plataformas.
-- Las tecnologías de cloud computing permitieron escalar las aplicaciones para soportar más usuarios y proporcionar servicios más robustos.
+-   La web semántica introduce una manera más inteligente de buscar y gestionar información, con aplicaciones que pueden entender y procesar datos de manera más eficiente.
+-   El crecimiento de dispositivos móviles (smartphones y tablets) impulsó la necesidad de aplicaciones web más personalizadas y optimizadas para diferentes plataformas.
+-   Las tecnologías de cloud computing permitieron escalar las aplicaciones para soportar más usuarios y proporcionar servicios más robustos.
 
 ### Web 4.0 (2016 en adelante)
 
-- Esta etapa se enfoca en la integración de inteligencia artificial y tecnologías contextuales, como el reconocimiento de voz, para mejorar la interacción entre el usuario y la web.
+-   Esta etapa se enfoca en la integración de inteligencia artificial y tecnologías contextuales, como el reconocimiento de voz, para mejorar la interacción entre el usuario y la web.
 
 ## Aplicaciones web frente a aplicaciones de escritorio
 
 ### Aplicaciones web
 
-- **Accesibilidad**: Se **ejecutan en servidores remotos** y son **accesibles desde cualquier navegador** a través de una URL.
-- **Arquitectura**: Están basadas en la arquitectura **cliente-servidor**. Los usuarios **pueden acceder de manera simultánea** desde múltiples dispositivos.
+-   **Accesibilidad**: Se **ejecutan en servidores remotos** y son **accesibles desde cualquier navegador** a través de una URL.
+-   **Arquitectura**: Están basadas en la arquitectura **cliente-servidor**. Los usuarios **pueden acceder de manera simultánea** desde múltiples dispositivos.
 
-![imagen1](./imagenes/imagen1.png)
+![Imagen 1](./imagenes/imagen1.png)
 
-- **Ventajas**:
-    - No es necesario instalar software adicional en el cliente, lo que facilita las actualizaciones y el mantenimiento.
-    - Se accede siempre a la última versión de la aplicación.
-    - La movilidad es total, ya que se puede usar en cualquier dispositivo con acceso a Internet.
-- **Inconvenientes**:
-    - La disponibilidad **depende de la conexión a internet** o del servidor.
+-   **Ventajas**:
+    -   No es necesario instalar software adicional en el cliente, lo que facilita las actualizaciones y el mantenimiento.
+    -   Se accede siempre a la última versión de la aplicación.
+    -   La movilidad es total, ya que se puede usar en cualquier dispositivo con acceso a Internet.
+-   **Inconvenientes**:
+    -   La disponibilidad **depende de la conexión a internet** o del servidor.
 
 ### Aplicaciones de escritorio
 
-- **Accesibilidad**: Están instaladas de forma local en el equipo del usuario y generalmente solo permiten el **uso** por un **único** usuario a la vez.
-- **Ventajas**: No dependen de una conexión a internet para funcionar.
-- **Inconvenientes**: Las actualizaciones requieren intervención en cada equipo, lo que puede generar problemas de versiones desactualizadas.
+-   **Accesibilidad**: Están instaladas de forma local en el equipo del usuario y generalmente solo permiten el **uso** por un **único** usuario a la vez.
+-   **Ventajas**: No dependen de una conexión a internet para funcionar.
+-   **Inconvenientes**: Las actualizaciones requieren intervención en cada equipo, lo que puede generar problemas de versiones desactualizadas.
 
 ## Aplicaciones web
 
 Una aplicación web debe cumplir varias funciones clave para su correcto funcionamiento:
 
-- **Distribución de información**: Facilitar la entrega de contenido a través de Internet.
-- **Gestión de concurrencia**: Permitir que **múltiples usuarios accedan simultáneamente** al mismo recurso sin conflictos.
-- **Generación de contenido dinámico**: Crear páginas web de manera dinámica a partir de la interacción de los usuarios.
-- **Seguridad**: Implementar mecanismos de **control de acceso** y **protección de los recursos** web.
-- **Conexión con bases de datos**: Mantener datos de forma persistente, asegurando actualizaciones confiables y consistentes.
-- **Escalabilidad y portabilidad**: Capacidad para **ejecutarse en múltiples máquinas**, permitiendo que la aplicación **crezca según la demanda** y **funcione en diferentes entornos**.
+-   **Distribución de información**: Facilitar la entrega de contenido a través de Internet.
+-   **Gestión de concurrencia**: Permitir que **múltiples usuarios accedan simultáneamente** al mismo recurso sin conflictos.
+-   **Generación de contenido dinámico**: Crear páginas web de manera dinámica a partir de la interacción de los usuarios.
+-   **Seguridad**: Implementar mecanismos de **control de acceso** y **protección de los recursos** web.
+-   **Conexión con bases de datos**: Mantener datos de forma persistente, asegurando actualizaciones confiables y consistentes.
+-   **Escalabilidad y portabilidad**: Capacidad para **ejecutarse en múltiples máquinas**, permitiendo que la aplicación **crezca según la demanda** y **funcione en diferentes entornos**.
 
-![imagen2](./imagenes/imagen2.png)
+![Imagen 2](./imagenes/imagen2.png)
 
 ## Tipos de aplicaciones web
 
-- **Aplicaciones web estáticas**: Ofrecen el **mismo contenido para todos los usuarios** y están implementadas principalmente en HTML.
-- **Aplicaciones web animadas**: Utilizan tecnologías como **Flash** para añadir **animaciones y efectos visuales**, como banners o vídeos.
-- **Aplicaciones web dinámicas**: **Generan contenido en tiempo real** tanto en el cliente como en el servidor. Suelen utilizar lenguajes de programación como **PHP**, **ASP.NET** o **Python**.
-- **Aplicaciones web interactivas**: **Permiten personalizar la experiencia** del usuario. Por ejemplo, en un juego en línea, el usuario puede continuar desde donde lo dejó en sesiones anteriores mediante el uso de sistemas de control de sesiones.
+-   **Aplicaciones web estáticas**: Ofrecen el **mismo contenido para todos los usuarios** y están implementadas principalmente en HTML.
+-   **Aplicaciones web animadas**: Utilizan tecnologías como **Flash** para añadir **animaciones y efectos visuales**, como banners o vídeos.
+-   **Aplicaciones web dinámicas**: **Generan contenido en tiempo real** tanto en el cliente como en el servidor. Suelen utilizar lenguajes de programación como **PHP**, **ASP.NET** o **Python**.
+-   **Aplicaciones web interactivas**: **Permiten personalizar la experiencia** del usuario. Por ejemplo, en un juego en línea, el usuario puede continuar desde donde lo dejó en sesiones anteriores mediante el uso de sistemas de control de sesiones.
 
 ## Acceso a una aplicación web
 
 El acceso a una aplicación web se realiza mediante la solicitud de su **URI o URL en un navegador** web. La estructura de esta dirección incluye varios componentes:
 
-- **Protocolo**: El método de transferencia de datos (ej. HTTP).
-- **Dirección IP o dominio**: El servidor donde se aloja la aplicación (ej. `www.debian.org`).
-- **Puerto**: El puerto en el servidor donde se recibe la solicitud (por defecto, el puerto 80).
-- **Directorio y archivo**: El archivo que el servidor debe enviar (ej. `index.html`).
+-   **Protocolo**: El método de transferencia de datos (ej. HTTP).
+-   **Dirección IP o dominio**: El servidor donde se aloja la aplicación (ej. `www.debian.org`).
+-   **Puerto**: El puerto en el servidor donde se recibe la solicitud (por defecto, el puerto 80).
+-   **Directorio y archivo**: El archivo que el servidor debe enviar (ej. `index.html`).
 
 Por ejemplo, la URL `http://www.debian.org:80/index.html` especifica que la solicitud se realiza a través de HTTP al puerto 80, obteniendo el archivo `index.html` en el dominio **debian.org**.
 
@@ -79,10 +79,10 @@ Por ejemplo, la URL `http://www.debian.org:80/index.html` especifica que la soli
 
 Una **plataforma web** es el **entorno de software utilizado para desarrollar y ejecutar aplicaciones web**. Las plataformas combinan diferentes componentes:
 
-- **Sistema operativo**: Proporciona la base para la ejecución de las aplicaciones web.
-- **Servidor web**: Procesa las peticiones de los usuarios y les devuelve los recursos solicitados.
-- **Gestor de bases de datos**: Almacena y gestiona los datos empleados por la aplicación web.
-- **Lenguaje de programación**: Define la lógica del servidor para manejar las interacciones y generar el contenido dinámico.
+-   **Sistema operativo**: Proporciona la base para la ejecución de las aplicaciones web.
+-   **Servidor web**: Procesa las peticiones de los usuarios y les devuelve los recursos solicitados.
+-   **Gestor de bases de datos**: Almacena y gestiona los datos empleados por la aplicación web.
+-   **Lenguaje de programación**: Define la lógica del servidor para manejar las interacciones y generar el contenido dinámico.
 
 ### Clasificación de plataformas web
 
@@ -95,8 +95,8 @@ Una **plataforma web** es el **entorno de software utilizado para desarrollar y 
 
 ## Servidores web frente a servidores de aplicaciones
 
-- **Servidor web**: **Maneja las peticiones** HTTP, sirviendo páginas estáticas o dinámicas (usualmente con tecnologías como PHP). Ejemplo: **Apache**.
-- **Servidor de aplicaciones**: Ofrece un entorno completo que no solo procesa peticiones HTTP, sino que **también maneja la lógica de negocio**, la **gestión de bases de datos** y **otros procesos** complejos. Ejemplo: **Tomcat** (para aplicaciones Java EE).
+-   **Servidor web**: **Maneja las peticiones** HTTP, sirviendo páginas estáticas o dinámicas (usualmente con tecnologías como PHP). Ejemplo: **Apache**.
+-   **Servidor de aplicaciones**: Ofrece un entorno completo que no solo procesa peticiones HTTP, sino que **también maneja la lógica de negocio**, la **gestión de bases de datos** y **otros procesos** complejos. Ejemplo: **Tomcat** (para aplicaciones Java EE).
 
 **Nota**: **Todo servidor de aplicaciones también es un servidor web**, pero **no todo servidor web es un servidor de aplicaciones**.
 
@@ -135,52 +135,52 @@ Una **plataforma web** es el **entorno de software utilizado para desarrollar y 
 
 Una **arquitectura web** es un **conjunto ordenado de subsistemas** que **estructuran la aplicación** para lograr una **mejor organización y escalabilidad**. Estas arquitecturas siguen el modelo **cliente-servidor**.
 
-![imagen3](./imagenes/imagen3.png)
+![Imagen 3](./imagenes/imagen3.png)
 
-![imagen4](./imagenes/imagen4.png)
+![Imagen 4](./imagenes/imagen4.png)
 
 ### Tipos de arquitecturas
 
 1. **Arquitectura en capas**: Divide la aplicación en capas lógicas:
+
     - **Capa de presentación**: Interfaz de usuario y procesado de las solicitudes del cliente.
     - **Capa de lógica de negocio**: Implementa las reglas del negocio (ej. proceso de compra en una tienda en línea).
     - **Capa de persistencia de datos**: Interactúa con las bases de datos.
-    
-    ![imagen5](./imagenes/imagen5.png)
-    
+
+    ![Imagen 5](./imagenes/imagen5.png)
+
 2. **Arquitectura en niveles**: Similar a la arquitectura en capas, pero **las capas se implementan en máquinas separadas físicamente**, **facilitando la escalabilidad** en sistemas distribuidos.
 3. **Arquitectura orientada a servicios (SOA)**: Basada en la exposición de **servicios web** que permiten la **interacción entre diferentes sistemas**, facilitando la **interoperabilidad entre aplicaciones**.
-    
-    ![imagen6](./imagenes/imagen6.png)
-    
+
+    ![Imagen 6](./imagenes/imagen6.png)
 
 ### Características
 
-- **Separación de responsabilidades:** Cada capa tiene funciones específicas.
-- **Portabilidad:** Adaptación a diferentes entornos sin reprogramación.
-- **Gestión de sesión de usuario:** Esencial en el desarrollo.
-- **Escalabilidad:** La aplicación debe adaptarse al aumento de usuarios, generalmente requiriendo un clúster de servidores.
-    - **Escalabilidad vertical:** Las **capas lógicas** se **implementan físicamente separadas**, utilizando Middleware para la comunicación remota.
-    - **Escalabilidad horizontal:** Se **clona el sistema y se balancea la carga**, lo que puede generar problemas de mantenimiento de sesión, que se pueden abordar con herramientas como cookies.
-- **Aplicación de patrones de diseño:** Ejemplo del patrón MVC, que divide la aplicación en **Vista, Controlador y Modelo**.
+-   **Separación de responsabilidades:** Cada capa tiene funciones específicas.
+-   **Portabilidad:** Adaptación a diferentes entornos sin reprogramación.
+-   **Gestión de sesión de usuario:** Esencial en el desarrollo.
+-   **Escalabilidad:** La aplicación debe adaptarse al aumento de usuarios, generalmente requiriendo un clúster de servidores.
+    -   **Escalabilidad vertical:** Las **capas lógicas** se **implementan físicamente separadas**, utilizando Middleware para la comunicación remota.
+    -   **Escalabilidad horizontal:** Se **clona el sistema y se balancea la carga**, lo que puede generar problemas de mantenimiento de sesión, que se pueden abordar con herramientas como cookies.
+-   **Aplicación de patrones de diseño:** Ejemplo del patrón MVC, que divide la aplicación en **Vista, Controlador y Modelo**.
 
 ## Herramientas para desarrollar aplicaciones web en entorno servidor. IDE y framework
 
 El desarrollo de aplicaciones web requiere varias herramientas:
 
-- **Navegadores**: Para probar y acceder a las aplicaciones (Edge, Chrome, Firefox).
-- **Editores de código**: Para escribir el código (Notepad++, PhpStorm, Brackets, Atom).
-- **Gestores de bases de datos**: Para gestionar y administrar las bases de datos (PhpMyAdmin).
-- **IDE (Entorno de desarrollo integrado)**:
-    - **Genéricos**: Eclipse (Java, C, PHP), Visual Studio Code.
-    - **Específicos**: NetBeans (Java), Visual Studio (.NET).
-- **Frameworks**: Facilitan el desarrollo de aplicaciones al proporcionar librerías y componentes reutilizables. Ejemplos: **Laravel**, **Symfony**.
+-   **Navegadores**: Para probar y acceder a las aplicaciones (Edge, Chrome, Firefox).
+-   **Editores de código**: Para escribir el código (Notepad++, PhpStorm, Brackets, Atom).
+-   **Gestores de bases de datos**: Para gestionar y administrar las bases de datos (PhpMyAdmin).
+-   **IDE (Entorno de desarrollo integrado)**:
+    -   **Genéricos**: Eclipse (Java, C, PHP), Visual Studio Code.
+    -   **Específicos**: NetBeans (Java), Visual Studio (.NET).
+-   **Frameworks**: Facilitan el desarrollo de aplicaciones al proporcionar librerías y componentes reutilizables. Ejemplos: **Laravel**, **Symfony**.
 
 ## Cloud computing y servicios
 
 **Cloud computing** implica el uso de servidores remotos para almacenar, procesar y gestionar datos y aplicaciones. **Proporciona un entorno escalable y flexible** para el desarrollo y ejecución de aplicaciones web.
 
-![imagen7](./imagenes/imagen7.png)
+![Imagen 7](./imagenes/imagen7.png)
 
 ### Modelos de servicios
 
@@ -188,7 +188,7 @@ El desarrollo de aplicaciones web requiere varias herramientas:
 2. **Platform-as-a-Service (PaaS)**: **Proporciona una infraestructura completa** para desarrollar y desplegar aplicaciones. Ej. **Google App Engine**, **Windows Azure**.
 3. **Infrastructure-as-a-Service (IaaS)**: Además del desarrollo, **el usuario gestiona la infraestructura física o virtual** necesaria para el despliegue. Ej. **Amazon Web Services (AWS)**.
 
-![imagen8](./imagenes/imagen8.jpg)
+![Imagen 8](./imagenes/imagen8.jpg)
 
 ### Windows Azure y Google App Engine
 
@@ -216,31 +216,31 @@ Además, la Web 4.0 se beneficiará del big data y el aprendizaje automático pa
 
 Cuatro aplicaciones web típicas:
 
-- Correo electrónico: Servicios como Gmail y Outlook permiten enviar y recibir correos electrónicos a través de un navegador web.
-- Calendarios en línea: Aplicaciones como Google Calendar permiten gestionar eventos y recordatorios desde cualquier dispositivo con acceso a Internet.
-- Comercio electrónico: Plataformas como Amazon y Shopify facilitan la compra y venta de productos en línea.
-- Calculadoras en línea: Herramientas como Desmos ofrecen funciones avanzadas de cálculo matemático accesibles desde el navegador.
+-   Correo electrónico: Servicios como Gmail y Outlook permiten enviar y recibir correos electrónicos a través de un navegador web.
+-   Calendarios en línea: Aplicaciones como Google Calendar permiten gestionar eventos y recordatorios desde cualquier dispositivo con acceso a Internet.
+-   Comercio electrónico: Plataformas como Amazon y Shopify facilitan la compra y venta de productos en línea.
+-   Calculadoras en línea: Herramientas como Desmos ofrecen funciones avanzadas de cálculo matemático accesibles desde el navegador.
 
 ## Tecnologías del lado servidor
 
 La tecnología de desarrollo web más utilizada para los scripts del lado servidor es PHP.
 
-![imagen9](./imagenes/imagen9.png)
+![Imagen 9](./imagenes/imagen9.png)
 
 ## Servidores web
 
 El servidor web más utilizado es Nginx.
 
-![imagen10](./imagenes/imagen10.png)
+![Imagen 10](./imagenes/imagen10.png)
 
-![imagen11](./imagenes/imagen11.png)
+![Imagen 11](./imagenes/imagen11.png)
 
 ## Apache vs Nginx
 
-- **Arquitectura**: Apache utiliza una arquitectura basada en procesos o hilos, mientras que Nginx se basa en una arquitectura dirigida por eventos, lo que le permite manejar múltiples conexiones simultáneamente con menos recursos.
-- **Manejo de Contenidos Dinámicos**: Apache puede procesar contenidos dinámicos internamente mediante módulos como `mod_php`, mientras que Nginx externaliza esta tarea a servidores de aplicaciones especializados.
-- **Configuración**: Apache permite configuraciones descentralizadas a través de archivos `.htaccess`, lo que puede ralentizar el servidor. Nginx, en cambio, utiliza una configuración centralizada en `nginx.conf`, lo que mejora la seguridad y el rendimiento.
-- **Compatibilidad y Uso**: Ambos servidores son compatibles con múltiples plataformas y se utilizan en escenarios similares, aunque Apache es más común en entornos de alojamiento compartido y Nginx es preferido para manejar tráfico elevado y como balanceador de carga.
+-   **Arquitectura**: Apache utiliza una arquitectura basada en procesos o hilos, mientras que Nginx se basa en una arquitectura dirigida por eventos, lo que le permite manejar múltiples conexiones simultáneamente con menos recursos.
+-   **Manejo de Contenidos Dinámicos**: Apache puede procesar contenidos dinámicos internamente mediante módulos como `mod_php`, mientras que Nginx externaliza esta tarea a servidores de aplicaciones especializados.
+-   **Configuración**: Apache permite configuraciones descentralizadas a través de archivos `.htaccess`, lo que puede ralentizar el servidor. Nginx, en cambio, utiliza una configuración centralizada en `nginx.conf`, lo que mejora la seguridad y el rendimiento.
+-   **Compatibilidad y Uso**: Ambos servidores son compatibles con múltiples plataformas y se utilizan en escenarios similares, aunque Apache es más común en entornos de alojamiento compartido y Nginx es preferido para manejar tráfico elevado y como balanceador de carga.
 
 ## GWS
 
@@ -250,11 +250,11 @@ Google Web Server (GWS) es un software de servidor web propietario utilizado por
 
 **XAMPP** es una distribución gratuita y fácil de instalar que incluye varios componentes esenciales para el desarrollo web². Su nombre es un acrónimo que representa los componentes principales que incluye:
 
-- **X**: Cross-platform (multiplataforma, compatible con Windows, Linux y macOS)
-- **A**: Apache (servidor web)
-- **M**: MariaDB (sistema de gestión de bases de datos)
-- **P**: PHP (lenguaje de programación)
-- **P**: Perl (lenguaje de programación)
+-   **X**: Cross-platform (multiplataforma, compatible con Windows, Linux y macOS)
+-   **A**: Apache (servidor web)
+-   **M**: MariaDB (sistema de gestión de bases de datos)
+-   **P**: PHP (lenguaje de programación)
+-   **P**: Perl (lenguaje de programación)
 
 ### Componentes de XAMPP
 
@@ -279,10 +279,10 @@ En esta carpeta puedes colocar tus archivos HTML, PHP y otros recursos web para 
 
 El término **LEMP** se refiere a un conjunto de software utilizado para desarrollar y servir aplicaciones web. Es un acrónimo que representa:
 
-- **L**: Linux (sistema operativo)
-- **E**: Nginx (servidor web, pronunciado "Engine-X")
-- **M**: MySQL o MariaDB (sistema de gestión de bases de datos)
-- **P**: PHP (lenguaje de programación del lado del servidor)
+-   **L**: Linux (sistema operativo)
+-   **E**: Nginx (servidor web, pronunciado "Engine-X")
+-   **M**: MySQL o MariaDB (sistema de gestión de bases de datos)
+-   **P**: PHP (lenguaje de programación del lado del servidor)
 
 ### Componentes de LEMP
 
