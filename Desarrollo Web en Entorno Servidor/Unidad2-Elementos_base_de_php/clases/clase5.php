@@ -19,7 +19,7 @@
         // include ('./valores.inc');
         // echo VALOR;
 
-        require ('./valores.inc');
+        require ('./clase5-valores.inc');
         echo VALOR;
 
     ?>

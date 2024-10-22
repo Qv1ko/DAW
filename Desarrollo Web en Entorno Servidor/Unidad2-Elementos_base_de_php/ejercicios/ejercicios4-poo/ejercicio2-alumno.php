@@ -13,7 +13,7 @@
             $this->edad = $e;
         }
 
-        function visualizar(): string {
+        public function visualizar(): string {
             return "$this->nom $this->edad";
         }
 

@@ -11,7 +11,7 @@
 <body>
     <?php
 
-        require_once("./alumno.php");
+        require_once("./clase14-alumno.php");
 
         $alum1 = new Alumno("Luis", 22);
         $alum1->agregarAlumno();

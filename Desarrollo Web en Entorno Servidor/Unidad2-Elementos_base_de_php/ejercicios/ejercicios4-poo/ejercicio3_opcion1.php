@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 3 - Opción 3</title>
+    <title>Ejercicio 3 - Opción 1</title>
 </head>
 
 <body>
     <?php
 
-        require_once("./alumno.php");
-        require_once("./primero.php");
-        require_once("./segundo.php");
-        
-        $resultadoPrimero = true;
+        require_once("./ejercicio3-opcion1-alumno.php");
+        require_once("./ejercicio3-opcion1-primero.php");
+        require_once("./ejercicio3-opcion1-segundo.php");
+
+        $resultadoPrimero;
         $alumnoPr = new Primero("Miguel", 24, 5.34);
 
         var_dump($alumnoPr);

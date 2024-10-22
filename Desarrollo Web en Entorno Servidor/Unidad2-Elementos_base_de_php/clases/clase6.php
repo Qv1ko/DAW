@@ -47,7 +47,7 @@
             echo "Hola ";
         })
 
-        require_once("./mostrar.php");
+        require_once("./clase6-mostrar.php");
 
         $number = 5;
 

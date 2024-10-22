@@ -13,7 +13,7 @@
             $this->importeBeca = $b;
         }
 
-        function visualizar(): string {
+        public function visualizar(): string {
             return parent::visualizar() . " tiene una beca de " . $this->importeBeca . " euros";
         }
 

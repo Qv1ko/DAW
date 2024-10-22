@@ -11,9 +11,9 @@
 <body>
     <?php
 
-        require_once("./alumno.php");
-        require_once("./primero.php");
-        require_once("./segundo.php");
+        require_once("./ejercicio3-opcion2-alumno.php");
+        require_once("./ejercicio3-opcion2-primero.php");
+        require_once("./ejercicio3-opcion2-segundo.php");
         
         $resultadoPrimero;
         $alumnoPr = new Primero("Miguel", 24, [6.34, 3, 7.2]);

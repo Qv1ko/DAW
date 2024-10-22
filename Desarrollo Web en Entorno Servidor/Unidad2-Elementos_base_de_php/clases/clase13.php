@@ -11,7 +11,7 @@
 <body>
     <?php
 
-        require_once("./alumno.php");
+        require_once("./clase13-alumno.php");
 
         // No se hace una invocación del método magico
         $alum = new Alumno("Ana", 20);

@@ -12,8 +12,8 @@
 <body>
     <?php
 
-        require_once("./alumno.php");
-        require_once("./becado.php");
+        require_once("./ejercicio2-alumno.php");
+        require_once("./ejercicio2-becado.php");
 
         use ejercicio2\alumno as Al;
         use ejercicio2\becado as Be;
