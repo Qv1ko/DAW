@@ -3,6 +3,63 @@ h3 {
     font-size: 1.5rem;
 }
 
-.importante p {
+p[class="importante"] {
     background-color: yellow;
+}
+
+#avanzado {
+    background-color: gainsboro;
+}
+
+#principal p {
+    color: darkblue;
+}
+
+article a {
+    color: green;
+}
+
+p span {
+    color: purple;
+}
+
+section ul,
+ol {
+    list-style-type: square;
+}
+
+article > p {
+    color: brown;
+}
+
+section > h2 {
+    color: blue;
+}
+
+h2 ~ p {
+    color: red;
+}
+
+article a ~ span {
+    background-color: gainsboro;
+}
+
+h2 + p {
+    color: darkblue;
+}
+
+h2 + h3 {
+    color: green;
+}
+
+img[href$=".jpg"] {
+    opacity: 80%;
+}
+
+section[id="principal"] {
+    background-color: beige;
+}
+
+a[href^="https"] {
+    color: darkgreen;
 }
