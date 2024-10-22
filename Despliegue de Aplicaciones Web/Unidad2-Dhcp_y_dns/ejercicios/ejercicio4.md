@@ -1,3 +1,5 @@
+# El espacio de nombres de dominio
+
 ## Ejemplo nombres de dominio
 
 -   . -> es -> ElRegional -> Pc1
