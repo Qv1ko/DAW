@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 13</title>
+    <title>Ejercicio 14</title>
 </head>
 
 <body>
@@ -19,16 +19,18 @@
             "FOL" => 3,
         ];
 
-        echo "<p>La asignatura con más horas lectivas es " . maxHours($horasLectivas) . "</p>";
+        print_r(deleteMax($horasLectivas));
 
-        function maxHours(array $asignaturas) {
+        function deleteMax(array $asignaturas): array {
             $max = max($asignaturas);
+
             foreach($asignaturas as $asignatura => $horas ) {
                 if ($horas == $max) {
-                    return $asignatura;
+                    unset($asignaturas[$asignatura]);
                 }
             }
-            return "No hay asignaturas";
+            
+            return $asignaturas;
         }
 
     ?>
