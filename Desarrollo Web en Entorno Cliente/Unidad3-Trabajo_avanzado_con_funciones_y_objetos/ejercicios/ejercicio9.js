@@ -1,8 +1,7 @@
 console.log("--- Ejercicio 9 ---");
 
-let date = new Date(2024, 9, 21);
-alert(getLocalDay(date));
+date = new Date(2012, 0, 3);
 
-function getLocalDay(date) {
-    return date.getDay() == 0 ? 7 : date.getDay();
-}
+let getLocalDay = (date) => (date.getDay() == 0 ? 7 : date.getDay());
+
+alert(getLocalDay(date)); // 2
