@@ -1,65 +1,81 @@
+/* Ejercicio 1 */
 h2,
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
-p[class="importante"] {
+/* Ejercicio 2 */
+p.importante {
     background-color: yellow;
 }
 
-#avanzado {
+/* Ejercicio 3 */
+section#avanzado {
     background-color: gainsboro;
 }
 
-#principal p {
+/* Ejercicio 4 */
+section#principal p {
     color: darkblue;
 }
 
+/* Ejercicio 5 */
 article a {
     color: green;
 }
 
+/* Ejercicio 6 */
 p span {
     color: purple;
 }
 
+/* Ejercicio 7 */
 section ul,
-ol {
+section ol {
     list-style-type: square;
 }
 
+/* Ejercicio 8 */
 article > p {
     color: brown;
 }
 
+/* Ejercicio 9 */
 section > h2 {
     color: blue;
 }
 
+/* Ejercicio 10 */
 h2 ~ p {
     color: red;
 }
 
+/* Ejercicio 11 */
 article a ~ span {
     background-color: gainsboro;
 }
 
+/* Ejercicio 12 */
 h2 + p {
     color: darkblue;
 }
 
+/* Ejercicio 13 */
 h2 + h3 {
     color: green;
 }
 
-img[href$=".jpg"] {
+/* Ejercicio 14 */
+img[src$=".jpg"] {
     opacity: 80%;
 }
 
-section[id="principal"] {
+/* Ejercicio 15 */
+section#principal {
     background-color: beige;
 }
 
+/* Ejercicio 16 */
 a[href^="https"] {
     color: darkgreen;
 }

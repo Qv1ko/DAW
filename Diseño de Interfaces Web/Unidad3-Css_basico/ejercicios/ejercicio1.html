@@ -1,142 +1,156 @@
 <!DOCTYPE html>
 <html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ejercicio 1 - Ejemplo de Selectores CSS Avanzados</title>
+        <link rel="stylesheet" href="ejercicio1.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ejercicio 1 - Ejemplo de Selectores CSS Avanzados</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <body>
+        <!-- Encabezado de la página -->
+        <header class="encabezado">
+            <h1>Ejemplo Completo de Selectores CSS</h1>
+        </header>
 
-<body>
-    <!-- Encabezado de la página -->
-    <header class="encabezado">
-        <h1>Ejemplo Completo de Selectores CSS</h1>
-    </header>
-
-    <!-- Contenido principal -->
-    <section id="principal">
-        <h2>Introducción a los Selectores CSS</h2>
-        <p>
-            Los <span class="resaltado-span">selectores CSS</span> permiten
-            aplicar estilos a los elementos HTML de manera precisa. Existen
-            varios tipos de selectores que nos permiten ser muy específicos
-            o generales a la hora de definir los estilos. Los selectores más
-            básicos incluyen <span>tipos de elementos</span>, clases y IDs.
-        </p>
-
-        <!-- Artículo 1 -->
-        <article>
-            <h3>Selector de Clase y ID</h3>
+        <!-- Contenido principal -->
+        <section id="principal">
+            <h2>Introducción a los Selectores CSS</h2>
             <p>
-                El selector de clase se utiliza con el símbolo
-                <span class="resaltado-span">.</span> seguido del nombre de
-                la clase, y se puede aplicar a varios elementos. El selector
-                de ID utiliza el símbolo
-                <span class="resaltado-span">#</span> y es único por página.
+                Los <span class="resaltado-span">selectores CSS</span> permiten
+                aplicar estilos a los elementos HTML de manera precisa. Existen
+                varios tipos de selectores que nos permiten ser muy específicos
+                o generales a la hora de definir los estilos. Los selectores más
+                básicos incluyen <span>tipos de elementos</span>, clases y IDs.
             </p>
-            <p class="importante">
-                Recuerda que el uso correcto de
-                <span>selectores</span> optimiza el rendimiento de la
-                página.
-            </p>
-        </article>
 
-        <!-- Artículo 2 -->
-        <article>
-            <h3>Selector de Pseudo-clase</h3>
+            <!-- Artículo 1 -->
+            <article>
+                <h3>Selector de Clase y ID</h3>
+                <p>
+                    El selector de clase se utiliza con el símbolo
+                    <span class="resaltado-span">.</span> seguido del nombre de
+                    la clase, y se puede aplicar a varios elementos. El selector
+                    de ID utiliza el símbolo
+                    <span class="resaltado-span">#</span> y es único por página.
+                </p>
+                <p class="importante">
+                    Recuerda que el uso correcto de
+                    <span>selectores</span> optimiza el rendimiento de la
+                    página.
+                </p>
+            </article>
+
+            <!-- Artículo 2 -->
+            <article>
+                <h3>Selector de Pseudo-clase</h3>
+                <p>
+                    Las pseudo-clases se utilizan para definir un estado
+                    especial de un elemento, como cuando el ratón pasa por
+                    encima de un enlace (<span class="resaltado-span"
+                        >:hover</span
+                    >).
+                </p>
+                <p>
+                    En este ejemplo, hemos aplicado una pseudo-clase
+                    <span>:hover</span> a los enlaces para cambiar su color
+                    cuando se interactúa con ellos.
+                </p>
+            </article>
+
+            <!-- Lista de enlaces -->
+            <article>
+                <h3>Lista de Enlaces de Interés</h3>
+                <p>
+                    A continuación te proporcionamos algunos
+                    <span>enlaces</span> útiles relacionados con CSS y
+                    desarrollo web:
+                </p>
+                <ul>
+                    <li>
+                        <a href="https://www.w3schools.com/css/" target="_blank"
+                            >Guía CSS en W3Schools</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://developer.mozilla.org/es/docs/Web/CSS"
+                            target="_blank"
+                            >Documentación CSS en MDN</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://css-tricks.com/"
+                            >Trucos y consejos de CSS</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://www.smashingmagazine.com/category/css"
+                            >Artículos sobre CSS en Smashing Magazine</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://flexboxfroggy.com/" target="_blank"
+                            >Juego interactivo Flexbox Froggy</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://gridbyexample.com/" target="_blank"
+                            >Ejemplos de CSS Grid</a
+                        >
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Otra Sección -->
+        <section id="avanzado">
+            <h2>Uso Avanzado de Selectores</h2>
             <p>
-                Las pseudo-clases se utilizan para definir un estado
-                especial de un elemento, como cuando el ratón pasa por
-                encima de un enlace (<span class="resaltado-span">:hover</span>).
+                En esta sección veremos el uso de selectores avanzados como los
+                de atributo, los descendientes, y combinaciones de clases.
             </p>
+
+            <!-- Artículo 3 -->
+            <article>
+                <h3>Selector de Atributo</h3>
+                <p>
+                    El selector de atributo se utiliza para seleccionar
+                    elementos en base a un atributo y su valor. Por ejemplo,
+                    podemos estilizar todos los enlaces que abren en una nueva
+                    pestaña utilizando
+                    <span class="resaltado-span">a[target="_blank"]</span>.
+                </p>
+                <p class="resaltado">
+                    Este es un ejemplo destacado con una clase múltiple,
+                    aplicando los estilos de "resaltado" e "importante".
+                </p>
+            </article>
+
+            <!-- Lista de puntos clave -->
+            <article>
+                <h3>Lista de Selectores CSS</h3>
+                <p>
+                    A continuación se muestra una lista con algunos de los
+                    <span>selectores más comunes</span> utilizados en CSS:
+                </p>
+                <ol>
+                    <li>Selector de tipo (elemento)</li>
+                    <li>Selector de clase</li>
+                    <li>Selector de ID</li>
+                    <li>Selector de pseudo-clase</li>
+                    <li>Selector de atributo</li>
+                    <li>Selector universal</li>
+                </ol>
+            </article>
+        </section>
+
+        <!-- Pie de página -->
+        <footer>
             <p>
-                En este ejemplo, hemos aplicado una pseudo-clase
-                <span>:hover</span> a los enlaces para cambiar su color
-                cuando se interactúa con ellos.
+                &copy; 2024 Ejemplo de Selectores CSS - Todos los derechos
+                reservados
             </p>
-        </article>
-
-        <!-- Lista de enlaces -->
-        <article>
-            <h3>Lista de Enlaces de Interés</h3>
-            <p>
-                A continuación te proporcionamos algunos
-                <span>enlaces</span> útiles relacionados con CSS y
-                desarrollo web:
-            </p>
-            <ul>
-                <li>
-                    <a href="https://www.w3schools.com/css/" target="_blank">Guía CSS en W3Schools</a>
-                </li>
-                <li>
-                    <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">Documentación CSS en MDN</a>
-                </li>
-                <li>
-                    <a href="https://css-tricks.com/">Trucos y consejos de CSS</a>
-                </li>
-                <li>
-                    <a href="https://www.smashingmagazine.com/category/css">Artículos sobre CSS en Smashing Magazine</a>
-                </li>
-                <li>
-                    <a href="https://flexboxfroggy.com/" target="_blank">Juego interactivo Flexbox Froggy</a>
-                </li>
-                <li>
-                    <a href="https://gridbyexample.com/" target="_blank">Ejemplos de CSS Grid</a>
-                </li>
-            </ul>
-        </article>
-    </section>
-
-    <!-- Otra Sección -->
-    <section id="avanzado">
-        <h2>Uso Avanzado de Selectores</h2>
-        <p>
-            En esta sección veremos el uso de selectores avanzados como los
-            de atributo, los descendientes, y combinaciones de clases.
-        </p>
-
-        <!-- Artículo 3 -->
-        <article>
-            <h3>Selector de Atributo</h3>
-            <p>
-                El selector de atributo se utiliza para seleccionar
-                elementos en base a un atributo y su valor. Por ejemplo,
-                podemos estilizar todos los enlaces que abren en una nueva
-                pestaña utilizando
-                <span class="resaltado-span">a[target="_blank"]</span>.
-            </p>
-            <p class="resaltado">
-                Este es un ejemplo destacado con una clase múltiple,
-                aplicando los estilos de "resaltado" e "importante".
-            </p>
-        </article>
-
-        <!-- Lista de puntos clave -->
-        <article>
-            <h3>Lista de Selectores CSS</h3>
-            <p>
-                A continuación se muestra una lista con algunos de los
-                <span>selectores más comunes</span> utilizados en CSS:
-            </p>
-            <ol>
-                <li>Selector de tipo (elemento)</li>
-                <li>Selector de clase</li>
-                <li>Selector de ID</li>
-                <li>Selector de pseudo-clase</li>
-                <li>Selector de atributo</li>
-                <li>Selector universal</li>
-            </ol>
-        </article>
-    </section>
-
-    <!-- Pie de página -->
-    <footer>
-        <p>
-            &copy; 2024 Ejemplo de Selectores CSS - Todos los derechos
-            reservados
-        </p>
-    </footer>
-</body>
-
+        </footer>
+    </body>
 </html>
