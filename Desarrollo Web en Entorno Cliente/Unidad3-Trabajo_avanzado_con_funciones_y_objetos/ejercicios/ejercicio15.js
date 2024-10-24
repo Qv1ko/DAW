@@ -14,12 +14,11 @@ let proximoCumple = new Date(
     perdirCumple("día")
 );
 
-if (proximoCumple.getTime() - new Date().getTime() > 0) {
-    cuantoQueda(proximoCumple, new Date());
-} else {
+if (proximoCumple.getTime() - new Date().getTime() < 0) {
     proximoCumple.setFullYear(proximoCumple.getFullYear() + 1);
-    cuantoQueda(proximoCumple, new Date());
 }
+
+cuantoQueda(proximoCumple, new Date());
 
 console.log("Años en los que tu cumple cae domingo:");
 for (let i = proximoCumple.getFullYear(); i < 2100; i++) {

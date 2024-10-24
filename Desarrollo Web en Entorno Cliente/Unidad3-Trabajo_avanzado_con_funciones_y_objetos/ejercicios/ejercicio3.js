@@ -8,7 +8,7 @@ let map = new Map();
 
 map.set("name", "John");
 
-//let keys = map.keys(); // map.keys() no devuelve un array, si no un iterador
+//let keys = map.keys(); // map.keys() no devuelve un array, si no un MapIterator
 //keys.push("more"); // Error: keys.push no es una función
 
 let keys = Array.from(map.keys());

@@ -16,6 +16,6 @@ let values = [
     "Hare",
     ":-O",
 ];
-let unicos = (arr) => Array.from(new Set(arr)).join(", ");
+let unicos = (arr) => Array.from(new Set(arr));
 
 alert(unicos(values)); // Hare, Krishna, :-O

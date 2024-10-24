@@ -12,7 +12,7 @@ function limpiar(arr) {
     let map = new Map();
 
     for (const palabra of arr) {
-        map.set(palabra.sort(), palabra);
+        map.set(palabra.split("").sort().toString().toLowerCase(), palabra);
     }
 
     return Array.from(map.values());

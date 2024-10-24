@@ -11,14 +11,12 @@ console.log("--- Ejercicio 4 ---");
 
 const TIRADAS = 36000;
 let resultados = new Map();
-resultados.set(1, 0).set(2, 0).set(3, 0).set(4, 0).set(5, 0).set(6, 0);
 let dado1, dado2;
 
 for (let i = 0; i < TIRADAS; i++) {
     dado1 = tirarDado();
     dado2 = tirarDado();
-    guardarResultado(dado1);
-    guardarResultado(dado2);
+    guardarResultado(dado1 + dado2);
 }
 
 for (let [key, value] of resultados) {
@@ -35,4 +33,7 @@ function guardarResultado(clave) {
     } else {
         resultados.set(clave, 0);
     }
+    resultados = new Map(
+        [...resultados.entries()].sort((a, b) => parseInt(a) > parseInt(b))
+    );
 }
