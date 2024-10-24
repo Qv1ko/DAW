@@ -1,0 +1,94 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    width: 1280px;
+    margin: auto;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+header nav {
+    margin: auto;
+    width: 50%;
+}
+
+header nav ul li {
+    font-size: 1rem;
+    display: inline;
+}
+
+section#carrusel {
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+section#carrusel figure ~ figure {
+    display: none;
+}
+
+section#carrusel figure > figcaption {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 710px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main {
+    margin: 1rem 0;
+}
+
+main section#productos {
+    margin: 1rem 0;
+}
+
+main section#productos article {
+    width: 30.8%;
+    margin: 1%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+main section#productos article h2 {
+    font-size: 1.5rem;
+}
+
+main section#productos article a {
+    float: right;
+}
+
+main section#destacado {
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    padding: 2rem;
+    margin: 0.5rem 0;
+}
+
+main section#destacado article div.destacado-left h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+main section#destacado article div.destacado-left {
+    width: 60%;
+    display: inline-block;
+}
+
+main section#destacado article div.destacado-right {
+    width: 39.2%;
+    display: inline-block;
+}
+
+main section#destacado article div.destacado-right button {
+    padding: 0.5rem 2rem;
+    float: right;
+}
