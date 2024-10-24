@@ -1,5 +1,7 @@
 <?php
 
+    namespace e3o2alumno;
+
     class Alumno {
 
         static $ciclo = "DAW";

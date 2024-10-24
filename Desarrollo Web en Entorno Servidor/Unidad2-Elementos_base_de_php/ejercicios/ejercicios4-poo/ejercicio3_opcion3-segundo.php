@@ -1,6 +1,12 @@
 <?php
 
-    class Segundo extends Alumno {
+    namespace e3o3segundo;
+    
+    require_once("./ejercicio3-alumno.php");
+
+    use e3o3alumno as Al;
+
+    class Segundo extends Al\Alumno {
 
         private $notaMedia;
         private $fct;

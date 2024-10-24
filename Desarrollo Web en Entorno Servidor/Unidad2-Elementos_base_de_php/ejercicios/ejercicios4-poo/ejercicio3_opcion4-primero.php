@@ -1,8 +1,14 @@
 <?php
 
-    require_once("./ejercicio3_opcion4-aprobado.php");
+    namespace e3o4primero;
+    
+    require_once("./ejercicio3-alumno.php");
+    require_once("./ejercicio3-aprobado.php");
 
-    class Primero extends Alumno implements aprobado {
+    use e3o4alumno as Al;
+    use e3o4aprobado as Ap;
+
+    class Primero extends Al\Alumno implements Ap\Aprobado {
 
         private $notaMedia;
 

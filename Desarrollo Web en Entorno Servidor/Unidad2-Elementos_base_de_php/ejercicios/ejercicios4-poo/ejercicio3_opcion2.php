@@ -1,3 +1,4 @@
+<?php namespace e3o2main ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,18 +12,20 @@
 <body>
     <?php
 
-        require_once("./ejercicio3-opcion2-alumno.php");
-        require_once("./ejercicio3-opcion2-primero.php");
-        require_once("./ejercicio3-opcion2-segundo.php");
-        
+        require_once("./actividad3-primero.php");
+        require_once("./actividad3-segundo.php");
+
+        use e3o2primero as Pr;
+        use e3o2segundo as Se;
+
         $resultadoPrimero;
-        $alumnoPr = new Primero("Miguel", 24, [6.34, 3, 7.2]);
+        $alumnoPr = new Pr\Primero("Miguel", 24, [6.34, 3, 7.2]);
         echo $alumnoPr->nota_media();
 
         var_dump($alumnoPr);
         echo $alumnoPr->supera_curso($resultadoPrimero);
 
-        $alumnoSe = new Segundo("Miguel", 24, 8.22, "Apto", 7.5);
+        $alumnoSe = new Se\Segundo("Miguel", 24, 8.22, "Apto", 7.5);
 
         var_dump($alumnoSe);
         echo $alumnoSe->supera_curso($resultadoPrimero);
