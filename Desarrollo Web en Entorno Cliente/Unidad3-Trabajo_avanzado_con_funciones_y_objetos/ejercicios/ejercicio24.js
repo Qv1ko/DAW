@@ -1,19 +1,37 @@
-/*
-Aquí está el código de la clase Rabbit que extiende a Animal.
-Desafortunadamente, los objetos Rabbit no se pueden crear. ¿Que pasa? Arréglalo.
-*/
-class Animal {
-  constructor(name) {
-    this.name = name;
+function Reloj({ plantilla }) {
+  
+    let temporalizador;
+  
+    function mostrar() {
+      let date = new Date();
+  
+      let hours = date.getHours();
+      if (hours < 10) hours = '0' + hours;
+  
+      let mins = date.getMinutes();
+      if (mins < 10) mins = '0' + mins;
+  
+      let secs = date.getSeconds();
+      if (secs < 10) secs = '0' + secs;
+  
+      let output = plantilla
+        .replace('h', hours)
+        .replace('m', mins)
+        .replace('s', secs);
+  
+      console.log(output);
+    }
+  
+    this.stop = function() {
+      clearInterval(temporalizador);
+    };
+  
+    this.start = function() {
+      mostrar();
+      temporalizador = setInterval(mostrar, 1000);
+    };
+  
   }
-}
-
-class Rabbit extends Animal {
-  constructor(name) {
-    this.name = name;
-    this.created = Date.now();
-  }
-}
-
-let rabbit = new Rabbit("Conejo Blanco"); // Error: this no está definido
-alert(rabbit.name);
+  
+  let miReloj = new Reloj({plantilla: 'h:m:s'});
+  miReloj.start();
