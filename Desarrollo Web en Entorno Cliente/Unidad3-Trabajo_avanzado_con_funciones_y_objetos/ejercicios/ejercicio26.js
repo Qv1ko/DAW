@@ -1,19 +1,18 @@
-/*
-Aquí está el código de la clase Rabbit que extiende a Animal.
-Desafortunadamente, los objetos Rabbit no se pueden crear. ¿Que pasa? Arréglalo.
-*/
+console.log("--- Ejercicio 26 ---");
+
 class Animal {
-  constructor(name) {
-    this.name = name;
-  }
+    constructor(name) {
+        this.name = name;
+    }
 }
 
 class Rabbit extends Animal {
-  constructor(name) {
-    this.name = name;
-    this.created = Date.now();
-  }
+    constructor(name) {
+        // this.name = name; // Da error porque no se establece el valor en la clase padre de forma correcta
+        super(name);
+        this.created = Date.now();
+    }
 }
 
-let rabbit = new Rabbit("Conejo Blanco"); // Error: this no está definido
+let rabbit = new Rabbit("Conejo Blanco");
 alert(rabbit.name);

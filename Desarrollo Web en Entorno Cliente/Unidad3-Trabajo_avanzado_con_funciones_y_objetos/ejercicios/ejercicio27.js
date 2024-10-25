@@ -1,4 +1,4 @@
-console.log("--- Ejercicio 25 ---");
+console.log("--- Ejercicio 27 ---");
 
 class Reloj {
     temporalizador;
@@ -32,11 +32,25 @@ class Reloj {
         clearInterval(this.temporalizador);
     }
 
-    start() {
+    start(precision = 1000) {
         this.mostrar();
-        this.temporalizador = setInterval(() => this.mostrar, 1000);
+        this.temporalizador = setInterval(() => this.mostrar, precision);
+        // this.temporalizador = setInterval(() => this.mostrar(), precision);
     }
 }
 
-let miReloj = new Reloj({ plantilla: "h:m:s" });
+class RelojExtendido extends Reloj {
+    precision;
+
+    constructor({ plantilla }, precision = 1000) {
+        super({ plantilla });
+        this.precision = precision;
+    }
+
+    start() {
+        super.start(this.precision);
+    }
+}
+
+let miReloj = new RelojExtendido({ plantilla: "h:m:s" }, 400);
 miReloj.start();
