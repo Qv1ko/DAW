@@ -11,7 +11,7 @@
 <body>
     <?php
 
-        require_once('./actividad1-funciones.php');
+        require_once('./ejercicio1-funciones.php');
         
         $numbers = array(rand(-17, 17), rand(-17, 17), rand(-17, 17), rand(-17, 17), rand(-17, 17));
 

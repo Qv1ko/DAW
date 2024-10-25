@@ -12,8 +12,8 @@
 <body>
     <?php
 
-        require_once("./actividad3-primero.php");
-        require_once("./actividad3-segundo.php");
+        require_once("./ejercicio3-primero.php");
+        require_once("./ejercicio3-segundo.php");
 
         use e3o2primero as Pr;
         use e3o2segundo as Se;

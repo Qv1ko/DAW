@@ -1,4 +1,4 @@
-<?php namespace e5index ?>
+<?php namespace e5main ?>
 <!DOCTYPE html>
 <html lang="en">
 

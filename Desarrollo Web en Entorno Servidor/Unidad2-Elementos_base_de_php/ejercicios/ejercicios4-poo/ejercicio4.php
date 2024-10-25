@@ -1,4 +1,4 @@
-<?php namespace e4index; ?>
+<?php namespace e4main; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,8 +15,8 @@
         use e4joven as Jo;
         use e4adulto as Ad;
 
-        require_once("./actividad4-adulto.php");
-        require_once("./actividad4-joven.php");
+        require_once("./ejercicio4-adulto.php");
+        require_once("./ejercicio4-joven.php");
 
         $joven1 = new Jo\Joven("12345678R", 17);
 

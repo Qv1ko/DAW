@@ -1,4 +1,3 @@
-<?php namespace e7index ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,21 +12,22 @@
 
         require_once("./ejercicio7-dispositivo.php");
 
-        use e7dispositivo as Di;
+        use a7dispositivo as Di;
 
-        $dispositivos = [new Di\Dispositivo("04R", "pantalla", "aula 25"), new Di\Dispositivo("26F", "ordenador", "aula 24"), new Di\Dispositivo("10T", "ratón", "aula 26"), new Di\Dispositivo("15T", "ordenador", "aula 26")];
+        $d1 = new Di\Dispositivo("04R", "pantalla", "aula 25");
+        $d2 = new Di\Dispositivo("26F", "ordenador", "aula 24");
+        $d3 = new Di\Dispositivo("10T", "ratón", "aula 26");
+        $d4 = new Di\Dispositivo("15T", "ordenador", "aula 26");
 
-        echo "<p>Foreach</p>";
-        foreach ($dispositivos as $dispositivo) {
+        $dispositivos = [$d1, $d2, $d3, $d4];
+
+        $iterador = new RecursiveArrayIterator($dispositivos);
+        var_dump($iterador);
+        echo "<br>";
+        foreach ($iterador as $dispositivo) {
             echo $dispositivo->ubicacion() . "<br>";
         }
 
-        echo "<p>For</p>";
-        for ($i = 0; $i < count($dispositivos); $i ++) {
-            echo $dispositivos[$i]->ubicacion() . "<br>";
-        }
-
-        echo "<p>Funciones iterables</p>";
         reset($dispositivos);
         while ($dispositivo = current($dispositivos)) {
             echo $dispositivo->ubicacion() . "<br>";
