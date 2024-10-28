@@ -4,9 +4,9 @@
 
     abstract class Funciones {
 
-        abstract function macarronico(): string;
-        abstract function cesar(): string;
-        abstract function palindromo(): string;
+        abstract protected function macarronico(): string;
+        abstract protected function cesar(): string;
+        abstract protected function palindromo(): string;
 
     }
 

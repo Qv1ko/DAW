@@ -2,9 +2,9 @@
 
     namespace e4adulto;
 
-    use e4abstracta as Ab;
-
     require_once("./ejercicio4-abstracta.php");
+    
+    use e4abstracta as Ab;
 
     class Adulto extends Ab\Abstracta {
         

@@ -12,11 +12,13 @@
 
     <?php
 
-        use e4joven as Jo;
-        use e4adulto as Ad;
-
+        require_once("./ejercicio4-abstracta.php");
         require_once("./ejercicio4-adulto.php");
         require_once("./ejercicio4-joven.php");
+
+        use e4abstracta as Ab;
+        use e4joven as Jo;
+        use e4adulto as Ad;
 
         $joven1 = new Jo\Joven("12345678R", 17);
 
@@ -44,10 +46,12 @@
         echo $adulto3->mensaje() . "<br>";
 
         echo $joven1::CONSTANTE . "<br>";
+        echo Ab\Abstracta::CONSTANTE . "<br>";
 
         echo $adulto1::$valor . "<br>";
-        $adulto1->modificar_static();
-        echo $adulto2::$valor . "<br>";
+        $adulto2::modificar_static();
+        Ab\Abstracta::modificar_static();
+        echo Jo\Joven::$valor . "<br>";
 
         echo $adulto3->otros();
 

@@ -7,8 +7,8 @@
         const CONSTANTE = "Todos";
         static $valor = 1;
 
-        abstract function ayudas(): string;
-        abstract function mensaje(): string;
+        abstract protected function ayudas(): string;
+        abstract protected function mensaje(): string;
 
         static function modificar_static() {
             self::$valor++;

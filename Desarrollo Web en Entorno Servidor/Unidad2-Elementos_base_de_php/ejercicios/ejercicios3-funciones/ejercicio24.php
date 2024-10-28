@@ -11,15 +11,15 @@
 <body>
     <?php
 
-        require_once("./ejercicio23-libreria1.php");
-        require_once("./ejercicio23-libreria2.php");
-        require_once("./ejercicio23-libreria3.php");
+        require_once("./actividad23-libreria1.php");
+        require_once("./actividad23-libreria2.php");
+        require_once("./actividad23-libreria3.php");
 
-        use e23libreria1 as Li1;
-        use e23libreria2 as Li2;
-        use e23libreria3 as Li3;
+        use a23libreria1 as Li1;
+        use a23libreria2 as Li2;
+        use a23libreria3 as Li3;
 
-        $number = rand(1, 3);
+        $number = rand(1, 5);
 
         switch ($number) {
             case 1:
@@ -34,9 +34,6 @@
             default:
                 break;
         }
-
-        // $funct = "Li$number\\name()";
-        // $funct;
 
     ?>
 </body>
