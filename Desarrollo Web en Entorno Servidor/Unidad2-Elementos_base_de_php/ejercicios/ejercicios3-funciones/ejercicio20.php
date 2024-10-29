@@ -12,10 +12,9 @@
         
         $arr = ["pa", "la", "bra", "ma", "ma", "lr", "la", "dl", "pa", "pa"];
 
+        // Función convencional
         function searchString(array $arr, string $str = "ma"): int {
-
             $counter = 0;
-
             if (in_array($str, $arr)) {
                 foreach ($arr as $string) {
                     if ($string == $str) {
@@ -23,31 +22,46 @@
                     }
                 }
             }
-
             return $counter;
-
         }
 
-        // Función convencional
         echo "<p>La cadena \"ma\" se encontro en el array " . (searchString($arr) != 1 ? searchString($arr) . " veces" : " una vez") . "</p>";
 
         // Variable de función
         $find = "pa";
-        $funct = searchString($arr, $find);
-        echo "<p>La cadena \"$find\" se encontro en el array " . ($funct != 1 ? $funct . " veces" : " una vez") . "</p>";
+        $funct = function(array $arr, string $str = "ma"): int {
+            $counter = 0;
+            if (in_array($str, $arr)) {
+                foreach ($arr as $string) {
+                    if ($string == $str) {
+                        $counter = $counter + 1;
+                    }
+                }
+            }
+            return $counter;
+        };
+        echo "<p>La cadena \"$find\" se encontro en el array " . ($funct($arr, $find) != 1 ? $funct($arr, $find) . " veces" : " una vez") . "</p>";
 
         // Función anónima
-        function anonima(array $arr, callable $cb, string $word) {
+        $anonima = function(array $arr, string $str = "ma"): int {
+            $counter = 0;
+            if (in_array($str, $arr)) {
+                foreach ($arr as $string) {
+                    if ($string == $str) {
+                        $counter = $counter + 1;
+                    }
+                }
+            }
+            return $counter;
+        };
+        
+        function buscarString(callable $cb, array $arr, string $word) {
             $count = $cb($arr, $word);
             echo "<p>La cadena \"$word\" se encontro en el array " . ($count != 1 ? $count . " veces" : " una vez") . "</p>";
         }
 
-        $callback = function(array $arr, string $word) {
-            return searchString($arr, $word);
-        };
-
         $find = "lr";
-        anonima($arr, $callback, $find);
+        buscarString($anonima, $arr, $find);
 
     ?>
 </body>

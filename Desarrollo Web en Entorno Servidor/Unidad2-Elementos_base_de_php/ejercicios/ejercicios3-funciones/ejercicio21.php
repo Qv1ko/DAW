@@ -10,6 +10,7 @@
 <body>
     <?php
 
+        // Función convencional
         function randNumber(int $min, int $max) {
             $number = rand($min, $max);
             if ($number == 6) {
@@ -19,7 +20,6 @@
             }
         }
 
-        // Función convencional
         randNumber(1, 6);
 
         // Variable de función
@@ -35,11 +35,20 @@
         $aleatorio(1, 6);
 
         // Función anónima
-        function anonima(callable $cb) {
+        $anonima = function(int $min, int $max) {
+            $number = rand($min, $max);
+            if ($number == 6) {
+                echo "<p>¡Enhorabuena!</p>";
+            } else {
+                echo "<p>Inténtelo de nuevo: $number</p>";
+            }
+        };
+
+        function azar(callable $cb) {
             $cb(1, 6);
         }
 
-        anonima($aleatorio);
+        azar($anonima);
 
     ?>
 </body>
