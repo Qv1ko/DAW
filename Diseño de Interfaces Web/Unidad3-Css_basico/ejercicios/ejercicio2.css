@@ -3,7 +3,7 @@ img {
     height: auto;
 }
 
-body {
+.boxed {
     width: 1280px;
     margin: auto;
 }
@@ -72,23 +72,67 @@ main section#destacado {
     margin: 0.5rem 0;
 }
 
-main section#destacado article div.destacado-left h2 {
+main section#destacado article div:first-child {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+main section#destacado article div:first-child h2 {
     color: white;
     font-size: 2rem;
     margin-bottom: 2rem;
 }
 
-main section#destacado article div.destacado-left {
-    width: 60%;
-    display: inline-block;
-}
-
-main section#destacado article div.destacado-right {
+main section#destacado article div:last-child {
     width: 39.2%;
     display: inline-block;
 }
 
-main section#destacado article div.destacado-right button {
+main section#destacado article div:last-child button {
+    background-color: white;
+    border: 1px solid black;
     padding: 0.5rem 2rem;
+    margin-top: 1rem;
     float: right;
+}
+
+footer {
+    background-color: lightgray;
+}
+
+footer > section {
+    margin: 10px;
+}
+
+footer section:first-child div > img {
+    height: 35px;
+    width: auto;
+    vertical-align: top;
+    margin-right: 2rem;
+}
+
+footer section:first-child div > button {
+    min-height: 35px;
+    min-width: 150px;
+}
+
+footer section:last-of-type div > p {
+    width: 85%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+footer section:last-of-type div > img {
+    width: 14.2%;
+}
+
+footer nav {
+    background-color: black;
+    padding-top: 2rem;
+}
+
+footer nav div ul li {
+    display: inline-block;
+    margin: 0 1rem;
 }
