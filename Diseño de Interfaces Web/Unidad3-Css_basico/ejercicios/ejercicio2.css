@@ -22,6 +22,10 @@ header nav ul li {
     display: inline;
 }
 
+body {
+    margin: 0;
+}
+
 section#carrusel {
     margin-bottom: 2rem;
     position: relative;
@@ -130,6 +134,10 @@ footer section:last-of-type div > img {
 footer nav {
     background-color: black;
     padding-top: 2rem;
+}
+
+footer nav div ul {
+    margin: 0;
 }
 
 footer nav div ul li {

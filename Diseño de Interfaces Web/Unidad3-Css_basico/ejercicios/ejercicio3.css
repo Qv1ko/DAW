@@ -1,0 +1,58 @@
+:root {
+    font-size: 16px;
+    background-color: #2b78e4;
+}
+
+.boxed {
+    width: 1280px;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 1rem;
+}
+
+header * {
+    display: inline;
+    vertical-align: middle;
+}
+
+header nav a {
+    color: #fff;
+}
+
+header button {
+    margin-left: 1rem;
+    min-width: 4rem;
+    border: 0.1rem solid #000;
+    border-radius: 0;
+    vertical-align: middle;
+    /* float: right; */
+}
+
+section#busqueda div * {
+    display: inline;
+}
+
+section#busqueda div ul {
+    padding: 0;
+}
+
+section#busqueda div ul a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* section#busqueda div:chi */
+
+main {
+    background-color: #ffffff;
+}
+
+footer nav {
+    background-color: #073763;
+}
