@@ -42,17 +42,95 @@ section#busqueda div ul {
     padding: 0;
 }
 
+section#busqueda div ul li {
+    margin-left: 0.5rem;
+}
+
 section#busqueda div ul a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* section#busqueda div:chi */
+section#busqueda #buscador {
+    margin: 1rem 0;
+    vertical-align: middle;
+}
+
+section#busqueda #buscador select {
+    width: 24%;
+    height: 2rem;
+}
+
+section#busqueda #buscador input {
+    width: 74%;
+    height: 2rem;
+}
 
 main {
     background-color: #ffffff;
 }
 
+main section#productos article {
+    min-width: 18.75rem;
+    width: 24.43%;
+    /* padding: 2%; */
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+/* main section#productos article:first-child {
+    padding-left: 0;
+}
+
+main section#productos article:last-child {
+    padding-right: 0;
+} */
+
+main section#productos article * {
+    width: 100%;
+}
+
+main section#noticias article {
+    min-width: 31.25rem;
+    width: 49.62%;
+    /* margin: 2%; */
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+main section#noticias article * {
+    width: 100%;
+}
+
+footer section#social * {
+    display: inline;
+    vertical-align: middle;
+}
+
+footer section#links_navegacion {
+    padding: 1rem 0;
+}
+
+footer section#links_navegacion div {
+    color: #ffffff;
+    width: 24.43%;
+    display: inline-block;
+}
+
+footer section#links_navegacion div ul li {
+    list-style: none;
+}
+
 footer nav {
     background-color: #073763;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+footer nav li {
+    display: inline;
+}
+
+footer nav li a {
+    color: #ffffff;
 }
