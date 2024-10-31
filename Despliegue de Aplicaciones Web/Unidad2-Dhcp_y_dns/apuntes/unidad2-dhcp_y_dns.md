@@ -146,8 +146,7 @@ El período de concesión configurado para un servidor DHCP se aplica a todas la
 Es la dirección o **rango IP** que **no puede conceder** un servidor DHCP.
 
 -   Ej: si se excluye el rango 10.0.0.8-10.0.0.10, la única forma de que un equipo pueda obtener una de esas tres direcciones es a través de su configuración manual o estática.
-
-![Imagen 3](./imagenes/imagen3.png)
+    ![Imagen 3](./imagenes/imagen3.png)
 
 ## Funcionamiento del protocolo DHCP
 
@@ -249,9 +248,185 @@ El **Agente Relay DHCP** es un equipo o router configurado para escuchar broadca
 -   Por lo tanto, sin configuración adicional, los **DHCP Servers** solo proveen direcciones **IP a clientes en su subred local**.
 -   Para que se puedan asignar direcciones a clientes en otros segmentos, se debe configurar la red para que los DHCP broadcasts puedan llegar desde el cliente al DCHP Server.
 -   Esto se puede hacer de dos maneras: configurando los routers que conectan las subredes para dejar pasar DHCP broadcasts, o configurando Agente Relay DHCP.
-
-![Imagen 7](./imagenes/imagen7.png)
+    ![Imagen 7](./imagenes/imagen7.png)
 
 ### Cómo funciona el agente relay DHCP
 
 Si el cliente realiza una petición de IP, el Agente Relay DHCP cogerá la petición y se la enviará mediante un mensaje unicast al servidor DHCP, el cual se encuentra en otra red, que le devolverá la dirección MAC y la IP asociada, que el Relay DHCP enviará por broadcast a toda su red.
+
+## ¿En qué consiste el servicio DNS?
+
+El Sistema de Nombres de Dominio (DNS) facilita la identificación de recursos en redes TCP/IP al asociar direcciones IP complejas (IPv4 o IPv6) con nombres de dominio simples. Así, en lugar de recordar direcciones numéricas, los usuarios emplean nombres fáciles de reconocer (por ejemplo, el IP 192.168.33.93 se puede identificar como `IG00.jcolonia.local`). El protocolo DNS opera en la capa de aplicación y utiliza el puerto 53.
+
+Un servidor de nombres de dominio NS (Name Server) es un host que dispone de software capaz de responder a las peticiones que le formule un cliente DNS. El cliente DNS le proporciona un nombre articulado (nombre DNS) y espera como respuesta la IP de ese nombre.
+
+![Imagen 8](./imagenes/imagen8.png)
+
+![Imagen 9](./imagenes/imagen9.png)
+
+## Componentes del servicio DNS
+
+### **Espacio de nombres de dominio**
+
+Organiza jerárquicamente los nombres de dominio (nodos en redes TCP/IP) de manera jerárquica, formando una estructura de árbol invertido.
+
+Este sistema permite gestionar nombres agrupados por criterios específicos, como en un sistema de archivos o una lista telefónica.
+
+La jerarquía inicia en un nodo raíz (nivel cero), y generalmente se usan hasta cinco niveles en total; por ejemplo, en "[www.juandecolonia.es](http://www.juandecolonia.es/)" se emplean tres niveles.
+
+-   El nombre completo de un dominio se denomina FQDN (Fully Qualified Domain Name).
+-   Toda la estructura de nombres bajo DNS se llama "espacio de nombres de dominio".
+
+![Imagen 10](./imagenes/imagen10.png)
+
+![Imagen 11](./imagenes/imagen11.png)
+
+-   Ejemplo nombres de dominio
+    -   Pc1.ElRegional.es = `.` → `es` → `ElRegional` → `Pc1`
+    -   Cpd.unesco.org = `.` → `org` → `unesco` → `Cpd`
+    -   daw2.localhost = `.` → `localhost` → `daw2`
+-   Ejemplo de nombres de servicios
+    -   www.google.com = `.` → `com` → `google` → `www`
+    -   ftp.elregional.es = `.` → `elregional` → `ftp`
+
+El nivel superior de dominios (TLD) se organiza en tres categorías:
+
+-   **Genéricos (gTLD)** incluyen:
+    -   `.com` para organizaciones comerciales
+    -   `.edu` para entidades educativas universitarias
+    -   `.net` para empresas de Internet y telecomunicaciones
+    -   `.org` para organizaciones no comerciales
+    -   `.gov` para agencias gubernamentales de EE.UU.
+-   **De país (ccTLD)** utilizan dos letras para representar países, como `.es` para España.
+-   **De propósito específico** incluye dominios como `.arpa` (infraestructura) y otros reservados como `.localhost` y `.test`.
+
+![Imagen 12](./imagenes/imagen12.png)
+
+Dominios de nivel superior (TLD) más populares
+
+El ICANN es el organismo responsable de gestionar los dominios raíz y de nivel superior (TLDs), y desde 2004 permite registrar dominios con caracteres internacionales (IDN).
+
+A nivel de país, el NIC (Network Information Center) es la autoridad que gestiona los dominios, y en España esta función la realiza **Red.es**, una entidad pública vinculada al Ministerio de Economía y Empresa. Para registrar un dominio .es, se debe hacer a través de **Red.es** o de empresas registradoras autorizadas.
+
+### **Base de datos distribuida**
+
+La base de datos DNS consiste en archivos de zona distribuidos entre varios servidores de nombres, lo que la hace redundante y distribuida. Estos archivos de zona pueden ser archivos de texto plano o bases de datos estructuradas (como en tablas relacionales), según el tipo y configuración del servidor. Los archivos de zona almacenan su información en registros de recursos (RR), y cada zona corresponde a un dominio o subdominio.
+
+Tipos de zonas:
+
+Directas
+
+![Imagen 13](./imagenes/imagen13.png)
+
+Inversas
+
+![Imagen 14](./imagenes/imagen14.png)
+
+### **Servidores de nombres**
+
+Los servidores DNS (Name Servers) almacenan información de dominio y responden a consultas de clientes DNS (resolvers).
+
+### **Protocolo DNS**
+
+Define cómo los clientes y servidores DNS interactúan para resolver nombres de dominio en direcciones IP.
+
+### Estructura de un registro de recurso (RR)
+
+Un **registro de recurso (RR)** en DNS es una entrada que contiene información sobre un dominio y se compone de varios campos:
+
+-   **Nombre de dominio**: dominio asociado al RR.
+-   **TTL**: tiempo de vida en caché del registro (opcional).
+-   **Clase**: identifica el protocolo, generalmente IN para TCP/IP.
+-   **Tipo**: tipo de recurso, que puede ser A, PTR, CNAME, SOA, NS, SRV, MX, entre otros.
+-   **Datos**: información relevante al dominio, que varía según el tipo de registro.
+
+### Tipos de registros de recursos (RR)
+
+-   **SOA (Start Of Authority)**: Este es el registro principal de una zona y designa el servidor NS con autoridad sobre la misma, siendo la fuente más confiable de información para todos los registros en esa zona.
+-   **NS (Name Server)**: Define los servidores de nombres autorizados para una zona. Se recomienda tener al menos dos: un servidor primario y uno secundario, para asegurar redundancia y disponibilidad.
+-   **A (Address)** o **registro de host**: Vincula un nombre de dominio totalmente cualificado (FQDN) con una dirección IP específica, lo que permite la resolución directa de nombres a IPs. Para IPv6, se usa el registro **AAAA**.
+-   **CNAME (Canonical Name)**: Crea un alias para un dominio, lo cual permite utilizar múltiples nombres diferentes para un mismo servidor al vincularlos a un registro de tipo A o AAAA.
+-   **MX (Mail Exchange)**: Determina el servidor de correo de un dominio, permitiendo la entrega de emails a través de servidores específicos.
+-   **PTR (Pointer Record)**: Asocia una dirección IP con un nombre de dominio FQDN y se utiliza para la resolución inversa, transformando direcciones IP en nombres de dominio.
+-   **SRV (Service Record)**: Identifica servidores que proporcionan servicios específicos dentro de la red, como el de mensajería instantánea o voz sobre IP (VoIP).
+
+Nota: Para configurar un servidor de nombres (NS) en una zona, es necesario incluir tanto un registro NS como un registro A en esa zona directa.
+
+![Imagen 15](./imagenes/imagen15.png)
+
+![Imagen 16](./imagenes/imagen16.png)
+
+## Servidores DNS
+
+**Servidores autorizados**: almacenan la información completa de una zona.
+
+-   **Servidores raíz**: gestionan el dominio raíz "." y contienen la información de los servidores DNS para cada dominio TLD.
+-   **Servidor primario o maestro**: permite la edición de archivos de zona por el administrador, quien puede agregar, modificar o eliminar registros de recursos (RR).
+-   **Servidor secundario o esclavo**: recibe copias de los archivos de zona desde el servidor primario, pero sólo los lee (transferencia de zona).
+
+**Servidores no autorizados** no almacenan zonas para resolver consultas.
+
+-   **Reenviadores**: redirigen las consultas que no pueden resolver a otros servidores y generalmente son servidores de caché, que construyen una base de datos a partir de consultas previas.
+
+### Ubicación servidores raíz (root)
+
+La **sugerencia de raíz** es un registro de recurso (RR) que ayuda a localizar la IP de los servidores DNS raíz. En Windows, se guarda en `c:\windows\system32\dns\cache.dns` y puede actualizarse mediante el archivo `named.root` disponible en ftp.internic.net.
+
+![Imagen 17](./imagenes/imagen17.png)
+
+![Imagen 18](./imagenes/imagen18.png)
+
+### Servidor primario y servidor secundario
+
+![Imagen 19](./imagenes/imagen19.png)
+
+### Transferencia de zona
+
+La **transferencia de zona** es el proceso de copiar los datos de una zona desde un servidor DNS primario a uno secundario, permitiendo que el secundario aloje una copia.
+
+Cuando hay cambios en el servidor primario, éste notifica a los servidores secundarios, que luego actualizan sus datos mediante transferencias de zona. Este mecanismo mejora la **tolerancia a fallos** en el sistema DNS.
+
+![Imagen 20](./imagenes/imagen20.png)
+
+### Delegación de zona
+
+La **delegación de zona** permite distribuir la gestión de un dominio extenso con muchos subdominios, asignando algunos subdominios a otros servidores DNS primarios.
+
+Así, cada servidor DNS primario se convierte en la autoridad para su zona específica, permitiendo una **gestión descentralizada**.
+
+Un dominio puede subdividirse sin ceder la autoridad sobre los subdominios, pero también puede optar por delegarla para algunos de ellos si así se decide.
+
+![Imagen 21](./imagenes/imagen21.png)
+
+### Reenviadores
+
+![Imagen 22](./imagenes/imagen22.png)
+
+### Cómo funciona el almacenamiento en caché del servidor DNS
+
+![Imagen 23](./imagenes/imagen23.png)
+
+## Proceso de resolución de nombres
+
+1. **Verificación local**: Primero, el cliente busca la IP en su caché DNS (accesible mediante `ipconfig /displaydns`) o en el archivo hosts (`c:\windows\system32\drivers\etc\hosts`), que se carga al iniciar el cliente DNS.
+2. **Consulta al servidor DNS**: Si no encuentra la IP localmente, envía un mensaje UDP al servidor DNS configurado (primario o secundario). Este servidor realiza varias acciones:
+    - Consulta sus propios registros de recursos (RR).
+    - Verifica su caché local.
+    - Si no encuentra la información, puede reenviar la consulta a otros servidores DNS. Esto puede ser de forma recursiva, si consulta a servidores raíz, o iterativa, si utiliza servidores reenviadores.
+
+### Proceso de consultas DNS completo
+
+![Imagen 24](./imagenes/imagen24.png)
+
+1. **(Q1)** El cliente intenta resolver la consulta localmente verificando su caché.
+2. **(Q2)** Si no tiene la información, consulta al servidor DNS preferido.
+3. **(Q3)** El servidor DNS verifica si tiene autoridad sobre la zona del dominio solicitado.
+4. **(Q4)** Si no tiene autoridad, busca la información en su propia caché.
+5. **(Q5)** Si no encuentra la respuesta, consulta a otros servidores, ya sea a los servidores raíz (para los que tiene sugerencias en su archivo `cache.dns`) o a servidores reenviadores.
+
+### Búsqueda directa e inversa
+
+-   **Búsqueda directa**: Consulta que permite localizar la IP asociada a un nombre de dominio.
+-   **Búsqueda inversa**: Consulta que permite encontrar el nombre de dominio correspondiente a una dirección IP.
+
+![Imagen 25](./imagenes/imagen25.png)
