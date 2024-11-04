@@ -17,8 +17,8 @@
             abstract function competencia_digital($atrib);
             abstract function calculo_trienios($atrib2);
             function __construct($nom, $edad) {
-                $this->$nombre = $nom;
-                $this->$edad = $edad;
+                $this->nombre = $nom;
+                $this->edad = $edad;
             }
         }
 
