@@ -14,6 +14,9 @@ body {
 
 header {
     padding: 1rem;
+    background-color: #2b78e4;
+    position: sticky;
+    top: 0;
 }
 
 header * {
@@ -34,8 +37,43 @@ header button {
     /* float: right; */
 }
 
-section#busqueda div * {
+section#busqueda div ul li {
     display: inline;
+}
+
+section#busqueda #buscador {
+    margin: 1rem 0;
+    vertical-align: middle;
+}
+
+section#busqueda #buscador select {
+    width: 20%;
+    height: 2rem;
+}
+
+section#busqueda #buscador input {
+    width: 78%;
+    height: 2rem;
+}
+
+section#busqueda div figure {
+    background-color: #073763;
+    display: inline-block;
+    width: 18%;
+    margin: 0 0.5rem;
+}
+
+section#busqueda div figure img {
+    margin: 0.5rem;
+    width: 30%;
+    vertical-align: middle;
+}
+
+section#busqueda div figure figcaption {
+    width: 55%;
+    display: inline-block;
+    font-size: 0.8rem;
+    vertical-align: middle;
 }
 
 section#busqueda div ul {
@@ -51,49 +89,40 @@ section#busqueda div ul a {
     text-decoration: none;
 }
 
-section#busqueda #buscador {
-    margin: 1rem 0;
-    vertical-align: middle;
-}
-
-section#busqueda #buscador select {
-    width: 24%;
-    height: 2rem;
-}
-
-section#busqueda #buscador input {
-    width: 74%;
-    height: 2rem;
-}
-
 main {
     background-color: #ffffff;
 }
 
+/* main section:first-child {
+
+} */
+
 main section#productos article {
-    min-width: 18.75rem;
-    width: 24.43%;
-    /* padding: 2%; */
+    margin: 0 1rem;
+    width: 21.93%;
     display: inline-block;
     box-sizing: border-box;
 }
 
-/* main section#productos article:first-child {
-    padding-left: 0;
-}
-
-main section#productos article:last-child {
-    padding-right: 0;
-} */
-
-main section#productos article * {
+main section#productos * {
     width: 100%;
 }
 
+main section#productos article h5 {
+    min-height: 5.6rem;
+}
+
+main section#productos hr {
+    margin: 3rem 0;
+}
+
+main section#noticias {
+    padding-bottom: 1rem;
+}
+
 main section#noticias article {
-    min-width: 31.25rem;
-    width: 49.62%;
-    /* margin: 2%; */
+    width: 44.6%;
+    margin: 0 2rem;
     display: inline-block;
     box-sizing: border-box;
 }
@@ -103,12 +132,20 @@ main section#noticias article * {
 }
 
 footer section#social * {
-    display: inline;
+    display: inline-block;
     vertical-align: middle;
 }
 
+footer section#social button {
+    margin-left: 0.5rem;
+    min-width: 6rem;
+    min-height: 2rem;
+    border: 0.1rem solid #000;
+    border-radius: 0;
+}
+
 footer section#links_navegacion {
-    padding: 1rem 0;
+    padding: 0.8rem 0;
 }
 
 footer section#links_navegacion div {
