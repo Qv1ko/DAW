@@ -6,11 +6,11 @@ console.log("--- Ejercicio 7 ---");
  * - Pero no comienza con http://internal.com.
  */
 
-for (let a of document.getElementsByTagName("a")) {
+for (let link of document.querySelectorAll("ul li a")) {
     if (
-        a.getAttributeNode("href").includes("://") &&
-        !a.getAttributeNode("href").includes("http://internal.com")
+        link.getAttribute("href").includes("://") &&
+        !link.getAttribute("href").includes("http://internal.com")
     ) {
-        a.style.color = "orange";
+        link.style.color = "orange";
     }
 }
