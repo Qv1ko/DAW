@@ -6,8 +6,9 @@ console.log("--- Ejercicio 7 ---");
  * - Pero no comienza con http://internal.com.
  */
 
-for (let link of document.querySelectorAll("ul li a")) {
+for (let link of document.querySelectorAll("a")) {
     if (
+        link.getAttribute("href") &&
         link.getAttribute("href").includes("://") &&
         !link.getAttribute("href").includes("http://internal.com")
     ) {
