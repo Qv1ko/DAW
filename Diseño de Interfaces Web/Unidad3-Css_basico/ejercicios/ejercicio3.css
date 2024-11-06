@@ -1,5 +1,5 @@
 :root {
-    font-size: 16px;
+    font-size: 14px;
     background-color: #2b78e4;
 }
 
@@ -25,42 +25,60 @@ header * {
 }
 
 header nav a {
-    color: #fff;
+    color: #ffffff;
 }
 
 header button {
     margin-left: 1rem;
     min-width: 4rem;
-    border: 0.1rem solid #000;
+    border: 0.1rem solid #000000;
     border-radius: 0;
-    vertical-align: middle;
-    /* float: right; */
+    /* vertical-align: middle; */
+    margin-top: 1%;
+    float: right;
 }
 
 section#busqueda div ul li {
     display: inline;
 }
 
-section#busqueda #buscador {
+section#busqueda div ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section#busqueda div#buscador {
     margin: 1rem 0;
     vertical-align: middle;
 }
 
-section#busqueda #buscador select {
+section#busqueda div#buscador select {
     width: 20%;
     height: 2rem;
 }
 
-section#busqueda #buscador input {
-    width: 78%;
+section#busqueda div#buscador input {
+    width: 78.7%;
     height: 2rem;
 }
 
+section#busqueda div#buscador input::placeholder {
+    color: lightblue;
+}
+
+section#busqueda div:last-child {
+    padding-bottom: 1.5rem;
+}
+
 section#busqueda div figure {
-    background-color: #073763;
+    background-color: orange;
     display: inline-block;
-    width: 18%;
+    width: 18.38%;
     margin: 0 0.5rem;
+}
+
+section#busqueda div figure:nth-child(even) {
+    background-color: yellow;
 }
 
 section#busqueda div figure img {
@@ -70,9 +88,8 @@ section#busqueda div figure img {
 }
 
 section#busqueda div figure figcaption {
-    width: 55%;
+    width: 60.47%;
     display: inline-block;
-    font-size: 0.8rem;
     vertical-align: middle;
 }
 
@@ -84,22 +101,38 @@ section#busqueda div ul li {
     margin-left: 0.5rem;
 }
 
-section#busqueda div ul a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
 main {
     background-color: #ffffff;
 }
 
-/* main section:first-child {
+main section:first-child {
+    padding: 1rem 0;
+}
 
-} */
+main section:first-child div#columna {
+    display: inline-block;
+    vertical-align: middle;
+    width: 87.3%;
+}
+
+main section:first-child button {
+    background-color: orange;
+    min-width: 11rem;
+    min-height: 3rem;
+    border: 0.1rem solid #000000;
+    border-radius: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main section:first-child button:hover,
+main section:first-child button:focus {
+    background-color: yellow;
+}
 
 main section#productos article {
     margin: 0 1rem;
-    width: 21.93%;
+    width: 22.3%;
     display: inline-block;
     box-sizing: border-box;
 }
@@ -109,7 +142,11 @@ main section#productos * {
 }
 
 main section#productos article h5 {
-    min-height: 5.6rem;
+    min-height: 5rem;
+}
+
+main section#productos article a:visited {
+    color: orange;
 }
 
 main section#productos hr {
@@ -121,7 +158,7 @@ main section#noticias {
 }
 
 main section#noticias article {
-    width: 44.6%;
+    width: 45.29%;
     margin: 0 2rem;
     display: inline-block;
     box-sizing: border-box;
@@ -140,8 +177,21 @@ footer section#social button {
     margin-left: 0.5rem;
     min-width: 6rem;
     min-height: 2rem;
-    border: 0.1rem solid #000;
+    border: 0.1rem solid #000000;
     border-radius: 0;
+}
+
+footer section#social button:disabled {
+    color: #ffffff;
+    border: 0.2rem solid yellow;
+}
+
+footer section#social span {
+    margin-left: 0.5rem;
+    width: 15px;
+    height: 15px;
+    border: 0.1rem solid #000000;
+    border-radius: 2px;
 }
 
 footer section#links_navegacion {
@@ -150,12 +200,16 @@ footer section#links_navegacion {
 
 footer section#links_navegacion div {
     color: #ffffff;
-    width: 24.43%;
+    width: 24.5%;
     display: inline-block;
 }
 
 footer section#links_navegacion div ul li {
     list-style: none;
+}
+
+footer section#links_navegacion div ul li:first-child {
+    font-weight: bold;
 }
 
 footer nav {
