@@ -1,3 +1,5 @@
+console.log("-- Clase 1 --");
+
 console.log(document);
 
 console.log(document.body);
