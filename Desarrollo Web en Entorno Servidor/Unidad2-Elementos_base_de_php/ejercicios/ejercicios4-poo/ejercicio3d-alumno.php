@@ -1,6 +1,6 @@
 <?php
 
-    namespace e3o1alumno;
+    namespace e3dalumno;
 
     class Alumno {
 

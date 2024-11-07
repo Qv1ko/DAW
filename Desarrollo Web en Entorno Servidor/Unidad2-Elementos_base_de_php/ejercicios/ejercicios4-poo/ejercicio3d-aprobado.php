@@ -1,6 +1,6 @@
 <?php
 
-    namespace e3o4aprobado;
+    namespace e3daprobado;
 
     interface Aprobado {
         function supera_curso(bool &$atrib): string;

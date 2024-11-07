@@ -1,4 +1,4 @@
-<?php namespace e3o4main ?>
+<?php namespace e3cmain ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,17 +6,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 3</title>
+    <title>Ejercicio 3 C</title>
 </head>
 
 <body>
     <?php
 
-        require_once("./ejercicio3-primero.php");
-        require_once("./ejercicio3-segundo.php");
+        require_once("./ejercicio3c-primero.php");
+        require_once("./ejercicio3c-segundo.php");
 
-        use e3o4primero as Pr;
-        use e3o4segundo as Se;        
+        use e3cprimero as Pr;
+        use e3csegundo as Se;
 
         $resultadoPrimero = true;
         $alumnoPr = new Pr\Primero("Miguel", 24, 5.34);

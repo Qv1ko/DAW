@@ -1,4 +1,4 @@
-<?php namespace e3o1index ?>
+<?php namespace e3bmain ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,20 +6,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 3 - Opción 1</title>
+    <title>Ejercicio 3 B</title>
 </head>
 
 <body>
     <?php
 
-        require_once("./ejercicio3-primero.php");
-        require_once("./ejercicio3-segundo.php");
+        require_once("./ejercicio3b-primero.php");
+        require_once("./ejercicio3b-segundo.php");
 
-        use e3o1primero as Pr;
-        use e3o1segundo as Se;
+        use e3bprimero as Pr;
+        use e3bsegundo as Se;
 
         $resultadoPrimero;
-        $alumnoPr = new Pr\Primero("Miguel", 24, 5.34);
+        $alumnoPr = new Pr\Primero("Miguel", 24, [6.34, 3, 7.2]);
+        echo $alumnoPr->nota_media();
 
         var_dump($alumnoPr);
         echo $alumnoPr->supera_curso($resultadoPrimero);

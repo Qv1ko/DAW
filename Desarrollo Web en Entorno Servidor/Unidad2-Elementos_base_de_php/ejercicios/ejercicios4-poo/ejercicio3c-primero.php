@@ -1,10 +1,10 @@
 <?php
 
-    namespace e3o3primero;
+    namespace e3cprimero;
     
-    require_once("./ejercicio3-alumno.php");
+    require_once("./ejercicio3c-alumno.php");
 
-    use e3o3alumno as Al;
+    use e3calumno as Al;
 
     class Primero extends Al\Alumno {
 

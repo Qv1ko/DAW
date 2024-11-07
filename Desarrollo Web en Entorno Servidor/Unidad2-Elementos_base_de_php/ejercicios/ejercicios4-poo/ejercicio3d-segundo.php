@@ -1,12 +1,12 @@
 <?php
 
-    namespace e3o4segundo;
+    namespace e3dsegundo;
     
-    require_once("./ejercicio3-alumno.php");
-    require_once("./ejercicio3-aprobado.php");
+    require_once("./ejercicio3d-alumno.php");
+    require_once("./ejercicio3d-aprobado.php");
 
-    use e3o4alumno as Al;
-    use e3o4aprobado as Ap;
+    use e3dalumno as Al;
+    use e3daprobado as Ap;
 
     class Segundo extends Al\Alumno implements Ap\aprobado {
 

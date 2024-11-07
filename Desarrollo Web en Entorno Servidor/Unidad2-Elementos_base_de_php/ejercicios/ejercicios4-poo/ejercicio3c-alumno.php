@@ -1,8 +1,8 @@
 <?php
 
-    namespace e3o2alumno;
+    namespace e3calumno;
 
-    class Alumno {
+    abstract class Alumno {
 
         static $ciclo = "DAW";
         protected $nombre;
@@ -12,6 +12,8 @@
             $this->nombre = $nombre;
             $this->edad = $edad;
         }
+
+        abstract function supera_curso(bool &$atrib): string;
 
     }
 

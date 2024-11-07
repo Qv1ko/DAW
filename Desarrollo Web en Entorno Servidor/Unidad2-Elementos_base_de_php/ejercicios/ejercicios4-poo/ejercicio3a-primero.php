@@ -1,14 +1,12 @@
 <?php
 
-    namespace e3o4primero;
-    
-    require_once("./ejercicio3-alumno.php");
-    require_once("./ejercicio3-aprobado.php");
+    namespace e3aprimero;
 
-    use e3o4alumno as Al;
-    use e3o4aprobado as Ap;
+    require_once("./ejercicio3a-alumno.php");
 
-    class Primero extends Al\Alumno implements Ap\Aprobado {
+    use e3aalumno as Al;
+
+    class Primero extends Al\Alumno {
 
         private $notaMedia;
 
@@ -17,7 +15,7 @@
             $this->notaMedia = $notaMedia;
         }
 
-        public function supera_curso(bool &$resultado): string {
+        public function supera_curso(mixed &$resultado): string {
             $resultado = $this->notaMedia >= 5;
             return "<p>El alumno $this->nombre" . ($this->notaMedia >= 5 ? " " : " no ") . "ha aprobado el primer curso</p>";
         }

@@ -1,10 +1,10 @@
 <?php
 
-    namespace e3o3segundo;
-    
-    require_once("./ejercicio3-alumno.php");
+    namespace e3asegundo;
 
-    use e3o3alumno as Al;
+    require_once("./ejercicio3a-alumno.php");
+
+    use e3aalumno as Al;
 
     class Segundo extends Al\Alumno {
 
@@ -19,7 +19,7 @@
             $this->proyecto = $proyecto;
         }
 
-        public function supera_curso(bool &$supera_primero): string {
+        public function supera_curso(bool $supera_primero): string {
             return "<p>El alumno $this->nombre" . (($this->notaMedia >= 5 && $this->proyecto >= 5 && $this->fct == "Apto" && $supera_primero) ? " " : " no ") . "ha aprobado el segundo curso</p>";
         }
 
