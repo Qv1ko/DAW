@@ -10,6 +10,5 @@ console.log("--- Ejercicio 11 ---");
 
 let elemento = document.querySelectorAll("ul li")[0];
 
-elemento.innerHTML =
-    document.querySelectorAll("ul li")[0].innerHTML +
-    " es una distribución de Linux";
+let content = elemento.innerHTML + " es una distribución de Linux";
+console.log(content);

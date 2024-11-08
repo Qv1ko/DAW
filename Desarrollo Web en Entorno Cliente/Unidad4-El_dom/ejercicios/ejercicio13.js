@@ -6,6 +6,7 @@ console.log("--- Ejercicio 13 ---");
 
 elemento = document.getElementById("prueba");
 
+// switch (elemento.tagName) {
 switch (elemento.nodeName) {
     case "INPUT":
         console.log("Es un input");

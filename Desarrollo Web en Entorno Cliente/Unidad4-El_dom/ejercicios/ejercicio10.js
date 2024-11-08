@@ -5,6 +5,7 @@ console.log("--- Ejercicio 10 ---");
  * lo sea, qué modificación harías.
  */
 
-// elemento.textContent + "Hola" + "<br>";
-document.body.getElementsByClassName("destacado")[0].textContent =
-    "Hola" + "<br>"; // Es correcta si se define el elemento
+let elemento = document.body.getElementsByClassName("destacado")[0];
+
+// elemento.textContent + "Hola" + "<br>"; // Es incorrecto porque añade todo el texto incluyendo la etiqueta
+elemento.innerHTML = "Hola" + "<br>"; // La forma correcta sería con innerHTML para que interprete la etiqueta
