@@ -1,4 +1,4 @@
-console.log("--- Ejercicio 14 ---");
+console.log("--- Ejercicio 14 A ---");
 
 /*
  * Crear una tabla
