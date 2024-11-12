@@ -1,0 +1,22 @@
+section.container {
+    width: 1280px;
+    margin: auto;
+}
+
+section.container .item {
+    display: inline-block;
+    width: 30.3%;
+    margin: 0 16px;
+}
+
+section.container .item img {
+    width: 100%;
+}
+
+section.container .item h3 {
+    margin-bottom: 20px;
+}
+
+section.container .item p {
+    height: 80px;
+}
