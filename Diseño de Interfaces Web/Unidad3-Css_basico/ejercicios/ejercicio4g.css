@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+}
+
+.boxed {
+    width: 800px;
+    margin: auto;
+    padding: 32px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.top-bar .boxed {
+    border-top: 1px solid black;
+}
+
+.bottom-bar .boxed {
+    border-bottom: 1px solid black;
+}
+
+.main-content {
+    background-color: #6fa8dc;
+    border: 1px solid black;
+}
+
+section#container {
+    margin: 16px auto;
+}
+
+section#container .boxed {
+    background-color: rgba(0, 141, 255, 0.5);
+}
+
+section#container .top-bar .boxed * {
+    display: inline;
+    vertical-align: center;
+}
+
+section#container .top-bar .boxed button {
+    color: white;
+    background-color: limegreen;
+    border: 1px solid black;
+    box-shadow: 1px 1px 0 black;
+    padding: 6px 16px;
+    float: right;
+}
+
+section#container .main-content .boxed * {
+    vertical-align: middle;
+}
+
+section#container .main-content .boxed .text-content {
+    display: inline-block;
+    width: 56%;
+}
+
+section#container .main-content .boxed .text-content h2 {
+    margin: 0;
+}
+
+section#container .main-content .boxed .text-content p {
+    margin: 28px 0;
+}
+
+section#container .main-content .boxed .text-content .buttons button {
+    border-radius: 6px;
+}
+
+section#container
+    .main-content
+    .boxed
+    .text-content
+    .buttons
+    button:last-child {
+    color: white;
+    background-color: #063662;
+    padding: 2px 14px;
+}
+
+section#container .main-content .boxed .image-placeholder {
+    margin-left: 32px;
+    display: inline-block;
+    width: 35%;
+}
+
+section#container .main-content .boxed .image-placeholder img {
+    width: 100%;
+}
+
+section#container .bottom-bar .boxed * {
+    vertical-align: center;
+}
+
+section#container .bottom-bar .boxed .footer-text {
+    display: inline-block;
+    width: 70%;
+}
+
+section#container .bottom-bar .boxed .call-button {
+    width: 16%;
+    color: white;
+    background-color: limegreen;
+    border: 1px solid black;
+    box-shadow: 1px 1px 0 black;
+    padding: 8px 0;
+    margin-top: 1%;
+    float: right;
+}
