@@ -148,9 +148,9 @@ const equiposInformaticos = [
     },
 ];
 
-objToTable(equiposInformaticos);
+objArrayToTable(equiposInformaticos);
 
-function objToTable(objArray) {
+function objArrayToTable(objArray) {
     let table = document.createElement("table");
 
     for (let i = 0; i < objArray.length; i++) {
@@ -168,7 +168,16 @@ function objToTable(objArray) {
 
         for (let valor of Object.values(objArray[i])) {
             column = document.createElement("td");
-            column.textContent = valor;
+            if (valor instanceof Date) {
+                column.textContent =
+                    valor.getDate() +
+                    "/" +
+                    (valor.getMonth() + 1) +
+                    "/" +
+                    valor.getFullYear();
+            } else {
+                column.textContent = valor;
+            }
             row.append(column);
         }
 
