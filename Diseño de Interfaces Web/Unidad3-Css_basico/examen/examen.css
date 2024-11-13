@@ -1,0 +1,146 @@
+:root {
+    font-size: 14px;
+}
+
+h2 + p {
+    color: white;
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    border-bottom: 1px solid black;
+    margin-bottom: 16px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header h1 {
+    display: inline-block;
+    width: 91%;
+}
+
+header .iconos {
+    display: inline;
+}
+
+header .iconos img {
+    width: 25px;
+    height: 25px;
+}
+
+header nav ul {
+    padding-left: 0;
+}
+
+header nav li {
+    display: inline;
+}
+
+header nav ul li:nth-child(even) a {
+    color: orange;
+}
+
+header nav ul li:nth-child(odd) a {
+    color: blue;
+}
+
+section#banner img {
+    width: 100%;
+}
+
+section#banner h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    width: 710px;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+section#productos .product {
+    display: inline-block;
+    margin: 2rem;
+    width: 29.7%;
+    vertical-align: top;
+}
+
+section#productos .product:first-child {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+section#productos .product:last-child {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+section#productos .product img {
+    width: 100%;
+}
+
+section#productos .product p {
+    height: 5rem;
+}
+
+section#productos .product a {
+    float: right;
+}
+
+section#productos .product a:visited {
+    color: orange;
+}
+
+section#cta-section {
+    background-color: lightblue;
+    padding: 2rem;
+}
+
+section#cta-section .texto {
+    display: inline-block;
+    width: 80%;
+    margin-right: 3rem;
+    vertical-align: middle;
+}
+
+section#cta-section .button {
+    display: inline-block;
+    width: 10%;
+    vertical-align: middle;
+}
+
+section#cta-section .button .cta-button {
+    background-color: orange;
+    width: 12rem;
+    height: 3.5rem;
+    border: 1px solid black;
+    box-shadow: 1px 1px black;
+    margin: 1rem 0;
+}
+
+section#cta-section .button .cta-button:hover {
+    background-color: red;
+}
+
+footer {
+    border-top: 1px solid black;
+    margin-top: 2rem;
+    padding: 2rem 0;
+}
+
+footer img {
+    display: inline-block;
+    width: 20%;
+}
+
+footer p {
+    display: inline-block;
+    width: 53%;
+    margin: 0 2rem;
+}

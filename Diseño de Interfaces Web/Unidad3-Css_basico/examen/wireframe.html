@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Víctor García" />
+        <title>Wireframe</title>
+    </head>
+    <body>
+        <form action="#" method="get">
+            <div style="border: 2px solid black; padding: 8px">
+                <input
+                    type="text"
+                    name="nombre"
+                    placeholder="Nombre y Apellidos"
+                    pattern="[A-Z][a-z]+( [A-Z][a-z]+){0,3}"
+                    minlength="2"
+                    maxlength="50"
+                    required
+                />
+                <div>
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        pattern=".+\.jcyl\.es"
+                        required
+                    />
+                    <input
+                        type="tel"
+                        name="phone"
+                        placeholder="Telefono"
+                        pattern="[0-9]{3}(-[0-9]{2}){3}"
+                    />
+                </div>
+                <div>
+                    <p>Sexo</p>
+                    <input type="radio" name="sexo" value="hombre" />Hombre
+                    <input type="radio" name="sexo" value="mujer" />Mujer
+                </div>
+                <div>
+                    <p>Fecha de nacimiento</p>
+                    <input type="date" name="date" max="2024-11-13" />
+                </div>
+            </div>
+
+            <div>
+                <p>Departamento</p>
+                <input
+                    type="text"
+                    list="departamento-listado"
+                    name="departamento"
+                    placeholder="Departamento"
+                />
+                <datalist id="departamento-listado">
+                    <option value="administrativo">Administrativo</option>
+                    <option value="informática">Informática</option>
+                    <option value="comercio_precargados">
+                        Comercio precargados
+                    </option>
+                </datalist>
+            </div>
+            <div>
+                <p>Curriculum</p>
+                <input type="file" name="curriculum" accept="application/pdf" />
+                < Adjuntar
+            </div>
+            <div style="margin: 16px 0">
+                <input type="checkbox" name="check" required />Acepto las
+                condiciones de uso
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
