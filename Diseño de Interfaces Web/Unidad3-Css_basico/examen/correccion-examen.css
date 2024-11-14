@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+:root {
+    font-size: 14px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 + p {
+    color: white;
+}
+
+header {
+    margin-top: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+header h1 {
+    display: inline-block;
+    width: 50%;
+}
+
+header .iconos {
+    float: right;
+}
+
+header .iconos img {
+    width: 25px;
+    height: 25px;
+}
+
+header nav ul {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0 15px;
+    border-right: 1px solid black;
+}
+
+header nav ul li:nth-child(2n) a {
+    color: orange;
+}
+
+header nav ul li:nth-child(2n - 1) a {
+    color: blue;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header nav ul li:first-child {
+    padding-left: 0;
+}
+
+section#productos {
+    margin-bottom: 15px;
+}
+
+section#banner h3 {
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 125px;
+    left: 40%;
+}
+
+section#productos article {
+    display: inline-block;
+    width: 32%;
+    padding: 0 10px;
+    vertical-align: top;
+}
+
+section#productos article:first-child {
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+section#productos article:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+section#productos article h2 {
+    margin-bottom: 16px;
+}
+
+section#productos article p {
+    min-height: 85px;
+    padding-top: 5px;
+}
+
+section#productos article a {
+    float: right;
+}
+
+section#productos article a:visited {
+    color: orange;
+}
+
+section#cta-section {
+    border: 2px solid black;
+    background-color: lightblue;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+section#cta-section div.texto {
+    display: inline-block;
+    width: 72%;
+}
+
+section#cta-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+section#cta-section p {
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+section#cta-section div.button {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+section#cta-section div.button button {
+    display: block;
+    background-color: orange;
+    border: 1px solid black;
+    /* padding: 15px 45px; */
+    width: 250px;
+    height: 75px;
+    margin: 25px auto;
+}
+
+section#cta-section div.button button:hover {
+    background-color: red;
+}
+
+footer {
+    border-top: 2px solid black;
+    padding: 20px 0;
+}
+
+footer img {
+    display: inline-block;
+    width: 20%;
+}
+
+footer p {
+    display: inline-block;
+    width: 58%;
+    vertical-align: top;
+    padding: 5px 15px;
+}
