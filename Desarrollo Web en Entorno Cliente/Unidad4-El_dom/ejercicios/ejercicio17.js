@@ -5,10 +5,9 @@ console.log("--- Ejercicio 17 ---");
  * Escribe el código que agrega a cada <li> el número de sus descendientes.
  */
 
-liElements = document.body.getElementsByTagName("li");
+liElements = document.body.querySelectorAll("li");
 
-for (let i = 0; i < liElements.length; i++) {
-    let descendants = liElements[i].getElementsByTagName("li").length;
-    liElements[i].childNodes[0].textContent +=
-        descendants > 0 ? "[" + descendants + "]" : "";
-}
+liElements.forEach((li) => {
+    let descendants = li.querySelectorAll("li").length;
+    li.childNodes[0].data += descendants > 0 ? `[${descendants}]` : "";
+});

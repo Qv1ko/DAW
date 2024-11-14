@@ -13,7 +13,13 @@ function clockStart() {
     clockId = setInterval(() => {
         now = new Date();
         clock.textContent =
-            now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
+            (now.getHours() < 10 ? "0" + now.getHours() : now.getHours()) +
+            ":" +
+            (now.getMinutes() < 10
+                ? "0" + now.getMinutes()
+                : now.getMinutes()) +
+            ":" +
+            (now.getSeconds() < 10 ? "0" + now.getSeconds() : now.getSeconds());
     }, 1000);
 }
 

@@ -20,5 +20,6 @@ while (true) {
     }
     let li = document.createElement("li");
     li.textContent = input;
+    // li.innerHTML = input; // para detectar elementos HTML
     ul.append(li);
 }
