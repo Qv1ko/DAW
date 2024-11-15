@@ -28,9 +28,5 @@ function ordenedTable(table, columnName) {
     );
 
     tb = document.querySelector("table tbody");
-    tb.innerHTML = "";
-
-    rows.forEach((row) => {
-        tb.append(row);
-    });
+    tb.append(...rows);
 }

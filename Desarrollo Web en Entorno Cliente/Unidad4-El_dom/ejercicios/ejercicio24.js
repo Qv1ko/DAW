@@ -5,7 +5,10 @@ console.log("--- Ejercicio 24 ---");
  * celda de la tabla tendrá un color de fondo aleatorio.
  */
 
-colorTable(4, 5);
+setInterval(() => {
+    document.body.innerHTML = "";
+    colorTable(8, 8);
+}, 2000);
 
 function colorTable(rows, columns) {
     table = document.createElement("table");
@@ -17,6 +20,8 @@ function colorTable(rows, columns) {
             hex = randColor();
             td.textContent = hex;
             td.style.backgroundColor = hex;
+            td.style.width = "25px";
+            td.style.height = "50px";
             tr.append(td);
         }
         table.append(tr);

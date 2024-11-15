@@ -18,14 +18,10 @@ let proceso = setTimeout(() => {
 }, 1500);
 
 function showNotification(options) {
-    document.body.innerHTML +=
-        "<div class=" +
-        options.className +
-        " style='background-color: green; position: absolute; top: " +
-        options.top +
-        "px; right: " +
-        options.right +
-        "px'><p>" +
-        options.html +
-        "</p></div>";
+    let div = document.createElement("div");
+    div.classList.add("notification", options.className);
+    div.style.top = options.top + "px";
+    div.style.right = options.right + "px";
+    div.textContent = options.html;
+    document.body.append(div);
 }
