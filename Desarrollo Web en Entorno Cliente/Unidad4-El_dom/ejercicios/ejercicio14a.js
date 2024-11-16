@@ -2,25 +2,27 @@ console.log("--- Ejercicio 14 A ---");
 
 /*
  * Crear una tabla
- * - Crea una función que recibe como parámetros dos números (número de filas
- *   y número de columnas).
- *   - En la función se crea una tabla de esas filas y esas columnas. Cada celda
- *     tendrá algo de contenido de texto.
- *   - La tabla se "engancha" al árbol del DOM, al colocarla como hija del body.
- *   - La función devolverá un puntero al elemento del DOM asociado a la tabla.
- * - Crea una función a la que pasas como parámetro un puntero a la tabla y el
- *   número de columnas que tiene la tabla.
- *   - La función insertará, al principio de la tabla, una fila con ese número
- *     de columnas.
+ * - Crea una función que recibe como parámetros dos números (número
+ *    de filas y número de columnas).
+ *   - En la función se crea una tabla de esas filas y esas columnas.
+ *      Cada celda tendrá algo de contenido de texto.
+ *   - La tabla se "engancha" al árbol del DOM, al colocarla como
+ *      hija del body.
+ *   - La función devolverá un puntero al elemento del DOM asociado
+ *      a la tabla.
+ * - Crea una función a la que pasas como parámetro un puntero a la
+ *    tabla y el número de columnas que tiene la tabla.
+ *   - La función insertará, al principio de la tabla, una fila con
+ *      ese número de columnas.
  * - Crea una función a la que pasas como parámetro un puntero a la tabla.
- *   - La función insertará, antes de la tabla, un elemento de tipo cabecera (h1,
- *     h2, ...) con un texto.
- * - Crea una función a la que pasas como parámetro un puntero a la tabla y un
- *   número de fila.
+ *   - La función insertará, antes de la tabla, un elemento de tipo
+ *      cabecera (h1, h2, ...) con un texto.
+ * - Crea una función a la que pasas como parámetro un puntero a la
+ *    tabla y un número de fila.
  *   - La función eliminará esa fila de la tabla.
  * - Crea una función a la que pasas como parámetro un puntero a la tabla.
- *   - La función creará otra tabla igual a la que se pasa como parámetro, y la
- *     colocará detrás de la tabla que ya existe.
+ *   - La función creará otra tabla igual a la que se pasa como
+ *      parámetro, y la colocará detrás de la tabla que ya existe.
  */
 
 let tabla = tableFormat(8, 8);

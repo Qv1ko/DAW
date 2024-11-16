@@ -1,5 +1,10 @@
 console.log("--- Ejercicio 20 ---");
 
+/*
+ * Escribe la función camelize(str) que convierta palabras separadas
+ *  por guión en palabras con mayúscula.
+ */
+
 console.log(camelize("border-left-width"));
 console.log(camelize("mi-cadena-corta"));
 console.log(camelize("background-color"));

@@ -1,3 +1,5 @@
+console.log("-- Clase 3 --");
+
 function Persona(nombre, apellido) {
     this.nombre = nombre;
     this.apellido = apellido;

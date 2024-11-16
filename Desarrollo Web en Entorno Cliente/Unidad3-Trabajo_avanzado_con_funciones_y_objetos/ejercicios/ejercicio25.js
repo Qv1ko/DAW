@@ -1,6 +1,10 @@
 console.log("--- Ejercicio 25 ---");
 
-class Reloj {
+/*
+ * Reescríbe la clase Reloj con la sintaxis de clase.
+ */
+
+class Reloj25 {
     temporalizador;
     plantilla;
 
@@ -38,5 +42,5 @@ class Reloj {
     }
 }
 
-let miReloj = new Reloj({ plantilla: "h:m:s" });
+let miReloj = new Reloj25({ plantilla: "h:m:s" });
 miReloj.start();

@@ -1,3 +1,5 @@
+console.log("-- Clase 3 --");
+
 if ("0") {
     alert("Hello");
 }
@@ -65,7 +67,7 @@ alert(a + b); // 12
 
 const BIRTHDAY = "18.04.1982";
 
-const age = someCode(BIRTHDAY);
+//const age = someCode(BIRTHDAY);
 
 // ---
 
@@ -82,8 +84,8 @@ alert(`Hola ${name}`); // Hola Ilya
 5 > 4; // true
 "apple" > "pineapple"; // false
 "2" > "12"; // true
-undefinned == null; // true
-undefinned === null; // false
+undefined == null; // true
+undefined === null; // false
 null == "\n0\n"; // false
 null === +"\n0\n"; // false
 0 == +"\n0\n"; // true

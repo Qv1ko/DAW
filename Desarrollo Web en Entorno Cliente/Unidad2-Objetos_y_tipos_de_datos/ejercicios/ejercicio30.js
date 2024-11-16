@@ -1,5 +1,32 @@
 console.log("--- Ejercicio 30 ---");
 
+/*
+ * Crea una función constructora Disco que almacene la siguiente información:
+ * - Nombre del disco.
+ * - Grupo de música o cantante.
+ * - Año de publicación.
+ * - Tipo de música (podrá ser "rock", "pop", "punk" o "indie").
+ * - Localización: almacenará un número de estantería.
+ * - Prestado: almacenará un valor booleano. Por defecto será false.
+ * La función constructora se puede llamar con o sin parámetros:
+ * - Sin parámetros: las 4 primeras propiedades serán cadenas
+ *    vacías, la localización será 0 por defecto y prestado estará a false.
+ * - Con parámetros: se pasarán solo las cinco primeras propiedades; la
+ *    propiedad prestado será false.
+ * Además, tendrá los siguientes métodos:
+ * - Un método que permitirá cambiar el número de estantería en la localización.
+ * - Un método que permitirá cambiar la propiedad prestado.
+ * - Un método que muestre toda la información de un disco.
+ * El programa hará lo siguiente:
+ * - Creará un objeto de tipo disco, para lo cual te pide los parámetros.
+ * - Presente un menú que permita:
+ *   - Mostrar la información del disco que se ha añadido
+ *   - Cambiar el disco de estantería
+ *   - Prestar un disco
+ *   - Devolver un disco
+ *   - Terminar
+ */
+
 let disco45 = new Disco("More than a feeling", "Boston", "1976", "rock", 4);
 let salir = false;
 let opcion;

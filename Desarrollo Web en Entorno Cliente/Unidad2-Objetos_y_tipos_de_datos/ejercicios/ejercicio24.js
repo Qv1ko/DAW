@@ -1,5 +1,10 @@
 console.log("--- Ejercicio 24 ---");
 
+/*
+ * Escribe una función a la que pasamos el array users y devuelve un
+ *  array con los nombres de los usuarios.
+ */
+
 let john = {
     user: "John",
     age: 25,

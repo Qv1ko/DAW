@@ -1,5 +1,10 @@
 console.log("--- Ejercicio 4 ---");
 
+/*
+ * Crea un programa que escriba por consola un listado de horas que
+ *  vayan desde las 9 hasta las 21:30 de 30 minutos en 30 minutos.
+ */
+
 let hour, min;
 
 hour = 9;

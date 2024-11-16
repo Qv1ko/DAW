@@ -1,8 +1,8 @@
 console.log("--- Ejercicio 23 ---");
 
 /*
- * Completa la página web, para mostrar en el div con id="info", la siguiente
- * información de la web:
+ * Completa la página web, para mostrar en el div con id="info", la
+ *  siguiente información de la web:
  */
 
 info = document.getElementById("info");

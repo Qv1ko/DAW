@@ -1,5 +1,10 @@
 console.log("--- Ejercicio 20 ---");
 
+/*
+ * Haz una copia "profunda" de alum1, alum2 y clase utilizando los
+ *  métodos de JSON.
+ */
+
 let alum1 = { nombre: "Fede", edad: 30, estudios: ["SMR"] };
 let alum2 = { nombre: "Sol", edad: 25, estudios: [] };
 let clase = ["DWEC", 126, alum1, alum2];

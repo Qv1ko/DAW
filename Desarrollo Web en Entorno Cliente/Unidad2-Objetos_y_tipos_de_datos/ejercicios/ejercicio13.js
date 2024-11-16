@@ -1,5 +1,10 @@
 console.log("--- Ejercicio 13 ---");
 
+/*
+ * Crea una función que determine si la cadena de texto que se le
+ *  pasa como parámetro es un palíndromo.
+ */
+
 function esPalindromo(str) {
     let original = str.replaceAll(" ", "").toLowerCase();
     let invertida = original.split("").reverse().join("");

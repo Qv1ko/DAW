@@ -2,8 +2,8 @@ console.log("--- Ejercicio 22 ---");
 
 /*
  * Escribir una función showNotification(options) que cree una
- * notificación: <div class="notification"> con el contenido dado. La
- * notificación debería desaparecer automáticamente despues de 1.5 segundos.
+ *  notificación: <div class="notification"> con el contenido dado.
+ * La notificación debería desaparecer automáticamente despues de 1.5 segundos.
  */
 
 showNotification({

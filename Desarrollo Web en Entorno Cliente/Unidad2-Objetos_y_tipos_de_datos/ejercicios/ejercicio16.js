@@ -1,5 +1,9 @@
 console.log("--- Ejercicio 16 ---");
 
+/*
+ * ¿qué ocurrirá cuando se ejecuta la última línea?
+ */
+
 let arr = ["a", "b"];
 
 arr.push(function () {

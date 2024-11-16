@@ -1,9 +1,8 @@
 console.log("--- Ejercicio 8 ---");
 
 /*
- * Indica la salida que nos darían por consola
- * las siguientes expresiones, después de haber
- * ejecutado las siguientes sentencias:
+ * Indica la salida que nos darían por consola las siguientes
+ *  expresiones, después de haber ejecutado las siguientes sentencias:
  */
 
 let x = document.getElementById("id1");

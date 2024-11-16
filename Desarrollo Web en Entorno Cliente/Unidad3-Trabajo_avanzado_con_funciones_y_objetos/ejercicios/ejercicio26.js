@@ -1,5 +1,10 @@
 console.log("--- Ejercicio 26 ---");
 
+/*
+ * Al intentar crear un objeto de la clase Rabbit, se produce un
+ *  error. ¿Por qué? Arréglalo.
+ */
+
 class Animal {
     constructor(name) {
         this.name = name;

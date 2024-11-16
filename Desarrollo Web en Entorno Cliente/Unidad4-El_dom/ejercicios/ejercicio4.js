@@ -1,7 +1,8 @@
 console.log("--- Ejercicio 4 ---");
 
 /*
- * A partir de la página html del ejercicio, se pide escribir las expresiones para acceder a:
+ * A partir de la página html del ejercicio, se pide escribir las
+ *  expresiones para acceder a:
  */
 
 // La tabla con id="age-table".

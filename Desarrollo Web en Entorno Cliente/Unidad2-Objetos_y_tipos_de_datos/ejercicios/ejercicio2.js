@@ -1,5 +1,10 @@
 console.log("--- Ejercicio 2 ---");
 
+/*
+ * Escribe la función isEmpty(obj) que devuelva el valor true si el
+ *  objeto no tiene propiedades, en caso contrario false.
+ */
+
 let schedule = {};
 
 // function isEmpty(obj) {

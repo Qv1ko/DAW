@@ -1,6 +1,12 @@
 console.log("--- Ejercicio 28 ---");
 
-let arr = [1, 2, 3, 4];
+/*
+ * Crea una función llamada vaciarArray(), que recibe como parámetro
+ *  un array y vacía su contenido, es decir, después de llamar a esta
+ *  función, el array pasado como parámetro no tendrá datos.
+ */
+
+arr = [1, 2, 3, 4];
 let vaciarArray = (arr) => arr.splice(0);
 
 // function vaciarArray(arr) {

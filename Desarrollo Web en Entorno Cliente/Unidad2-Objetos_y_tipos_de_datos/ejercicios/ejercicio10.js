@@ -1,5 +1,14 @@
 console.log("--- Ejercicio 10 ---");
 
+/*
+ * Crea un programa que pida al usuario un número entero por pantalla
+ *  y muestre por consola:
+ * - El número con 4 decimales.
+ * - El número en binario.
+ * - El número en octal.
+ * - El número en hexadecimal.
+ */
+
 let number = +prompt("Escribe un número");
 
 console.log(number);

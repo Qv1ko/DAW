@@ -1,6 +1,12 @@
 console.log("--- Ejercicio 3 ---");
 
-let grupos = [
+/*
+ * Escribe una sentencia para crear el array grupos12, con los objetos
+ *  del array grupo que sean del aula "12".
+ * Escribe una sentencia para ordenar el array grupos por curso.
+ */
+
+grupos = [
     { aula: "11", grupo: "752A", curso: 2, ciclo: "ASIR", turno: "D" },
     { aula: "12", grupo: "751A", curso: 1, ciclo: "ASIR", turno: "D" },
     { aula: "12", grupo: "751B", curso: 1, ciclo: "ASIR", turno: "V" },

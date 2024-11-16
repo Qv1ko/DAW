@@ -1,9 +1,9 @@
 console.log("--- Ejercicio 19 ---");
 
 /*
- * Crea un reloj que muestra la fecha actual. Cuando se pulsa en Start, muestra
- * la hora/minutos/segundos, que se actualiza cada segundo; y cuando se pulsa en
- * Stop, deja de actualizarse.
+ * Crea un reloj que muestra la fecha actual. Cuando se pulsa en
+ *  Start, muestra la hora/minutos/segundos, que se actualiza cada
+ *  segundo; y cuando se pulsa en Stop, deja de actualizarse.
  */
 
 let clock = document.getElementById("clock");

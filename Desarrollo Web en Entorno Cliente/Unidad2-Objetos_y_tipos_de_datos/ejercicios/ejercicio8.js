@@ -1,5 +1,13 @@
 console.log("--- Ejercicio 8 ---");
 
+/*
+ * Crea una función constructora Accumulator(valorInicial).
+ * El objeto que se crea debería:
+ * - Almacenar el valorInicial en la propiedad value.
+ * - Tendrá un método read() que se utiliza para pedir un valor y
+ *    agregarlo a value.
+ */
+
 function Accumulator(valorInicial = 0) {
     this.value = valorInicial;
 

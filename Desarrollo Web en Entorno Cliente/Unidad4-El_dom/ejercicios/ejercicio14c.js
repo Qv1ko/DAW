@@ -1,8 +1,8 @@
 console.log("--- Ejercicio 14 C ---");
 
 /*
- * Completa el código, de modo que se muestren en pantalla, en
- * una tabla, los datos del array “equiposInformaticos”.
+ * Completa el código, de modo que se muestren en pantalla, en una
+ *  tabla, los datos del array "equiposInformaticos".
  */
 
 const equiposInformaticos = [

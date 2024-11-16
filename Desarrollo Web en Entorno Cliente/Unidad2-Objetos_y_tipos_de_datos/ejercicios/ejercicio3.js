@@ -1,5 +1,11 @@
 console.log("--- Ejercicio 3 ---");
 
+/*
+ * Escribe el código para sumar todos los salarios y almacenar el
+ *  resultado en una variable sum.
+ * Si salaries está vacío, el valor de sum será 0.
+ */
+
 let salaries = {
     John: 100,
     Ann: 160,
@@ -9,14 +15,14 @@ let salaries = {
 let sum = function () {
     let total = 0;
 
-    for (worker in salaries) {
+    for (let worker in salaries) {
         total += salaries[worker];
     }
 
     let values = Object.values(salaries);
 
     for (let i = 0; i < values.length; i++) {
-        total += valores[i];
+        total += values[i];
     }
 
     return total;
@@ -29,7 +35,7 @@ let sum2 = function () {
     let values = Object.values(salaries);
 
     for (let i = 0; i < values.length; i++) {
-        total += valores[i];
+        total += values[i];
     }
 
     return total;

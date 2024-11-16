@@ -1,5 +1,7 @@
+console.log("-- Clase 2 --");
+
 let v = prompt("Escribe un número:");
-let i = prompt("Escribe un número:");
+i = prompt("Escribe un número:");
 
 // Guarda el valor del prompt como Number por forzalo con el +
 //v = +prompt("Escribe un número:");
@@ -22,11 +24,11 @@ alert(confirm("test"));
 alert(+confirm("test"));
 
 let n1 = 1,
-  n2 = "test";
+    n2 = "test";
 
 console.log(n1);
 console.log(n2);
 
 for (let i = 0, j = 100; i <= 3; i++, j--) {
-  console.log(`i = ${i}; j = ${j}`);
+    console.log(`i = ${i}; j = ${j}`);
 }

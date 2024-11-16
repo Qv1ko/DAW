@@ -1,3 +1,5 @@
+console.log("-- Clase 5 --");
+
 let arr = ["Yo", "estoy", "estudiando", "JavaScript"];
 
 console.log(arr);

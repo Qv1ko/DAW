@@ -1,6 +1,11 @@
 console.log("--- Ejercicio 27 ---");
 
-let arr = [1, { ejercicio: 27, lenguaje: "javascript" }, "prueba", true];
+/*
+ * Crea una función llamada copiarArray(), que recibe como parámetro
+ *  un array con elementos de cualquier tipo y devuelve una copia del mismo.
+ */
+
+arr = [1, { ejercicio: 27, lenguaje: "javascript" }, "prueba", true];
 
 let copiarArray = (arr) => [...arr];
 

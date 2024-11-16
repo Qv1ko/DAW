@@ -1,8 +1,8 @@
 console.log("--- Ejercicio 24 ---");
 
 /*
- * Crea una tabla de 5 columnas y 4 filas, con 20 colores. Cada
- * celda de la tabla tendrá un color de fondo aleatorio.
+ * Crea una tabla de 5 columnas y 4 filas, con 20 colores.
+ * Cada celda de la tabla tendrá un color de fondo aleatorio.
  */
 
 setInterval(() => {
@@ -20,8 +20,7 @@ function colorTable(rows, columns) {
             hex = randColor();
             td.textContent = hex;
             td.style.backgroundColor = hex;
-            td.style.width = "25px";
-            td.style.height = "50px";
+            td.style.padding = "16px";
             tr.append(td);
         }
         table.append(tr);

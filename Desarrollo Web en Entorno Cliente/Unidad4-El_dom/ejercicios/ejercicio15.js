@@ -5,7 +5,8 @@ console.log("--- Ejercicio 15 ---");
  * Para cada item de la lista:
  * - Preguntar al usuario acerca del contenido usando prompt.
  * - Crear el <li> con ello y agregarlo a <ul>.
- * - Continuar hasta que el usuario cancela el ingreso (presionando Esc o con un ingreso vacío).
+ * - Continuar hasta que el usuario cancela el ingreso (presionando
+ *    Esc o con un ingreso vacío).
  * Todos los elementos deben ser creados dinámicamente.
  * Si el usuario ingresa etiquetas HTML, deben ser tratadas como texto.
  */

@@ -1,12 +1,16 @@
 console.log("--- Ejercicio 21 ---");
 
+/*
+ * Muestra en consola el doble de todos los valores de la cadena JSON.
+ */
+
 let cadenaJSON = "[1, 2, 3, 2, 4, 6, 1]";
 
-let arr = JSON.parse(cadenaJSON).map((number) => number * 2);
+arr = JSON.parse(cadenaJSON).map((number) => number * 2);
 
 console.log(arr);
 
-fetch("./ejercicio21.json")
+fetch("ejercicio21.json")
     .then((response) => {
         if (!response.ok) {
             throw new Error("La respuesta no es correcta");

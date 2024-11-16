@@ -1,11 +1,22 @@
 console.log("--- Ejercicio 29 ---");
 
-let arr = [1, 2, 3, 4];
+/*
+ * Crea un array, cuyo contenido son números.
+ * - Haz una función que muestre en la página los números pares que
+ *    hay en el array, utilizando un for, utilizando forEach(), for..in y for..of.
+ * - Haz una función que muestre en la página el resultado de sumar
+ *    todos los elementos del array.
+ * - Haz una función que elimine el último elemento del array, y añada
+ *    otro elegido por el usuario.
+ * - Haz una función que muestre el valor máximo que hay en el array.
+ */
+
+arr = [1, 2, 3, 4];
 
 console.log("Números pares del array");
 pares(arr);
 
-console.log("Suma de valores: " + sum(arr));
+console.log("Suma de valores: " + valuesSum(arr));
 
 delLastAddNew(arr);
 console.log(arr);
@@ -42,7 +53,7 @@ function pares(arr) {
     }
 }
 
-function sum(arr) {
+function valuesSum(arr) {
     return arr.reduce((result, number) => (result += number));
 }
 

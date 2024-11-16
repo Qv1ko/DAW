@@ -1,37 +1,15 @@
-console.log("--- Ejercicio 31 ---");
+console.log("--- Ejercicio 30 ---");
 
 /*
- * Crea un script para gestionar información sobre los
- *  alumnos (nombre, apellido1, apellido2, dni). Esta información ha
- *  de almacenarse en un array de objetos.
- * Se utilizará la función para comprobar DNI, ya que no se puede dar
- *  de alta o modificar un alumno si su DNI es incorrecto.
- * No se puede dar de alta un alumno con un DNI que ya exista, ni
- *  modificar el DNI de un alumno, y asignarle un DNI que ya exista.
- * Para gestionar la información se presentará un menú que permita
- *  realizar las siguientes operaciones:
- * - Dar de alta un alumno.
- *   - Los campos nombre y apellido1 son obligatorios (no pueden ser
- *      la cadena vacía). El campo apellido2 no es obligatorio.
- * - Eliminar un alumno.
- *   - Pedir el DNI para localizar el alumno. Si no existe, mostrar
- *      un mensaje de error.
- * - Modifica los datos de un alumno.
- *   - Pedir el DNI para localizar el alumno. Si no existe, mostrar
- *      un mensaje de error.
- * - Mostrar datos de un alumno por consola.
- *   - Pedir el DNI para localizar el alumno. Si no existe, mostrar
- *      un mensaje de error.
- *   - Utiliza el método .find() para obtener la máxima calificación.
- * - Mostrar los datos de todos los alumnos por consola, ordenados
- *    por apellido1, apellido2 y nombre.
- *   - Utiliza el método .sort() para obtener la máxima calificación.
- * - Salir.
+ * Crea una nueva versión del ejercicio 32 de la Unidad 2.
+ * En esta nueva versión:
+ * - Se utilizarán clases.
+ * - Se utilizarán métodos específicos de arrays para buscar alumnos.
  */
 
 let alumnos = [];
 let continuar = true;
-opcion;
+let opcion;
 let datos;
 let contador;
 let modificado = false;
@@ -50,9 +28,9 @@ while (continuar) {
         case "2":
             if (alumnos.length != 0) {
                 datos = pedirDatos(false, true);
-                if (alumnos.indexOf((alumno) => alumno.dni == datos) != -1) {
+                if (alumnos.findIndex((alumno) => alumno.dni == datos) != -1) {
                     alumnos.splice(
-                        alumnos.indexOf((alumno) => alumno.dni == datos),
+                        alumnos.findIndex((alumno) => alumno.dni == datos),
                         1
                     );
                 } else {
@@ -206,11 +184,13 @@ function pedirDatos(info, pedirDni) {
     return retorno;
 }
 
-function Alumno(nombre, apellido1, apellido2, dni) {
-    this.nombre = nombre;
-    this.apellido1 = apellido1;
-    this.apellido2 = apellido2;
-    this.dni = dni;
+class Alumno {
+    constructor(nombre, apellido1, apellido2, dni) {
+        this.nombre = nombre;
+        this.apellido1 = apellido1;
+        this.apellido2 = apellido2;
+        this.dni = dni;
+    }
 }
 
 function comprobarDniNie(str = "") {

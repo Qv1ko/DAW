@@ -1,19 +1,24 @@
 console.log("--- Ejercicio 25 ---");
 
-let john = {
+/*
+ * Escribe la función ordenarPorEdad(users) que recibe como parámetro
+ *  un array de objetos con la propiedad edad y los ordena según edad.
+ */
+
+john = {
     name: "John",
     edad: 25,
 };
-let pete = {
+pete = {
     name: "Pete",
     edad: 30,
 };
-let mary = {
+mary = {
     name: "Mary",
     edad: 28,
 };
 
-let arr = [pete, john, mary];
+arr = [pete, john, mary];
 
 ordenarPorEdad(arr);
 

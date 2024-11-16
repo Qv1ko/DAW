@@ -2,11 +2,11 @@ console.log("--- Ejercicio 18 ---");
 
 /*
  * Escribe una función createCalendar(elem, year, month).
- * Cuando se llama, debe crear un calendario para el año y mes dados y ponerlo
- * dentro de elem.
+ * Cuando se llama, debe crear un calendario para el año y mes dados
+ *  y ponerlo dentro de elem.
  * El calendario debe ser una tabla, donde una semana es <tr>, y un día es <td>.
- * Los encabezados de la tabla deben ser <th> con los nombres de los días de la
- * semana: el primer día debe ser "lunes" y así hasta "domingo".
+ * Los encabezados de la tabla deben ser <th> con los nombres de los
+ *  días de la semana: el primer día debe ser "lunes" y así hasta "domingo".
  */
 
 function createCalendar(elem, year, month) {

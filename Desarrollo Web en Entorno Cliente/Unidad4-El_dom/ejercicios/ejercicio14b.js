@@ -1,8 +1,8 @@
-console.log("--- Ejercicio 14 A ---");
+console.log("--- Ejercicio 14 B ---");
 
 /*
- * Repite los tres primeros apartados del ejercicio anterior utilizando el
- * método insertAdjacentHTML.
+ * Repite los tres primeros apartados del ejercicio anterior
+ *  utilizando el método insertAdjacentHTML.
  */
 
 let tabla = createTable(8, 8);

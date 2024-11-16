@@ -1,3 +1,5 @@
+console.log("-- Clase 1 --");
+
 persona = {
     nombre: "Pepe",
     apellido: "Pérez",

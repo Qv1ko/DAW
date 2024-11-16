@@ -1,3 +1,5 @@
+console.log("-- Clase 3 --");
+
 let dia = new Date();
 
 dia = new Date(2024, 9, 21);

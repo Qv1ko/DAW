@@ -1,11 +1,11 @@
 console.log("--- Ejercicio 15 ---");
 
 /*
- * Crea un script que te pida el día y mes de tu cumpleaños (pero
- * que no te pida el año) y calcule el número de milisegundos y días
- * que faltan hasta esa fecha.
+ * Crea un script que te pida el día y mes de tu cumpleaños (pero que
+ *  no te pida el año) y calcule el número de milisegundos y días que
+ *  faltan hasta esa fecha.
  * Además, que saque todos los años en que tu cumpleaños va a caer en
- * domingo, desde el próximo cumpleaños hasta el 2100.
+ *  domingo, desde el próximo cumpleaños hasta el 2100.
  */
 
 let proximoCumple = new Date(

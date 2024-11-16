@@ -1,7 +1,9 @@
+console.log("-- Clase 2 --");
+
 let miObjeto = {
-    prop1: val1,
-    prop2: val2,
-    "prop 3": val3, // Las propiedades se pueden declarar como cadenas cuando tienen un espacio en blanco
+    prop1: "val1",
+    prop2: "val2",
+    "prop 3": "val3", // Las propiedades se pueden declarar como cadenas cuando tienen un espacio en blanco
 };
 
 miObjeto["prop 3"]; // Las propiedades de un objeto en formato cadena se accede entre corchetes

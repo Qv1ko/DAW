@@ -1,5 +1,9 @@
 console.log("--- Ejercicio 15 ---");
 
+/*
+ * En el siguiente código, ¿qué mostrarán los console.log y por qué?
+ */
+
 let frutas = ["Manzana", "Pera", "Naranja"];
 let frutas2 = ["Manzana", "Pera", "Naranja"];
 

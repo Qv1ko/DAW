@@ -1,11 +1,11 @@
 console.log("--- Ejercicio 14 D ---");
 
 /*
- * La página https://api.nasa.gov/ proporciona APIs (Application Programming
- * Onterface, interfaz de programación de aplicaciones) para proporcionar
- * información de distinto tipo.
- * Escribe el código de mostrarDatos para que esa información se muestre
- * en pantalla.
+ * La página https://api.nasa.gov/ proporciona APIs (Application
+ *  Programming Onterface, interfaz de programación de aplicaciones) para
+ *  proporcionar información de distinto tipo.
+ * Escribe el código de mostrarDatos para que esa información se
+ *  muestre en pantalla.
  */
 
 document.addEventListener("DOMContentLoaded", obtenerDatos);

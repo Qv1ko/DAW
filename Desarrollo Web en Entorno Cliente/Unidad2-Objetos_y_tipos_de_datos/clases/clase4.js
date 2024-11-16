@@ -1,3 +1,5 @@
+console.log("-- Clase 4 --");
+
 let str = "patatA";
 
 console.log(str.charCodeAt(1));

@@ -1,6 +1,12 @@
 console.log("--- Ejercicio 23 ---");
 
-let arr = ["HTML", "CSS", "JavaScript"];
+/*
+ * Escribe una función copiaOrdenada(arr) que devuelva una copia del
+ *  array ordenada con orden alfabético.
+ * El array original no se tiene que modificar.
+ */
+
+arr = ["HTML", "CSS", "JavaScript"];
 let arrOrdenado = copiaOrdenada(arr);
 
 console.log(arr);

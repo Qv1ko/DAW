@@ -1,5 +1,10 @@
 console.log("--- Ejercicio 5 ---");
 
+/*
+ * Explica el motivo del mensaje de error en la expresión "pan["sinSemillas"]["deLino"];".
+ * Explica el motivo del undefined en el console.log.
+ */
+
 let pan = {
     blanco: 6,
     deAjo: 5,

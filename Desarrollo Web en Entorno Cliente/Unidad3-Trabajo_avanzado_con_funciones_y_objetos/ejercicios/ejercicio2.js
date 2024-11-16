@@ -1,7 +1,8 @@
 console.log("--- Ejercicio 2 ---");
 
 /*
- * Escribe una función limpiar(arr) que recibe un array de palabras y devuelve un array sin anagramas.
+ * Escribe una función limpiar(arr) que recibe un array de palabras y
+ *  devuelve un array sin anagramas.
  */
 
 let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];

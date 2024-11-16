@@ -1,7 +1,7 @@
 console.log("--- Ejercicio 1 ---");
 
 /*
- * Indicar modos de acceder a los elementos
+ * Indicar modos de acceder a los elementos:
  */
 
 // ¿El nodo <div> del DOM?

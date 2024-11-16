@@ -1,5 +1,10 @@
 console.log("--- Ejercicio 2 ---");
 
+/*
+ * Escribe una función muestra que recibe un objeto como parámetro y
+ *  escribe por consola cada propiedad con su valor.
+ */
+
 let grupos = [
     { aula: "12", grupo: "751A", curso: 1, ciclo: "ASIR", turno: "D" },
     { aula: "12", grupo: "751B", curso: 1, ciclo: "ASIR", turno: "V" },

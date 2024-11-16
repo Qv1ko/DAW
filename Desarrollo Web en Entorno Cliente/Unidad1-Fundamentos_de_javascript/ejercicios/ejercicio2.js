@@ -1,5 +1,10 @@
 console.log("--- Ejercicio 2 ---");
 
+/*
+ * Crea un programa que pida al usuario un número y escriba en la
+ *  consola la tabla de multiplicar de ese número.
+ */
+
 let input = prompt("Escriba un número");
 let number;
 

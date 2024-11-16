@@ -1,3 +1,5 @@
+console.log("-- Clase 2 --");
+
 let [x, y, z = 1, t = 2, v] = [5, , , 10];
 
 console.log(x);

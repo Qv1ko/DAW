@@ -1,8 +1,8 @@
 console.log("--- Ejercicio 16 ---");
 
 /*
- * Escribe una función createTree que crea una lista
- * ramificada ul/li desde un objeto ramificado.
+ * Escribe una función createTree que crea una lista ramificada ul/li
+ *  desde un objeto ramificado.
  */
 
 let data = {

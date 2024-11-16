@@ -1,6 +1,11 @@
 console.log("--- Ejercicio 5 ---");
 
-let hour, min;
+/*
+ * Modifica el ejercicio anterior, pero en este caso el intervalo será
+ *  de 5 minutos. Los minutos se deben escribir siempre con 2 cifras.
+ */
+
+hour, min;
 
 hour = 9;
 
@@ -14,10 +19,10 @@ for (min = 0; hour <= 22; min += 5) {
 
 console.log("--- Ejercicio 5 v2 ---");
 
-let hora = new Date();
+hora = new Date();
 hora.setHours(9, 0, 0);
 
-let horafin = new Date();
+horafin = new Date();
 horafin.setHours(21, 30, 0);
 
 while (hora <= horafin) {

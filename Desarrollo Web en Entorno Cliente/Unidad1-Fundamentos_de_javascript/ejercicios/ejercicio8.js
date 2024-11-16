@@ -1,6 +1,12 @@
 // "use strict";
 console.log("--- Ejercicio 8 ---");
 
+/*
+ * Modifica el ejercicio 1:
+ * - Si se produce un error, vuelve a pedir un número.
+ * - Si pulsa Cancelar, el programa termina.
+ */
+
 function ages() {
     let age;
     let text;

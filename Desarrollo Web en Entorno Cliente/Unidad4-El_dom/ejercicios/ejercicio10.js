@@ -1,8 +1,8 @@
 console.log("--- Ejercicio 10 ---");
 
 /*
- * Indica si la siguiente sentencia es correcta. En caso de que no
- * lo sea, qué modificación harías.
+ * Indica si la siguiente sentencia es correcta. En caso de que no lo
+ *  sea, qué modificación harías.
  */
 
 let elemento = document.body.getElementsByClassName("destacado")[0];

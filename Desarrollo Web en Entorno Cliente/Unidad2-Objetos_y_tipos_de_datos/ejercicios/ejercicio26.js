@@ -1,16 +1,22 @@
 console.log("--- Ejercicio 26 ---");
 
-let john = {
+/*
+ * Escribe el código para crear otro array a partir de este, de objetos
+ *  con id y nombreCompleto, donde nombreCompleto es generado a partir
+ *  de nombre y apellido.
+ */
+
+john = {
     nombre: "John",
     apellido: "Smith",
     id: 1,
 };
-let pete = {
+pete = {
     nombre: "Pete",
     apellido: "Hunt",
     id: 2,
 };
-let mary = {
+mary = {
     nombre: "Mary",
     apellido: "Key",
     id: 3,

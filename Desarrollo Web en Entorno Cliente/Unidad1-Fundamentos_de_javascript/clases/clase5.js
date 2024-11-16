@@ -1,4 +1,6 @@
-let a = +prompt("a?", "");
+console.log("-- Clase 5 --");
+
+a = +prompt("a?", "");
 
 switch (a) {
     case 0:

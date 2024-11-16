@@ -1,7 +1,8 @@
 console.log("--- Ejercicio 7 ---");
 
 /*
- * Escribe el código para que algunos enlaces externos tengan como color del texto el naranja si:
+ * Escribe el código para que algunos enlaces externos tengan como
+ *  color del texto el naranja si:
  * - Su href tiene ://
  * - Pero no comienza con http://internal.com.
  */

@@ -2,7 +2,7 @@ console.log("--- Ejercicio 6 ---");
 
 /*
  * Escribe el código para mostrar el valor del elemento que tiene como
- * atributo data-widget-name
+ *  atributo data-widget-name
  */
 
 console.log(

@@ -1,6 +1,15 @@
 console.log("--- Ejercicio 11 ---");
 
-let number;
+/*
+ * Crea un programa que imprima por consola los números ganadores de la bonoloto
+ * - 6 números entre 1 y 49 (combinación ganadora)
+ * - Un complementario, también entre 1 y 49
+ * - El reintegro entre el 0 y el 9
+ * - Los números de la combinación ganadora y el complementario tienen que ser distintos.
+ * Se mostrarán al usuario en el siguiente orden: combinación ganadora, complementario, reintegro.
+ */
+
+number;
 let ganadores = [];
 let complementario;
 let reintegro;

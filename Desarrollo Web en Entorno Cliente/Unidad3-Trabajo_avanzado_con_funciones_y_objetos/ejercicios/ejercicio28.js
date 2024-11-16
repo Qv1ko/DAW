@@ -1,6 +1,15 @@
 console.log("--- Ejercicio 28 ---");
 
-class Vehiculo {
+/*
+ * Crea dos clases más, ambas deben heredar de Vehículo:
+ * - Coche: cuya velocidad máxima será 120 y sobrescribirá el método
+ *    parar para que muestre "Aparcar".
+ * - Avión: cuya velocidad máxima será 1000 y sobrescribirá los
+ *    métodos comenzar, para que muestre "Despegar", y parar, para
+ *    que muestre "Aterrizar".
+ */
+
+class Vehiculo28 {
     color;
     marca;
     modelo;
@@ -26,7 +35,7 @@ class Vehiculo {
     }
 }
 
-class Coche extends Vehiculo {
+class Coche extends Vehiculo28 {
     constructor(color, marca, modelo) {
         super(color, marca, modelo, 120);
     }
@@ -36,7 +45,7 @@ class Coche extends Vehiculo {
     }
 }
 
-class Avion extends Vehiculo {
+class Avion extends Vehiculo28 {
     constructor(color, marca, modelo) {
         super(color, marca, modelo, 1000);
     }

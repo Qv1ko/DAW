@@ -1,5 +1,11 @@
 console.log("--- Ejercicio 5 ---");
 
+/*
+ * Escriba la función sumSalarios(salarios) que devuelva la suma de
+ *  todos los salarios utilizando Object.values() y el bucle for..of.
+ * Si salarios está vacío, entonces el resultado debe ser 0.
+ */
+
 let salarios = {
     John: 100,
     Pete: 300,
