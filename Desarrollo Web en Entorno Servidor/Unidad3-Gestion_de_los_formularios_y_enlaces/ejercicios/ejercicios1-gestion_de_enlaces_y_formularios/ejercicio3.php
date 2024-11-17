@@ -2,12 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 3</title>
 </head>
 
 <body>
+
+    <!--
+        Plantea el ejercicio 1 con un formulario que utilice un control tipo radio.
+    -->
+
     <h2>Aplicación</h2>
     <form action="./ejercicio3-enlazador.php" method="post">
         <input type="text" name="texto" placeholder="Texto">

@@ -2,14 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 1</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Inicializa tres variables numéricas al valor que tú quieras y visualiza cuál es el mayor.
+         */
 
         $valor = 50;
         $aux = 'producto';

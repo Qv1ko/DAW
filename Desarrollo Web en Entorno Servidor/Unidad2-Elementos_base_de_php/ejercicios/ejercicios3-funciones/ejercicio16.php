@@ -2,13 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 16</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Calcular la edad pasando a una función tres parámetros: el día de nacimiento, el mes y
+         *  el año. Muestra la edad.
+         */
 
         echo "<p>Tiene " . calcularEdad(3, 3, 2006) . " años</p>";
 

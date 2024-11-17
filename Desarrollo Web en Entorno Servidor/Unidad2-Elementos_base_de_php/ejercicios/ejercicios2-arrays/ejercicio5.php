@@ -2,14 +2,24 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 5</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Crea una matriz (array bidimensional indexado) de 3x3 componentes de tipo entero.
+         * - Visualizarla
+         * - Comprueba que es simétrica. Indica el resultado de la comprobación con un mensaje.
+         * - Sumar los elementos de sus filas y almacenarlos en un array unidimensional. Visualiza
+         *    el array obtenido.
+         * - Sumar los elementos de sus columnas y almacenarlos en otro array unidimensional.
+         *    Visualiza el array obtenido.
+         * - Inicializa una variable de tipo entero a un valor entero. Busca el valor en el array
+         *    bidimensional. Si se encuentra, mostrar un mensaje indicando la posición del array (fila
+         *    y columna) y si no se encuentra, mostrar un mensaje indicándolo y finalizar la búsqueda.
+         */
         
         $matriz = array(array(2, 3, 5), array(1, 4, 7), array(0, 1, 6));
         // $matriz = array(array(1, 2, 3), array(2, 3, 2), array(3, 2, 1));

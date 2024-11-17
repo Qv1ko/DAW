@@ -2,14 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 8</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Construye un array asociativo que recoja información sobre los actores y las películas
+         *  en las que intervienen:
+         * De los actores, sólo se recoge en el array el nombre del actor y de las películas en las
+         *  que interviene, el título de la película.
+         * - Mostrar las películas en las que participa algún actor.
+         * - Mostrar las películas en las que participa cada actor y mostrar también al actor.
+         */
         
         // $losOscar2020 = [
         //     "ACTORES" => [

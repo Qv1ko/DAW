@@ -2,13 +2,27 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 1</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Utiliza las siguientes funciones predefinidas de PHP en un script desde el que puedas utilizar una clase:
+         *  - get_class()  
+         *  - class_exists()  
+         *  - get_declared_classes()  
+         *  - get_class_vars()  
+         *  - get_class_methods()
+         *  - get_object_vars()
+         *  - property_exists()
+         *  - get_parent_class()
+         *  - is_subclass_of()
+         *  - instanceof()
+         *  - serialize()
+         *  - unserialize()
+         */
 
         require_once("./ejercicio1-alumno.php");
 

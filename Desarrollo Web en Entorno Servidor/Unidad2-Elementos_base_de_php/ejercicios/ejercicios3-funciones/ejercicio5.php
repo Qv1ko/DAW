@@ -2,14 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 5</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Traduce un texto escrito en castellano a "latín macarrónico".
+         * Para ello cambia cada palabra del texto por otra que se construye a partir de la original
+         *  poniendo la primera letra al final y terminándola en “um”.
+         */
 
         $str = "Una imagen vale más que mil palabras";
 

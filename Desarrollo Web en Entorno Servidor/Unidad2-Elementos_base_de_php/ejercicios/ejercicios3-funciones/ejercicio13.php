@@ -2,14 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 13</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Crea una función que reciba un array asociativo que almacene las horas lectivas de los
+         *  módulos de 2º DAW.
+         * La función devolverá el código del módulo con mayor número de horas lectivas.
+         */
         
         $horasLectivas = [
             "DWES" => 9,

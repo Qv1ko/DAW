@@ -2,14 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 12</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Crea una función que reciba un número entero positivo de tres cifras y devuelva el número
+         *  invertido. Visualizarle en el script principal.
+         */
 
         $number = rand(100, 999);
 

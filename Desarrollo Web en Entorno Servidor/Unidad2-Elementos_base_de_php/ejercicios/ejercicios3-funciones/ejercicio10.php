@@ -2,14 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 10</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Crea una función para visualizar la tabla de multiplicar de un número previamente inicializado a un valor entero.
+         * - Pasar el número como parámetro y visualizar la tabla en la función.
+         * - Pasar el número como parámetro y obtener el resultado a través de un string y la sentencia return.
+         * - Pasar el número como parámetro y obtener el resultado a través de un string y el paso de parámetro por referencia.
+         */
 
         require_once("./ejercicio10-funciones.php");
         

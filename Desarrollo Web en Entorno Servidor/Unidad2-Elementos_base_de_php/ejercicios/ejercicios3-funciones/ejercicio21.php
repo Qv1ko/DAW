@@ -2,13 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 21</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Diseña una función para que genere un número aleatorio entre 1 y 6 simulando el
+         *  funcionamiento de un dado.
+         * La función deberá incluir las sentencias echo adecuada para informar del resultado obtenido.
+         * - Diseña una función de usuario convencional.
+         * - Utiliza una variable de función.
+         * - Diseña una función anónima e invoca a la función desde una función convencional (callback).
+         */
 
         // Función convencional
         function randNumber(int $min, int $max) {

@@ -4,6 +4,6 @@
 
     echo "<p>Se imparte el modulo de " . $_GET["dato2"] . "</p>";
 
-    echo "<a href='./clase1-inicio.php'>Al principio</a>";
+    echo "<a href='./clase1.php'>Al principio</a>";
 
 ?>

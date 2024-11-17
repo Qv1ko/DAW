@@ -2,13 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 7</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Diseña una clase para almacenar información sobre equipos, dispositivos, susceptibles de reparación.
+         * De cada uno de ellos:
+         * - Código: identificador del dispositivo
+         * - Tipo: ej: ordenador, pantalla, teclado, ratón.
+         * - Ubicación: ej: aula 25, biblioteca, departamento informática.
+         * Métodos a implementar:
+         * - Constructor
+         * - Mostrar la ubicación si son de un tipo concreto
+         * Diseña un array de 4 objetos y e invita a los métodos anteriores utilizando la librería SPL.
+         */
 
         require_once("./ejercicio7-dispositivo.php");
 

@@ -2,13 +2,22 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 10</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Es preciso llevar un control sobre la edad de los alumnos matriculados en los Ciclos
+         *  Formativos de la familia de Informática y Comunicaciones del CIFP Juan de Colonia.
+         * Interesa recoger de cada ciclo:
+         * - Número de alumnos menores de edad.
+         * - Número de alumnos entre 18 y 22.
+         * - Número de alumnos mayores de 22.
+         * ¿En algún ciclo solo hay alumnos entre 18 y 22 años? Indica si de da está situación con
+         *  un mensaje.
+         */
         
         $alumnosIC = [
             "Informática y Comunicaciones" => [

@@ -2,12 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 1</title>
 </head>
 
 <body>
+
+    <!--
+        Crea una aplicación que ofrezca tres enlaces: palíndromo, macarrónico y encriptación César.
+        Serán tres hipervínculos que irán asociados a los scripts php correspondientes.
+    -->
+
     <h2>Aplicación</h2>
     <a href="./ejercicio1-palindromo.php">Palíndromo</a>
     <br><br>

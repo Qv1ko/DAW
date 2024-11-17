@@ -2,14 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 2</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Muestra en pantalla la figura de una piramide:
+         * Para ello utilizarás una variable de tipo entero a la cual le asignarás un valor
+         *  constante, dicho valor indicará el número de filas de la figura.
+         */
 
         $NUMBER = 4;
         $text = "*";

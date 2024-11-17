@@ -3,13 +3,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 23</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Diseña tres librerías (libreria1.php, libreria2.php, libreria3.php) que incluyan funciones
+         *  o constante con el mismo nombre.
+         * Desde el script principal incluye la sentencia use adecuada para utilizarlas teniendo en
+         *  cuenta el namespace asociado.
+         */
         
         require_once("./ejercicio23-libreria1.php");
         require_once("./ejercicio23-libreria2.php");

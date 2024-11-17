@@ -2,14 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 2</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Construye un array asociativo, que almacene las horas lectivas de cada módulo de 2º DAW
+         *  y visualiza sus valores de la forma más legible que sepas.
+         */
         
         $segundoDaw = [
             "Desarrollo Web en Entorno Cliente" => 8,

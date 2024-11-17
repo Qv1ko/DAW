@@ -2,14 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 12</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Diseña una aplicación que obtenga la letra del DNI.
+         * Obtenida la letra correspondiente, muestra el DNI completo.
+         */
         
         function letraDni(string $nif) {
 

@@ -3,14 +3,32 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 4</title>
 </head>
 
 <body>
 
     <?php
+
+        /*
+         * Crea una nueva clase abstracta que incluya:
+         * - Una constante ( CONSTANTE='Todos')
+         * - Una variable estática ($valor=1)
+         * - Cuatro métodos:
+         *   - ayudas(), abstracto
+         *   - mensaje(), abstracto
+         *   - modificar_static, estático (incrementar $valor en 1)
+         *   - otros(), publico (sólo devolverá el mensaje "Todos sois buena gente").
+         * Crea la clase Joven y Adulto que extiendan de la clase Abstracta e implementa los métodos abstractos.
+         * En la clase Joven (atributos:identificador del joven y edad).
+         * - Ayuda(), comprobará la edad el joven y si es 18 retornará un mensaje "400 euros"
+         * - Mensaje(), retornará un mensaje "Estás en la mejor edad. Disfruta"
+         * En la clase Adulto (atributos nombre, profesión y empresa en la que trabaja).
+         * - Ayuda(), si es "profesor" de profesión, retornar "0 euros"
+         * - Mensaje(), si es "profesor" y la empresa es "CIFP Juan de Colonia", retornar el mensaje "es
+         *    una buena opción"
+         * Comprueba desde un script diferentes accesos.
+         */
 
         require_once("./ejercicio4-abstracta.php");
         require_once("./ejercicio4-adulto.php");

@@ -3,14 +3,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 3 B</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Diseña una nueva clase Primero que extienda de Alumno:
+         * − Nuevo atributo, las calificaciones de los módulos del curso se recogen en un array.
+         * − Nuevo método que calcule la media de las calificaciones.
+         */
 
         require_once("./ejercicio3b-primero.php");
         require_once("./ejercicio3b-segundo.php");

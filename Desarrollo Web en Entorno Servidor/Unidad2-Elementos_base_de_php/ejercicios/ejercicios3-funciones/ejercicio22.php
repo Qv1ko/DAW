@@ -3,13 +3,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 22</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Prueba los namespace en estos códigos:
+         */
         
         require_once("./ejercicio22-biblioteca1.php");
         require_once("./ejercicio22-biblioteca2.php");

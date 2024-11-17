@@ -2,14 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 1</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Construir un array de 5 componentes de tipo int y a continuación:
+         * - Muestra el número de componentes negativas.
+         * - Muestra la media de las componentes.
+         * - Visualiza las posiciones del array en las que se almacene como valor el cuadrado de su
+         *    posición. Si no se da esta circunstancia en ninguna componente, indícalo con un mensaje.
+         * - Visualizar el array en orden invertido.
+         * - Crear un nuevo array cuyos componentes tomarán como valor el doble de los componentes
+         *    de este primer array.
+         * - Incrementa en dos más sus componentes y calcula de nuevo la media de ellas.
+         */
         
         $numbers = array(4, 7, 9, -12, -5);
 
@@ -60,7 +69,7 @@
 
         echo "<p>Array en orden invertido</p>";
 
-        for ($i = $counter - 1; $i >= 0; $i--) { 
+        for ($i = $counter  * - 1; $i >= 0; $i--) { 
             echo "$numbers[$i]&emsp;&emsp;";
         }
 

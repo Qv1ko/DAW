@@ -3,14 +3,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 2</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Crea una clase denominada Becado que se extiende de la clase Alumno.
+         * Está clase contará con un nuevo atributo tipo float, importebeca.
+         * Construye un objeto y visualiza sus datos.
+         */
 
         require_once("./ejercicio2-alumno.php");
         require_once("./ejercicio2-becado.php");

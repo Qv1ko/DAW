@@ -2,13 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 13</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Crea un array bidimensional que almacene el número de pacientes atendidos en urgencias
+         *  por gripe y el número de hospitalizados en cada provincia de Castilla y León.
+         * Diseña una función que calcule el total de hospitalizados.
+         */
 
         $urgencias = [
             "León" => [20, 4],

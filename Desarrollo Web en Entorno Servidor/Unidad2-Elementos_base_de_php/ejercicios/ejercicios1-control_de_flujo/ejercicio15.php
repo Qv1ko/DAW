@@ -2,14 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 15</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Averigua tu número del Tarot. Para ello inicializa una variable con el año de
+         *  nacimiento, otra con el mes (numérico) y otra con el día. Suma las tres cifras.
+         *  Realiza sucesivas sumas sobre las cifras del número obtenido hasta que sólo te quede uno.
+         * Ese es tu número del Tarot. Visualízalo.
+         */
         
         $year = 2000;
         $month = 11;

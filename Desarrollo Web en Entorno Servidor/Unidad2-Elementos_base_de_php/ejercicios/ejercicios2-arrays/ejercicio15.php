@@ -2,13 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 15</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Es preciso almacenar las plataformas web vistas en la unidad y recoger de cada una de
+         *  ellas sus componentes.
+         * Con un mensaje indica en cuales de ellas el servidor web es Apache.
+         */
         
         $plataformas = [
             "WampServer" => [

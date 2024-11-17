@@ -2,13 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 20</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Diseña una función para determinar si en un array de strings, se encuentra una determinada
+         *  subcadena (ambos datos se pasan como parámetros. Si no se pasa la subcadena se buscará
+         *  la subcadena predeterminada "ma".
+         * La función debe calcular el número de veces que aparece la subcadena entre las palabras
+         *  del array.
+         * - Diseña una función de usuario convencional.
+         * - Utiliza una variable de función.
+         * - Diseña una función anónima e invoca a la función desde una función convencional (callback).
+
+         */
         
         $arr = ["pa", "la", "bra", "ma", "ma", "lr", "la", "dl", "pa", "pa"];
 

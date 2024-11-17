@@ -3,14 +3,24 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 3 A</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Diseña una nueva clase Primero que extienda de Alumno:
+         * - Nuevo atributo, nota media del curso
+         * - Nuevo método, supera_curso (para ello la media será >= a 5).
+         * Diseña otra nueva clase, Segundo que extiende de Alumno:
+         * - Nuevo atributo, nota media del curso
+         * - Nuevo atributo, calificación de la FCT (valores posibles "apto" o "no apto")
+         * - Nuevo atributo, calificación del módulo de proyecto
+         * - implementa el método supera_curso; en este caso el alumno de segundo, supera el curso
+         *    si la media del curso es >= 5, supera el proyecto y obtiene "apto" en la FCT y supera primero.
+         * Comprueba su funcionamiento desde un script.
+         */
 
         require_once("./ejercicio3a-primero.php");
         require_once("./ejercicio3a-segundo.php");

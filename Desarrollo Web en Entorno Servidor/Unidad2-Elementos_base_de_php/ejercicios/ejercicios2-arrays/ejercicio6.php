@@ -2,14 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 6</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Construir una array bidimensional con información sobre, animales. De los animales
+         *  recogerá información sobre los domésticos y los salvajes (tres animales domésticos y
+         *  cuatro salvajes, de cada uno de los salvajes, denonimación y hábitat).
+         * - Muestra el array con var_dump().
+         * - Recorre el array y muestra su información lo más legible que sepas.
+         */
 
         $animales = [
             "domesticos" => ["perro", "gato", "caballo"],

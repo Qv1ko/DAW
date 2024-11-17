@@ -3,13 +3,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 5</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Diseña una clase abstracta para incluir como métodos dos o tres funciones con string.
+         */
 
         require_once("./ejercicio5-funciones_cadenas.php");
 

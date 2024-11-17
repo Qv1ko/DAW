@@ -2,14 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 2</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * A partir del array asociativo que almacena las lectivas de los módulos de 2º de DAW
+         *  utiliza las funciones de ordenación de arrays asociativos (asort y ksort).
+         */
 
         $lectivasDaw = [
             "Despliegue de Aplicaciones Web" => 4,

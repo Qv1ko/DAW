@@ -2,14 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 18</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Muestra los fármacos que están caducados.
+         * Es necesario crear un array con 5 fármacos, de cada uno se almacena su nombre y la fecha
+         *  de caducidad.
+         * Utiliza una función que reciba el array y le devuelva sin los fármacos caducados.
+         */
 
         require_once('./ejercicio18-funciones.php');
 

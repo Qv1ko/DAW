@@ -2,13 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 17</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Crea una función para calcular cuántos días faltan para el día de navidad.
+         */
         
         echo "<p>Faltan " . faltaNavidad() . " días para el día de navidad</p>";
 

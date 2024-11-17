@@ -2,14 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 11</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Poner un ejemplo de función que utiliza la asignación de valor en la cabecera (ejemplo
+         *  el caso de calcular el precio con iva, si no se pasa el iva se supone que es el 21%).
+         */
 
         $precio = rand(1, 75);
         $iva = rand(1, 21);

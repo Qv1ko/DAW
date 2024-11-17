@@ -2,14 +2,34 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 1</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * A partir del array indexado o numérico del ejercicio 1 del listado de actividades
+         *  anterior crea una función para cada apartado:
+         * - Muestra el número de componentes negativas.
+         * - Muestra la media de las componentes.
+         * - Visualiza las posiciones del array en las que se almacene como valor el cuadrado de su
+         *    posición. Si no se da esta circunstancia en ninguna componente, indícalo con un
+         *    sencillo mensaje.
+         * - Visualizar el array en orden invertido.
+         * - Crear dos nuevos arrays: uno cuyas componentes almacenen como valor el doble de los
+         *    componentes del array original de este ejercicio y otro cuyas componentes almacenen
+         *    la mitad del valor de las componentes originales. Utiliza array_map() y funciones variable.
+         * - Ordena sus componentes utilizando la función sort() y rsort(); a continuación, inserta
+         *    un nuevo valor sin perder el orden en el vector.
+         * - Busca un valor concreto, utilizando las funciones in_array() o array_search(), con y
+         *    sin coincidencia de tipos.
+         * - Incrementa en dos más sus componentes y calcula de nuevo la media de ellas.
+         * - Elimina la última componente con unset() o con array_pop()
+         * Para ello, crea una librería con las funciones diseñadas e incluye la librería en el
+         *  script principal. Las sentencias de visualización no se incluirán en los códigos de las
+         *  funciones diseñadas sino en el script principal.
+         */
 
         require_once('./ejercicio1-funciones.php');
         

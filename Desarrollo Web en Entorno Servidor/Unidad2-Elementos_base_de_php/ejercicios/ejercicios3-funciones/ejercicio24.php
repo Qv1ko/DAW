@@ -3,13 +3,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 24</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Genera de valor aleatorio entre 1 y 5, el número generado se hará corresponder con la
+         *  ejecución de una función de las ya implementadas en apartados anteriores para manejar
+         *  un string y almacenadas en scripts diferentes.
+         */
 
         require_once("./actividad23-libreria1.php");
         require_once("./actividad23-libreria2.php");

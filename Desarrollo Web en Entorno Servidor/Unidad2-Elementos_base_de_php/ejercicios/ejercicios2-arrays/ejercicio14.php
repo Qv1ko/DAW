@@ -2,13 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 14</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Crea un array bidimensional para almacenar el estado de las plazas de un microbús de 16
+         *  plazas (libre u ocupada), donde el número de asiento es el siguiente (impares
+         *  ventanilla, pares pasillo).
+         * A continuación, calcula y visualiza el número de asientos libres que hay en ventanilla.
+         */
 
         $microbus = [
             "1" => ["ventanilla" => "ocupado"],

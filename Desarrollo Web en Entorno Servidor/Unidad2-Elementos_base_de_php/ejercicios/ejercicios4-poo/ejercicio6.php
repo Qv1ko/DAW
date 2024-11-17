@@ -3,13 +3,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 6</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Crea la clase Empleado con el atributo, NSS, empresa en la que trabaja y salario. Además
+         *  tendrá como métodos, un constructor y retención (método que calculará el importe de la
+         *  retención a la SS a partir del porcentaje que reciba como parámetro).
+         * Crea los trait de comunicaciones y utilízalos para empleado y para el alumno de primero
+         *  y de segundo.
+         */
 
         require_once("./ejercicio6-empleado.php");
         require_once("./ejercicio6-primero.php");

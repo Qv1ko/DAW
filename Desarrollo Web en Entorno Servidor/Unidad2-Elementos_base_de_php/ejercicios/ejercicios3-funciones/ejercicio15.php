@@ -2,13 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 15</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Crea una función que reciba un array asociativo que almacene los ingresos y gastos de
+         *  una familia gallega durante un mes.
+         * El array recoge una muestra de las familias de cada provincia de esa comunidad.
+         * La función devuelve cual es la provincia que más ahorra. Visualiza la provincia.
+         */
         
         $familiasGallegas = [
             "A Coruña" => [rand(800, 1250), rand(800, 900)],

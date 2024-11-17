@@ -2,14 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 9</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Determinar el número de máximos que hay en tres números enteros; inicializa para ello
+         *  tres variables enteras. Visualizar el número de máximos.
+         */
 
         $num1 = 7;
         $num2 = 7;

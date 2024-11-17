@@ -2,13 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 9</title>
 </head>
 
 <body>
     <?php
+
+        /*
+         * Crear un array bidimensional que almacene de los 5 alumnos su número de matrícula y la
+         *  calificación obtenida en la 1ª y en la 2ª evaluación.
+         * - Muestra los números de matrícula junto a las medias obtenidas
+         * - Muestra la media más alta junto a su matrícula
+         */
 
         $alumnos = [
             "0091" => [
