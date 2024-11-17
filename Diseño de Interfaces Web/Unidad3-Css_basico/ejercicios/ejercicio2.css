@@ -1,3 +1,22 @@
+/* Ejercicio 2 */
+/*
+ * Realiza el CSS para el HTML propuesto de manera que quede lo mas parecido posible a la imagen
+ *  del wireframe.
+ * La página debe cumplir además con las siguientes características.
+ * - La letra base del html debe ser 14px el resto de tamaños de letra les asignaremos usando esta medida
+ * - La parte del menu de arriba con el icono de la empresa debe ser pegajosa y desplazarse cuando
+ *    haces scroll por la página.
+ * - El texto del placeholder debe aparecer en color azul claro.
+ * - Los elementos figure (5 elementos) deben tener fondo naranja (elementos impares) y fondo
+ *    amarillo (elementos pares), adapta también el color de texto para que se vea bien.
+ * - El botón del main debe ser de color naranja y cambiar a amarillo cuando pasas por encima.
+ * - Si haces click en el botón se debe mostrar un recuadro amarillo.
+ * - Los links de la sección productos ya visitados se pondrán de color naranja. 
+ * - Los span de la sección social tendrán un tamaño de 15px por 15 px y un recuadro negro.
+ * - El primer li de cada ul en la sección  links_navegacion estará en negrita. 
+ * - Los botones del footer deshabilitados tendrán un border amarillo y texto en blanco.
+ */
+
 img {
     max-width: 100%;
     height: auto;
