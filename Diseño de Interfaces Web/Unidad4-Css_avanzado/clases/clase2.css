@@ -1,0 +1,375 @@
+/* Clase 2 */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.boxed {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: #2c7be3;
+    position: sticky;
+    left: 0;
+    top: 0;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+header img {
+    display: inline-block;
+    width: 200px;
+}
+
+header nav {
+    display: inline-block;
+    padding: 15px;
+    vertical-align: bottom;
+}
+
+header ul li {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 2px solid black;
+}
+
+header ul li:last-child {
+    border: none;
+}
+
+header ul li a {
+    color: white;
+    vertical-align: inherit;
+}
+
+header button {
+    float: right;
+    padding: 4px 15px;
+    margin-right: 25px;
+    margin-top: 10px;
+    border: solid 2px black;
+}
+
+section#busqueda {
+    background-color: #2c7be3;
+    padding-bottom: 20px;
+    border-bottom: 3px solid black;
+}
+
+section#busqueda .boxed {
+    padding: 15px;
+}
+
+section#busqueda h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    padding-top: 15px;
+}
+
+section#busqueda div ul {
+    margin: 15px 0;
+}
+
+section#busqueda div ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+section#busqueda div ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section#busqueda #box_busqueda {
+    margin-bottom: 15px;
+}
+
+section#busqueda #box_busqueda select,
+section#busqueda #box_busqueda input {
+    padding: 5px;
+    width: 12%;
+    margin-right: 10px;
+}
+
+section#busqueda #box_busqueda input {
+    padding: 5px;
+    width: 85%;
+}
+
+section#busqueda #box_busqueda input::placeholder {
+    color: lightblue;
+}
+
+section#busqueda div#busqueda_destacados {
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    /* gap: 0 30px; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+section#busqueda figure {
+    background-color: #142b43;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+section#busqueda figure:last-child {
+    margin-right: 0px;
+}
+
+section#busqueda figure img {
+    width: 70px;
+    display: inline-block;
+    vertical-align: inherit;
+}
+
+section#busqueda figure figcaption {
+    width: 85px;
+    display: inline-block;
+    color: white;
+    font-size: 11px;
+    vertical-align: inherit;
+    margin-left: 5px;
+}
+
+main {
+    padding: 15px;
+}
+
+main section h2 {
+    font-size: 2rem;
+}
+
+main section h2 + p {
+    font-size: 1.5rem;
+    margin-top: 25px;
+}
+
+main section button {
+    position: relative;
+    padding: 6px 45px;
+    font-size: 1.25rem;
+    border: 2px solid black;
+    left: 85%;
+    bottom: 55px;
+    background-color: orange;
+}
+
+main section button:hover {
+    background-color: yellow;
+}
+main section button:active {
+    background-color: yellowgreen;
+}
+
+#productos {
+    margin-bottom: 25px;
+    border-bottom: 2px solid black;
+    padding: 20px 0;
+}
+
+#productos article {
+    vertical-align: top;
+    padding: 15px 0;
+    margin-right: 1%;
+    width: 24%;
+    display: inline-block;
+}
+
+#productos article:last-child {
+    margin-right: 0;
+}
+
+#productos article h5 {
+    min-height: 75px;
+    margin-bottom: 5px;
+}
+#productos article a:visited {
+    color: orange;
+}
+#noticias {
+    margin-bottom: 20px;
+}
+
+#noticias article {
+    vertical-align: top;
+    width: 550px;
+    display: inline-block;
+}
+
+#noticias article:last-child {
+    float: right;
+}
+
+#noticias article h5 {
+    min-height: 75px;
+    margin-bottom: 5px;
+}
+
+footer #social,
+footer #links_navegacion {
+    background-color: #2c7be3;
+}
+
+footer #social {
+    padding-top: 15px;
+    border-top: 1px solid black;
+}
+
+footer #social figure {
+    max-width: 250px;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+footer #social figure img {
+    max-width: 250px;
+    height: auto;
+    display: inline-block;
+}
+
+footer #social button {
+    padding: 10px 50px;
+    display: inline;
+    vertical-align: top;
+    margin-right: 25px;
+}
+
+footer #social button:disabled {
+    border: solid 1px lightgoldenrodyellow;
+    color: white;
+}
+
+footer #social div.boxed div:has(.icon-social) {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+footer #social .icon-social {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+footer #links_navegacion {
+    padding: 25px 0;
+    vertical-align: top;
+}
+
+footer #links_navegacion div.boxed > div {
+    display: inline-block;
+    width: 24%;
+    color: white;
+    text-align: center;
+}
+
+footer #links_navegacion div.boxed > div h2 {
+    margin-bottom: 10px;
+}
+
+footer #links_navegacion div ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer #links_navegacion div ul li:first-child {
+    font-weight: bold;
+}
+footer .negro {
+    background-color: #143c74;
+    color: white;
+    padding: 25px 0 15px 0;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+footer .negro ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+footer .negro ul li a {
+    color: white;
+}
+
+/*Estilos especificados por el enunciado
+:root {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #2C7BE3;
+    position: sticky;
+    left: 0;
+    top: 0;
+    padding: 15px;
+    vertical-align: middle;
+}
+section#busqueda #box_busqueda input::placeholder {
+color:lightblue;
+}
+
+section#busqueda figure:nth-child(2n){
+    background-color: yellow;
+}
+section#busqueda figure:nth-child(2n-1){
+    background-color: orange;
+}
+
+
+main section button:hover {
+    background-color:yellow;
+}
+main section button:active {
+    background-color:yellowgreen;
+}
+
+#productos article a:visited{
+    color:orange;
+}
+
+footer #social .icon_social{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border:1px solid black;
+}
+
+footer #links_navegacion div ul li:first-child {
+  font-weight: bold;
+}
+
+footer #social button:disabled {
+ border:solid 1px lightgoldenrodyellow;
+ color: white;
+}
+
+
+
+
+*/

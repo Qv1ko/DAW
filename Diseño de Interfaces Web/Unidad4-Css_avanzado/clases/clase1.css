@@ -1,0 +1,23 @@
+/* Clase 1 */
+
+body {
+    width: 1280px;
+    margin: auto;
+}
+
+section.container {
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+}
+
+article {
+    width: 33%;
+    margin: 10px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
