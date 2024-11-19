@@ -1,0 +1,175 @@
+/* Ejercicio 1 - Flexbox froggy */
+
+/* Nivel 1 */
+#pond {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Nivel 2 */
+#pond {
+    display: flex;
+    justify-content: center;
+}
+
+/* Nivel 3 */
+#pond {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Nivel 4 */
+#pond {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Nivel 5 */
+#pond {
+    display: flex;
+    align-items: flex-end;
+}
+
+/* Nivel 6 */
+#pond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Nivel 7 */
+#pond {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/* Nivel 8 */
+#pond {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Nivel 9 */
+#pond {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Nivel 10 */
+#pond {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+/* Nivel 11 */
+#pond {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* Nivel 12 */
+#pond {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+/* Nivel 13 */
+#pond {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* Nivel 14 */
+#pond {
+    display: flex;
+}
+
+.yellow {
+    order: 1;
+}
+
+/* Nivel 15 */
+#pond {
+    display: flex;
+}
+
+.red {
+    order: -1;
+}
+
+/* Nivel 16 */
+#pond {
+    display: flex;
+    align-items: flex-start;
+}
+
+.yellow {
+    align-self: flex-end;
+}
+
+/* Nivel 17 */
+#pond {
+    display: flex;
+    align-items: flex-start;
+}
+
+.yellow {
+    order: 1;
+    align-self: flex-end;
+}
+
+/* Nivel 18 */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Nivel 19 */
+#pond {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* Nivel 20 */
+#pond {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/* Nivel 21 */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+/* Nivel 22 */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+/* Nivel 23 */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+}
+
+/* Nivel 24 */
+#pond {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-content: space-between;
+}
