@@ -1,0 +1,24 @@
+/* Clase 2 C */
+
+body {
+    max-width: 1200px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    flex-basis: 33%;
+    flex-grow: 1;
+    max-width: 300px;
+}

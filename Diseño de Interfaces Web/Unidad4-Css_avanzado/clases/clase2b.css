@@ -1,0 +1,28 @@
+/* Clase 2 B */
+
+body {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    border: 2px solid black;
+}
+aside {
+    /* width: 350px; */
+    height: 500px;
+    background-color: crimson;
+    /* Reparten el espacio sobrante en porcentaje */
+    flex-basis: 350px;
+    flex-grow: 1;
+    /* Encoje el elemento al espacio en porcentaje */
+    /* flex-shrink: 1; */
+}
+main {
+    /* width: 750px; */
+    height: 500px;
+    background-color: blue;
+    /* Reparten el espacio sobrante en porcentaje */
+    flex-basis: 750px;
+    flex-grow: 3;
+    /* Encoje el elemento al espacio en porcentaje */
+    /* flex-shrink: 2; */
+}
