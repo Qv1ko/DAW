@@ -1,28 +1,36 @@
 console.log("--- Ejercicio 28 ---");
 
 /*
- * Crea una función positionAt(anchor, position, elem) que posicione elem, respecto al elemento de referencia (anchor), dependiendo de lo indicado por position:
+ * Crea una función positionAt(anchor, position, elem) que posicione
+ *  elem, respecto al elemento de referencia (anchor), dependiendo de
+ *  lo indicado por position:
  * - "top": encima de anchor
  * - "right": a la derecha de anchor
  * - "bottom": debajo de anchor
- * Esta función será utilizada por showNote(elemRef, position, html) que crea un elemento "note" con el html y lo muestra.
+ * Esta función será utilizada por showNote(elemRef, position, html) que
+ *  crea un elemento "note" con el html y lo muestra.
  */
 
 function positionAt(anchor, position, elem) {
+    let y = anchor.getBoundingClientRect().y;
+    let x = anchor.getBoundingClientRect().x;
+    let b = anchor.getBoundingClientRect().bottom;
+    let r = anchor.getBoundingClientRect().right;
+
     switch (position) {
         case "top":
-            elem.style.top = anchor.offsetTop - elem.offsetHeight + "px";
-            elem.style.left = anchor.offsetLeft + "px";
+            elem.style.top = y - elem.offsetHeight + "px";
+            elem.style.left = x + "px";
             break;
 
         case "right":
-            elem.style.top = anchor.offsetTop + "px";
-            elem.style.left = anchor.offsetLeft + anchor.offsetWidth + "px";
+            elem.style.top = y + "px";
+            elem.style.left = r + "px";
             break;
 
         case "bottom":
-            elem.style.top = anchor.offsetTop + anchor.offsetHeight + "px";
-            elem.style.left = anchor.offsetLeft + "px";
+            elem.style.top = b + "px";
+            elem.style.left = x + "px";
             break;
 
         default:

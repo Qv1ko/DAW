@@ -1,9 +1,8 @@
 console.log("--- Ejercicio 25 ---");
 
 /*
- * Crear el código para crear un formulario a partir de los datos
- *  indicados en la cadena DATOS_FORMULARIO. Se crearán el label y el
- *  input dentro de un <p>.
+ * Crear un formulario a partir de los datos indicados en la cadena
+ *  DATOS_FORMULARIO. Se crearán el label y el input dentro de un <p>.
  * El label tendrá el atributo for con el mismo contenido del atributo id del input.
  * El input tendrá los atributos id, name y required.
  */
@@ -47,6 +46,7 @@ function crearFormulario(datosJson) {
                             input.required = true;
                         }
                         break;
+
                     default:
                         break;
                 }
