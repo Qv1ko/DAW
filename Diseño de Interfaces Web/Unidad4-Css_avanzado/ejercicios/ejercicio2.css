@@ -1,0 +1,39 @@
+/* Ejercicio 2 */
+
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.discount {
+    position: absolute;
+    background: yellow;
+    border-radius: 50%;
+    padding: 5px 5px;
+    font-size: 0.9em;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul li {
+    list-style: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+section#productos div.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
