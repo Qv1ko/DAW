@@ -5,12 +5,9 @@ body {
     margin: auto;
 }
 
-.discount {
-    position: absolute;
-    background: yellow;
-    border-radius: 50%;
-    padding: 5px 5px;
-    font-size: 0.9em;
+img {
+    width: 100%;
+    height: auto;
 }
 
 header ul {
@@ -25,15 +22,36 @@ header ul li {
 main {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-main img {
-    width: 100%;
-    height: auto;
+main div {
+    max-width: 30%;
 }
 
 section#productos div.flex {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    column-gap: 60px;
+}
+
+section#productos div.flex article {
+    flex-basis: 200px;
+    flex-grow: 1;
+    max-width: 240px;
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+    background: yellow;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 0.9em;
+    width: 35px;
+    top: 10px;
+    left: 200px;
 }
