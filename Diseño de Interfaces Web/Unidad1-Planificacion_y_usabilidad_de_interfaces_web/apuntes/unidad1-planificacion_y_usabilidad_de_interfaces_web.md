@@ -4,132 +4,117 @@
 
 ### Diseño gráfico
 
-- **Funciones del diseño gráfico:**
-    - **Función comunicativa:** El diseño debe ser comprensible para el receptor.
-    - **Función publicitaria:** Debe atraer la atención del usuario.
-    - **Función estética:** El diseño busca ser agradable visualmente.
-- **Problema:** Los diseñadores gráficos tradicionales a menudo no están familiarizados con las nuevas tecnologías, lo que da lugar a la figura del **diseñador web**, que se sitúa entre el diseñador gráfico y el informático.
+-   **Funciones del diseño gráfico:**
+    -   **Función comunicativa:** El diseño debe ser comprensible para el receptor.
+    -   **Función publicitaria:** Debe atraer la atención del usuario.
+    -   **Función estética:** El diseño busca ser agradable visualmente.
+-   **Problema:** Los diseñadores gráficos tradicionales a menudo no están familiarizados con las nuevas tecnologías, lo que da lugar a la figura del **diseñador web**, que se sitúa entre el diseñador gráfico y el informático.
 
 ### Lenguaje visual
 
-- **Diseño:**
-    - Se encarga del embellecimiento exterior, pero también debe cubrir exigencias prácticas.
-    - El diseño debe integrar tanto la vertiente estética como la funcional.
-    - El diseñador debe dominar el **lenguaje visual** y comprender los principios y reglas que lo rigen.
+-   **Diseño:**
+    -   Se encarga del embellecimiento exterior, pero también debe cubrir exigencias prácticas.
+    -   El diseño debe integrar tanto la vertiente estética como la funcional.
+    -   El diseñador debe dominar el **lenguaje visual** y comprender los principios y reglas que lo rigen.
 
 ## Usuarios
 
 ### Interfaces web
 
-- Todas las páginas web tienen un propósito, y el éxito para lograrlo depende del diseño de la interfaz.
-- La **interfaz** debe estar diseñada teniendo en cuenta las **necesidades del usuario**.
-- El éxito de un sistema interactivo depende en gran parte de la interfaz entre el usuario y el ordenador.
-- Cada día aumenta el número de usuarios con diferentes niveles de preparación y expectativas.
+-   Todas las páginas web tienen un propósito, y el éxito para lograrlo depende del diseño de la interfaz.
+-   La **interfaz** debe estar diseñada teniendo en cuenta las **necesidades del usuario**.
+-   El éxito de un sistema interactivo depende en gran parte de la interfaz entre el usuario y el ordenador.
+-   Cada día aumenta el número de usuarios con diferentes niveles de preparación y expectativas.
 
 ### Objetivos de una interfaz web
 
-- **Objetivo principal:** Que los usuarios accedan a los contenidos de manera rápida y sencilla.
-- Una interfaz web efectiva permite a los usuarios interactuar cómodamente y de forma eficiente.
-- **Aspectos clave:**
-    - Los usuarios tienen poca paciencia.
-    - El gusto es subjetivo, pero debe buscarse un diseño coherente y agradable.
-    - Cumplir con las expectativas del usuario: evitar enlaces vacíos o con información errónea.
+-   **Objetivo principal:** Que los usuarios accedan a los contenidos de manera rápida y sencilla.
+-   Una interfaz web efectiva permite a los usuarios interactuar cómodamente y de forma eficiente.
+-   **Aspectos clave:**
+    -   Los usuarios tienen poca paciencia.
+    -   El gusto es subjetivo, pero debe buscarse un diseño coherente y agradable.
+    -   Cumplir con las expectativas del usuario: evitar enlaces vacíos o con información errónea.
 
 ### Características de una interfaz web
 
-- Para satisfacer a los usuarios, debemos entender cómo perciben y procesan la información.
-- Existen características deseables y otras imprescindibles que dependen del público objetivo.
-- **Usabilidad:** La interfaz debe ser fácil de usar para que los usuarios tomen decisiones rápidamente.
-- **Página visual:** Los elementos gráficos deben estar alineados con los objetivos del sitio, no solo como decoración.
-- **Educativa:** La interfaz debe ser fácil de aprender.
-- **Actualizada:** Debe ofrecer contenidos nuevos periódicamente.
+-   Para satisfacer a los usuarios, debemos entender cómo perciben y procesan la información.
+-   Existen características deseables y otras imprescindibles que dependen del público objetivo.
+-   **Usabilidad:** La interfaz debe ser fácil de usar para que los usuarios tomen decisiones rápidamente.
+-   **Página visual:** Los elementos gráficos deben estar alineados con los objetivos del sitio, no solo como decoración.
+-   **Educativa:** La interfaz debe ser fácil de aprender.
+-   **Actualizada:** Debe ofrecer contenidos nuevos periódicamente.
 
 ## Prototipado
 
-- **Wireframes:** Etapas tempranas, estructura básica y de baja calidad. Ahorra tiempo y costes, y aporta valor informativo.
-    
-    
+-   **Wireframes:** Etapas tempranas, estructura básica y de baja calidad. Ahorra tiempo y costes, y aporta valor informativo.
+
     ![Imagen 1](./imagenes/imagen1.png)
-    
     ![Imagen 2](./imagenes/imagen2.png)
-    
-- **Mockups:** Etapas intermedias, alta fidelidad y ajustes visuales cercanos al diseño final, incluyendo tipografías y colores.
-    
+
+-   **Mockups:** Etapas intermedias, alta fidelidad y ajustes visuales cercanos al diseño final, incluyendo tipografías y colores.
+
     ![Imagen 3](./imagenes/imagen3.png)
-    
-- **Prototipos:** Etapas intermedias, alta fidelidad con interactividad. Permiten corregir errores de usabilidad y funcionalidad.
-    
-    
+
+-   **Prototipos:** Etapas intermedias, alta fidelidad con interactividad. Permiten corregir errores de usabilidad y funcionalidad.
+
     ![Imagen 4](./imagenes/imagen4.png)
-    
     ![Imagen 5](./imagenes/imagen5.png)
-    
 
 ## Diseño de un sitio web
 
 ### Homogeneidad
 
-- Los diseños han evolucionado hacia interfaces homogéneas, con componentes gráficos y funcionales similares, facilitando la comunicación efectiva con el usuario.
-- Elementos de diseño y funcionalidad similares en todos los sitios aseguran una **comunicación efectiva**.
+-   Los diseños han evolucionado hacia interfaces homogéneas, con componentes gráficos y funcionales similares, facilitando la comunicación efectiva con el usuario.
+-   Elementos de diseño y funcionalidad similares en todos los sitios aseguran una **comunicación efectiva**.
 
 ### Componentes de una interfaz
 
-- **Cabecera:** Situada en la parte superior con el logotipo de la empresa (HTML5: `<header>`), su función principal es **identificar el sitio**.
-    - Es común a todas las páginas, separando la navegación de la zona de lectura.
-    - Excepción: páginas de aterrizaje (landing pages) no suelen tener cabecera.
-    
-    ![Imagen 6](./imagenes/imagen6.png)
-    
-    ![Imagen 7](./imagenes/imagen7.webp)
-    
-- **Menús de navegación:** Permiten desplazarse por el sitio (HTML5: `<nav>`), generalmente con texto, gráficos u otros elementos.
-    
+-   **Cabecera:** Situada en la parte superior con el logotipo de la empresa (HTML5: `<header>`), su función principal es **identificar el sitio**.
+    -   Es común a todas las páginas, separando la navegación de la zona de lectura.
+    -   Excepción: páginas de aterrizaje (landing pages) no suelen tener cabecera.
+        ![Imagen 6](./imagenes/imagen6.png)
+        ![Imagen 7](./imagenes/imagen7.webp)
+-   **Menús de navegación:** Permiten desplazarse por el sitio (HTML5: `<nav>`), generalmente con texto, gráficos u otros elementos.
     ![Imagen 8](./imagenes/imagen8.png)
-    
     ![Imagen 9](./imagenes/imagen9.png)
-    
     ![Imagen 10](./imagenes/imagen10.png)
-    
-- **Cuerpo de la página:** Donde se presenta la información relevante. Incluye un título `<h1>` para mejorar el SEO.
-- **Pie de página:** Situado al final, ayuda a estructurar el sitio e incluye enlaces a servicios, contactos y avisos legales.
+-   **Cuerpo de la página:** Donde se presenta la información relevante. Incluye un título `<h1>` para mejorar el SEO.
+-   **Pie de página:** Situado al final, ayuda a estructurar el sitio e incluye enlaces a servicios, contactos y avisos legales.
 
 ### Estructura de enlaces
 
-- **Maquetación web:** Distribuir los elementos de una página considerando el espacio disponible y asegurando consistencia en todas las páginas del sitio.
-    - Los bocetos preliminares y el diseño coherente son esenciales.
-    
-    ![Imagen 11](./imagenes/imagen11.png)
-    
-- **Mapa de navegación:** Un esquema previo que ayuda a organizar las secciones y bloques de contenido, facilitando tanto el diseño como la navegación del sitio.
-    
+-   **Maquetación web:** Distribuir los elementos de una página considerando el espacio disponible y asegurando consistencia en todas las páginas del sitio.
+
+    -   Los bocetos preliminares y el diseño coherente son esenciales.
+
+        ![Imagen 11](./imagenes/imagen11.png)
+
+-   **Mapa de navegación:** Un esquema previo que ayuda a organizar las secciones y bloques de contenido, facilitando tanto el diseño como la navegación del sitio.
     ![Imagen 12](./imagenes/imagen12.png)
-    
 
 ## Homepage
 
 ### Diseño de la página de inicio
 
-- La página de inicio determina el éxito o fracaso de un sitio web. Una buena página retiene a las visitas y las convierte en clientes.
-- **Cómo estructurar el contenido:**
-    - El contenido debe estar bien organizado, permitiendo que los usuarios encuentren fácilmente lo que buscan.
-    - **Presentación:** El menú de navegación debe ser claro y conciso, con un máximo de 5-7 pestañas en el primer nivel.
-    - Los títulos, subtítulos (`<h1>`, `<h2>`, `<h3>`) y los textos deben estar distribuidos de manera equilibrada.
-    - Imágenes: Maximizar el ancho de las imágenes horizontales y evitar las imágenes verticales.
+-   La página de inicio determina el éxito o fracaso de un sitio web. Una buena página retiene a las visitas y las convierte en clientes.
+-   **Cómo estructurar el contenido:**
+    -   El contenido debe estar bien organizado, permitiendo que los usuarios encuentren fácilmente lo que buscan.
+    -   **Presentación:** El menú de navegación debe ser claro y conciso, con un máximo de 5-7 pestañas en el primer nivel.
+    -   Los títulos, subtítulos (`<h1>`, `<h2>`, `<h3>`) y los textos deben estar distribuidos de manera equilibrada.
+    -   Imágenes: Maximizar el ancho de las imágenes horizontales y evitar las imágenes verticales.
 
 ## Información
 
 ### Pirámide invertida de la información
 
-- La información debe presentarse de mayor a menor importancia, similar al estilo periodístico.
-- No solo el texto, sino también imágenes y videos juegan un papel crucial.
-- La página de inicio debe presentar poco texto en la parte superior para aumentar el impacto visual, con detalles adicionales hacia la parte inferior.
-- Esta estructura contribuye a:
-    - **Retener visitas:** El diseño atrae inicialmente, pero la información retiene al usuario.
-    - **Aumentar la credibilidad:** Las imágenes y el logotipo en posiciones clave transmiten profesionalidad.
-    - **Informar rápidamente:** El usuario debe captar el servicio o producto desde el primer momento.
-    
-    ![Imagen 13](./imagenes/imagen13.png)
-    
+-   La información debe presentarse de mayor a menor importancia, similar al estilo periodístico.
+-   No solo el texto, sino también imágenes y videos juegan un papel crucial.
+-   La página de inicio debe presentar poco texto en la parte superior para aumentar el impacto visual, con detalles adicionales hacia la parte inferior.
+-   Esta estructura contribuye a:
+    -   **Retener visitas:** El diseño atrae inicialmente, pero la información retiene al usuario.
+    -   **Aumentar la credibilidad:** Las imágenes y el logotipo en posiciones clave transmiten profesionalidad.
+    -   **Informar rápidamente:** El usuario debe captar el servicio o producto desde el primer momento.
+        ![Imagen 13](./imagenes/imagen13.png)
 
 ### Distribución de la información
 
@@ -145,17 +130,15 @@ El color es fundamental en cualquier tipo de diseño. Su correcta elección pued
 
 El color tiene un poder inmenso, ya que afecta tanto los sentimientos como las acciones de las personas. La psicología del color puede fortalecer tu marca, incrementar ventas y guiar a los visitantes hacia ciertas acciones dentro de tu web. Se ha demostrado que las personas toman decisiones sobre productos en menos de 90 segundos, y el 90% de esa decisión está basada en el color. Además, el color puede aumentar el reconocimiento de una marca hasta en un 80%.
 
-- **Rojo:** Simboliza pasión, energía y movimiento, pero también peligro o violencia. Se utiliza para captar atención, pero debe evitarse el exceso en sectores como artículos de lujo o páginas profesionales.
-- **Amarillo:** Asociado con optimismo y juventud, pero también con engaño y vulgaridad. Es efectivo en pequeñas cantidades para botones de acción, pero puede resultar molesto si se abusa de él.
-    
+-   **Rojo:** Simboliza pasión, energía y movimiento, pero también peligro o violencia. Se utiliza para captar atención, pero debe evitarse el exceso en sectores como artículos de lujo o páginas profesionales.
+-   **Amarillo:** Asociado con optimismo y juventud, pero también con engaño y vulgaridad. Es efectivo en pequeñas cantidades para botones de acción, pero puede resultar molesto si se abusa de él.
     ![Imagen 14](./imagenes/imagen14.png)
-    
-- **Naranja:** Evoca energía y entusiasmo, ideal para llamadas a la acción. Sin embargo, un uso excesivo puede resultar sobrecargado.
-- **Verde:** Relacionado con la naturaleza, el bienestar y la calma. Es apropiado para temas de salud, medioambiente y ciencia, pero menos para tecnología o bienes de lujo.
-- **Azul:** Asociado con confianza y seguridad, es común en empresas grandes y bancos. Sin embargo, ciertos tonos pueden hacer que una página se vea fría y distante.
-- **Morado:** Vinculado con la realeza y el lujo, es ideal para productos de belleza o marcas femeninas. No es adecuado si se busca captar atención, ya que puede resultar relajante.
-- **Marrón:** Simboliza estabilidad y naturaleza, siendo adecuado para alimentos y temas de naturaleza. No es recomendable para elementos de llamada a la acción.
-- **Negro:** Representa elegancia y poder, pero en exceso puede generar una sensación amenazante. Es ideal para productos de lujo y moda.
+-   **Naranja:** Evoca energía y entusiasmo, ideal para llamadas a la acción. Sin embargo, un uso excesivo puede resultar sobrecargado.
+-   **Verde:** Relacionado con la naturaleza, el bienestar y la calma. Es apropiado para temas de salud, medioambiente y ciencia, pero menos para tecnología o bienes de lujo.
+-   **Azul:** Asociado con confianza y seguridad, es común en empresas grandes y bancos. Sin embargo, ciertos tonos pueden hacer que una página se vea fría y distante.
+-   **Morado:** Vinculado con la realeza y el lujo, es ideal para productos de belleza o marcas femeninas. No es adecuado si se busca captar atención, ya que puede resultar relajante.
+-   **Marrón:** Simboliza estabilidad y naturaleza, siendo adecuado para alimentos y temas de naturaleza. No es recomendable para elementos de llamada a la acción.
+-   **Negro:** Representa elegancia y poder, pero en exceso puede generar una sensación amenazante. Es ideal para productos de lujo y moda.
 
 ### Psicología del color y el género
 
@@ -171,42 +154,41 @@ Los hombres tienden a preferir colores oscuros y vivos, mientras que las mujeres
 
 Existen varias armonías cromáticas que ayudan a crear combinaciones estéticas y funcionales:
 
-- **Monocromática**: Utiliza diferentes tonalidades de un solo color.
-    
+-   **Monocromática**: Utiliza diferentes tonalidades de un solo color.
+
     ![Imagen 15](./imagenes/imagen15.png)
-    
-- **Complementaria**: Colores opuestos en la rueda de color, ideales para crear contraste.
-    
+
+-   **Complementaria**: Colores opuestos en la rueda de color, ideales para crear contraste.
+
     ![Imagen 16](./imagenes/imagen16.png)
-    
-- **Tríadica**: Colores equidistantes en la rueda, donde uno es dominante.
-    
+
+-   **Tríadica**: Colores equidistantes en la rueda, donde uno es dominante.
+
     ![Imagen 17](./imagenes/imagen17.png)
-    
-- **Tetrádica**: Cuatro colores en pares complementarios, con uno como dominante.
-    
+
+-   **Tetrádica**: Cuatro colores en pares complementarios, con uno como dominante.
+
     ![Imagen 18](./imagenes/imagen18.png)
-    
-- **Análoga**: Colores adyacentes en la rueda, creando armonía y serenidad.
-    
+
+-   **Análoga**: Colores adyacentes en la rueda, creando armonía y serenidad.
+
     ![Imagen 19](./imagenes/imagen19.png)
-    
-- **Split Complementaria**: Variación del esquema complementario con menos tensión visual.
-    
+
+-   **Split Complementaria**: Variación del esquema complementario con menos tensión visual.
+
     ![Imagen 20](./imagenes/imagen20.png)
-    
 
 ### Usos del color
 
 Para captar la atención, los colores saturados deben usarse con moderación, especialmente en áreas donde los usuarios pasan mucho tiempo. Un fondo neutro puede hacer que los colores de acento se destaquen más.
 
-- **Fortalecer la identidad de marca**: Utiliza los colores de la marca de manera coherente en el sitio para reforzar su personalidad.
-- **Elegancia y minimalismo**: En algunos casos, menos color puede transmitir simplicidad y sofisticación, especialmente en marcas de lujo.
+-   **Fortalecer la identidad de marca**: Utiliza los colores de la marca de manera coherente en el sitio para reforzar su personalidad.
+-   **Elegancia y minimalismo**: En algunos casos, menos color puede transmitir simplicidad y sofisticación, especialmente en marcas de lujo.
 
 ### Color para novatos
 
-- Usa un solo color impactante combinado con blanco y negro.
-- Utiliza fotografías para aportar color de forma sutil y efectiva.
+-   Usa un solo color impactante combinado con blanco y negro.
+-   Utiliza fotografías para aportar color de forma sutil y efectiva.
 
 ## Tipografía
 
@@ -214,24 +196,20 @@ La tipografía es otro pilar del diseño web, ya que puede influir enormemente e
 
 ### Tipos de tipografía
 
-- **Serifada**: Letras con pequeños trazos o pinceladas. Aunque elegantes, no se recomiendan para textos largos en pantalla.
-    
+-   **Serifada**: Letras con pequeños trazos o pinceladas. Aunque elegantes, no se recomiendan para textos largos en pantalla.
     ![Imagen 21](./imagenes/imagen21.png)
-    
-- **Sans Serif**: Letras sin trazos, son más legibles y modernas. Ideal para textos de cuerpo y navegación.
-    
+-   **Sans Serif**: Letras sin trazos, son más legibles y modernas. Ideal para textos de cuerpo y navegación.
     ![Imagen 22](./imagenes/imagen22.png)
-    
-- **Manuscritas**: Atractivas pero difíciles de leer en grandes cantidades. Son más adecuadas para títulos o frases cortas.
-- **Decorativas**: Ideales para resaltar breves textos, pero deben usarse con cautela en sitios profesionales.
+-   **Manuscritas**: Atractivas pero difíciles de leer en grandes cantidades. Son más adecuadas para títulos o frases cortas.
+-   **Decorativas**: Ideales para resaltar breves textos, pero deben usarse con cautela en sitios profesionales.
 
 ### Consejos para usar la tipografía
 
-- Establecer una **jerarquía tipográfica** clara.
-- Evitar tamaños de texto demasiado pequeños (mínimo 14 puntos).
-- Escoger tipografías legibles para los cuerpos de texto y no abusar de las letras mayúsculas o textos centrados, ya que dificultan la lectura.
-- Utilizar un **interlineado correcto** para evitar una sensación de densidad en el texto.
-- Asegurar un **contraste adecuado** entre el texto y el fondo para mejorar la legibilidad.
+-   Establecer una **jerarquía tipográfica** clara.
+-   Evitar tamaños de texto demasiado pequeños (mínimo 14 puntos).
+-   Escoger tipografías legibles para los cuerpos de texto y no abusar de las letras mayúsculas o textos centrados, ya que dificultan la lectura.
+-   Utilizar un **interlineado correcto** para evitar una sensación de densidad en el texto.
+-   Asegurar un **contraste adecuado** entre el texto y el fondo para mejorar la legibilidad.
 
 ### Generación de documentos y sitios web
 
@@ -281,33 +259,33 @@ Una web accesible garantiza que todos los usuarios, independientemente de sus ca
 
 ### Principios de la usabilidad
 
-- **Eficiencia**: Los usuarios deben lograr sus objetivos sin dificultad.
-- **Eficacia**: El sitio debe responder rápidamente a las acciones del usuario.
-- **Satisfacción**: Una buena experiencia asegura que los usuarios quieran regresar.
+-   **Eficiencia**: Los usuarios deben lograr sus objetivos sin dificultad.
+-   **Eficacia**: El sitio debe responder rápidamente a las acciones del usuario.
+-   **Satisfacción**: Una buena experiencia asegura que los usuarios quieran regresar.
 
 ### Beneficios
 
-- **Reducción del abandono**: Una navegación fácil y rápida disminuye la tasa de rebote.
-- **Aumento del tiempo de visita**: Los usuarios permanecen más tiempo si la experiencia es agradable.
-- **Mayor conversión**: Un proceso de compra sencillo incrementa las conversiones.
-- **Mejor experiencia de usuario**: Encontrar lo que buscan de manera fácil mejora su satisfacción.
-- **Fidelización**: Usuarios satisfechos tienden a volver y recomendar el sitio.
-- **Mayores ingresos**: La combinación de usabilidad y conversión genera más ventas.
+-   **Reducción del abandono**: Una navegación fácil y rápida disminuye la tasa de rebote.
+-   **Aumento del tiempo de visita**: Los usuarios permanecen más tiempo si la experiencia es agradable.
+-   **Mayor conversión**: Un proceso de compra sencillo incrementa las conversiones.
+-   **Mejor experiencia de usuario**: Encontrar lo que buscan de manera fácil mejora su satisfacción.
+-   **Fidelización**: Usuarios satisfechos tienden a volver y recomendar el sitio.
+-   **Mayores ingresos**: La combinación de usabilidad y conversión genera más ventas.
 
 ### Cómo mejorar la usabilidad
 
-- **Contenido relevante**: Textos claros y breves, con una jerarquía bien definida en títulos y encabezados.
-- **Diseño congruente**: Cuidar colores, tipografía y estructura, aprovechando los espacios en blanco.
-- **Navegación sencilla**: Un menú claro y lógico facilita el desplazamiento por las secciones.
-- **Velocidad de carga**: Optimizar la velocidad mejorando la calidad de los elementos multimedia y usando herramientas como PageSpeed Insights.
-- **Detección de errores**: Revisar las URL y asegurar que todo el contenido esté disponible.
-- **Interacción con los usuarios**: Implementar chats en vivo, secciones de comentarios y enlaces a redes sociales.
-- **Diseño adaptable**: Usar diseño responsivo para que el sitio se vea bien en todos los dispositivos.
-- **Búsqueda interna**: Incluir un campo de búsqueda en sitios con mucho contenido.
-- **Generar confianza**: Mostrar profesionalismo e incluir textos legales y direcciones físicas.
+-   **Contenido relevante**: Textos claros y breves, con una jerarquía bien definida en títulos y encabezados.
+-   **Diseño congruente**: Cuidar colores, tipografía y estructura, aprovechando los espacios en blanco.
+-   **Navegación sencilla**: Un menú claro y lógico facilita el desplazamiento por las secciones.
+-   **Velocidad de carga**: Optimizar la velocidad mejorando la calidad de los elementos multimedia y usando herramientas como PageSpeed Insights.
+-   **Detección de errores**: Revisar las URL y asegurar que todo el contenido esté disponible.
+-   **Interacción con los usuarios**: Implementar chats en vivo, secciones de comentarios y enlaces a redes sociales.
+-   **Diseño adaptable**: Usar diseño responsivo para que el sitio se vea bien en todos los dispositivos.
+-   **Búsqueda interna**: Incluir un campo de búsqueda en sitios con mucho contenido.
+-   **Generar confianza**: Mostrar profesionalismo e incluir textos legales y direcciones físicas.
 
 ### Buenas practicas
 
-- Seguir los estándares (logo a la izquierda con enlace a la homepage, links subrayados, iconografía clara).
-- Incluir siempre un título `<h1>`, breadcrumbs en sitios grandes, y destacar links visitados.
-- Facilitar la navegación con formularios cortos, autocompletado y uso de etiquetas `alt` en imágenes.
+-   Seguir los estándares (logo a la izquierda con enlace a la homepage, links subrayados, iconografía clara).
+-   Incluir siempre un título `<h1>`, breadcrumbs en sitios grandes, y destacar links visitados.
+-   Facilitar la navegación con formularios cortos, autocompletado y uso de etiquetas `alt` en imágenes.

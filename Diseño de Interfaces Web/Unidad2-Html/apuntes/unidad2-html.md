@@ -62,7 +62,7 @@
 
 ### **Estructura del documento HTML**
 
-![image.png](image.png)
+![Imagen 1](./imagenes/imagen1.png)
 
 -   **`<!DOCTYPE html>`** → Define el tipo de documento.
 -   **`<html>`** → Raíz del documento. Puede incluir atributos como `lang`.
@@ -477,8 +477,8 @@
         | Expresión regular | Carácter especial | Significado | Descripción |
         | --- | --- | --- | --- |
         | `.` | Punto | Comodín | Cualquier carácter único. |
-        | `A|B` | Pipe | Opciones lógicas | Opciones alternativas (o A o B). |
-        | `C(A|B)` | Paréntesis | Agrupaciones | Agrupaciones alternativas (o CA o CB). |
+        | `A\|B` | Pipe | Opciones lógicas | Opciones alternativas (o A o B). |
+        | `C(A\|B)` | Paréntesis | Agrupaciones | Agrupaciones alternativas (o CA o CB). |
         | `[0-9]` | Corchetes | Rango | Un número del 0 al 9. |
         | `[A-Z]` | | Letras | Una letra mayúscula. |
         | `[^A-Z]` | `^` en corchetes | Exclusión | Excluye letras mayúsculas. |
