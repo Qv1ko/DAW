@@ -8,8 +8,8 @@ La **red de comunicación** o red de transmisión de datos es una **estructura f
 
 Las primeras redes de computadores que se construyeron, tanto comerciales como militares, utilizaban sus propias normas de diseño y funcionamiento. Han llegado a existir compañías, como es el caso de IBM, que utilizaban normas de comunicación diferentes para sus propios productos.
 
-- Problema: cuando una empresa instala una red y todos los computadores son del mismo fabricante la red funcionaba bien; pero cuando esa red necesitaba crecer y se instaban nuevos equipos de otro fabricante para llevar a cabo la ampliación surgen problemas de incompatibilidad entre ellos.
-- Solución: definir un **conjunto de normas estandarizadas** que permitiera **coordinar a todos los fabricantes**. Con estos estándares no solo sería posible la comunicación entre diferentes computadores, sino que, además, los productos fabricados tuvieron un menor coste y una mayor aceptación.
+-   Problema: cuando una empresa instala una red y todos los computadores son del mismo fabricante la red funcionaba bien; pero cuando esa red necesitaba crecer y se instaban nuevos equipos de otro fabricante para llevar a cabo la ampliación surgen problemas de incompatibilidad entre ellos.
+-   Solución: definir un **conjunto de normas estandarizadas** que permitiera **coordinar a todos los fabricantes**. Con estos estándares no solo sería posible la comunicación entre diferentes computadores, sino que, además, los productos fabricados tuvieron un menor coste y una mayor aceptación.
 
 ## Organismo de normalización
 
@@ -25,11 +25,11 @@ OSI es el nombre del modelo de referencia (es decir, un modelo teórico) de una 
 
 Los principios teóricos en los que se basa:
 
-- **Cada capa** de la arquitectura **está pensada para realizar una función** bien definida
-- El número de niveles debe ser suficiente para que **no se agrupen funciones distintas**, pero no tan grande que haga la arquitectura inmanejable (en este modelo el número de niveles es **7**).
-- **Cada nivel debe interaccionar únicamente con los niveles contiguos** a él (el superior y el inferior).
-- **La función** de cada capa **se definirá en los protocolos correspondientes** diseñados por los organismos de estandarización.
-- Para que dos computadoras se comuniquen a través de una red, los protocolos utilizados en cada nivel del sistema emisor deben estar duplicados en el sistema receptor.
+-   **Cada capa** de la arquitectura **está pensada para realizar una función** bien definida
+-   El número de niveles debe ser suficiente para que **no se agrupen funciones distintas**, pero no tan grande que haga la arquitectura inmanejable (en este modelo el número de niveles es **7**).
+-   **Cada nivel debe interaccionar únicamente con los niveles contiguos** a él (el superior y el inferior).
+-   **La función** de cada capa **se definirá en los protocolos correspondientes** diseñados por los organismos de estandarización.
+-   Para que dos computadoras se comuniquen a través de una red, los protocolos utilizados en cada nivel del sistema emisor deben estar duplicados en el sistema receptor.
 
 ![imagen1](./imagenes/imagen1.png)
 
@@ -39,9 +39,9 @@ Los principios teóricos en los que se basa:
 
 **Nivel de red**: su función principal es el **control de la subred** (encaminamiento de los datos a través de redes múltiples, proporcionando direcciones lógicas y rutas). Para ello se ocupa de:
 
-- **Determinar cuál es la mejor ruta** por la cual enviar la información (encaminamiento). Esta decisión tiene que ver con el camino más corto, el más rápido, el que tenga menor tráfico, etc.
-- **Controlar** también **la congestión de red** (cuellos de botella), **intentando repartir la carga** lo más equilibradamente posible entre las distintas rutas.
-- Resolver el problema que se produce cuando el destinatario de un paquete no está en la misma red, sino en otra en la que el sistema de direccionamiento es distinto que en la red origen. En este nivel hay que tener en cuenta que la unidad de información que se maneja es el paquete el cual incluirá las direcciones de identificación tanto del emisor como del receptor de dicho paquete (las IP).
+-   **Determinar cuál es la mejor ruta** por la cual enviar la información (encaminamiento). Esta decisión tiene que ver con el camino más corto, el más rápido, el que tenga menor tráfico, etc.
+-   **Controlar** también **la congestión de red** (cuellos de botella), **intentando repartir la carga** lo más equilibradamente posible entre las distintas rutas.
+-   Resolver el problema que se produce cuando el destinatario de un paquete no está en la misma red, sino en otra en la que el sistema de direccionamiento es distinto que en la red origen. En este nivel hay que tener en cuenta que la unidad de información que se maneja es el paquete el cual incluirá las direcciones de identificación tanto del emisor como del receptor de dicho paquete (las IP).
 
 **Nivel de transporte**: este nivel se encarga de **aceptar los datos de la capa de sesión** (segmentos), **fraccionándoles** adecuadamente de modo que sean aceptados por el nivel de red **y asegurarse de que llegan correctamente al nivel de transporte del destinatario** (los paquetes recibidos pueden llegar desordenados y es labor de este nivel ordenarlos).
 
@@ -61,59 +61,45 @@ La primera red fue desarrollada en 1969 por la Agencia de proyectos avanzados de
 
 ![imagen3](./imagenes/imagen3.png)
 
-- La organización encargada de definir los protocolos de Internet es la IETF (The Internet Engineering Task Force, http://www.ietf.org).
-- En 1969 se inició una serie de documentos llamados RFC (Request for Comments), que describen el conjunto de protocolos y estándares de Internet. En español, algunos RFCs importantes pueden consultarse en www.rfc-es.org, aunque solo se han traducido los más relevantes.
+-   La organización encargada de definir los protocolos de Internet es la IETF (The Internet Engineering Task Force, http://www.ietf.org).
+-   En 1969 se inició una serie de documentos llamados RFC (Request for Comments), que describen el conjunto de protocolos y estándares de Internet. En español, algunos RFCs importantes pueden consultarse en www.rfc-es.org, aunque solo se han traducido los más relevantes.
 
 ## Utilidades propias de TCP/IP
 
 Las utilidades TCP/IP son comandos del sistema que solo están disponibles si TCP/IP está correctamente instalado.
 
-- Utilidad `ping`: **comprueba el estado de la conexión** establecida **con un host remoto**, enviando mensajes a una dirección de red concreta con el fin de realizar un test a la red utilizando el protocolo ICMP. **El nodo destinatario reenviará el paquete** recibido **para confirmar la conexión** entre ambos equipos.
-    
+-   Utilidad `ping`: **comprueba el estado de la conexión** establecida **con un host remoto**, enviando mensajes a una dirección de red concreta con el fin de realizar un test a la red utilizando el protocolo ICMP. **El nodo destinatario reenviará el paquete** recibido **para confirmar la conexión** entre ambos equipos.
     Sintaxis: `ping [-a][-n número][-w tiempo]`
-    
-    `-a` → Resuelve direcciones a nombres DNS de equipos.
-    
-    `-n número` → Número de paquetes de eco especificados en número. Por defecto es 4.
-    
-    `-w tiempo` → Tiempo de espera máximo para la respuesta en milisegundos.
-    
-    `-i TTL` → Especifica el valor TTL de IP para cada paquete Petición de eco.
-    
+
+    -   `-a` → Resuelve direcciones a nombres DNS de equipos.
+    -   `-n número` → Número de paquetes de eco especificados en número. Por defecto es 4.
+    -   `-w tiempo` → Tiempo de espera máximo para la respuesta en milisegundos.
+    -   `-i TTL` → Especifica el valor TTL de IP para cada paquete Petición de eco.
+
     ![imagen4](./imagenes/imagen4.png)
-    
-- Utilidad `ipconfig`: se utiliza para **consultar la configuración de los parámetros TCP/IP** del equipo. También se puede utilizar para activar o desactivar la configuración de red. Para modificar estos parámetros hay que hacerlo desde Windows.
-    
+
+-   Utilidad `ipconfig`: se utiliza para **consultar la configuración de los parámetros TCP/IP** del equipo. También se puede utilizar para activar o desactivar la configuración de red. Para modificar estos parámetros hay que hacerlo desde Windows.
     Sintaxis: `ipconfig [/all][/release][/renew]`
-    
-    `ipconfig /all` → Muestra información detallada sobre la configuración de red
-    
-    `ipconfig /release` → Desactiva la configuración TCP/IP
-    
-    `ipconfig /renew` → Activa la configuración (TCP/IP y asigna los parámetros de red establecidos).
-    
+
+    -   `ipconfig /all` → Muestra información detallada sobre la configuración de red
+    -   `ipconfig /release` → Desactiva la configuración TCP/IP
+    -   `ipconfig /renew` → Activa la configuración (TCP/IP y asigna los parámetros de red establecidos).
+
     ![imagen5](./imagenes/imagen5.png)
-    
-- Utilidad `tracert`: se utiliza para **conocer la ruta de acceso a un destino mediante** el envío de mensajes **ICMP**.
-    
+
+-   Utilidad `tracert`: se utiliza para **conocer la ruta de acceso a un destino mediante** el envío de mensajes **ICMP**.
     Sintaxis: `tracert -d -h maximum_hops -j host-list -w timeout target_host`
-    
-    `-d` → Para especificar que no se quiere resolver ningún nombre.
-    
-    `-h maximum_hops` → Máximo número de saltos para buscar si somos capaces de llegar al objetivo.
-    
-    `-j host-list` → Especifica una ruta origen flexible a través de hosts.
-    
-    `-w timeout` → Espera un número de milisegundos especificado para cada una de las respuestas.
-    
-    `target_host` → Especifica el nombre (ej: www.google.es o la dirección IP del host objetivo).
-    
+
+    -   `-d` → Para especificar que no se quiere resolver ningún nombre.
+    -   `-h maximum_hops` → Máximo número de saltos para buscar si somos capaces de llegar al objetivo.
+    -   `-j host-list` → Especifica una ruta origen flexible a través de hosts.
+    -   `-w timeout` → Espera un número de milisegundos especificado para cada una de las respuestas.
+    -   `target_host` → Especifica el nombre (ej: www.google.es o la dirección IP del host objetivo).
+
     ![imagen6](./imagenes/imagen6.png)
-    
-- Utilidad `route print`: se utiliza para **conocer la tabla de enrutamiento** que posee el propio ordenador.
-    
+
+-   Utilidad `route print`: se utiliza para **conocer la tabla de enrutamiento** que posee el propio ordenador.
     ![imagen7](./imagenes/imagen7.png)
-    
 
 ## Cómo ver configuración de red de nuestro ordenador
 
@@ -127,20 +113,17 @@ Las utilidades TCP/IP son comandos del sistema que solo están disponibles si TC
 
 ### Modelo cliente-servidor
 
-- La mayoría de los servicios ofrecidos por una red de comunicaciones de ordenadores se basan en el funcionamiento en modo cliente-servidor.
-- La arquitectura cliente/servidor consiste básicamente en que **un programa** (el cliente informático), **realiza peticiones a otro programa** (el servidor), que les da respuesta.
+-   La mayoría de los servicios ofrecidos por una red de comunicaciones de ordenadores se basan en el funcionamiento en modo cliente-servidor.
+-   La arquitectura cliente/servidor consiste básicamente en que **un programa** (el cliente informático), **realiza peticiones a otro programa** (el servidor), que les da respuesta.
 
 ![imagen9](./imagenes/imagen9.png)
 
-- Herramientas de trabajo
-    
+-   Herramientas de trabajo
     Una de las herramientas más utilizadas para implementar una red de datos que ofrezca servicios en red basada en la arquitectura TCP/IP es VirtualBox.
-    
     Alternativas:
-    
-    - VMWare
-    - Hyper-V
-    - Parallels Desktop
+    -   VMWare
+    -   Hyper-V
+    -   Parallels Desktop
 
 ### Servicios proporcionados
 
@@ -148,14 +131,14 @@ Detrás del buen funcionamiento de una aplicación web está el buen funcionamie
 
 Servicios de **bajo nivel**:
 
-- DHCP
-- DNS
+-   DHCP
+-   DNS
 
 Servicios de **alto nivel**:
 
-- Consulta de información en hipertexto (servicio web)
-- Transferencia de archivos entre equipos (servicio FTP)
-- Acceso remoto a equipos
+-   Consulta de información en hipertexto (servicio web)
+-   Transferencia de archivos entre equipos (servicio FTP)
+-   Acceso remoto a equipos
 
 ## VirtualBox
 

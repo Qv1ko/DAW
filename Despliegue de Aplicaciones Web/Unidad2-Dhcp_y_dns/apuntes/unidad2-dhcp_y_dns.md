@@ -146,6 +146,7 @@ El período de concesión configurado para un servidor DHCP se aplica a todas la
 Es la dirección o **rango IP** que **no puede conceder** un servidor DHCP.
 
 -   Ej: si se excluye el rango 10.0.0.8-10.0.0.10, la única forma de que un equipo pueda obtener una de esas tres direcciones es a través de su configuración manual o estática.
+
     ![Imagen 3](./imagenes/imagen3.png)
 
 ## Funcionamiento del protocolo DHCP
@@ -248,7 +249,8 @@ El **Agente Relay DHCP** es un equipo o router configurado para escuchar broadca
 -   Por lo tanto, sin configuración adicional, los **DHCP Servers** solo proveen direcciones **IP a clientes en su subred local**.
 -   Para que se puedan asignar direcciones a clientes en otros segmentos, se debe configurar la red para que los DHCP broadcasts puedan llegar desde el cliente al DCHP Server.
 -   Esto se puede hacer de dos maneras: configurando los routers que conectan las subredes para dejar pasar DHCP broadcasts, o configurando Agente Relay DHCP.
-    ![Imagen 7](./imagenes/imagen7.png)
+
+![Imagen 7](./imagenes/imagen7.png)
 
 ### Cómo funciona el agente relay DHCP
 
