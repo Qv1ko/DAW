@@ -2,135 +2,120 @@
 
 ## Iterables y array-like
 
-- **Iterables**: Objetos que se pueden recorrer, como arrays y strings, utilizando `for..of`.
-    
+-   **Iterables**: Objetos que se pueden recorrer, como arrays y strings, utilizando `for..of`.
+
     ```jsx
     let array = [1, 2, 3, 4];
-    
+
     console.log("Recorrer el array: " + array);
-    
+
     for (elemento of array) {
-    	console.log("Elemento: " + elemento);
+        console.log("Elemento: " + elemento);
     }
-    
+
     let cadena = "Hola caracola";
-    
+
     console.log("Recorrer la cadena: " + cadena);
-    
+
     for (caracter of cadena) {
-    	console.log("Caracter: " + caracter);
+        console.log("Caracter: " + caracter);
     }
     ```
-    
-- **Array-like**: Objetos con propiedad `.length` e indexables (accedibles con `objeto[i]`). Incluye arrays y strings.
-- **Array.from()**: Convierte iterables o array-like en arrays.
-    
+
+-   **Array-like**: Objetos con propiedad `.length` e indexables (accedibles con `objeto[i]`). Incluye arrays y strings.
+-   **Array.from()**: Convierte iterables o array-like en arrays.
+
     ```jsx
-    let arr = Array.from(iterable-o-array-like);
-    
+    let arr = Array.from(iterable - o - array - like);
+
     // Ejemplo:
     let arr = Array.from("Hola");
     ```
-    
 
 ## Objetos Map
 
-- **Map**: Permite almacenar pares clave-valor donde las claves son únicas y pueden ser de cualquier tipo.
-    
+-   **Map**: Permite almacenar pares clave-valor donde las claves son únicas y pueden ser de cualquier tipo.
+
     ```jsx
-    v = new Map()
+    v = new Map();
     let listaCompra = new Map();
-    
+
     // v = new Map([[clave1, valor1], [clave2, valor2],	[clave3, valor3],	...]);
-    let listaCompra = new Map([["ajos", 5], ["tomates", 3], ["cebollas", 1],]);
+    let listaCompra = new Map([
+        ["ajos", 5],
+        ["tomates", 3],
+        ["cebollas", 1],
+    ]);
     ```
-    
-- **Métodos**:
-    - `set(clave, valor)`: Añade o actualiza una clave. Devuelve un puntero al propio map, permitiendo que se puedan encadenar.
-        
+
+-   **Métodos**:
+
+    -   `set(clave, valor)`: Añade o actualiza una clave. Devuelve un puntero al propio map, permitiendo que se puedan encadenar.
+
         ```jsx
         listaCompra.set("ajos", 5);
         listaCompra.set("tomate", 3);
         listaCompra.set("cebollas", 1);
-        
+
         listaCompra.set("ajos", 5).set("tomate", 3).set("cebollas", 1);
         ```
-        
-    - `size`: Obtiene el número de pares clave-valor del map.
-        
+
+    -   `size`: Obtiene el número de pares clave-valor del map.
         ```jsx
         console.log(listaCompra.size); // 3
         ```
-        
-    - `has(clave)`: Verifica si una clave existe.
-        
+    -   `has(clave)`: Verifica si una clave existe.
         ```jsx
         console.log(listaCompra.has("tomate") ? "Hay tomate" : "No hay tomate"); // Hay tomate
         ```
-        
-    - `get(clave)`: Devuelve el valor asociado a una clave. Si no existe, devuelve `undefined`.
-        
+    -   `get(clave)`: Devuelve el valor asociado a una clave. Si no existe, devuelve `undefined`.
         ```jsx
         let numTomates = listaCompra.get("tomate"); // 3
         console.log(numTomates); // 3
         ```
-        
-    - `delete(clave)`: Elimina un par.
-        
+    -   `delete(clave)`: Elimina un par.
         ```jsx
         listaCompra.delete("tomate");
         console.log(listaCompra.size); // 2
-        console.log(listaCompra.has("tomate") ?"Hay tomate" : "No hay tomate");
+        console.log(listaCompra.has("tomate") ? "Hay tomate" : "No hay tomate");
         ```
-        
-    - `clear()`: Elimina todos los pares.
-        
+    -   `clear()`: Elimina todos los pares.
         ```jsx
         listaCompra.clear();
         console.log(listaCompra.size); // 0
         ```
-        
-- **Recorrido**:
-    - `for of`: En cada iteración se tomará como valor un array de dos elementos (clave y valor).
-        
+
+-   **Recorrido**:
+    -   `for of`: En cada iteración se tomará como valor un array de dos elementos (clave y valor).
         ```jsx
         for (let item of listaCompra) {
-        	console.log("qué compro: " + item[0] + ", unidades: " + item[1]);
+            console.log("qué compro: " + item[0] + ", unidades: " + item[1]);
         }
         ```
-        
-    - `.forEach((valor, clave) => {})`: En cada iteración, se puede acceder al valor del par (primer parámetro) y a su calve (segundo parámetro).
-        
+    -   `.forEach((valor, clave) => {})`: En cada iteración, se puede acceder al valor del par (primer parámetro) y a su calve (segundo parámetro).
         ```jsx
         listaCompra.forEach((valor, clave) => {
-        	console.log("qué compro: " + clave + ", unidades: " + valor);
+            console.log("qué compro: " + clave + ", unidades: " + valor);
         });
         ```
-        
-    - `.entries()`: Devuelve un iterable de arrays de elementos clave y valor.
-        
+    -   `.entries()`: Devuelve un iterable de arrays de elementos clave y valor.
         ```jsx
         for (let item of listaCompra.entries()) {
-        	console.log("qué compro: " + item[0] + ", unidades: " + item[1]);
+            console.log("qué compro: " + item[0] + ", unidades: " + item[1]);
         }
         ```
-        
-    - `.keys()`: Devuelve un iterable con las claves del map.
-        
+    -   `.keys()`: Devuelve un iterable con las claves del map.
         ```jsx
         for (let verdura of listaCompra.keys()) {
-        	console.log("qué compro: " + verdura);
+            console.log("qué compro: " + verdura);
         }
         ```
-        
-    - `.values()`: Devuelve un iterable con los valores del map.
-        
+    -   `.values()`: Devuelve un iterable con los valores del map.
         ```jsx
         for (let unidades of listaCompra.values()) {
-        	console.log("unidades: " + unidades);
+            console.log("unidades: " + unidades);
         }
         ```
-        
 
 ```jsx
 // Crear el map
@@ -154,7 +139,7 @@ console.log(numTomates); // 3
 // Eliminar un par: map.delete
 listaCompra.delete("tomate");
 console.log(listaCompra.size); // 2
-console.log(listaCompra.has("tomate") ?"Hay tomate" : "No hay tomate");
+console.log(listaCompra.has("tomate") ? "Hay tomate" : "No hay tomate");
 
 // Eliminar todos los pares: map.clear()
 listaCompra.clear();
@@ -165,121 +150,105 @@ listaCompra.set("ajos", 5).set("tomate", 3).set("cebollas", 1);
 
 // Recorrer un map con for of
 for (let item of listaCompra) {
-	console.log("qué compro: " + item[0] + ", unidades: " + item[1]);
+    console.log("qué compro: " + item[0] + ", unidades: " + item[1]);
 }
 
 // Recorrer un map con .foreach()
 listaCompra.forEach((valor, clave) => {
-	console.log("qué compro: " + clave + ", unidades: " + valor);
+    console.log("qué compro: " + clave + ", unidades: " + valor);
 });
 
 // Acceder a .entries()
 for (let item of listaCompra.entries()) {
-	console.log("qué compro: " + item[0] + ", unidades: " + item[1]);
+    console.log("qué compro: " + item[0] + ", unidades: " + item[1]);
 }
 
 // Acceder a .keys()
 for (let verdura of listaCompra.keys()) {
-	console.log("qué compro: " + verdura);
+    console.log("qué compro: " + verdura);
 }
 
 // Acceder a .values()
 for (let unidades of listaCompra.values()) {
-	console.log("unidades: " + unidades);
+    console.log("unidades: " + unidades);
 }
 ```
 
 ## Objetos Set
 
-- **Set**: Objeto que almacena valores únicos.
-    
+-   **Set**: Objeto que almacena valores únicos.
+
     ```jsx
     let verduras = new Set();
-    
+
     let verduras = new Set(["ajos", "tomates", "cebollas"]);
     ```
-    
-- **Métodos**:
-    - `add(valor)`: Añade un valor único. Devuelve un puntero al propio set, permitiendo que se puedan encadenar.
-        
+
+-   **Métodos**:
+
+    -   `add(valor)`: Añade un valor único. Devuelve un puntero al propio set, permitiendo que se puedan encadenar.
+
         ```jsx
         // let s2 = s.add(valor)
-        
+
         verduras.add("ajos");
         verduras.add("tomate");
         verduras.add("cebollas");
-        
+
         verduras.add("ajos").add("tomate").add("cebollas");
         ```
-        
-    - `size`: Obtiene la cantidad de valores.
-        
+
+    -   `size`: Obtiene la cantidad de valores.
         ```jsx
         console.log(verduras.size); // 3
         ```
-        
-    - `has(valor)`: Verifica si un valor existe.
-        
+    -   `has(valor)`: Verifica si un valor existe.
         ```jsx
         console.log(verduras.has("tomate") ? "Hay tomate" : "No hay tomate"); // Hay tomate
         ```
-        
-    - `delete(valor)`: Elimina un valor.
-        
+    -   `delete(valor)`: Elimina un valor.
         ```jsx
         verduras.delete("tomate");
         console.log(verduras.size); // 2
-        console.log(verduras.has("tomate") ?"Hay tomate" : "No hay tomate");
+        console.log(verduras.has("tomate") ? "Hay tomate" : "No hay tomate");
         ```
-        
-    - `clear()`: Elimina todos los valores.
-        
+    -   `clear()`: Elimina todos los valores.
         ```jsx
         verduras.clear();
         console.log(verduras.size); // 0
         ```
-        
-- **Recorrido**:
-    - `for of`: En cada iteración se tomará un valor del set.
-        
+
+-   **Recorrido**:
+    -   `for of`: En cada iteración se tomará un valor del set.
         ```jsx
         for (let valor of verduras) {
-        	console.log("qué compro: " + valor );
+            console.log("qué compro: " + valor);
         }
         ```
-        
-    - `.forEach((valor) => {})`: En cada iteración, se puede acceder a un valor del set.
-        
+    -   `.forEach((valor) => {})`: En cada iteración, se puede acceder a un valor del set.
         ```jsx
         verduras.forEach((valor) => {
-        	console.log("qué compro: " + valor);
+            console.log("qué compro: " + valor);
         });
         ```
-        
-    - `.entries()`: Devuelve un iterable con arrays de dos elementos: clave y valor.
-        
+    -   `.entries()`: Devuelve un iterable con arrays de dos elementos: clave y valor.
         ```jsx
         for (let item of verduras.entries()) {
-        	console.log("qué compro: " + item[0] + ", qué compro: " + item[1]);
+            console.log("qué compro: " + item[0] + ", qué compro: " + item[1]);
         }
         ```
-        
-    - `.keys()`: Devuelve un iterable con los valores del set.
-        
+    -   `.keys()`: Devuelve un iterable con los valores del set.
         ```jsx
         for (let verdura of verduras.keys()) {
-        	console.log("qué compro: " + verdura);
+            console.log("qué compro: " + verdura);
         }
         ```
-        
-    - `.values()`: Devuelve un iterable con los valores del set.
-        
+    -   `.values()`: Devuelve un iterable con los valores del set.
         ```jsx
         for (let unidades of verduras.values()) {
-        	console.log("unidades: " + unidades);
+            console.log("unidades: " + unidades);
         }
         ```
-        
 
 ```jsx
 // Crear el set
@@ -299,7 +268,7 @@ console.log(verduras.has("tomate") ? "Hay tomate" : "No hay tomate"); // Hay tom
 // Eliminar un valor: set.delete
 verduras.delete("tomate");
 console.log(verduras.size); // 2
-console.log(verduras.has("tomate") ?"Hay tomate" : "No hay tomate"); // No hay tomate
+console.log(verduras.has("tomate") ? "Hay tomate" : "No hay tomate"); // No hay tomate
 
 // Eliminar todos los valores: set.clear()
 verduras.clear();
@@ -310,27 +279,27 @@ verduras.add("ajos").add("tomate").add("cebollas");
 
 // Recorrer un set con for of
 for (let valor of verduras) {
-	console.log("qué compro: " + valor);
+    console.log("qué compro: " + valor);
 }
 
 // Recorrer un set con .foreach()
 verduras.forEach((valor) => {
-	console.log("qué compro: " + valor);
+    console.log("qué compro: " + valor);
 });
 
 // Acceder a .entries()
 for (let item of verduras.entries()) {
-	console.log("qué compro: " + item[0] + ", qué compro: " + item[1]);
+    console.log("qué compro: " + item[0] + ", qué compro: " + item[1]);
 }
 
 // Acceder a .keys()
 for (let verdura of verduras.keys()) {
-	console.log("qué compro: " + verdura);
+    console.log("qué compro: " + verdura);
 }
 
 // Acceder a .values()
 for (let unidades of verduras.values()) {
-	console.log("unidades: " + unidades);
+    console.log("unidades: " + unidades);
 }
 ```
 
@@ -338,11 +307,11 @@ for (let unidades of verduras.values()) {
 
 Los métodos estáticos de `Object` como `Object.keys()`, `Object.values()`, y `Object.entries()` permiten iterar sobre las propiedades de un objeto, devolviendo arrays en lugar de iterables, a diferencia de los métodos de `Map` y `Set`.
 
-| Método | Descripción | Ejemplo |
-| --- | --- | --- |
-| `Object.keys(objeto);` | Devuelve un array con el nombre de las propiedades de objeto. | `Object.keys({a:3, b:2}); // => ['a', 'b']` |
-| `Object.values(objeto);` | Devuelve un array con los valores de objeto. | `Object.values({a:3, b:2}); // => [3, 2]` |
-| `Object.entries(objeto);` | Devuelve array con los pares propiedad-valor de objeto. | `Object.entries({a:3, b:2}); // => [['a',3], ['b',2]]` |
+| Método                    | Descripción                                                   | Ejemplo                                                |
+| ------------------------- | ------------------------------------------------------------- | ------------------------------------------------------ |
+| `Object.keys(objeto);`    | Devuelve un array con el nombre de las propiedades de objeto. | `Object.keys({a:3, b:2}); // => ['a', 'b']`            |
+| `Object.values(objeto);`  | Devuelve un array con los valores de objeto.                  | `Object.values({a:3, b:2}); // => [3, 2]`              |
+| `Object.entries(objeto);` | Devuelve array con los pares propiedad-valor de objeto.       | `Object.entries({a:3, b:2}); // => [['a',3], ['b',2]]` |
 
 ```jsx
 let user = {
@@ -380,11 +349,11 @@ l = Object.fromEntries(listaCompra);
 
 ### Crear objetos `Date`
 
-- **Fecha y hora actual:** `let actual = new Date();`
-- **Desde milisegundos:** `let fecha = new Date(numMilisegundos);`
-- **Con parámetros:** `let fecha = new Date(año, mes, [día, hora, min, seg, ms]);`
-- **Desde cadena:** `let fecha = new Date(cadenaFecha);` (admite formatos como `YYYY-MM-DD`, `MM/DD/YYYY`, entre otros).
-    - Formatos disponibles: `"Wed Mar 25 2015 09:23:45 GMT +0100"` (hora estándar de Europa central), `"October 12, 2016 10:30:00"`, `"January 25 2015"`, `"Jan 25 2015", "25 Jan 2015"`, `"2016-05-12T12:34:25Z"` (la T separa la fecha de la hora y la Z indica la zona horaria), `"2015-03-25T12:00:00-06:30"` (para modificar la zona horaria, lugar de Z pondremos +HH:MM o -HH:MM), `"2016-05-12"`, `"2016-05", "2016"`, `"05/12/2016"`.
+-   **Fecha y hora actual:** `let actual = new Date();`
+-   **Desde milisegundos:** `let fecha = new Date(numMilisegundos);`
+-   **Con parámetros:** `let fecha = new Date(año, mes, [día, hora, min, seg, ms]);`
+-   **Desde cadena:** `let fecha = new Date(cadenaFecha);` (admite formatos como `YYYY-MM-DD`, `MM/DD/YYYY`, entre otros).
+    -   Formatos disponibles: `"Wed Mar 25 2015 09:23:45 GMT +0100"` (hora estándar de Europa central), `"October 12, 2016 10:30:00"`, `"January 25 2015"`, `"Jan 25 2015", "25 Jan 2015"`, `"2016-05-12T12:34:25Z"` (la T separa la fecha de la hora y la Z indica la zona horaria), `"2015-03-25T12:00:00-06:30"` (para modificar la zona horaria, lugar de Z pondremos +HH:MM o -HH:MM), `"2016-05-12"`, `"2016-05", "2016"`, `"05/12/2016"`.
 
 ```jsx
 let hoy = new Date(); // Crear un Date con la fecha y hora actuales
@@ -406,17 +375,17 @@ console.log(fiesta);
 
 ### Métodos `get` de `Date`
 
-| Método | Descripción |
-| --- | --- |
-| `fecha.getDate();` | Día del mes (1-31) |
-| `fecha.getMonth();` | Mes (0=enero, ..., 11=diciembre) |
-| `fecha.getFullYear();` | Año de 4 dígitos |
-| `fecha.getHours();` | Hora |
-| `fecha.getMinutes();` | Minutos |
-| `fecha.getSeconds();` | Segundos |
-| `fecha.getMilliseconds();` | Milisegundos |
-| `fecha.getDay();` | Día de la semana (0=domingo) |
-| `fecha.getTime();` | Milisegundos desde el 01/01/1970 |
+| Método                     | Descripción                      |
+| -------------------------- | -------------------------------- |
+| `fecha.getDate();`         | Día del mes (1-31)               |
+| `fecha.getMonth();`        | Mes (0=enero, ..., 11=diciembre) |
+| `fecha.getFullYear();`     | Año de 4 dígitos                 |
+| `fecha.getHours();`        | Hora                             |
+| `fecha.getMinutes();`      | Minutos                          |
+| `fecha.getSeconds();`      | Segundos                         |
+| `fecha.getMilliseconds();` | Milisegundos                     |
+| `fecha.getDay();`          | Día de la semana (0=domingo)     |
+| `fecha.getTime();`         | Milisegundos desde el 01/01/1970 |
 
 ```jsx
 navidad = new Date("2022-12-25"); // 25-12-2022
@@ -433,16 +402,16 @@ console.log(navidad.getMilliseconds()); // 0
 
 Permiten modificar los valores de las propiedades de fecha.
 
-| Método | Descripción |
-| --- | --- |
-| `fecha.setDate(dia);` | Cambia el día del mes |
-| `fecha.setMonth(mes);` | Cambia el mes (0=enero) |
-| `fecha.setFullYear(año);` | Cambia el año |
-| `fecha.setHours(hora);` | Cambia la hora (0-24) |
-| `fecha.setMinutes(min);` | Cambia los minutos (0-59) |
-| `fecha.setSeconds(seg);` | Cambia los segundos: (0-59) |
-| `fecha.setMilliseconds(ms);` | Cambia los milisegundos |
-| `fecha.setTime(ms);` | Milisegundos desde el 01/01/1970 |
+| Método                       | Descripción                      |
+| ---------------------------- | -------------------------------- |
+| `fecha.setDate(dia);`        | Cambia el día del mes            |
+| `fecha.setMonth(mes);`       | Cambia el mes (0=enero)          |
+| `fecha.setFullYear(año);`    | Cambia el año                    |
+| `fecha.setHours(hora);`      | Cambia la hora (0-24)            |
+| `fecha.setMinutes(min);`     | Cambia los minutos (0-59)        |
+| `fecha.setSeconds(seg);`     | Cambia los segundos: (0-59)      |
+| `fecha.setMilliseconds(ms);` | Cambia los milisegundos          |
+| `fecha.setTime(ms);`         | Milisegundos desde el 01/01/1970 |
 
 ```jsx
 navidad.setFullYear(2023);
@@ -451,23 +420,23 @@ console.log(navidad);
 
 ### Conversión de `Date` a cadena
 
-| Método | Ejemplo de salida |
-| --- | --- |
-| `fecha.toString();` | "Sun Nov 18 2018 18:28:27 GMT+0100” |
-| `fecha.toUTCString();` | "Sun, 18 Nov 2018 17:28:53 GMT” |
-| `fecha.toDateString();` | "Sun Nov 18 2018” |
+| Método                  | Ejemplo de salida                   |
+| ----------------------- | ----------------------------------- |
+| `fecha.toString();`     | "Sun Nov 18 2018 18:28:27 GMT+0100” |
+| `fecha.toUTCString();`  | "Sun, 18 Nov 2018 17:28:53 GMT”     |
+| `fecha.toDateString();` | "Sun Nov 18 2018”                   |
 
 ### Métodos estáticos
 
-| Método | Descripción |
-| --- | --- |
+| Método                     | Descripción                                          |
+| -------------------------- | ---------------------------------------------------- |
 | `Date.parse(cadenaFecha);` | Convierte una fecha en milisegundos desde 01/01/1970 |
-| `Date.now();` | Devuelve los milisegundos actuales desde 01/01/1970 |
+| `Date.now();`              | Devuelve los milisegundos actuales desde 01/01/1970  |
 
 ### Observaciones sobre fechas
 
-- **Autocorrección:** Las fechas se corrigen si están fuera de rango.
-- **Conversiones:** Se pueden convertir fechas a números para cálculos, como la diferencia en milisegundos entre dos fechas.
+-   **Autocorrección:** Las fechas se corrigen si están fuera de rango.
+-   **Conversiones:** Se pueden convertir fechas a números para cálculos, como la diferencia en milisegundos entre dos fechas.
 
 ## Asignación múltiple y operadores `rest`/`spread`
 
@@ -475,43 +444,43 @@ console.log(navidad);
 
 La asignación múltiple o destructuración permite asignar valores de arrays o propiedades de objetos a variables en una sola instrucción, lo que facilita la creación de código más corto y legible. Este enfoque admite valores predeterminados.
 
-- **En arrays**: Las variables se agrupan con corchetes `[]` y corresponden por posición a los valores del array.
-    
+-   **En arrays**: Las variables se agrupan con corchetes `[]` y corresponden por posición a los valores del array.
+
     ```jsx
     // Ejemplo arrays
-    
+
     //Definición de variables
     let [x, y, z] = [5, 1, 3, 4]; // x => 5, y => 1, z => 3
-    
+
     //Asignación de variables: intercambiar contenidos
-    let x = 5, y = 1;
+    let x = 5,
+        y = 1;
     [x, y] = [y, x]; // x => 1, y => 5
-    
+
     let [x, y, z = 1, t = 2, v] = [5, , , 10];
     // x => 5, y => undefined,
     // z => 1, t => 10, v => undefined;
     ```
-    
-- **En objetos**: Las variables se agrupan con llaves `{}` y se corresponden con el nombre de las propiedades. Es posible renombrar propiedades con `:`, y si se asignan dentro de una expresión deben ir entre paréntesis.
-    
+
+-   **En objetos**: Las variables se agrupan con llaves `{}` y se corresponden con el nombre de las propiedades. Es posible renombrar propiedades con `:`, y si se asignan dentro de una expresión deben ir entre paréntesis.
+
     ```jsx
     // Ejemplo objetos
-    
+
     //Definición de variables
     let { a, c = 1, d, e } = { a: 5, e: 3, f: 4 }; // a => 5, c => 1,
     // d => undefined, e => 3
-    
+
     //Asignación de variables ()
     let a, c, d;
     ({ a, c = 1, d } = { a: 5, e: 3 }); // a => 5, c => 1, d => undefined
     ```
-    
 
 ```jsx
 // Ejemplo de llamada a una función
 let a = 5,
-c = 3,
-d = 4;
+    c = 3,
+    d = 4;
 
 // ES5-agrupar variables en un objeto con propiedades de igual nombre // a las variables:
 let objES5 = { a: a, c: c, d: d }; // objES5 => {a:5, c:3, d:4}
@@ -544,11 +513,11 @@ let b, y;
 // Nos permite asignar a un array los parámetros por defecto.
 
 function suma(...valores) {
-	let acu = 0;
-	for (let valor of valores) {
-		acu += valor;
-	}
-	return acu;
+    let acu = 0;
+    for (let valor of valores) {
+        acu += valor;
+    }
+    return acu;
 }
 
 console.log(suma(1, 2, 3, 4, 5, 6));
@@ -568,8 +537,8 @@ let b = [0, 1, ...a]; // b => [0, 1, 2, 3]
 ```jsx
 // Ejemplo objetos
 
-let x = {a:5, b:1};
-let y = {...x, c:6, d:7}; // y => {a:5, b:1, c:6, d:7}
+let x = { a: 5, b: 1 };
+let y = { ...x, c: 6, d: 7 }; // y => {a:5, b:1, c:6, d:7}
 ```
 
 ```jsx
@@ -594,64 +563,55 @@ JSON (JavaScript Object Notation) es un formato de texto ligero, derivado del es
 
 JavaScript incluye el objeto `JSON`, que ofrece métodos para convertir valores a JSON y para reconstruir un objeto JavaScript desde una cadena JSON:
 
-- **`JSON.stringify(valor)`**: Convierte un valor JavaScript en una cadena JSON. Algunos valores experimentan cambios durante la conversión:
-    
+-   **`JSON.stringify(valor)`**: Convierte un valor JavaScript en una cadena JSON. Algunos valores experimentan cambios durante la conversión:
     ```jsx
     JSON.stringify({}); // '{}'
     JSON.stringify(true); // 'true'
-    JSON.stringify(null) // 'null'
+    JSON.stringify(null); // 'null'
     JSON.stringify("hola"); // '"hola"'
-    JSON.stringify(127) // '127'
-    JSON.stringify([1, 2, 3]) // '[1, 2, 3]'
-    JSON.stringify({a:27, b:"hola"}) // '{"a":27,"b":"hola"}'
+    JSON.stringify(127); // '127'
+    JSON.stringify([1, 2, 3]); // '[1, 2, 3]'
+    JSON.stringify({ a: 27, b: "hola" }); // '{"a":27,"b":"hola"}'
     JSON.stringify([1, "false", false]); // '[1,"false",false]'
     ```
-    
-- Valores como `NaN`, `Infinity` y `-Infinity` se convierten en `null`.
-    
+-   Valores como `NaN`, `Infinity` y `-Infinity` se convierten en `null`.
     ```jsx
     JSON.stringify([NaN, null, Infinity]); // '[null,null,null]'
     ```
-    
-- Objetos `Date` se serializan en formato de cadena ISO 8601.
-    
+-   Objetos `Date` se serializan en formato de cadena ISO 8601.
     ```jsx
     JSON.stringify(new Date(2006, 0, 2, 15, 4, 5));
     // '"2006-01-02T15:04:05.000Z"'
     ```
-    
-- **`JSON.parse(cadena)`**: Convierte una cadena JSON en su valor de JavaScript correspondiente.
-    
+-   **`JSON.parse(cadena)`**: Convierte una cadena JSON en su valor de JavaScript correspondiente.
     ```jsx
     JSON.parse('null') => null
     ```
-    
 
 ## Temporización en JavaScript: `setTimeout` y `setInterval`
 
 JavaScript ofrece dos funciones de temporización: `setTimeout` y `setInterval`, útiles para programar la ejecución de código tras un intervalo específico.
 
-| Función | Descripción |
-| --- | --- |
-| `setInterval(función, milisegundos)` | Ejecuta la función de forma repetitiva cada cierto número de milisegundos. Devuelve un identificador único, que puede usarse para detener la ejecución con `clearInterval`. |
-| `setTimeout(función, milisegundos, par1, par2…)` | Ejecuta la función una única vez después de que pase el tiempo indicado. Devuelve un identificador único que puede usarse para cancelar la ejecución mediante `clearTimeout`. Los parámetros `par1`, `par2`, etc., son argumentos opcionales que se pueden pasar a la función. |
-| `clearInterval(identificador);`
-`clearTimeout(identificador);` | Cancelan la ejecución de `setInterval` o `setTimeout` correspondientes al identificador dado. |
+| Función                                                          | Descripción                                                                                                                                                                                                                                                                    |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `setInterval(función, milisegundos)`                             | Ejecuta la función de forma repetitiva cada cierto número de milisegundos. Devuelve un identificador único, que puede usarse para detener la ejecución con `clearInterval`.                                                                                                    |
+| `setTimeout(función, milisegundos, par1, par2…)`                 | Ejecuta la función una única vez después de que pase el tiempo indicado. Devuelve un identificador único que puede usarse para cancelar la ejecución mediante `clearTimeout`. Los parámetros `par1`, `par2`, etc., son argumentos opcionales que se pueden pasar a la función. |
+| `clearInterval(identificador);` y `clearTimeout(identificador);` | Cancelan la ejecución de `setInterval` o `setTimeout` correspondientes al identificador dado.                                                                                                                                                                                  |
 
 ```jsx
 // Ejecutar una función cada 3 segundos
 
 function muestra() {
-	console.log("Han pasado 3 segundos");
+    console.log("Han pasado 3 segundos");
 }
 let v = setInterval(muestra, 3000);
 
 let v = setInterval(function () {
-	console.log ("Han pasado 3 segundos");
+    console.log("Han pasado 3 segundos");
 }, 3000);
 
 let v = setInterval(() => {
-	console.log ("Han pasado 3 segundos");
+    console.log("Han pasado 3 segundos");
 }, 3000);
 ```
 
@@ -659,8 +619,8 @@ let v = setInterval(() => {
 // Detener la ejecución tras 10 segundos
 
 setTimeout(function () {
-	clearInterval(v);
-	console.log("Cancelada la orden");
+    clearInterval(v);
+    console.log("Cancelada la orden");
 }, 10 * 1000);
 ```
 
@@ -676,32 +636,32 @@ La estructura básica de una clase es la siguiente:
 class MyClass {
 	prop = valor; // Solo últimas versiones del lenguaje
 	prop;
-	
+
 	constructor() { ... }; // Opcional
 	metodo1() {....};
 	metodo2() {....};
-	
+
 	get algo() {};
 	set algo() {};
 }
 ```
 
-- Las clases en JavaScript funcionan en *modo estricto* por defecto.
-- Se deben definir antes de usarlas y se instancian con `new`.
-- Los métodos y propiedades se acceden mediante `this`.
+-   Las clases en JavaScript funcionan en _modo estricto_ por defecto.
+-   Se deben definir antes de usarlas y se instancian con `new`.
+-   Los métodos y propiedades se acceden mediante `this`.
 
 ```jsx
 // Ejemplo de clase
 
 class Persona {
-	constructor(nombre, apellido, nacimiento) {
-		this.nombre = nombre;
-		this.apellido = apellido;
-		this.nacimiento = nacimiento;
-	}
-	saluda() {
-		console.log("Hola, soy " + this.nombre);
-	}
+    constructor(nombre, apellido, nacimiento) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.nacimiento = nacimiento;
+    }
+    saluda() {
+        console.log("Hola, soy " + this.nombre);
+    }
 }
 ```
 
@@ -711,13 +671,13 @@ Además de las declaraciones, las clases pueden crearse como expresiones asignad
 
 ```jsx
 let Libro = class {
-	constructor(titulo, autor) {
-		this.titulo = titulo;
-		this.autor = autor;
-	}
-	datos() {
-		console.log("Titulo: " + this.titulo + "; autor: " + this.autor);
-	}
+    constructor(titulo, autor) {
+        this.titulo = titulo;
+        this.autor = autor;
+    }
+    datos() {
+        console.log("Titulo: " + this.titulo + "; autor: " + this.autor);
+    }
 };
 let miLibro = new Libro("El Quijote", "Cervantes");
 ```
@@ -739,9 +699,9 @@ Los métodos de una clase se pueden definir de dos maneras. La forma más común
 // Ejemplo de sintaxis habitual
 
 class Ejemplo {
-  metodo() {
-    console.log("Este es un método");
-  }
+    metodo() {
+        console.log("Este es un método");
+    }
 }
 ```
 
@@ -749,9 +709,9 @@ class Ejemplo {
 // Ejemplo con función anónima
 
 class Ejemplo {
-  metodo = function() {
-    console.log("Este es un método con función anónima");
-  }
+    metodo = function () {
+        console.log("Este es un método con función anónima");
+    };
 }
 ```
 
@@ -770,15 +730,15 @@ Los getters y setters permiten acceder y modificar propiedades de un objeto de m
 // Ejemplo 1
 
 class Telefono {
-	constructor(marca) {
-		this._marca = marca;
-	}
-	get marca() {
-		return this._marca;
-	}
-	set marca(marca) {
-		this._marca = marca;
-	}
+    constructor(marca) {
+        this._marca = marca;
+    }
+    get marca() {
+        return this._marca;
+    }
+    set marca(marca) {
+        this._marca = marca;
+    }
 }
 
 let miTelefono = new Telefono("Google");
@@ -788,16 +748,16 @@ miTelefono.marca = "iPhone";
 // Ejemplo 2
 
 class Persona {
-	set nombre(valor) {
-		if (typeof valor != "string") {
-			console.log("Esperaba una cadena de texto");
-			return;
-		}
-		this._nombre = valor;
-	}
-	get nombre() {
-		return this._nombre;
-	}
+    set nombre(valor) {
+        if (typeof valor != "string") {
+            console.log("Esperaba una cadena de texto");
+            return;
+        }
+        this._nombre = valor;
+    }
+    get nombre() {
+        return this._nombre;
+    }
 }
 
 let p = new Persona();
@@ -822,21 +782,21 @@ En JavaScript, todas las clases heredan de la clase base `Object` a menos que se
 // Ejemplo de herencia
 
 class Telefono {
-	constructor(marca) {
-		this.marca = marca;
-	}
-	anuncio() {
-		return "Ha llegado el nuevo teléfono de " + this.marca;
-	}
+    constructor(marca) {
+        this.marca = marca;
+    }
+    anuncio() {
+        return "Ha llegado el nuevo teléfono de " + this.marca;
+    }
 }
 class Modelo extends Telefono {
-	constructor(marca, modelo) {
-		super(marca);
-		this.modelo = modelo;
-	}
-	anuncio() {
-		return super.anuncio() + ": el modelo " + this.modelo;
-	}
+    constructor(marca, modelo) {
+        super(marca);
+        this.modelo = modelo;
+    }
+    anuncio() {
+        return super.anuncio() + ": el modelo " + this.modelo;
+    }
 }
 miTelefono = new Modelo("iPhone", "21");
 console.log(miTelefono.anuncio());
@@ -846,8 +806,8 @@ console.log(miTelefono.anuncio());
 
 Los métodos estáticos, definidos con `static`, pertenecen a la clase y no a instancias individuales. Estos métodos se invocan directamente a través de la clase sin crear un objeto y son útiles para funciones que no dependen de los datos específicos de una instancia.
 
-- Definir un método estático: `static nombreMetodo() {...}`
-- Llamar al método: `NombreClase.nombreMetodo();`
+-   Definir un método estático: `static nombreMetodo() {...}`
+-   Llamar al método: `NombreClase.nombreMetodo();`
 
 ```jsx
 // Definición y llamada a un método estático

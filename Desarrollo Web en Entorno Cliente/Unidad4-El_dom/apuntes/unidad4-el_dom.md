@@ -186,7 +186,7 @@ console.log(img.alt);
 | ------------------------------------ | -------------------------------------------------------------------------------------------- |
 | `el.hasAttribute("nombre")`          | Devuelve `true` si el atributo existe.                                                       |
 | `el.getAttribute("nombre")`          | Obtiene el valor del atributo como cadena.                                                   |
-| `el.setAttribute("nombre", "valor")` |                                                                                              |
+| `el.setAttribute("nombre", "valor")` | Establece el valor del atributo.                                                             |
 | `el.removeAttribute("nombre")`       | Elimina el atributo del elemento.                                                            |
 | `el.attributes`                      | Devuelve una colección de todos los atributos del elemento con propiedades `name` y `value`. |
 
