@@ -7,9 +7,12 @@ console.log("--- Ejercicio 5 ---");
  *  está el botón.
  */
 
-closeBtn = document.getElementsByClassName("remove-button")[0];
-closeBtn.addEventListener("click", closeWindow);
-
-function closeWindow() {
-    this.parentElement.remove();
+for (let mensaje of document.querySelectorAll(".pane")) {
+    const BTN = document.createElement("button");
+    BTN.textContent = "[x]";
+    BTN.classList.add("remove-button");
+    BTN.style.float = "right";
+    mensaje.prepend(BTN);
+    BTN.addEventListener("click", (e) => e.target.parentElement.remove());
+    // BTN.addEventListener("click", (e) => e.target.closest("div").remove());
 }

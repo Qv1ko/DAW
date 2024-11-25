@@ -59,7 +59,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
-    transition: margin-left 250ms;
+    transition: margin-left ease 750ms;
     /* eliminando los espacios en blanco entre los li inline-block'ed */
     /* http://davidwalsh.name/remove-whitespace-inline-block */
     font-size: 0;

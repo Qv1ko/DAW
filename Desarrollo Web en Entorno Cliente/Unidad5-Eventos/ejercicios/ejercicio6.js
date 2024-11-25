@@ -15,13 +15,14 @@ function moverCarousel() {
     let gallery = document.querySelectorAll("div.gallery ul")[0];
     let type = this.classList[1];
     let position = parseFloat(gallery.style.marginLeft) || 0;
-    const MAX = -1170;
-    const MIN = 260;
-    if (type == "prev") {
-        gallery.style.marginLeft =
-            (position + 130 > MIN ? position : position + 130) + "px";
-    } else if (type == "next") {
-        gallery.style.marginLeft =
-            (position - 130 < MAX ? position : position - 130) + "px";
-    }
+
+    const MAX = -910;
+    const MIN = 0;
+
+    gallery.style.marginLeft =
+        type == "prev"
+            ? (position + 130 > MIN ? MAX : position + 130) + "px"
+            : type == "next"
+            ? (position - 130 < MAX ? MIN : position - 130) + "px"
+            : "0px";
 }
