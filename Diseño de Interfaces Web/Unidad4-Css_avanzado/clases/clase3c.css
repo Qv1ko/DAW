@@ -1,0 +1,47 @@
+/* Clase 3 C */
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px 300px 400px;
+    grid-template-areas: "head head head" "section1 section2 section3" "main main main" "footer footer footer";
+}
+
+.head {
+    background-color: aquamarine;
+    font-size: 24px;
+    grid-area: head;
+}
+
+.section1 {
+    background-color: blue;
+    color: white;
+    grid-area: section1;
+}
+
+.section2 {
+    background-color: red;
+    color: white;
+    grid-area: section2;
+}
+
+.section3 {
+    background-color: purple;
+    color: white;
+    grid-area: section3;
+}
+
+.main {
+    background-color: crimson;
+    color: white;
+    grid-area: main;
+}
+
+.footer {
+    background-color: chartreuse;
+    grid-area: footer;
+}
+
+main div {
+    border: 1px solid black;
+}

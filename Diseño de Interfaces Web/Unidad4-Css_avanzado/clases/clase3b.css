@@ -1,0 +1,56 @@
+/* Clase 3 B */
+
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul li {
+    list-style: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main div {
+    max-width: 30%;
+}
+
+section#productos div.flex {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* row-gap: 10px;
+    column-gap: 15px; */
+    gap: 10px 15px;
+    /* justify-items: center; */
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    align-content: space-between;
+}
+
+article {
+    border: 1px solid black;
+}
+
+.discount {
+    background: yellow;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 0.9em;
+    width: 35px;
+}
