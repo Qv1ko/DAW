@@ -1,0 +1,55 @@
+/* Clase 4 */
+
+body {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    /* Estilos de la página en escritorio */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 450px 450px 150px;
+    grid-template-areas: "he he he" "ma ma as" "se1 se2 se3" "fo fo fo";
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        /* Estilos de la página en movil */
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 150px 450px 450px 450px 150px;
+        grid-template-areas: "he he" "ma ma" "se1 as" "se2 se3" "fo fo";
+    }
+}
+
+header {
+    grid-area: he;
+    background-color: brown;
+}
+
+.ma {
+   grid-area: ma;
+   background-color: aqua;
+}
+
+aside {
+    grid-area: as;
+    background-color: blueviolet;
+}
+
+.se1 {
+    grid-area: se1;
+    background-color: red;
+}
+
+.se2 {
+    grid-area: se2;
+    background-color: pink;
+}
+
+.se3 {
+    grid-area: se3;
+    background-color: teal;
+}
+
+footer {
+    grid-area: fo;
+    background-color: black;
+}
