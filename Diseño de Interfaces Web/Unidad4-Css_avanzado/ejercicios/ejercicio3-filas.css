@@ -1,0 +1,51 @@
+/* Ejercicio 3 - Filas */
+
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+.articulo1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.articulo3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.articulo3 img {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+}
+
+.articulo3 div {
+    display: inline-block;
+    width: 68%;
+    vertical-align: top;
+}
+
+.articulo4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.articulo4 img {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+}
+
+.articulo4 div {
+    display: inline-block;
+    width: 68%;
+    vertical-align: top;
+}

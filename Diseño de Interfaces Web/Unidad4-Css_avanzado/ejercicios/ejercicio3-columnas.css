@@ -1,0 +1,29 @@
+/* Ejercicio 3 - Columnas */
+
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-auto-flow: column;
+}
+
+.articulo1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.articulo3 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.articulo4 {
+    /* grid-row-start: 1;
+    grid-row-end: span 2; */
+    grid-row: 1 / span 2;
+}
