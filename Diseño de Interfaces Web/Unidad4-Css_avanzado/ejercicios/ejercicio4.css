@@ -1,0 +1,33 @@
+/* Ejercicio 4 */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Parkinsans:wght@300..800&display=swap');
+
+:root {
+    /* font-family: "MB Corpo S Text Web"; */
+}
+
+.primary-btn {
+    background-color: #b21e23;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body {
+    /* background-color: black; */
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    color: #4f4f4f;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
