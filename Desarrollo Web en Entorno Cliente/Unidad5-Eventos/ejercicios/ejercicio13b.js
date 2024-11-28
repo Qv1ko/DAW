@@ -9,10 +9,7 @@ img = document.body.querySelector("img");
 
 img.addEventListener(
     "ondblclick",
-    (e) => (e.target.src = "./img/ejercicio13-lamp_off.jpg")
+    (e) => (e.target.src = "./img/lamp_off.jpg")
 );
 
-img.addEventListener(
-    "click",
-    (e) => (e.target.src = "./img/ejercicio13-lamp_on.jpg")
-);
+img.addEventListener("click", (e) => (e.target.src = "./img/lamp_on.jpg"));

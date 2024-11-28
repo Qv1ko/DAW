@@ -6,6 +6,6 @@ console.log("--- Ejercicio 13 A ---");
 
 let img = document.body.querySelector("img");
 
-img.ondblclick = (e) => (e.target.src = "./img/ejercicio13-lamp_off.jpg");
+img.ondblclick = (e) => (e.target.src = "./img/lamp_off.jpg");
 
-img.onclick = (e) => (e.target.src = "./img/ejercicio13-lamp_on.jpg");
+img.onclick = (e) => (e.target.src = "./img/lamp_on.jpg");

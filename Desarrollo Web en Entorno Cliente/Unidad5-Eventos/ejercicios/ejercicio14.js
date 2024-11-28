@@ -49,20 +49,35 @@ vaciar = () => (document.getElementById("n1").value = "");
 function cuadrado() {
     let num = document.getElementById("n1");
     let info = document.getElementById("info");
+    let oldNum = num.value;
     num.value = Math.pow(num.value, 2);
-    info.textContent = "Información: " + num.value;
+    info.textContent =
+        "Información: El resultado de la operación " +
+        oldNum +
+        "^2 es " +
+        num.value;
 }
 
 function cubo() {
     let num = document.getElementById("n1");
     let info = document.getElementById("info");
+    let oldNum = num.value;
     num.value = Math.pow(num.value, 3);
-    info.textContent = "Información: " + num.value;
+    info.textContent =
+        "Información: El resultado de la operación " +
+        oldNum +
+        "^3 es " +
+        num.value;
 }
 
 function division() {
     let num = document.getElementById("n1");
     let info = document.getElementById("info");
+    let oldNum = num.value;
     num.value = 1 / num.value;
-    info.textContent = "Información: " + num.value;
+    info.textContent =
+        "Información: El resultado de la operación 1/" +
+        oldNum +
+        " es " +
+        num.value;
 }

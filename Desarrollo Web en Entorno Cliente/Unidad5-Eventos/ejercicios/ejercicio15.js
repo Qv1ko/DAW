@@ -12,14 +12,27 @@ console.log("--- Ejercicio 15 ---");
 
 const LINKS = document.body.querySelectorAll("div a");
 
-LINKS.forEach((link) => {
-    link.addEventListener("click", (e) => {
-        const CONTENT = link.parentElement.querySelectorAll("p");
+// LINKS.forEach((link) => {
+//     link.addEventListener("click", (e) => {
+//         const CONTENT = e.target.parentElement.querySelectorAll("p");
+//         CONTENT.forEach((p) => {
+//             p.hidden = !p.hidden;
+//             link.textContent = p.hidden
+//                 ? "Mostrar contenidos"
+//                 : "Ocultar contenidos";
+//         });
+//     });
+// });
+
+// Delegación de eventos
+document.addEventListener("click", (e) => {
+    if (e.target.tagName == "A") {
+        const CONTENT = e.target.parentElement.querySelectorAll("p");
         CONTENT.forEach((p) => {
             p.hidden = !p.hidden;
-            link.textContent = p.hidden
+            e.target.textContent = p.hidden
                 ? "Mostrar contenidos"
                 : "Ocultar contenidos";
         });
-    });
+    }
 });

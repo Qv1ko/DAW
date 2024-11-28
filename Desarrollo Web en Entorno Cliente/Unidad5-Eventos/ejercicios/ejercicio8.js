@@ -14,14 +14,25 @@ console.log("--- Ejercicio 8 ---");
 treeItems = document.querySelectorAll("#tree li");
 
 for (let li of treeItems) {
-    span = document.createElement("span");
+    let span = document.createElement("span");
     span.textContent = li.firstChild.data.trim();
-    span.addEventListener("click", (e) => {
+    // span.addEventListener("click", (e) => {
+    //     const SUBUL = e.target.parentElement.childNodes[1];
+    //     if (SUBUL) {
+    //         SUBUL.hidden = !SUBUL.hidden;
+    //     }
+    // });
+    li.firstChild.remove();
+    li.prepend(span);
+}
+
+// Solución con delegación de eventos
+
+document.addEventListener("click", (e) => {
+    if (e.target.tagName == "SPAN") {
         const SUBUL = e.target.parentElement.childNodes[1];
         if (SUBUL) {
             SUBUL.hidden = !SUBUL.hidden;
         }
-    });
-    li.firstChild.remove();
-    li.prepend(span);
-}
+    }
+});
