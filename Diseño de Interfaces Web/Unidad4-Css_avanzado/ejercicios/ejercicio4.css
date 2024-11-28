@@ -1,9 +1,11 @@
 /* Ejercicio 4 */
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Parkinsans:wght@300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Parkinsans:wght@300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
 
 :root {
-    /* font-family: "MB Corpo S Text Web"; */
+    font-family: "Kanit";
+    color: white;
 }
 
 .primary-btn {
@@ -15,7 +17,7 @@
 }
 
 body {
-    /* background-color: black; */
+    background-color: black;
     max-width: 1200px;
     margin: auto;
 }
@@ -27,7 +29,40 @@ header {
 }
 
 header nav ul {
-    display: flex;
-    flex-direction: row;
     list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+main section#recomendaciones div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 640px 640px;
+    gap: 32px;
+}
+
+main section#recomendaciones article {
+    border: 1px solid #4f4f4f;
+    padding: 16px;
+    /* align-content: end; */
+}
+
+main section#recomendaciones div article:first-child {
+    grid-column: 1 / span 2;
+
+    background: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0) 60%,
+            rgba(0, 0, 0, 1)
+        ),
+        url("./imagenes/sl-63.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
 }
