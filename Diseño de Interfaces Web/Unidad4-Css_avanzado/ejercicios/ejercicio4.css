@@ -37,6 +37,23 @@ header nav ul {
     align-items: center;
 }
 
+header nav ul a {
+    text-decoration: none;
+    color: #4f4f4f;
+}
+
+header nav ul a:hover {
+    color: white;
+}
+
+header nav ul span:hover {
+    cursor: pointer;
+}
+
+header nav ul span:hover svg path {
+    fill: white;
+}
+
 main section#recomendaciones div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
