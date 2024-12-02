@@ -14,4 +14,8 @@ for (let mensaje of document.querySelectorAll(".pane")) {
     mensaje.prepend(BTN);
 }
 
-document.addEventListener("click", (e) => e.target.closest("div").remove());
+document.addEventListener("click", (e) => {
+    if (e.target.classList.contains("remove-button")) {
+        e.target.closest("div").remove();
+    }
+});

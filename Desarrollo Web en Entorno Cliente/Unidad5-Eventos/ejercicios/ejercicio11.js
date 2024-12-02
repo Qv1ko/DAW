@@ -12,7 +12,7 @@ const IMG = document.getElementById("largeImg");
 UL.addEventListener("click", (event) => {
     let link = event.target.closest("a");
     if (link) {
-        IMG.setAttribute("src", link.getAttribute("href"));
+        IMG.src = link.getAttribute("href");
         event.preventDefault();
     }
 });

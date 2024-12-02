@@ -26,16 +26,23 @@ document.addEventListener("click", (e) => {
 function ordenar(e) {
     let column = e.target.cellIndex;
     let rows = Array.from(document.querySelectorAll("#grid tbody tr"));
+    let order = e.target.dataset.order;
 
     rows.sort((row1, row2) =>
         e.target.dataset.type == "string"
-            ? row1.children[column].textContent >
-              row2.children[column].textContent
-            : e.target.dataset.type == "number"
+            ? order == "asc"
+                ? row1.children[column].textContent >
+                  row2.children[column].textContent
+                : row2.children[column].textContent >
+                  row1.children[column].textContent
+            : order == "asc"
             ? row1.children[column].textContent -
               row2.children[column].textContent
-            : 0
+            : row2.children[column].textContent -
+              row1.children[column].textContent
     );
+
+    e.target.dataset.order = order == "asc" ? "desc" : "asc";
 
     let tb = document.querySelector("#grid tbody");
     tb.append(...rows);
