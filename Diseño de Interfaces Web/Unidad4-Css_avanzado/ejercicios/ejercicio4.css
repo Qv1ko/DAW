@@ -22,6 +22,10 @@ h1, h2 {
     text-decoration: none;
 }
 
+.primary-btn:hover, .primary-btn:focus {
+    background-color: #981717;
+}
+
 body {
     background-color: black;
     max-width: 1400px;
@@ -29,6 +33,7 @@ body {
 }
 
 header {
+    margin-top: 1rem;
     color: #4f4f4f;
     display: flex;
     justify-content: space-between;
@@ -70,7 +75,7 @@ main section#recomendaciones div {
 
 main section#recomendaciones article {
     border: 1px solid #4f4f4f;
-    padding: 16px;
+    padding: 2rem;
     align-content: end;
     padding-bottom: 5rem;
 }
@@ -84,6 +89,24 @@ main section#recomendaciones div article {
     position: relative;
     color: #fff;
     box-sizing: border-box;
+    transition: background-size 0.5s ease-in-out;
+}
+
+main section#recomendaciones div article:hover {
+    animation: backgroundAnimation 500ms ease-in;
+    background-size: 110%;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-size: 100%;
+    }
+    50% {
+        background-size: 102%;
+    }
+    100% {
+        background-size: 104%;
+    }
 }
 
 main section#recomendaciones div article h4 {
@@ -95,7 +118,59 @@ main section#recomendaciones div article h2 {
     margin-bottom: 2.5rem;
 }
 
-main section#recomendaciones div article a {
+main section#recomendaciones div article a:last-child {
     color: white;
     margin-left: 2rem;
+}
+
+main section#ofertas div {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+main section#ofertas article {
+    background-color: #4f4f4f;
+    padding: 2rem;
+    width: 20%;
+}
+
+main section#ofertas article img {
+    width: 100%;
+}
+
+main section#ofertas article .primary-btn {
+    display: flex;
+    text-align: center;
+}
+
+footer div {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul a {
+    color: white;
+    text-decoration: none;
+}
+
+footer section:last-child {
+    border-top: 1px solid #4f4f4f;
+    padding: 1rem 0;
+}
+
+footer section:last-child ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+footer section:last-child div svg {
+    width: 1.5rem;
 }
