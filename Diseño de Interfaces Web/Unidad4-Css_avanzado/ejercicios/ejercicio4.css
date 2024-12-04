@@ -11,7 +11,13 @@
     font-size: 15px;
 }
 
-h1, h2 {
+#logo {
+    width: 52px;
+    height: auto;
+}
+
+h1,
+h2 {
     font-family: "PT Serif";
 }
 
@@ -22,7 +28,8 @@ h1, h2 {
     text-decoration: none;
 }
 
-.primary-btn:hover, .primary-btn:focus {
+.primary-btn:hover,
+.primary-btn:focus {
     background-color: #981717;
 }
 
@@ -85,7 +92,7 @@ main section#recomendaciones div article:first-child {
 }
 
 main section#recomendaciones div article {
-    background-position: center;
+    background-position: right;
     position: relative;
     color: #fff;
     box-sizing: border-box;
@@ -97,17 +104,45 @@ main section#recomendaciones div article:hover {
     background-size: 110%;
 }
 
-@keyframes backgroundAnimation {
-    0% {
-        background-size: 100%;
-    }
-    50% {
-        background-size: 102%;
-    }
-    100% {
-        background-size: 104%;
-    }
+main section#recomendaciones div article .img {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
+
+main section#recomendaciones div article div {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+
+main section#recomendaciones div article div * {
+    position: relative;
+    top: -100px;
+}
+
+/* .image-box{
+  width:300px;
+  overflow:hidden;
+}
+.image {
+	width:300px;
+  height:200px;
+	background: url("https://picsum.photos/300/200/");
+	background-position:center;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+} 
+.image:hover {  
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}  */
 
 main section#recomendaciones div article h4 {
     margin-bottom: 0.5rem;
@@ -123,25 +158,31 @@ main section#recomendaciones div article a:last-child {
     margin-left: 2rem;
 }
 
-main section#ofertas div {
+main section#ofertas > div {
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 main section#ofertas article {
     background-color: #4f4f4f;
-    padding: 2rem;
-    width: 20%;
+    width: 25%;
 }
 
 main section#ofertas article img {
     width: 100%;
+    min-height: 250px;
+}
+
+main section#ofertas article div {
+    padding: 0 2rem;
+    min-height: 300px;
 }
 
 main section#ofertas article .primary-btn {
     display: flex;
-    text-align: center;
+    justify-content: center;
+    margin: 2rem;
 }
 
 footer div {
