@@ -4,13 +4,11 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Ciberseguridad - Defensa</title>
-        <!-- Bootstrap CSS -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-        />
+        <!-- Bootstrap y CSS -->
+        <link rel="stylesheet" href="css/boostrap.css" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/defensa.css" />
+        <link rel="stylesheet" href="css/sim.css" />
     </head>
     <body>
         <header class="bg-dark text-white py-3">
@@ -91,11 +89,64 @@
                 </div>
             </div>
         </main>
+        <div class="controls">
+            <div class="slider-group">
+                <label for="temperature">Temperature (°C)</label>
+                <input
+                    type="range"
+                    id="temperature"
+                    min="-10"
+                    max="30"
+                    value="0"
+                />
+            </div>
+            <div class="slider-group">
+                <label for="precipitation">Precipitation Intensity</label>
+                <input
+                    type="range"
+                    id="precipitation"
+                    min="0"
+                    max="100"
+                    value="50"
+                />
+            </div>
+            <div class="slider-group">
+                <label for="wind">Wind Speed</label>
+                <input type="range" id="wind" min="-5" max="5" value="0" />
+            </div>
+            <div class="slider-group">
+                <label for="cloudiness">Cloudiness (%)</label>
+                <input
+                    type="range"
+                    id="cloudiness"
+                    min="0"
+                    max="100"
+                    value="50"
+                />
+            </div>
+
+            <div class="temperature-display">
+                <i
+                    class="weather-icon fas fa-cloud-showers-heavy"
+                    id="weatherIcon"
+                ></i>
+                <span id="temperatureDisplay">Temperature: 0°C / 32°F</span>
+                <span id="precipitationInfo" class="additional-info"
+                    >Precipitation: 50%</span
+                >
+                <span id="windInfo" class="additional-info">Wind: Calm</span>
+                <span id="cloudinessInfo" class="additional-info"
+                    >Cloudiness: 50%</span
+                >
+            </div>
+        </div>
+        <canvas id="weatherCanvas"></canvas>
         <footer class="bg-dark text-white text-center py-3">
             <p>© 2024 Ciberseguridad Global. Todos los derechos reservados.</p>
         </footer>
-        <!-- Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="js/script.js"></script>
+        <!-- Booststrap script -->
+        <script src="js/booststrap.js"></script>
+        <!-- Game script -->
+        <script src="js/sim.js"></script>
     </body>
 </html>
