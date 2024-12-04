@@ -6,9 +6,9 @@ console.log("--- Ejercicio 19 ---");
  *    puntero respecto del navegador y respecto de la pantalla.
  * - Al pulsar cualquier tecla, se debe mostrar el valor de la tecla pulsada y su código asociado.
  * - Añadir la siguiente característica al script: cuando se pulsa un botón del ratón, el color de
- *    fondo del cuadro de mensaje debe ser amarillo (#FFFFCC) y cuando se pulsa una tecla del
- *    teclado, el color de fondo debe ser azul (#CCE6FF). Al volver a mover el ratón, el color de
- *    fondo vuelve a ser blanco.
+ *    fondo del cuadro de mensaje del ratón debe ser amarillo (#FFFFCC) y cuando se pulsa una tecla del
+ *    teclado, el color de fondo del cuadro de mensaje del teclado debe ser azul (#CCE6FF). Al volver
+ *    a mover el ratón, el color de fondo de los cuadros de mensaje vuelve a ser blanco.
  */
 
 const MOUSEBOX = document.getElementById("raton");
@@ -22,20 +22,26 @@ document.addEventListener("mousemove", (e) => {
         e.pageX +
         ", " +
         e.pageY +
-        "]<br>Pantalla [" +
+        "]<br>Ventana [" +
         e.clientX +
         ", " +
         e.clientY +
+        "]<br>Pantalla [" +
+        e.screenX +
+        ", " +
+        e.screenY +
         "]";
-});
-
-document.addEventListener("keypress", (e) => {
-    KEYBOARDDATA.innerHTML =
-        "Carácter [" + e.key + "]<br>Código [" + e.code + "]";
-    KEYBOARDBOX.style.backgroundColor = "#CCE6FF";
+    MOUSEBOX.style.backgroundColor = "white";
+    KEYBOARDBOX.style.backgroundColor = "white";
 });
 
 document.addEventListener(
     "mousedown",
     () => (MOUSEBOX.style.backgroundColor = "#FFFFCC")
 );
+
+document.addEventListener("keypress", (e) => {
+    KEYBOARDDATA.innerHTML =
+        "Carácter [" + e.key + "]<br>Código [" + e.code + "]";
+    KEYBOARDBOX.style.backgroundColor = "#CCE6FF";
+});

@@ -9,17 +9,6 @@ console.log("--- Ejercicio 17 ---");
 const TABLE = document.getElementById("table");
 
 for (const TD of TABLE.querySelectorAll("td")) {
-    TD.addEventListener("mouseenter", (event) => {
-        let celda = event.target.closest("td");
-        if (celda) {
-            celda.classList.add("highlight");
-        }
-    });
-
-    TD.addEventListener("mouseleave", (event) => {
-        let celda = event.target.closest("td");
-        if (celda) {
-            celda.classList.remove("highlight");
-        }
-    });
+    TD.addEventListener("mouseenter", () => TD.classList.add("highlight"));
+    TD.addEventListener("mouseleave", () => TD.classList.remove("highlight"));
 }
