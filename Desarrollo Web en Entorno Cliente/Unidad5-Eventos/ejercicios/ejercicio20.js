@@ -17,17 +17,6 @@ console.log("--- Ejercicio 20 ---");
 
 document.addEventListener("DOMContentLoaded", game);
 
-function randColor() {
-    const DIGITS = 6;
-    let color = "#";
-
-    for (let i = 0; i < DIGITS; i++) {
-        color += Math.ceil(Math.random() * 15).toString(16);
-    }
-
-    return color;
-}
-
 const CHARACTERS = [
     "./img/abraham.png",
     "./img/bart.png",
@@ -43,7 +32,7 @@ function game() {
     const ROWS = 3;
     const COLUMNS = chars.length / ROWS;
     let row, cell;
-    let pos = 0;
+    let viewCards = [];
 
     document.body.innerHTML = "";
 
@@ -55,10 +44,47 @@ function game() {
             cell.style.width = "218px";
             cell.style.height = "230px";
             cell.style.backgroundColor = randColor();
-            // cell.style.backgroundImage = "url('" + chars[pos] + "')";
-            // cell.style.backgroundImage = "";
 
-            pos++;
+            cell.addEventListener("click", function clickEvent(e) {
+                // this.querySelectorAll("td").forEach(
+                //     (td) => (td.style.pointerEvent = "none")
+                // );
+                if (
+                    e.target.style.backgroundImage == "" &&
+                    viewCards.length < 2
+                ) {
+                    e.target.style.backgroundImage =
+                        "url('" + chars[r * COLUMNS + c] + "')";
+                    viewCards.push(e.target);
+                } else {
+                    e.target.style.backgroundImage = "";
+                    viewCards = viewCards.filter(
+                        (card) =>
+                            card.style.backgroundImage !=
+                            e.target.backgroundImage
+                    );
+                }
+                if (viewCards.length == 2) {
+                    let card1 = viewCards[0];
+                    let card2 = viewCards[1];
+                    if (
+                        card1.style.backgroundImage ==
+                            card2.style.backgroundImage &&
+                        card1 != card2
+                    ) {
+                        viewCards.forEach((card) =>
+                            card.removeEventListener("click", clickEvent)
+                        );
+                    } else {
+                        setTimeout(() => {
+                            card1.style.backgroundImage = "";
+                            card2.style.backgroundImage = "";
+                        }, 500);
+                    }
+                    viewCards.length = 0;
+                }
+            });
+
             row.append(cell);
         }
         table.append(row);
@@ -73,9 +99,13 @@ function mixCharacters(characters) {
         .sort(() => 0.5 - Math.random());
 }
 
-document.addEventListener("click", (e) => {
-    cell = e.target.closest("td");
-    if (cell) {
-        cell.style.backgroundImage = "url('" + chars[0] + "')";
+function randColor() {
+    const DIGITS = 6;
+    let color = "#";
+
+    for (let i = 0; i < DIGITS; i++) {
+        color += Math.ceil(Math.random() * 15).toString(16);
     }
-});
+
+    return color;
+}
