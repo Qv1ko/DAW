@@ -1,12 +1,28 @@
 /* Ejercicio 4 */
 
-@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Parkinsans:wght@300..800&display=swap");
-/* Corporate A BQ Light */
-/* Helvetica Neue o Arial */
-@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@font-face {
+    font-family: MBCorpoTitle;
+    src: url(./fonts/MBCorpoATitleCond-Regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: MBCorpoTextBold;
+    src: url(./fonts/MBCorpoSText-Bold.woff2);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: MBCorpoText;
+    src: url(./fonts/MBCorpoSText-Regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
 
 :root {
-    font-family: "Kanit";
+    font-family: "MBCorpoText";
     color: white;
     font-size: 15px;
 }
@@ -17,8 +33,11 @@
 }
 
 h1,
-h2 {
-    font-family: "PT Serif";
+h2,
+h3,
+h4 {
+    font-family: "MBCorpoTitle";
+    font-weight: normal;
 }
 
 .primary-btn {
@@ -92,57 +111,13 @@ main section#recomendaciones div article:first-child {
 }
 
 main section#recomendaciones div article {
-    background-position: right;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
     position: relative;
     color: #fff;
     box-sizing: border-box;
-    transition: background-size 0.5s ease-in-out;
 }
-
-main section#recomendaciones div article:hover {
-    animation: backgroundAnimation 500ms ease-in;
-    background-size: 110%;
-}
-
-main section#recomendaciones div article .img {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-main section#recomendaciones div article div {
-    background-color: black;
-    width: 100%;
-    height: 200px;
-}
-
-main section#recomendaciones div article div * {
-    position: relative;
-    top: -100px;
-}
-
-/* .image-box{
-  width:300px;
-  overflow:hidden;
-}
-.image {
-	width:300px;
-  height:200px;
-	background: url("https://picsum.photos/300/200/");
-	background-position:center;
-  -webkit-transition: all .5s ease;
-  -moz-transition: all .5s ease;
-  -ms-transition: all .5s ease;
-  -o-transition: all .5s ease;
-  transition: all .5s ease;
-} 
-.image:hover {  
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-}  */
 
 main section#recomendaciones div article h4 {
     margin-bottom: 0.5rem;
@@ -156,6 +131,10 @@ main section#recomendaciones div article h2 {
 main section#recomendaciones div article a:last-child {
     color: white;
     margin-left: 2rem;
+}
+
+main section#recomendaciones div article:last-child a:last-child {
+    margin-left: 0;
 }
 
 main section#ofertas > div {
@@ -197,21 +176,38 @@ footer ul {
 }
 
 footer ul a {
+    color: #4f4f4f;
+    text-decoration: none;
+}
+
+footer ul li:hover a {
     color: white;
     text-decoration: none;
 }
 
-footer section:last-child {
+footer > section:last-child {
     border-top: 1px solid #4f4f4f;
     padding: 1rem 0;
+    display: flex;
 }
 
-footer section:last-child ul {
+footer > section:last-child > * {
+    margin-top: 8px;
+    margin-bottom: 1rem;
+}
+
+footer > section:last-child ul {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+    width: 95%;
 }
 
-footer section:last-child div svg {
+footer > section:last-child div {
+    gap: 1rem;
+    align-items: center;
+}
+
+footer > section:last-child div svg {
     width: 1.5rem;
 }
