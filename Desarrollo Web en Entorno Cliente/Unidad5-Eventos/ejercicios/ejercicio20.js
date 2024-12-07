@@ -16,6 +16,7 @@ console.log("--- Ejercicio 20 ---");
 
 document.addEventListener("DOMContentLoaded", game);
 
+// Lista de personajes para el juego (rutas de imágenes).
 const CHARACTERS = [
     "./img/abraham.png",
     "./img/bart.png",
@@ -24,30 +25,42 @@ const CHARACTERS = [
     "./img/maggie.png",
     "./img/marge.png",
 ];
+
+// Mezcla las imágenes duplicadas y las desordena.
+let mixCharacters = (characters) =>
+    characters.concat(characters).sort(() => 0.5 - Math.random());
+
 let isProcessing = false;
 
 function game() {
+    // Mezcla las cartas
     let chars = mixCharacters(CHARACTERS);
-    let table = document.createElement("table");
+
     const ROWS = 3;
     const COLUMNS = Math.ceil(chars.length / ROWS);
-    let row, cell;
     const COLOR = "#c0a902";
+
     let viewCards = [];
     let marker = 0;
 
+    // Reinicia el contenido de la página
     document.body.innerHTML = "";
 
-    let markerText = document.createElement("p");
+    // Marcador
+    let markerText = document.createElement("h2");
     markerText.textContent = "Marcador: " + marker;
     document.body.appendChild(markerText);
 
+    // Botón para reiniciar el juego
     let restartButton = document.createElement("button");
     restartButton.textContent = "Reiniciar el juego";
     restartButton.style.marginBottom = "16px";
     restartButton.addEventListener("click", game);
     document.body.appendChild(restartButton);
 
+    // Crea el tablero
+    let table = document.createElement("table");
+    let row, cell;
     for (let r = 0; r < ROWS; r++) {
         row = document.createElement("tr");
         for (let c = 0; c < COLUMNS; c++) {
@@ -56,12 +69,9 @@ function game() {
             cell.style.height = "230px";
             cell.style.backgroundColor = COLOR;
 
+            // Evento click de una celda
             cell.addEventListener("click", function clickEvent(e) {
-                if (isProcessing) return;
-                if (e.target.style.backgroundImage) {
-                    e.target.style.backgroundImage = "";
-                    return;
-                }
+                if (isProcessing || e.target.style.backgroundImage) return;
 
                 e.target.style.backgroundColor = "";
                 e.target.style.backgroundImage = `url('${
@@ -69,34 +79,40 @@ function game() {
                 }')`;
                 viewCards.push(e.target);
 
+                // Compara las dos cartas seleccionadas
                 if (viewCards.length === 2) {
                     isProcessing = true;
-
-                    const [card1, card2] = viewCards;
+                    const [CARD1, CARD2] = viewCards;
 
                     if (
-                        card1.style.backgroundImage ===
-                            card2.style.backgroundImage &&
-                        card1 !== card2
+                        CARD1.style.backgroundImage ===
+                            CARD2.style.backgroundImage &&
+                        CARD1 !== CARD2
                     ) {
+                        // Bloquea las cartas
                         viewCards.forEach((card) =>
                             card.removeEventListener("click", clickEvent)
                         );
-                        viewCards = [];
+
+                        // Actualiza el marcador
                         marker++;
                         markerText.textContent = "Marcador: " + marker;
-                        isProcessing = false;
-                        if (marker == 6) {
-                            setTimeout(() => {
-                                alert("¡¡GANASTE!!");
-                            }, 33);
+
+                        if (marker === 6) {
+                            setTimeout(() => alert("¡¡GANASTE!!"), 33);
                         }
+
+                        viewCards = [];
+                        isProcessing = false;
                     } else {
+                        // Si no coinciden, las oculta
                         setTimeout(() => {
-                            card1.style.backgroundImage = "";
-                            card1.style.backgroundColor = COLOR;
-                            card2.style.backgroundImage = "";
-                            card2.style.backgroundColor = COLOR;
+                            CARD1.style.backgroundImage = "";
+                            CARD1.style.backgroundColor = COLOR;
+
+                            CARD2.style.backgroundImage = "";
+                            CARD2.style.backgroundColor = COLOR;
+
                             viewCards = [];
                             isProcessing = false;
                         }, 500);
@@ -110,10 +126,4 @@ function game() {
     }
 
     document.body.append(table);
-}
-
-function mixCharacters(characters) {
-    return characters
-        .concat(characters.sort(() => 0.5 - Math.random()))
-        .sort(() => 0.5 - Math.random());
 }

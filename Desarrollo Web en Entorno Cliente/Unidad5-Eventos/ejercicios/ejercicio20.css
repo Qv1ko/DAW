@@ -1,0 +1,21 @@
+table {
+    border-spacing: 8px;
+}
+
+td {
+    transition: transform 0.5s;
+    border: 2px black solid;
+    border-radius: 8px;
+}
+
+td:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+button {
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
