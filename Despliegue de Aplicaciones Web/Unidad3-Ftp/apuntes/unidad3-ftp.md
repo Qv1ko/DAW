@@ -19,7 +19,7 @@ El FTP se basa en una arquitectura cliente-servidor, utilizando dos puertos pred
 -   **Puerto 20**: Para la transferencia de datos.
 -   **Puerto 21**: Para la transferencia de órdenes (control y autenticación).
 
-![Imagen 1](./imagenes/imagen1.png)
+![Imagen 1](./img/imagen1.png)
 
 ### Modo activo
 
@@ -30,7 +30,7 @@ En el modo activo, el cliente establece una conexión de control utilizando un p
 
 Este modo puede presentar problemas al atravesar firewalls o NAT, ya que requiere que el cliente acepte conexiones entrantes.
 
-![Imagen 2](./imagenes/imagen2.png)
+![Imagen 2](./img/imagen2.png)
 
 ### **Modo pasivo**
 
@@ -42,7 +42,7 @@ En el modo pasivo, el cliente evita conexiones entrantes inseguras. El proceso e
 
 En este modo, el servidor no utiliza el puerto 20 para datos, delegando la conexión al cliente.
 
-![Imagen 3](./imagenes/imagen3.png)
+![Imagen 3](./img/imagen3.png)
 
 ### Activo o pasivo
 
@@ -68,7 +68,7 @@ En este modo, el servidor no utiliza el puerto 20 para datos, delegando la conex
 
 ### Esquema funcionamiento FTP
 
-![Imagen 4](./imagenes/imagen4.png)
+![Imagen 4](./img/imagen4.png)
 
 ### Comandos FTP
 
@@ -113,10 +113,10 @@ El FTP tradicional presenta vulnerabilidades:
 
 **FTPS**: Extiende FTP con cifrado SSL/TLS.
 
-![Imagen 5](./imagenes/imagen5.png)
+![Imagen 5](./img/imagen5.png)
 
 **SFTP**: Opera sobre el protocolo SSH, proporcionando seguridad adicional.
 
-![Imagen 6](./imagenes/imagen6.png)
+![Imagen 6](./img/imagen6.png)
 
-![Imagen 7](./imagenes/imagen7.png)
+![Imagen 7](./img/imagen7.png)

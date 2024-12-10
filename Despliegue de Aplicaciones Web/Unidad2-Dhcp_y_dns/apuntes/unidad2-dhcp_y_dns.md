@@ -127,7 +127,7 @@ Es un conjunto ordenado de direcciones IP consecutivas.
 -   Especifica el número máximo de clientes a los que puede dar servicio
 -   Ej: Un rango de 51 equipos sería desde 10.0.0.150 hasta 10.0.0.200.
 
-![Imagen 1](./imagenes/imagen1.png)
+![Imagen 1](./img/imagen1.png)
 
 ## Reserva
 
@@ -139,7 +139,7 @@ La concesión o **lease** se define como el **período de tiempo** durante el cu
 
 El período de concesión configurado para un servidor DHCP se aplica a todas las direcciones IP que un servidor DHCP asigna dinámicamente a sus clientes.
 
-![Imagen 2](./imagenes/imagen2.png)
+![Imagen 2](./img/imagen2.png)
 
 ## Exclusión
 
@@ -147,7 +147,7 @@ Es la dirección o **rango IP** que **no puede conceder** un servidor DHCP.
 
 -   Ej: si se excluye el rango 10.0.0.8-10.0.0.10, la única forma de que un equipo pueda obtener una de esas tres direcciones es a través de su configuración manual o estática.
 
-    ![Imagen 3](./imagenes/imagen3.png)
+    ![Imagen 3](./img/imagen3.png)
 
 ## Funcionamiento del protocolo DHCP
 
@@ -159,7 +159,7 @@ Es la dirección o **rango IP** que **no puede conceder** un servidor DHCP.
 
 Para que el servicio de DHCP funcione, tanto en servidor como en cliente, deben enviarse varios mensajes el uno al otro para la correcta comunicación y asignación de las direcciones.
 
-![Imagen 4](./imagenes/imagen4.png)
+![Imagen 4](./img/imagen4.png)
 
 ### Estructura del protocolo
 
@@ -169,7 +169,7 @@ El modo de funcionamiento más sencillo para un cliente que no dispone de direcc
 
     - El cliente hace un broadcast de un mensaje DHCP DISCOVER en su subred física que llega al servidor DHCP
 
-    ![Imagen 5](./imagenes/imagen5.png)
+    ![Imagen 5](./img/imagen5.png)
 
 2. Los servidores DHCP activos envían un mensaje **DHCP OFFER**, donde **ofrecen una configuración IP** al cliente, es decir, una dirección libre.
     - Cada servidor puede responder con un mensaje **DHCP OFFER** que incluye una dirección de red disponible y otras opciones de configuración.
@@ -201,7 +201,7 @@ El tiempo actual en que los temporizadores expiran se calcula añadiendo el valo
 
 -   La RFC 2131 recomienda añadir un factor a T1 y T2 para evitar que varios clientes DHCP expiren sus temporizadores al mismo tiempo.
 
-![Imagen 6](./imagenes/imagen6.png)
+![Imagen 6](./img/imagen6.png)
 
 ### Todos los mensajes DHCP
 
@@ -250,7 +250,7 @@ El **Agente Relay DHCP** es un equipo o router configurado para escuchar broadca
 -   Para que se puedan asignar direcciones a clientes en otros segmentos, se debe configurar la red para que los DHCP broadcasts puedan llegar desde el cliente al DCHP Server.
 -   Esto se puede hacer de dos maneras: configurando los routers que conectan las subredes para dejar pasar DHCP broadcasts, o configurando Agente Relay DHCP.
 
-![Imagen 7](./imagenes/imagen7.png)
+![Imagen 7](./img/imagen7.png)
 
 ### Cómo funciona el agente relay DHCP
 
@@ -262,9 +262,9 @@ El Sistema de Nombres de Dominio (DNS) facilita la identificación de recursos e
 
 Un servidor de nombres de dominio NS (Name Server) es un host que dispone de software capaz de responder a las peticiones que le formule un cliente DNS. El cliente DNS le proporciona un nombre articulado (nombre DNS) y espera como respuesta la IP de ese nombre.
 
-![Imagen 8](./imagenes/imagen8.png)
+![Imagen 8](./img/imagen8.png)
 
-![Imagen 9](./imagenes/imagen9.png)
+![Imagen 9](./img/imagen9.png)
 
 ## Componentes del servicio DNS
 
@@ -279,9 +279,9 @@ La jerarquía inicia en un nodo raíz (nivel cero), y generalmente se usan hasta
 -   El nombre completo de un dominio se denomina FQDN (Fully Qualified Domain Name).
 -   Toda la estructura de nombres bajo DNS se llama "espacio de nombres de dominio".
 
-![Imagen 10](./imagenes/imagen10.png)
+![Imagen 10](./img/imagen10.png)
 
-![Imagen 11](./imagenes/imagen11.png)
+![Imagen 11](./img/imagen11.png)
 
 -   Ejemplo nombres de dominio
     -   Pc1.ElRegional.es = `.` → `es` → `ElRegional` → `Pc1`
@@ -302,7 +302,7 @@ El nivel superior de dominios (TLD) se organiza en tres categorías:
 -   **De país (ccTLD)** utilizan dos letras para representar países, como `.es` para España.
 -   **De propósito específico** incluye dominios como `.arpa` (infraestructura) y otros reservados como `.localhost` y `.test`.
 
-![Imagen 12](./imagenes/imagen12.png)
+![Imagen 12](./img/imagen12.png)
 
 Dominios de nivel superior (TLD) más populares
 
@@ -318,11 +318,11 @@ Tipos de zonas:
 
 Directas
 
-![Imagen 13](./imagenes/imagen13.png)
+![Imagen 13](./img/imagen13.png)
 
 Inversas
 
-![Imagen 14](./imagenes/imagen14.png)
+![Imagen 14](./img/imagen14.png)
 
 ### **Servidores de nombres**
 
@@ -354,9 +354,9 @@ Un **registro de recurso (RR)** en DNS es una entrada que contiene información 
 
 Nota: Para configurar un servidor de nombres (NS) en una zona, es necesario incluir tanto un registro NS como un registro A en esa zona directa.
 
-![Imagen 15](./imagenes/imagen15.png)
+![Imagen 15](./img/imagen15.png)
 
-![Imagen 16](./imagenes/imagen16.png)
+![Imagen 16](./img/imagen16.png)
 
 ## Servidores DNS
 
@@ -374,13 +374,13 @@ Nota: Para configurar un servidor de nombres (NS) en una zona, es necesario incl
 
 La **sugerencia de raíz** es un registro de recurso (RR) que ayuda a localizar la IP de los servidores DNS raíz. En Windows, se guarda en `c:\windows\system32\dns\cache.dns` y puede actualizarse mediante el archivo `named.root` disponible en ftp.internic.net.
 
-![Imagen 17](./imagenes/imagen17.png)
+![Imagen 17](./img/imagen17.png)
 
-![Imagen 18](./imagenes/imagen18.png)
+![Imagen 18](./img/imagen18.png)
 
 ### Servidor primario y servidor secundario
 
-![Imagen 19](./imagenes/imagen19.png)
+![Imagen 19](./img/imagen19.png)
 
 ### Transferencia de zona
 
@@ -388,7 +388,7 @@ La **transferencia de zona** es el proceso de copiar los datos de una zona desde
 
 Cuando hay cambios en el servidor primario, éste notifica a los servidores secundarios, que luego actualizan sus datos mediante transferencias de zona. Este mecanismo mejora la **tolerancia a fallos** en el sistema DNS.
 
-![Imagen 20](./imagenes/imagen20.png)
+![Imagen 20](./img/imagen20.png)
 
 ### Delegación de zona
 
@@ -398,15 +398,15 @@ Así, cada servidor DNS primario se convierte en la autoridad para su zona espec
 
 Un dominio puede subdividirse sin ceder la autoridad sobre los subdominios, pero también puede optar por delegarla para algunos de ellos si así se decide.
 
-![Imagen 21](./imagenes/imagen21.png)
+![Imagen 21](./img/imagen21.png)
 
 ### Reenviadores
 
-![Imagen 22](./imagenes/imagen22.png)
+![Imagen 22](./img/imagen22.png)
 
 ### Cómo funciona el almacenamiento en caché del servidor DNS
 
-![Imagen 23](./imagenes/imagen23.png)
+![Imagen 23](./img/imagen23.png)
 
 ## Proceso de resolución de nombres
 
@@ -418,7 +418,7 @@ Un dominio puede subdividirse sin ceder la autoridad sobre los subdominios, pero
 
 ### Proceso de consultas DNS completo
 
-![Imagen 24](./imagenes/imagen24.png)
+![Imagen 24](./img/imagen24.png)
 
 1. **(Q1)** El cliente intenta resolver la consulta localmente verificando su caché.
 2. **(Q2)** Si no tiene la información, consulta al servidor DNS preferido.
@@ -431,4 +431,4 @@ Un dominio puede subdividirse sin ceder la autoridad sobre los subdominios, pero
 -   **Búsqueda directa**: Consulta que permite localizar la IP asociada a un nombre de dominio.
 -   **Búsqueda inversa**: Consulta que permite encontrar el nombre de dominio correspondiente a una dirección IP.
 
-![Imagen 25](./imagenes/imagen25.png)
+![Imagen 25](./img/imagen25.png)

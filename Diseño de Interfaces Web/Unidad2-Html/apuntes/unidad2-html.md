@@ -62,7 +62,7 @@
 
 ### **Estructura del documento HTML**
 
-![Imagen 1](./imagenes/imagen1.png)
+![Imagen 1](./img/imagen1.png)
 
 -   **`<!DOCTYPE html>`** → Define el tipo de documento.
 -   **`<html>`** → Raíz del documento. Puede incluir atributos como `lang`.

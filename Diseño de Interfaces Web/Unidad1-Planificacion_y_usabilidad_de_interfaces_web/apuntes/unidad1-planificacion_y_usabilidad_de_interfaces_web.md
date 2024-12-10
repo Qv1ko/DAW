@@ -48,17 +48,17 @@
 
 -   **Wireframes:** Etapas tempranas, estructura básica y de baja calidad. Ahorra tiempo y costes, y aporta valor informativo.
 
-    ![Imagen 1](./imagenes/imagen1.png)
-    ![Imagen 2](./imagenes/imagen2.png)
+    ![Imagen 1](./img/imagen1.png)
+    ![Imagen 2](./img/imagen2.png)
 
 -   **Mockups:** Etapas intermedias, alta fidelidad y ajustes visuales cercanos al diseño final, incluyendo tipografías y colores.
 
-    ![Imagen 3](./imagenes/imagen3.png)
+    ![Imagen 3](./img/imagen3.png)
 
 -   **Prototipos:** Etapas intermedias, alta fidelidad con interactividad. Permiten corregir errores de usabilidad y funcionalidad.
 
-    ![Imagen 4](./imagenes/imagen4.png)
-    ![Imagen 5](./imagenes/imagen5.png)
+    ![Imagen 4](./img/imagen4.png)
+    ![Imagen 5](./img/imagen5.png)
 
 ## Diseño de un sitio web
 
@@ -72,12 +72,12 @@
 -   **Cabecera:** Situada en la parte superior con el logotipo de la empresa (HTML5: `<header>`), su función principal es **identificar el sitio**.
     -   Es común a todas las páginas, separando la navegación de la zona de lectura.
     -   Excepción: páginas de aterrizaje (landing pages) no suelen tener cabecera.
-        ![Imagen 6](./imagenes/imagen6.png)
-        ![Imagen 7](./imagenes/imagen7.webp)
+        ![Imagen 6](./img/imagen6.png)
+        ![Imagen 7](./img/imagen7.webp)
 -   **Menús de navegación:** Permiten desplazarse por el sitio (HTML5: `<nav>`), generalmente con texto, gráficos u otros elementos.
-    ![Imagen 8](./imagenes/imagen8.png)
-    ![Imagen 9](./imagenes/imagen9.png)
-    ![Imagen 10](./imagenes/imagen10.png)
+    ![Imagen 8](./img/imagen8.png)
+    ![Imagen 9](./img/imagen9.png)
+    ![Imagen 10](./img/imagen10.png)
 -   **Cuerpo de la página:** Donde se presenta la información relevante. Incluye un título `<h1>` para mejorar el SEO.
 -   **Pie de página:** Situado al final, ayuda a estructurar el sitio e incluye enlaces a servicios, contactos y avisos legales.
 
@@ -87,10 +87,10 @@
 
     -   Los bocetos preliminares y el diseño coherente son esenciales.
 
-        ![Imagen 11](./imagenes/imagen11.png)
+        ![Imagen 11](./img/imagen11.png)
 
 -   **Mapa de navegación:** Un esquema previo que ayuda a organizar las secciones y bloques de contenido, facilitando tanto el diseño como la navegación del sitio.
-    ![Imagen 12](./imagenes/imagen12.png)
+    ![Imagen 12](./img/imagen12.png)
 
 ## Homepage
 
@@ -114,7 +114,7 @@
     -   **Retener visitas:** El diseño atrae inicialmente, pero la información retiene al usuario.
     -   **Aumentar la credibilidad:** Las imágenes y el logotipo en posiciones clave transmiten profesionalidad.
     -   **Informar rápidamente:** El usuario debe captar el servicio o producto desde el primer momento.
-        ![Imagen 13](./imagenes/imagen13.png)
+        ![Imagen 13](./img/imagen13.png)
 
 ### Distribución de la información
 
@@ -132,7 +132,7 @@ El color tiene un poder inmenso, ya que afecta tanto los sentimientos como las a
 
 -   **Rojo:** Simboliza pasión, energía y movimiento, pero también peligro o violencia. Se utiliza para captar atención, pero debe evitarse el exceso en sectores como artículos de lujo o páginas profesionales.
 -   **Amarillo:** Asociado con optimismo y juventud, pero también con engaño y vulgaridad. Es efectivo en pequeñas cantidades para botones de acción, pero puede resultar molesto si se abusa de él.
-    ![Imagen 14](./imagenes/imagen14.png)
+    ![Imagen 14](./img/imagen14.png)
 -   **Naranja:** Evoca energía y entusiasmo, ideal para llamadas a la acción. Sin embargo, un uso excesivo puede resultar sobrecargado.
 -   **Verde:** Relacionado con la naturaleza, el bienestar y la calma. Es apropiado para temas de salud, medioambiente y ciencia, pero menos para tecnología o bienes de lujo.
 -   **Azul:** Asociado con confianza y seguridad, es común en empresas grandes y bancos. Sin embargo, ciertos tonos pueden hacer que una página se vea fría y distante.
@@ -156,27 +156,27 @@ Existen varias armonías cromáticas que ayudan a crear combinaciones estéticas
 
 -   **Monocromática**: Utiliza diferentes tonalidades de un solo color.
 
-    ![Imagen 15](./imagenes/imagen15.png)
+    ![Imagen 15](./img/imagen15.png)
 
 -   **Complementaria**: Colores opuestos en la rueda de color, ideales para crear contraste.
 
-    ![Imagen 16](./imagenes/imagen16.png)
+    ![Imagen 16](./img/imagen16.png)
 
 -   **Tríadica**: Colores equidistantes en la rueda, donde uno es dominante.
 
-    ![Imagen 17](./imagenes/imagen17.png)
+    ![Imagen 17](./img/imagen17.png)
 
 -   **Tetrádica**: Cuatro colores en pares complementarios, con uno como dominante.
 
-    ![Imagen 18](./imagenes/imagen18.png)
+    ![Imagen 18](./img/imagen18.png)
 
 -   **Análoga**: Colores adyacentes en la rueda, creando armonía y serenidad.
 
-    ![Imagen 19](./imagenes/imagen19.png)
+    ![Imagen 19](./img/imagen19.png)
 
 -   **Split Complementaria**: Variación del esquema complementario con menos tensión visual.
 
-    ![Imagen 20](./imagenes/imagen20.png)
+    ![Imagen 20](./img/imagen20.png)
 
 ### Usos del color
 
@@ -197,9 +197,9 @@ La tipografía es otro pilar del diseño web, ya que puede influir enormemente e
 ### Tipos de tipografía
 
 -   **Serifada**: Letras con pequeños trazos o pinceladas. Aunque elegantes, no se recomiendan para textos largos en pantalla.
-    ![Imagen 21](./imagenes/imagen21.png)
+    ![Imagen 21](./img/imagen21.png)
 -   **Sans Serif**: Letras sin trazos, son más legibles y modernas. Ideal para textos de cuerpo y navegación.
-    ![Imagen 22](./imagenes/imagen22.png)
+    ![Imagen 22](./img/imagen22.png)
 -   **Manuscritas**: Atractivas pero difíciles de leer en grandes cantidades. Son más adecuadas para títulos o frases cortas.
 -   **Decorativas**: Ideales para resaltar breves textos, pero deben usarse con cautela en sitios profesionales.
 
@@ -227,11 +227,11 @@ El estudio de la marca busca reflejar visual y emocionalmente su esencia, consid
 
 **Tipografías:** Lista de fuentes utilizadas, con reglas sobre su uso: nombres, tamaños, estilos y colores. Se recomiendan imágenes para ilustrar estos detalles.
 
-![Imagen 23](./imagenes/imagen23.png)
+![Imagen 23](./img/imagen23.png)
 
 **Estilos de botones y navegación:** Combinación de tipografía y colores en botones, enlaces y elementos de navegación. Se describen estados como hover, selección e inactividad, así como menús, submenús y breadcrumbs.
 
-![Imagen 24](./imagenes/imagen24.png)
+![Imagen 24](./img/imagen24.png)
 
 **Imágenes:** Define tamaños, proporciones, efectos y variaciones según su uso (galerías, fotos destacadas, etc.), especificando formato y dimensiones.
 

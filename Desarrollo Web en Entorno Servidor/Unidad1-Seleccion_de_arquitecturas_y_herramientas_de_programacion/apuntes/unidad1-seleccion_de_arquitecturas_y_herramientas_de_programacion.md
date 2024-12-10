@@ -29,7 +29,7 @@
 -   **Accesibilidad**: Se **ejecutan en servidores remotos** y son **accesibles desde cualquier navegador** a través de una URL.
 -   **Arquitectura**: Están basadas en la arquitectura **cliente-servidor**. Los usuarios **pueden acceder de manera simultánea** desde múltiples dispositivos.
 
-![Imagen 1](./imagenes/imagen1.png)
+![Imagen 1](./img/imagen1.png)
 
 -   **Ventajas**:
     -   No es necesario instalar software adicional en el cliente, lo que facilita las actualizaciones y el mantenimiento.
@@ -55,7 +55,7 @@ Una aplicación web debe cumplir varias funciones clave para su correcto funcion
 -   **Conexión con bases de datos**: Mantener datos de forma persistente, asegurando actualizaciones confiables y consistentes.
 -   **Escalabilidad y portabilidad**: Capacidad para **ejecutarse en múltiples máquinas**, permitiendo que la aplicación **crezca según la demanda** y **funcione en diferentes entornos**.
 
-![Imagen 2](./imagenes/imagen2.png)
+![Imagen 2](./img/imagen2.png)
 
 ## Tipos de aplicaciones web
 
@@ -135,9 +135,9 @@ Una **plataforma web** es el **entorno de software utilizado para desarrollar y 
 
 Una **arquitectura web** es un **conjunto ordenado de subsistemas** que **estructuran la aplicación** para lograr una **mejor organización y escalabilidad**. Estas arquitecturas siguen el modelo **cliente-servidor**.
 
-![Imagen 3](./imagenes/imagen3.png)
+![Imagen 3](./img/imagen3.png)
 
-![Imagen 4](./imagenes/imagen4.png)
+![Imagen 4](./img/imagen4.png)
 
 ### Tipos de arquitecturas
 
@@ -147,12 +147,12 @@ Una **arquitectura web** es un **conjunto ordenado de subsistemas** que **estruc
     - **Capa de lógica de negocio**: Implementa las reglas del negocio (ej. proceso de compra en una tienda en línea).
     - **Capa de persistencia de datos**: Interactúa con las bases de datos.
 
-    ![Imagen 5](./imagenes/imagen5.png)
+    ![Imagen 5](./img/imagen5.png)
 
 2. **Arquitectura en niveles**: Similar a la arquitectura en capas, pero **las capas se implementan en máquinas separadas físicamente**, **facilitando la escalabilidad** en sistemas distribuidos.
 3. **Arquitectura orientada a servicios (SOA)**: Basada en la exposición de **servicios web** que permiten la **interacción entre diferentes sistemas**, facilitando la **interoperabilidad entre aplicaciones**.
 
-    ![Imagen 6](./imagenes/imagen6.png)
+    ![Imagen 6](./img/imagen6.png)
 
 ### Características
 
@@ -180,7 +180,7 @@ El desarrollo de aplicaciones web requiere varias herramientas:
 
 **Cloud computing** implica el uso de servidores remotos para almacenar, procesar y gestionar datos y aplicaciones. **Proporciona un entorno escalable y flexible** para el desarrollo y ejecución de aplicaciones web.
 
-![Imagen 7](./imagenes/imagen7.png)
+![Imagen 7](./img/imagen7.png)
 
 ### Modelos de servicios
 
@@ -188,7 +188,7 @@ El desarrollo de aplicaciones web requiere varias herramientas:
 2. **Platform-as-a-Service (PaaS)**: **Proporciona una infraestructura completa** para desarrollar y desplegar aplicaciones. Ej. **Google App Engine**, **Windows Azure**.
 3. **Infrastructure-as-a-Service (IaaS)**: Además del desarrollo, **el usuario gestiona la infraestructura física o virtual** necesaria para el despliegue. Ej. **Amazon Web Services (AWS)**.
 
-![Imagen 8](./imagenes/imagen8.jpg)
+![Imagen 8](./img/imagen8.jpg)
 
 ### Windows Azure y Google App Engine
 
@@ -225,15 +225,15 @@ Cuatro aplicaciones web típicas:
 
 La tecnología de desarrollo web más utilizada para los scripts del lado servidor es PHP.
 
-![Imagen 9](./imagenes/imagen9.png)
+![Imagen 9](./img/imagen9.png)
 
 ## Servidores web
 
 El servidor web más utilizado es Nginx.
 
-![Imagen 10](./imagenes/imagen10.png)
+![Imagen 10](./img/imagen10.png)
 
-![Imagen 11](./imagenes/imagen11.png)
+![Imagen 11](./img/imagen11.png)
 
 ## Apache vs Nginx
 

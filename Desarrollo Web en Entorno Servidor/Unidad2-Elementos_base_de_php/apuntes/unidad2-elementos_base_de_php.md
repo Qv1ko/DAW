@@ -1,6 +1,6 @@
 # Unidad 2 - Elementos base de PHP
 
-![Imagen 1](./imagenes/imagen1.png)
+![Imagen 1](./img/imagen1.png)
 
 ## ¿Qué es PHP?
 
@@ -137,7 +137,7 @@ const PI = 3.1416;
     $ganadores = ['Tenis' => 'María Alonso', 'Ajedrez' => 'Antonio López',
     	'Pin-pon' => 'Ana Benito', 'Mus' => 'Luis Martín']; // o utilizando array()
     ```
-    ![Imagen 2](./imagenes/imagen2.png)
+    ![Imagen 2](./img/imagen2.png)
 -   **Mixtos**: primer nivel indexado y un segundo nivel asociativo o viceversa
 
 ### Operaciones en arrays
