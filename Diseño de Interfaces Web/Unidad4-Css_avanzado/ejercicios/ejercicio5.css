@@ -1,0 +1,263 @@
+/* Ejercicio 5 */
+
+@font-face {
+    font-family: MBCorpoTitle;
+    src: url(./fonts/MBCorpoATitleCond-Regular.woff2);
+}
+
+@font-face {
+    font-family: MBCorpoTextBold;
+    src: url(./fonts/MBCorpoSText-Bold.woff2);
+}
+
+@font-face {
+    font-family: MBCorpoText;
+    src: url(./fonts/MBCorpoSText-Regular.woff2);
+}
+
+:root {
+    font-family: "MBCorpoText";
+    color: white;
+    font-size: 15px;
+}
+
+#logo {
+    width: 2.8rem;
+    height: auto;
+}
+
+h1,
+h2 {
+    font-family: "MBCorpoTitle";
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+h3,
+h4 {
+    font-family: "MBCorpoText";
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.primary-btn {
+    background-color: #b21e23;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+
+.primary-btn:hover,
+.primary-btn:focus {
+    background-color: #981717;
+}
+
+body {
+    background-color: black;
+    max-width: 1450px;
+    margin: auto;
+}
+
+header {
+    margin-top: 1rem;
+    color: #6e6e6e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #6e6e6e;
+}
+
+header nav ul a:hover {
+    color: white;
+}
+
+header nav ul span:hover {
+    cursor: pointer;
+}
+
+header nav ul span:hover svg path {
+    fill: white;
+}
+
+main section#recomendaciones div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 640px 640px;
+    gap: 32px;
+}
+
+main section#recomendaciones article {
+    border: 1px solid #6e6e6e;
+    padding: 2rem;
+    align-content: end;
+    padding-bottom: 5rem;
+    color: white;
+    box-sizing: border-box;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    position: relative;
+}
+
+main section#recomendaciones div article:first-child {
+    grid-column: 1 / span 2;
+}
+
+main section#recomendaciones div article h2 {
+    margin: 0 0 2.5rem;
+}
+
+main section#recomendaciones div article a:last-child {
+    color: white;
+    margin-left: 2rem;
+}
+
+main section#recomendaciones div article:last-child a:last-child {
+    margin-left: 0;
+}
+
+main section#ofertas > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+main section#ofertas article {
+    background-color: #4f4f4f;
+    width: 25%;
+}
+
+main section#ofertas article img {
+    width: 100%;
+    min-height: 250px;
+}
+
+main section#ofertas article div {
+    padding: 0 2rem;
+    min-height: 300px;
+}
+
+main section#ofertas article div h3 {
+    font-family: MBCorpoTextBold;
+    font-size: 1.2rem;
+    margin: 1rem 0 0.5rem;
+}
+
+main section#ofertas article div h4 {
+    margin: 0.5rem 0 2rem;
+}
+
+main section#ofertas article div {
+    font-family: MBCorpoTextBold;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+main section#ofertas article div p {
+    margin: 1.5rem 0;
+}
+
+main section#ofertas article div .notbolder {
+    font-family: MBCorpoText;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+main section#ofertas article .primary-btn {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+footer div {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul a {
+    color: #6e6e6e;
+    text-decoration: none;
+}
+
+footer ul li {
+    margin: 0.8rem 0;
+}
+
+footer ul li:hover a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > section:last-child {
+    border-top: 1px solid #6e6e6e;
+    padding: 1rem 0;
+    display: flex;
+}
+
+footer > section:last-child > * {
+    margin-top: 8px;
+    margin-bottom: 1rem;
+}
+
+footer > section:last-child ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 95%;
+}
+
+footer > section:last-child div {
+    gap: 1rem;
+    align-items: center;
+}
+
+footer > section:last-child div svg {
+    width: 1.5rem;
+}
+
+@media (width < 1480px) {
+    main section#recomendaciones div {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto auto;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    main section#recomendaciones div article:first-child {
+        grid-column: 1 / span 2;
+    }
+}
+
+@media (width < 900px) {
+    main section#recomendaciones div {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    main section#recomendaciones div article:first-child {
+        grid-column: 1 / 2;
+    }
+}

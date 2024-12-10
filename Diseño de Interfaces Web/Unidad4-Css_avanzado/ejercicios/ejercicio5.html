@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ejercicio 5 - Mercedes-AMG</title>
+        <link
+            rel="shortcut icon"
+            href="./imagenes/logo-mercedes.svg"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="ejercicio5.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Modelos</a></li>
+                    <li><a href="#">Comprar</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Marca</a></li>
+                </ul>
+            </nav>
+            <a
+                href="https://www.mercedes-benz.es/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <img
+                    id="logo"
+                    src="./imagenes/logo-mercedes.svg"
+                    alt="Mercedes Benz"
+            /></a>
+            <nav>
+                <ul>
+                    <li>
+                        <a
+                            href="https://www.mercedes-benz.es/passengercars/content-pool/tool-pages/legal/copyright.html"
+                            target="_blank"
+                            >Proveedor/...</a
+                        >
+                    </li>
+                    <li>
+                        <span>
+                            <svg
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                                style="width: 24px; height: 24px"
+                            >
+                                <path
+                                    fill="#4f4f4f"
+                                    d="M14.1355 2.66209C15.56 2.66209 16.9525 3.08451 18.1369 3.87592C19.3214 4.66733 20.2445 5.79219 20.7897 7.10825C21.3348 8.42432 21.4774 9.87248 21.1995 11.2696C20.9216 12.6667 20.2356 13.9501 19.2284 14.9574C18.2211 15.9646 16.9378 16.6506 15.5406 16.9285C14.1435 17.2064 12.6953 17.0638 11.3793 16.5186C10.0632 15.9735 8.93834 15.0504 8.14693 13.8659C7.35552 12.6815 6.93311 11.289 6.93311 9.86449C6.93546 7.95502 7.69503 6.12442 9.04523 4.77422C10.3954 3.42401 12.226 2.66444 14.1355 2.66209ZM14.1355 1C12.3823 1 10.6684 1.51989 9.21066 2.49394C7.7529 3.46798 6.61672 4.85242 5.94579 6.4722C5.27485 8.09197 5.09931 9.87432 5.44135 11.5939C5.78338 13.3134 6.62765 14.8929 7.86737 16.1326C9.10709 17.3724 10.6866 18.2166 12.4061 18.5587C14.1257 18.9007 15.908 18.7251 17.5278 18.0542C19.1476 17.3833 20.532 16.2471 21.5061 14.7893C22.4801 13.3316 23 11.6177 23 9.86449C23 7.51348 22.0661 5.25876 20.4037 3.59635C18.7412 1.93393 16.4865 1 14.1355 1Z"
+                                ></path>
+                                <path
+                                    fill="#4f4f4f"
+                                    d="M3.51352 22.8366L10.1386 16.2104L7.78842 13.8602L1.16221 20.4864C1.05835 20.5903 1 20.7312 1 20.8781C1 21.025 1.05835 21.1659 1.16221 21.2698L2.72901 22.8366C2.78048 22.8882 2.84161 22.9291 2.90892 22.957C2.97623 22.985 3.04839 22.9994 3.12127 22.9994C3.19414 22.9994 3.2663 22.985 3.33361 22.957C3.40092 22.9291 3.46205 22.8882 3.51352 22.8366Z"
+                                ></path>
+                            </svg>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <svg
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                                style="width: 24px; height: 24px"
+                            >
+                                <path
+                                    fill="#4f4f4f"
+                                    d="M12.5202 1.89092L14.8654 9.10347H22.4538C22.5693 9.10352 22.6817 9.14013 22.7751 9.20806C22.8684 9.27599 22.9379 9.37174 22.9734 9.48157C23.009 9.59141 23.0089 9.70968 22.973 9.81943C22.9372 9.92918 22.8675 10.0248 22.774 10.0925L16.6346 14.5522L18.9798 21.7702C19.0153 21.8799 19.0152 21.998 18.9796 22.1076C18.9439 22.2173 18.8745 22.3128 18.7812 22.3806C18.688 22.4484 18.5757 22.4849 18.4604 22.485C18.3451 22.4851 18.2328 22.4488 18.1394 22.3811L12 17.9203L5.86168 22.3822C5.76832 22.4498 5.65596 22.4862 5.54068 22.4861C5.42539 22.486 5.31309 22.4495 5.21984 22.3817C5.12659 22.3139 5.05717 22.2184 5.02151 22.1087C4.98585 21.9991 4.98578 21.881 5.02131 21.7713L7.36539 14.5588L1.22598 10.0968C1.13239 10.0291 1.06269 9.9334 1.02689 9.82354C0.99109 9.71369 0.991036 9.59531 1.02673 9.48542C1.06243 9.37553 1.13205 9.27979 1.22557 9.21195C1.3191 9.14411 1.43172 9.10766 1.54726 9.10784H9.13684L11.4809 1.89529C11.5161 1.78542 11.5852 1.68951 11.6783 1.62131C11.7713 1.55311 11.8836 1.51612 11.999 1.51563C12.1143 1.51514 12.2269 1.55119 12.3205 1.61861C12.4142 1.68602 12.484 1.78135 12.5202 1.89092Z"
+                                ></path>
+                            </svg>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="#">Iniciar sesión </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="recomendaciones">
+                <h1>Nuestras recomendaciones.</h1>
+                <div>
+                    <article
+                        style="
+                            background: linear-gradient(
+                                    to bottom,
+                                    rgba(0, 0, 0, 0) 45%,
+                                    rgba(0, 0, 0, 0.75) 60%,
+                                    rgb(0, 0, 0, 1) 95%
+                                ),
+                                url('./imagenes/sl-63.jpg');
+                        "
+                    >
+                        <h3>The star is reborn.</h3>
+                        <h2>Nuevo Mercedes-AMG SL 63 S E PERFORMANCE.</h2>
+                        <a
+                            class="primary-btn"
+                            href="https://www.mercedes-benz.es/passengercars/mercedes-benz-cars/car-configurator.html/motorization/CCci/ES/es/SL-KLASSE/ROADSTER"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Configurador</a
+                        >
+                        <a
+                            href="https://www.mercedes-benz.es/passengercars/models/cabriolet-roadster/sl-e/overview.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Más información</a
+                        >
+                    </article>
+                    <article
+                        style="
+                            background: linear-gradient(
+                                    to bottom,
+                                    rgba(0, 0, 0, 0) 45%,
+                                    rgba(0, 0, 0, 0.75) 60%,
+                                    rgb(0, 0, 0, 1) 95%
+                                ),
+                                url('./imagenes/gt-coupe.jpg');
+                        "
+                    >
+                        <h3>Presentaciones sobresalientes.</h3>
+                        <h2>Nuevo Mercedes-AMG GT Coupé.</h2>
+                        <a
+                            class="primary-btn"
+                            href="https://www.mercedes-benz.es/passengercars/mercedes-benz-cars/car-configurator.html/motorization/CCci/ES/es/GT-KLASSE/COUPE"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Configurador</a
+                        >
+                        <a
+                            href="https://www.mercedes-benz.es/passengercars/models/coupe/amg-gt-2-door/overview.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Más información</a
+                        >
+                    </article>
+                    <article
+                        style="
+                            background: linear-gradient(
+                                    to bottom,
+                                    rgba(0, 0, 0, 0) 45%,
+                                    rgba(0, 0, 0, 0.75) 60%,
+                                    rgb(0, 0, 0, 1) 95%
+                                ),
+                                url('./imagenes/cle-53.jpg');
+                        "
+                    >
+                        <h3>Incuestionablemente poderoso.</h3>
+                        <h2>Nuevo Mercedes-AMG CLE Coupé.</h2>
+                        <a
+                            class="primary-btn"
+                            href="https://www.mercedes-benz.es/passengercars/mercedes-benz-cars/car-configurator.html/motorization/CCci/ES/es/bm/2363621"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Configurador</a
+                        >
+                        <a
+                            href="https://www.mercedes-benz.es/passengercars/models/coupe/cle/amg.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Más información</a
+                        >
+                    </article>
+                    <article
+                        style="
+                            background: linear-gradient(
+                                    to bottom,
+                                    rgba(0, 0, 0, 0) 45%,
+                                    rgba(0, 0, 0, 0.75) 60%,
+                                    rgb(0, 0, 0, 1) 95%
+                                ),
+                                url('./imagenes/eqs-saloon.jpg');
+                        "
+                    >
+                        <h3>Experiencia de sonido incomparable.</h3>
+                        <h2>Nuevo Mercedes-AMG EQE Berlina.</h2>
+                        <a
+                            class="primary-btn"
+                            href="https://www.mercedes-benz.es/passengercars/mercedes-benz-cars/car-configurator.html/motorization/CCci/ES/es/EQE-KLASSE/LIMOUSINE_LANG"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Configurador</a
+                        >
+                        <a
+                            href="https://www.mercedes-benz.es/passengercars/models/saloon/eqe/amg.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Más información</a
+                        >
+                    </article>
+                    <article
+                        style="
+                            background: linear-gradient(
+                                    to bottom,
+                                    rgba(0, 0, 0, 0) 45%,
+                                    rgba(0, 0, 0, 0.75) 60%,
+                                    rgb(0, 0, 0, 1) 95%
+                                ),
+                                url('./imagenes/bev-range.jpg');
+                        "
+                    >
+                        <h3>Driving Performance a un nuevo nivel.</h3>
+                        <h2>Enciende la revolución eléctrica.</h2>
+                        <a
+                            class="primary-btn"
+                            href="https://www.mercedes-benz.es/passengercars/technology/amg-e-performance.html#amg-eq"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Más información</a
+                        >
+                    </article>
+                </div>
+            </section>
+            <section id="ofertas">
+                <h1>Nuestras ofertas.</h1>
+                <div>
+                    <article>
+                        <img
+                            src="./imagenes/a_class-compacto.jpg"
+                            alt="Mercedes-AMG A 35"
+                        />
+                        <div>
+                            <h3>Mercedes-AMG A 35</h3>
+                            <h4>por 595 €/mes</h4>
+                            <p class="notbolder">
+                                Aportación inicial de 19.360,02 €
+                            </p>
+                            <p>
+                                -Dirección paramétrica AMG<br />-Cambio
+                                deportivo de 8 velocidades AMG SPEEDSHIFT DCT
+                                8G<br />-Tren de rodaje AMG
+                            </p>
+                            <p>
+                                Oferta sujeta a la contratación de Seguro
+                                Mercedes-Benz. No incluido en la cuota.
+                            </p>
+                        </div>
+                        <a
+                            class="primary-btn"
+                            href="https://www.mercedes-benz.es/passengercars/models/hatchback/a-class/amg.html#offer-35"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Más información</a
+                        >
+                    </article>
+                    <article>
+                        <img
+                            src="./imagenes/c_class-43.jpg"
+                            alt="Mercedes-AMG C 43"
+                        />
+                        <div>
+                            <h3>Mercedes-AMG C 43</h3>
+                            <h4>por 875 €/mes</h4>
+                            <p class="notbolder">
+                                Aportación inicial de 28.509,35 €
+                            </p>
+                            <p>
+                                -Dirección paramétrica AMG<br />-Cambio
+                                deportivo de 8 velocidades AMG SPEEDSHIFT DCT
+                                8G<br />-Tren de rodaje AMG
+                            </p>
+                            <p>
+                                Oferta sujeta a la contratación de Seguro
+                                Mercedes-Benz. No incluido en la cuota.
+                            </p>
+                        </div>
+                        <a
+                            class="primary-btn"
+                            href="https://www.mercedes-benz.es/passengercars/models/saloon/c-class/amg.html#offer"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Más información</a
+                        >
+                    </article>
+                    <article>
+                        <img
+                            src="./imagenes/glc-coupe.jpg"
+                            alt="Mercedes-AMG GLC 43 4MATIC Coupé"
+                        />
+                        <div>
+                            <h3>Mercedes-AMG GLC 43 4MATIC Coupé</h3>
+                            <h4>por 950 €/mes</h4>
+                            <p class="notbolder">
+                                Aportación inicial de 30.424,46 €
+                            </p>
+                            <p>
+                                Oferta sujeta a la contratación de Seguro
+                                Mercedes-Benz. No incluido en la cuota.
+                            </p>
+                        </div>
+                        <a
+                            class="primary-btn"
+                            href="https://www.mercedes-benz.es/passengercars/models/suv/glc-coupe/amg.html#offer"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Más información</a
+                        >
+                    </article>
+                    <article>
+                        <img
+                            src="./imagenes/teaser_amg.jpg"
+                            alt="Tenemos las ofertas más atractivas para ti."
+                        />
+                        <div>
+                            <h3>Tenemos las ofertas más atractivas para ti.</h3>
+                            <p>
+                                Encuentra la tuya en la amplia gama de
+                                Mercedes-Benz.
+                            </p>
+                        </div>
+                        <a
+                            class="primary-btn"
+                            href="https://www.mercedes-benz.es/passengercars/finance/offers-models.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Ver ofertas</a
+                        >
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <section>
+                    <h3>Los modelos más vendidos</h3>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/models.html?filters=ELECTRIC"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Eléctricos</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/models.html?filters=HYBRID"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Híbridos Enchufables</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/models/suv.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >SUV</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/models/cabriolet-roadster.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Cabrios y roadsters</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/mercedes-amg.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Mercedes-AMG</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/mercedes-maybach.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Mercedes-Maybach</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/vans.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Furgonetas</a
+                            >
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Comprar un vehículo</h3>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/finance/offers-models.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Ofertas destacadas</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://ocasion.mercedes-benz.es/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Encontrar vehículos de ocasión</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/configurator.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Configurador y Precios</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/cars-guide/fleet-business.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Mercedes-Benz Empresas</a
+                            >
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Guía de compra</h3>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/finance/financing-leasing.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Calculadora de leasing y financiación</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/test-drive.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Reservar un recorrido de prueba</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/mercedes-benz-cars/dealer-locator.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Buscar concesionarios</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/buy/digital-extras-overview.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Extras Digitales</a
+                            >
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Propietarios</h3>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/services/online-appointment-booking.html#/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Cita de taller</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/services/service-contracts.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Contratos de servicio</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/services/breakdown-damage.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Asistencia en caso de avería y de accidente</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/services/manuals.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Manuales de instrucciones</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/services/warranty.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Garantía</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/services/recall.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Llamada de vehículos al taller</a
+                            >
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Tecnología</h3>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/technology/e-mobility.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Movilidad Eléctrica</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/buy/charging-equipment-overview.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Carga</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/technology/advanced-driver-assistance-systems.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Sistemas de asistencia a la conducción y
+                                seguridad
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/technology/mbux.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Sistema multimedia MBUX</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/technology/drivepilot.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Conducción autónoma</a
+                            >
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Descubre Mercedes</h3>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/brand.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Acerca de nosotros</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/brand/jobs.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Trabaja con Nosotros</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/services/support-contact.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Soporte y contacto</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.mercedes-benz.es/passengercars/brand/sustainability.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Sostenibilidad</a
+                            >
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <section>
+                <ul>
+                    <li>
+                        <a
+                            href="https://www.mercedes-benz.es/passengercars/content-pool/tool-pages/legal/copyright.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >2024 Mercedes-Benz AG. Reservados todos los
+                            derechos (proveedor)</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.mercedes-benz.es/passengercars/content-pool/tool-pages/legal/legal-notice.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Aviso legal</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.mercedes-benz.es/passengercars/content-pool/tool-pages/legal/cookies.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Configuración cookies</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.mercedes-benz.es/passengercars/content-pool/tool-pages/legal/privacy-statement.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Protección de datos</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.mercedes-benz.es/passengercars/content-pool/tool-pages/legal/Informacion-de-Gestion.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Información de Gestión</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.mercedes-benz.es/passengercars/content-pool/tool-pages/legal/terms-and-conditions.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Términos y condiciones</a
+                        >
+                    </li>
+                </ul>
+                <div>
+                    <a
+                        href="https://www.facebook.com/MercedesBenzEspana"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 22 22"
+                            fill="#fff"
+                        >
+                            <path
+                                d="M20.786 0H1.214C.543 0 0 .543 0 1.214v19.572C0 21.456.543 22 1.214 22h10.537v-8.52H8.884v-3.32h2.867V7.712c0-2.842 1.735-4.389 4.27-4.389 1.214 0 2.258.09 2.562.131v2.97l-1.758.001c-1.379 0-1.645.655-1.645 1.616v2.12h3.288l-.428 3.32h-2.86V22h5.606c.67 0 1.214-.544 1.214-1.214V1.214C22 .543 21.456 0 20.786 0z"
+                            ></path>
+                        </svg>
+                    </a>
+                    <a
+                        href="https://twitter.com/MBenzEspana"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <svg
+                            enable-background="new 0 0 24 24"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="#fff"
+                        >
+                            <path
+                                d="m14 10.3 8-9.3h-1.9l-7 8.1-5.5-8.1h-6.4l8.4 12.2-8.4 9.8h1.9l7.3-8.5 5.9 8.5h6.4zm-10.2-7.9h2.9l13.4 19.2h-2.9z"
+                            ></path>
+                        </svg>
+                    </a>
+                    <a
+                        href="https://www.youtube.com/user/MercedesBenzSpain"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 31 21.803"
+                            fill="#fff"
+                        >
+                            <path
+                                d="m19.584 11.118-.001-.001 1.031-.534-1.03.535"
+                            ></path>
+                            <path
+                                d="m12.3 14.923-.001-8.71 8.376 4.37-8.375 4.34zM30.69 4.704s-.303-2.136-1.232-3.077C28.279.392 26.958.386 26.352.314 22.014 0 15.507 0 15.507 0h-.013S8.987 0 4.649.314c-.607.072-1.928.078-3.107 1.313C.612 2.567.31 4.704.31 4.704S0 7.212 0 9.721v2.352c0 2.509.31 5.017.31 5.017s.302 2.136 1.232 3.077c1.179 1.235 2.728 1.196 3.418 1.325 2.48.238 10.54.311 10.54.311s6.514-.01 10.852-.323c.606-.072 1.927-.078 3.106-1.313.93-.941 1.232-3.077 1.232-3.077s.31-2.509.31-5.017V9.721c0-2.509-.31-5.017-.31-5.017z"
+                            ></path>
+                        </svg>
+                    </a>
+                    <a
+                        href="https://www.instagram.com/mbenzespana/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 22 22"
+                            fill="#fff"
+                        >
+                            <path
+                                d="M11 1.982c2.937 0 3.285.011 4.445.064 1.072.049 1.655.228 2.043.379.513.2.88.438 1.265.823.385.385.623.751.823 1.265.151.388.33.97.379 2.043.053 1.16.064 1.508.064 4.445s-.011 3.285-.064 4.445c-.049 1.072-.228 1.655-.379 2.043-.2.513-.438.88-.823 1.265a3.41 3.41 0 0 1-1.265.823c-.388.151-.97.33-2.043.379-1.16.053-1.508.064-4.445.064s-3.285-.011-4.445-.064c-1.072-.049-1.655-.228-2.043-.379-.513-.2-.88-.438-1.265-.823a3.41 3.41 0 0 1-.823-1.265c-.151-.388-.33-.97-.379-2.043-.052-1.161-.063-1.509-.063-4.446s.011-3.285.064-4.445c.049-1.072.228-1.655.379-2.042.2-.513.438-.88.823-1.265a3.41 3.41 0 0 1 1.265-.823c.388-.151.97-.33 2.043-.379 1.159-.053 1.507-.064 4.444-.064M11 0C8.013 0 7.638.013 6.465.066c-1.171.053-1.97.239-2.67.511a5.412 5.412 0 0 0-1.949 1.269A5.412 5.412 0 0 0 .577 3.795c-.272.7-.458 1.499-.511 2.67C.013 7.638 0 8.013 0 11s.013 3.362.066 4.535c.053 1.171.239 1.97.511 2.67a5.382 5.382 0 0 0 1.269 1.948 5.39 5.39 0 0 0 1.948 1.269c.7.272 1.499.458 2.67.511C7.638 21.987 8.013 22 11 22s3.362-.013 4.535-.066c1.171-.053 1.97-.239 2.67-.511a5.382 5.382 0 0 0 1.948-1.269 5.39 5.39 0 0 0 1.269-1.948c.272-.7.458-1.499.511-2.67.054-1.174.067-1.549.067-4.536s-.013-3.362-.066-4.535c-.053-1.171-.239-1.97-.511-2.67a5.382 5.382 0 0 0-1.269-1.948A5.39 5.39 0 0 0 18.206.578c-.7-.272-1.499-.458-2.67-.511C14.362.013 13.987 0 11 0z"
+                            ></path>
+                            <path
+                                d="M11 5.351a5.649 5.649 0 1 0 0 11.298A5.649 5.649 0 0 0 11 5.35zm0 9.316a3.667 3.667 0 1 1 0-7.335 3.667 3.667 0 0 1 0 7.335z"
+                            ></path>
+                            <circle cx="16.872" cy="5.128" r="1.32"></circle>
+                        </svg>
+                    </a>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>
