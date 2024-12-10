@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <title>Clase 1 - Formulario</title>
+    <title>Clase 2</title>
 </head>
 
 <body>
-    <form action="./clase1-datos.php" method="post">
+    <form action="./clase2-datos.php" method="post">
         Usuario: <input type="text" name="usuario[nombre]" id="" />
         Password: <input type="password" name="usuario[clave]" id="" />
         <br><br>
