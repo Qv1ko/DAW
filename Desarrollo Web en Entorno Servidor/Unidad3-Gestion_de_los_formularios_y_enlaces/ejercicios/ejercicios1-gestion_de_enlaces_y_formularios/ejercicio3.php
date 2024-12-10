@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Ejercicio 3</title>
+    <title>Actividad 3</title>
 </head>
 
 <body>

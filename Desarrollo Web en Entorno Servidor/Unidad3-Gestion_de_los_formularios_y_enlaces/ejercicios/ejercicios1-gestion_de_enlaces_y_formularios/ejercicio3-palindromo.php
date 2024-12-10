@@ -1,12 +1,16 @@
 <?php
 
+    session_start();
+
     echo "<h3>Palíndromo</h3>";
-    
-    if (isset($_GET['texto'])) {
-        echo palindromo($_GET['texto']);
+
+    $texto = $_SESSION['datossesion'];
+
+    if (isset($texto)) {
+        echo palindromo($texto);
     }
 
-    echo '<a href="./ejercicio3-index.php">Volver al menú</a>';
+    echo '<a href="./ejercicio3.php">Volver al menú</a>';
 
     function palindromo(string $texto): string {
 

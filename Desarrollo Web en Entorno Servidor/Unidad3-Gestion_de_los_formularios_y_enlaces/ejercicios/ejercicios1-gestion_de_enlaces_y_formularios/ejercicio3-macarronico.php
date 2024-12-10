@@ -1,12 +1,16 @@
 <?php
 
+    session_start();
+    
     echo "<h3>Macarrónico</h3>";
+    
+    $texto = $_SESSION['datossesion'];
 
-    if (isset($_GET['texto'])) {
-        echo macarronico($_GET['texto']);
+    if (isset($texto)) {
+        echo macarronico($texto);
     }
 
-    echo '<a href="./ejercicio3-index.php">Volver al menú</a>';
+    echo '<a href="./ejercicio3.php">Volver al menú</a>';
 
     function macarronico(string $texto): string {
         if (strlen($texto) == 0) {
