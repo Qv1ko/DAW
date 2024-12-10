@@ -430,7 +430,7 @@ En JavaScript, existen múltiples propiedades para obtener información sobre la
 -   **`scrollWidth`** y **`scrollHeight` →** Reflejan el tamaño total del contenido, incluyendo cualquier parte que se desborde fuera del área visible.
 -   **`scrollLeft`** y **`scrollTop` →** Indican el desplazamiento horizontal y vertical del contenido respecto a su posición inicial. Son propiedades tanto de lectura como de escritura.
 
-![Imagen 1](./imagenes/imagen1.png)
+![Imagen 1](./img/imagen1.png)
 
 ## Tamaño de ventana y desplazamiento
 
@@ -507,7 +507,7 @@ Las coordenadas se expresan en relación con la parte visible de la ventana y pu
 
 **Nota:** No es necesario redondear los valores de `top` o `left` para aplicarlos directamente con `style.left` o `style.top`.
 
-![Imagen 2](./imagenes/imagen2.png)
+![Imagen 2](./img/imagen2.png)
 
 **`document.elementFromPoint(x, y)`** → Permite identificar el elemento que se encuentra en un punto específico de la ventana (coordenadas `x`, `y`).
 
