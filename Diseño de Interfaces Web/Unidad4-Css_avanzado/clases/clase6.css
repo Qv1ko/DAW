@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1240px;
+    margin: auto;
+    padding: 0 8px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Header */
+.menu_movil {
+    display: none;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: right;
+    gap: 35px;
+    padding: 15px 0;
+    background-color: azure;
+    list-style: none;
+}
+
+/* Articulos */
+main {
+    margin: 25px 0;
+}
+
+.articulos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articulos article {
+    width: 33%;
+}
+
+/* Sección */
+body section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px 25px;
+}
+
+body section div:last-child {
+    display: none;
+}
+
+/* Footer */
+footer .links {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    gap: 50px;
+    justify-content: space-evenly;
+    background-color: #666666;
+    padding: 35px 0;
+}
+
+footer .links div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .links div a {
+    color: #ffffff;
+    align-self: center;
+}
+
+footer .legal {
+    background-color: black;
+    color: white;
+}
+
+/* Desktop */
+@media (width < 950px) {
+    /* Cambiamos a una disposición de tres columnas */
+    body section {
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-evenly;
+        gap: 25px;
+    }
+
+    body section div:last-child {
+        display: block;
+    }
+}
+
+/* Mobile */
+@media (width < 750px) {
+    .menu_movil {
+        display: block;
+        background-color: azure;
+    }
+
+    header nav ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    header nav .menu_movil:active ~ ul {
+        display: flex;
+    }
+
+    header nav ul li {
+        padding: 0 15px;
+    }
+
+    .articulos {
+        flex-wrap: wrap;
+    }
+
+    .articulos article {
+        width: 50%;
+    }
+
+    .articulos article:last-child {
+        display: none;
+    }
+
+    /* Cambiamos a una disposición de dos columnas */
+    body section {
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-evenly;
+        gap: 25px;
+    }
+
+    body section div:last-child {
+        display: none;
+    }
+
+    footer .links {
+        grid-template-columns: 40% 40%;
+        gap: 50px;
+    }
+}
+
+/* Mini */
+@media (width < 550px) {
+    .articulos {
+        flex-wrap: column;
+    }
+
+    .articulos article {
+        width: 100%;
+    }
+
+    .articulos article:last-child {
+        display: block;
+    }
+
+    /* Cambiamos a una disposición de una columna */
+    body section {
+        grid-template-columns: 1fr;
+    }
+
+    body section div:last-child {
+        display: block;
+    }
+
+    footer .links {
+        grid-template-columns: 40% 40%;
+        gap: 20px;
+    }
+}
