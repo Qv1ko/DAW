@@ -26,7 +26,7 @@
     <h3>¿De qué color es el caballo blanco de Santiago?</h3>
     <form action="" method="POST">
         <input type="text" name="respuesta" placeholder="Escribe tu respuesta">
-        <input type="submit" value="Enviar respuesta por POST">
+        <input type="submit" value="Enviar respuesta">
     </form>
 
 </body>
