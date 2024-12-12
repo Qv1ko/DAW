@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Clase 1</title>
+        <script src="clase1.js"></script>
+    </head>
+    <body>
+        <form
+            action="./formulario.php"
+            method="get"
+            name="usuarios"
+            target="_blank"
+            accept-charset="UTF-8"
+            autocomplete="off"
+            enctype="multipart/form-data"
+        >
+            <h3>Texto</h3>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <input
+                    type="text"
+                    name="nombre_usuario"
+                    placeholder="Nombre de usuario"
+                    spellcheck="false"
+                    tabindex="1"
+                />
+                <input type="tel" placeholder="Telefono" tabindex="2" />
+                <input type="email" placeholder="Email" />
+            </fieldset>
+            <label>Introduce la URL de la web</label>
+            <input type="url" placeholder="URL" />
+            <div>
+                <label for="password">Introduce la contraseña</label>
+            </div>
+            <div>
+                <input type="password" placeholder="Contraseña" tabindex="3" />
+            </div>
+            <input type="hidden" value="242552" name="id" />
+            <input type="search" placeholder="Introduce una busqueda" />
+            <textarea
+                name=""
+                name="description"
+                cols="30"
+                rows="10"
+                placeholder="Escribe la descripción"
+            ></textarea>
+            <h3>Números</h3>
+            <input type="number" name="edad" min="18" max="80" />
+            <input
+                type="range"
+                name="donacion"
+                min="5"
+                max="100"
+                step="5"
+                oninput="this.nextElementSibling.value=this.value"
+            />
+            <output>0</output>
+            <h3>Fecha</h3>
+            <input type="date" name="fecha_nac" />
+            <input
+                type="time"
+                name="hora_reserva"
+                max="20:00"
+                min="08:00"
+                value="10:00"
+            />
+            <input type="datetime-local" />
+            <input type="week" />
+            <input type="month" />
+            <h3>Casillas</h3>
+            <input type="checkbox" name="condiciones" checked />
+            <input
+                type="radio"
+                name="tipo"
+                value="particular"
+                checked
+            />Particular
+            <input type="radio" name="tipo" value="empresa" />Empresa
+            <input type="radio" name="tipo" value="otro" />Otro
+            <h3>Colores</h3>
+            <input type="color" name="colores" value="#ffffff" />
+            <h3>Enviar archivo</h3>
+            <input type="file" name="curriculum" accept="application/pdf" />
+            <h3>Campos de selección</h3>
+            <p>¿Que lenguajes sabes?</p>
+            <select name="lenguajes" multiple>
+                <optgroup label="web">
+                    <option value="1">HTML</option>
+                    <option value="2">JavaScript</option>
+                    <option value="4">PHP</option>
+                </optgroup>
+                <optgroup label="escritorio">
+                    <option value="3">Java</option>
+                    <option value="5">Python</option>
+                </optgroup>
+            </select>
+            <h3>DataList</h3>
+            <input
+                type="text"
+                list="pais"
+                name="pais_usuario"
+                placeholder="Pais de nacimiento"
+            />
+            <datalist id="pais">
+                <option value="España">España</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Italia">Italia</option>
+            </datalist>
+            <p>Enviar formulario</p>
+            <input type="submit" value="Enviar" />
+            <input type="image" src="#" alt="Imagen de envio" />
+            <input type="reset" />
+            <input type="button" />
+            <button>Botón</button>
+        </form>
+    </body>
+</html>
