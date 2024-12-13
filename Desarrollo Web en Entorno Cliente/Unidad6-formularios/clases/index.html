@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Unidad 6 - Formularios</title>
+        <!-- <script src="./js/clase1.js"></script> -->
+        <script src="./js/clase2.js"></script>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+            }
+            form {
+                background: white;
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                width: 600px;
+            }
+            input,
+            select,
+            textarea {
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+            button {
+                background-color: #28a745;
+                color: white;
+                border: none;
+                padding: 10px;
+                border-radius: 4px;
+                cursor: pointer;
+                width: 100%;
+            }
+            button:hover {
+                background-color: #218838;
+            }
+            .checkbox-label {
+                display: flex;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <form
+            action="#"
+            method="POST"
+            id="id_formulario"
+            name="name-formulario"
+        >
+            <h2>Formulario de Ejemplo</h2>
+
+            <label for="nombre">Nombre:</label>
+            <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                value="Nombre"
+                required
+            />
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" />
+
+            <label for="fecha">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha" name="fecha" />
+
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" />
+
+            <label for="color">Color Favorito:</label>
+            <input type="color" id="color" name="color" />
+
+            <label for="genero">Género:</label>
+            <select id="genero" name="genero">
+                <option value="masculino" selected>Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <label for="pais">Pais:</label>
+            <select id="pais" name="pais" multiple>
+                <option value="espana" selected>España</option>
+                <option value="portugal">Portugal</option>
+                <option value="francia">Francia</option>
+            </select>
+
+            <label for="#">Opción Única:</label>
+            <input
+                type="radio"
+                id="html"
+                name="fav_language"
+                value="HTML"
+            /><label for="html">HTML</label><br />
+            <input
+                type="radio"
+                id="css"
+                name="fav_language"
+                value="CSS"
+            /><label for="css">CSS</label><br />
+            <input
+                type="radio"
+                id="javascript"
+                name="fav_language"
+                value="JavaScript"
+            /><label for="javascript">JavaScript</label>
+
+            <div class="checkbox-label">
+                <input type="checkbox" id="terminos" name="terminos" required />
+                <label for="terminos">Acepto los términos y condiciones</label>
+            </div>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
