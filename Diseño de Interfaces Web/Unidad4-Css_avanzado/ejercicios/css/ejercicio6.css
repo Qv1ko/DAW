@@ -302,12 +302,6 @@ footer > section div svg {
         display: block;
     }
 
-    header #burger_menu:active ~ ul.menu {
-        display: block;
-        position: absolute;
-        right: 24px;
-    }
-
     header nav .menu {
         display: none;
         background-color: rgba(0, 0, 0, 0.9);
