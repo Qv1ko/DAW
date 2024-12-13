@@ -1,9 +1,9 @@
 <?php
-    function sanitizar($dato) {
+    function sanitizar(string $dato) {
         return htmlspecialchars(strtolower(trim($dato)));
     }
 
-    function validacion($dato, &$correcto) {
+    function validacion(string $dato, bool &$correcto): string {
         $respuesta = "";
         if (preg_match("/[^a-z]+/", $dato)) {
             $respuesta = '<p>El formato es incorrecto</p>';
