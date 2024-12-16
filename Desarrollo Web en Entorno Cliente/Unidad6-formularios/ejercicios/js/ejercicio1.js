@@ -10,11 +10,27 @@ console.log("--- Ejercicio 1 ---");
  */
 
 document.addEventListener("change", changeEvent);
+document.addEventListener("click", addGen);
 
 function changeEvent(e) {
-    option = e.target.closest("select");
+    let option = e.target.closest("select");
     if (option) {
         console.log(e.target.value);
         console.log(e.target.options[e.target.selectedIndex].text);
+    }
+}
+
+function addGen(e) {
+    let optionsSelect = document.getElementById("genres");
+    let txt = document.getElementById("nuevo");
+    let btn = document.getElementById("annadir");
+
+    if (e.target == btn) {
+        let newOption = document.createElement("option");
+        newOption.setAttribute("value", txt.value.toLowerCase());
+        newOption.textContent = txt.value;
+
+        txt.value = "";
+        optionsSelect.append(newOption);
     }
 }
