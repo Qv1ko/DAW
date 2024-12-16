@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Ejercicio 2</title>
+        <style>
+            input {
+                border: 1px solid #333;
+            }
+            input:focus {
+                box-shadow: none;
+            }
+            input.error {
+                box-shadow: 0 0 5px 1px red;
+            }
+            textarea {
+                width: 100%;
+            }
+        </style>
+        <script src="./js/ejercicio2.js"></script>
+    </head>
+
+    <body>
+        <h1>Formulario</h1>
+        <form action="procesar.php" method="post" id="miFormulario">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" />
+                </p>
+                <p>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" name="telefono" id="telefono" />
+                </p>
+                <p>
+                    <label for="dia">Fecha de nacimiento:</label>
+                    <input type="text" name="dia" size="2" id="dia" />
+                    <input type="text" name="mes" size="2" id="mes" />
+                    <input type="text" name="ano" id="ano" size="4" />
+                </p>
+                <p>
+                    <label for="socio">Socio:</label>
+                    <input
+                        type="radio"
+                        name="socio"
+                        id="siSocio"
+                        value="S"
+                        checked
+                    /><label for="siSocio">Sí</label>
+                    <input
+                        type="radio"
+                        name="socio"
+                        id="noSocio"
+                        value="N"
+                    /><label for="noSocio">No</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Datos curso</legend>
+                <p>
+                    <label for="curso">Curso seleccionado:</label>
+                    <select name="curso">
+                        <option value="Karate">Karate</option>
+                        <option value="Judo">Judo</option>
+                        <option value="Tai Chi">Tai Chi</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="cursosRealizados">Cursos realizados:</label>
+                    <select
+                        id="cursosRealizados"
+                        name="cursosRealizados[]"
+                        multiple
+                    >
+                        <option value="Karate">Karate</option>
+                        <option value="Judo">Judo</option>
+                        <option value="Tai Chi">Tai Chi</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="descuento">Descuento:</label>
+                    <input type="checkbox" name="descuento" id="descuento" />
+                </p>
+                <p>
+                    <label for="observaciones">Observaciones</label>
+                    <textarea
+                        name="observaciones"
+                        id="observaciones"
+                        rows="10"
+                    ></textarea>
+                </p>
+            </fieldset>
+
+            <p>
+                <button type="submit" id="enviar">Enviar</button>
+                <button type="reset" id="borrar">Borrar</button>
+            </p>
+        </form>
+    </body>
+</html>
