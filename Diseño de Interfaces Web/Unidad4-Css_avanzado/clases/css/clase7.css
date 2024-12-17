@@ -1,0 +1,192 @@
+/* Clase 7 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1240px;
+    margin: auto;
+}
+
+img {
+    /* max-width: 100%;*/
+    width: 100%;
+    height: auto;
+}
+
+.menu_movil {
+    display: none;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: right;
+    gap: 35px;
+    padding: 15px 15px;
+    background-color: azure;
+}
+
+header nav input#menu_ch {
+    display: none;
+}
+
+main {
+    margin: 25px 0;
+    padding: 0 15px;
+}
+
+.articulos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articulos article {
+    width: 33%;
+}
+
+body section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px 25px;
+    padding: 0 15px;
+}
+
+body section div:last-child {
+    display: none;
+}
+
+footer .links {
+    /*  display: flex;*/
+    /*Para este tipo de elementos es mejor utilizar el grid*/
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    /*gap:30px;*/
+    justify-content: space-around;
+    align-items: center;
+    background-color: #666;
+    color: #fff;
+    padding: 35px 0;
+}
+
+footer .links div {
+    /* width: 15%;*/
+    display: flex;
+    flex-direction: column;
+}
+
+footer .links div a {
+    color: #fff;
+    align-self: center;
+}
+
+footer .legal {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+@media (width<950px) {
+    /*Cambiamos a una disposicion de tres columnas en la parte central de productos*/
+    body section {
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-evenly;
+        column-gap: 25px;
+    }
+
+    body section div:last-child {
+        display: block;
+    }
+}
+
+@media (width<800px) {
+    /*articulos en dos columnas ocultando el utlimo articulo*/
+    .articulos {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .articulos article {
+        width: 50%;
+    }
+
+    .articulos article:last-child {
+        display: none;
+    }
+
+    /*aparece la etiqueta del menu movil*/
+    .menu_movil {
+        display: block;
+        background-color: beige;
+        padding: 10px;
+    }
+
+    /*Se oculta la barra de navegacion que veiamos hasta ahora*/
+    header nav ul {
+        display: none;
+        list-style: none;
+        flex-direction: column;
+        background-color: rgb(60, 60, 60, 0.9);
+        color: white;
+        position: fixed;
+        width: 75%;
+        height: 100%;
+        gap: 10px;
+    }
+
+    header nav ul li {
+        padding: 15px;
+        border-bottom: white solid 1px;
+    }
+
+    nav {
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+
+    /* Menu desplegable al clicar sobre el icono */
+    nav:has(input#menu_ch:checked) ul {
+        display: flex;
+    }
+}
+
+@media (width<650px) {
+    header nav ul {
+        width: 100%;
+    }
+
+    /*Seccion central de productos en dos columnas*/
+    body section {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    body section div:last-child {
+        display: none;
+    }
+
+    /*footer en dos columnas*/
+    footer .links {
+        /*flex-wrap: wrap;*/
+        grid-template-columns: 40% 40%;
+        gap: 50px;
+    }
+}
+
+@media (width<500px) {
+    /*Pasamos los articulos a una sola columna*/
+    .articulos {
+        flex-direction: column;
+    }
+
+    .articulos article {
+        width: 100%;
+    }
+
+    /*Mostramos el ultimo articulo que teniamos ocultado*/
+    .articulos article:last-child {
+        display: block;
+    }
+}
