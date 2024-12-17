@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: MBCorpoTitle;
-    src: url(./fonts/MBCorpoATitleCond-Regular.woff2);
+    src: url(../fonts/MBCorpoATitleCond-Regular.woff2);
 }
 
 @font-face {
     font-family: MBCorpoTextBold;
-    src: url(./fonts/MBCorpoSText-Bold.woff2);
+    src: url(../fonts/MBCorpoSText-Bold.woff2);
 }
 
 @font-face {
     font-family: MBCorpoText;
-    src: url(./fonts/MBCorpoSText-Regular.woff2);
+    src: url(../fonts/MBCorpoSText-Regular.woff2);
 }
 
 :root {
