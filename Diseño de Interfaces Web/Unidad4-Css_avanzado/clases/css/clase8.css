@@ -1,0 +1,50 @@
+header {
+    position: sticky;
+    nav {
+        background-color: antiquewhite;
+        ul {
+            padding: 10px 25px;
+            display: flex;
+            gap: 15px;
+            justify-content: space-around;
+
+            @media (width<750px) {
+                flex-direction: column;
+            }
+
+            li {
+                border-right: 1px solid black;
+                padding-right: 8px;
+                list-style: none;
+
+                a {
+                    color: orange;
+                    &:hover {
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.cabecera {
+    border: 1px solid black;
+    .navegacion_principal {
+        background-color: green;
+        .menu_principal {
+            display: flex;
+            justify-content: space-around;
+
+            li {
+                border-right: 1px solid black;
+                a {
+                    color: orangered;
+                    &:hover {
+                        color: purple;
+                    }
+                }
+            }
+        }
+    }
+}
