@@ -10,13 +10,13 @@ document.addEventListener("submit", validarFormulario);
 function validarFormulario(submit) {
     let form = document.forms["miFormulario"];
 
-    //nombre
+    // nombre
     console.log("Nombre: " + form.elements["nombre"].value);
 
-    //teléfono
+    // teléfono
     console.log("Telefono: " + form.elements["telefono"].value);
 
-    // Fecha nacimiento
+    // fecha nacimiento
     console.log(
         "Fecha nacimiento: " +
             form.elements["dia"].value +
@@ -26,10 +26,10 @@ function validarFormulario(submit) {
             form.elements["ano"].value
     );
 
-    //socio
+    // socio
     console.log("Socio: " + form.elements["socio"].value);
 
-    //curso seleccionado
+    // curso seleccionado
     console.log("Curso: " + form.elements["curso"].value);
 
     // cursos realizados
@@ -53,7 +53,7 @@ function validarFormulario(submit) {
     // descuento
     console.log("Descuento: " + form.elements["descuento"].value);
 
-    //observaciones
+    // observaciones
     console.log("Observaciones: " + form.elements["observaciones"].value);
 
     submit.preventDefault();

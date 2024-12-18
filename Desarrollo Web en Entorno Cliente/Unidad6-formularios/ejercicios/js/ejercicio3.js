@@ -21,26 +21,26 @@ DIV.addEventListener("click", entryEv);
 TA.addEventListener("keydown", enterKeyEv);
 TA.addEventListener("focusout", exitEv);
 
-function entryEv(e) {
-    e.target.style.display = "none";
+function entryEv() {
+    taText = DIV.innerHTML;
+    TA.value = taText;
+
+    DIV.style.display = "none";
     TA.style.display = "block";
+
     TA.focus();
 }
 
 function enterKeyEv(e) {
     if (e.key == "Enter") {
-        exitEv(e);
+        exitEv();
     }
 }
 
-function exitEv(e) {
-    let textarea = e.target;
+function exitEv() {
+    text = TA.value;
+    DIV.innerHTML = text;
 
-    text = textarea.value;
-    textarea.value = "";
-
-    textarea.style.display = "none";
+    TA.style.display = "none";
     DIV.style.display = "block";
-
-    DIV.innerHTML += text;
 }
