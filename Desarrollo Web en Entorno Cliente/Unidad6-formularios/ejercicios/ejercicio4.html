@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 4</title>
+        <style>
+            td select,
+            td input {
+                width: 150px;
+            }
+
+            #diagram td {
+                vertical-align: bottom;
+                text-align: center;
+                padding: 10px;
+            }
+
+            #diagram div {
+                margin: auto;
+            }
+        </style>
+    </head>
+
+    <body>
+        Calculadora de depósito.
+
+        <form name="calculator">
+            <table>
+                <tr>
+                    <td>Depósito inicial</td>
+                    <td>
+                        <input
+                            name="money"
+                            type="number"
+                            value="10000"
+                            required
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td>¿Cuántos meses?</td>
+                    <td>
+                        <select name="months">
+                            <option value="3">3 (mínimo)</option>
+                            <option value="6">6 (medio año)</option>
+                            <option value="12" selected>12 (un año)</option>
+                            <option value="18">18 (1.5 años)</option>
+                            <option value="24">24 (2 años)</option>
+                            <option value="30">30 (2.5 años)</option>
+                            <option value="36">36 (3 años)</option>
+                            <option value="60">60 (5 años)</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>¿Interés anual?</td>
+                    <td>
+                        <input
+                            name="interest"
+                            type="number"
+                            value="5"
+                            required
+                        />
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <table id="diagram">
+            <tr>
+                <th>Inicial:</th>
+                <th>Final:</th>
+            </tr>
+            <tr>
+                <th id="money-before"></th>
+                <th id="money-after"></th>
+            </tr>
+            <td>
+                <div style="background: red; width: 40px; height: 100px"></div>
+            </td>
+            <td>
+                <div
+                    style="background: green; width: 40px; height: 0"
+                    id="height-after"
+                ></div>
+            </td>
+        </table>
+
+        <script src="./js/ejercicio4.js"></script>
+    </body>
+</html>
