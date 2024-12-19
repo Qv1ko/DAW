@@ -1,0 +1,18 @@
+/* Clase 3 */
+
+.bold_text {
+    font-weight: bold;
+}
+
+.ita {
+    font-style: italic;
+}
+
+main p span {
+    font-weight: bold;
+}
+
+main p strong {
+    color: red;
+    font-weight: normal;
+}

@@ -1,0 +1,51 @@
+/* Clase 2 */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    border: 1px solid black;
+    width: 1280px;
+    margin: auto;
+}
+
+header {
+    border: 1px solid red;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+section#carrusel figure ~ figure {
+    display: none;
+}
+
+main {
+    border: 1px solid green;
+}
+
+main section#productos {
+    border: 1px solid purple;
+}
+
+main section#productos > article {
+    /* border: solid 1px brown; */
+    border-color: beige;
+    border-width: 0.5em 0;
+    border-style: solid;
+    border-radius: 0.5em;
+    /* margin: 1em; */
+    margin: 10px 10px 15px 5px;
+    /* padding: 0.5em; */
+    padding: 10px 5px 5px;
+    width: 30%;
+    display: inline-block;
+    /* box-sizing: border-box; */
+}
+
+footer {
+    border: 1px solid blue;
+}

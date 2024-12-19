@@ -1,0 +1,37 @@
+section#vacancies {
+    padding: 16px;
+    border: 2px solid black;
+    width: 380px;
+}
+
+section#vacancies h2 {
+    font-weight: normal;
+    border-bottom: 2px solid black;
+    margin: 0;
+}
+
+section#vacancies .job {
+    border-bottom: 2px solid black;
+}
+
+section#vacancies .job:last-child {
+    border-bottom: 0;
+}
+
+section#vacancies .job h3 {
+    font-weight: normal;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+section#vacancies .job p {
+    margin-top: 0;
+    margin-bottom: 12px;
+    display: inline-block;
+    width: 74%;
+}
+
+section#vacancies .job a {
+    display: inline-block;
+    width: 23%;
+}

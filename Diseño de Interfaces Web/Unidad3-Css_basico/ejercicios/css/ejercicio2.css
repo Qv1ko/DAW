@@ -1,0 +1,165 @@
+/* Ejercicio 2 */
+/*
+ * Realiza el CSS para el HTML propuesto de manera que quede lo mas parecido posible a la imagen
+ *  del wireframe.
+ * La página debe cumplir además con las siguientes características.
+ * - La letra base del html debe ser 14px el resto de tamaños de letra les asignaremos usando esta medida
+ * - La parte del menu de arriba con el icono de la empresa debe ser pegajosa y desplazarse cuando
+ *    haces scroll por la página.
+ * - El texto del placeholder debe aparecer en color azul claro.
+ * - Los elementos figure (5 elementos) deben tener fondo naranja (elementos impares) y fondo
+ *    amarillo (elementos pares), adapta también el color de texto para que se vea bien.
+ * - El botón del main debe ser de color naranja y cambiar a amarillo cuando pasas por encima.
+ * - Si haces click en el botón se debe mostrar un recuadro amarillo.
+ * - Los links de la sección productos ya visitados se pondrán de color naranja. 
+ * - Los span de la sección social tendrán un tamaño de 15px por 15 px y un recuadro negro.
+ * - El primer li de cada ul en la sección  links_navegacion estará en negrita. 
+ * - Los botones del footer deshabilitados tendrán un border amarillo y texto en blanco.
+ */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.boxed {
+    width: 1280px;
+    margin: auto;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+header nav {
+    margin: auto;
+    width: 50%;
+}
+
+header nav ul li {
+    font-size: 1rem;
+    display: inline;
+}
+
+body {
+    margin: 0;
+}
+
+section#carrusel {
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+section#carrusel figure ~ figure {
+    display: none;
+}
+
+section#carrusel figure > figcaption {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 710px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main {
+    margin: 1rem 0;
+}
+
+main section#productos {
+    margin: 1rem 0;
+}
+
+main section#productos article {
+    width: 30.8%;
+    margin: 1%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+main section#productos article h2 {
+    font-size: 1.5rem;
+}
+
+main section#productos article a {
+    float: right;
+}
+
+main section#destacado {
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    padding: 2rem;
+    margin: 0.5rem 0;
+}
+
+main section#destacado article div:first-child {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+main section#destacado article div:first-child h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+main section#destacado article div:last-child {
+    width: 39.2%;
+    display: inline-block;
+}
+
+main section#destacado article div:last-child button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    float: right;
+}
+
+footer {
+    background-color: lightgray;
+}
+
+footer > section {
+    margin: 10px;
+}
+
+footer section:first-child div > img {
+    height: 35px;
+    width: auto;
+    vertical-align: top;
+    margin-right: 2rem;
+}
+
+footer section:first-child div > button {
+    min-height: 35px;
+    min-width: 150px;
+}
+
+footer section:last-of-type div > p {
+    width: 85%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+footer section:last-of-type div > img {
+    width: 14.2%;
+}
+
+footer nav {
+    background-color: black;
+    padding-top: 2rem;
+}
+
+footer nav div ul {
+    margin: 0;
+}
+
+footer nav div ul li {
+    display: inline-block;
+    margin: 0 1rem;
+}

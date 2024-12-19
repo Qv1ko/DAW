@@ -1,0 +1,29 @@
+:root {
+    background-color: cornflowerblue;
+}
+
+.boxed {
+    width: 1064px;
+    margin: auto;
+}
+
+section#welcome div.welcome-text {
+    padding-right: 64px;
+    width: 53.08%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+section#welcome div.welcome-text button {
+    padding: 12px 32px;
+    border-radius: 8px;
+}
+
+section#welcome div.image-placeholder {
+    width: 40%;
+    display: inline-block;
+}
+
+section#welcome div.image-placeholder img {
+    width: 100%;
+}
