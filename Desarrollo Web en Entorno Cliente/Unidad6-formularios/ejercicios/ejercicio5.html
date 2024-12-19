@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ejercicio 5</title>
+    </head>
+    <body>
+        <!-- A, B, B, B, B -->
+        <form action="#" name="test" style="margin: 16px 0">
+            <h2>SQL Injection Test</h2>
+            <h4 id="q1">
+                <span class="icon"></span> ¿Qué es una inyección SQL?
+            </h4>
+            <input type="radio" name="q1" id="q1a" />
+            <label for="q1a"
+                >A) Un tipo de ataque que permite a un atacante ejecutar
+                comandos SQL no autorizados en una base de datos.</label
+            ><br />
+            <input type="radio" name="q1" id="q1b" />
+            <label for="q1b">B) Un método para optimizar consultas SQL.</label
+            ><br />
+            <input type="radio" name="q1" id="q1c" />
+            <label for="q1c"
+                >C) Un proceso de encriptación de datos en una base de
+                datos.</label
+            ><br />
+
+            <h4 id="q2">
+                <span class="icon"></span>
+                ¿Cuál de las siguientes es una forma común de prevenir la
+                inyección SQL?
+            </h4>
+            <input type="radio" name="q2" id="q2a" />
+            <label for="q2a">A) Usar consultas SQL dinámicas.</label><br />
+            <input type="radio" name="q2" id="q2b" />
+            <label for="q2b"
+                >B) Validar y sanitizar las entradas del usuario.</label
+            ><br />
+            <input type="radio" name="q2" id="q2c" />
+            <label for="q2c">C) Aumentar el tamaño de la base de datos.</label
+            ><br />
+
+            <h4 id="q3">
+                <span class="icon"></span>
+                ¿Qué tipo de datos es más susceptible a la inyección SQL?
+            </h4>
+            <input type="radio" name="q3" id="q3a" />
+            <label for="q3a">A) Datos numéricos.</label><br />
+            <input type="radio" name="q3" id="q3b" />
+            <label for="q3b">B) Datos de texto.</label><br />
+            <input type="radio" name="q3" id="q3c" />
+            <label for="q3c">C) Datos booleanos.</label><br />
+
+            <h4 id="q4">
+                <span class="icon"></span>
+                ¿Cuál de los siguientes ejemplos es una inyección SQL?
+            </h4>
+            <input type="radio" name="q4" id="q4a" />
+            <label for="q4a"
+                >A)
+                <code
+                    >SELECT * FROM users WHERE username = 'admin' AND password =
+                    '1234';</code
+                ></label
+            ><br />
+            <input type="radio" name="q4" id="q4b" />
+            <label for="q4b"
+                >B)
+                <code
+                    >SELECT * FROM users WHERE username = 'admin' OR
+                    '1'='1';</code
+                ></label
+            ><br />
+            <input type="radio" name="q4" id="q4c" />
+            <label for="q4c"
+                >C)
+                <code
+                    >SELECT * FROM users WHERE username = 'guest';</code
+                ></label
+            ><br />
+
+            <h4 id="q5">
+                <span class="icon"></span>
+                ¿Qué herramienta se puede utilizar para detectar
+                vulnerabilidades de inyección SQL?
+            </h4>
+            <input type="radio" name="q5" id="q5a" />
+            <label for="q5a">A) Un editor de texto.</label><br />
+            <input type="radio" name="q5" id="q5b" />
+            <label for="q5b">B) Un escáner de seguridad web.</label><br />
+            <input type="radio" name="q5" id="q5c" />
+            <label for="q5c">C) Un sistema de gestión de bases de datos.</label
+            ><br /><br />
+            <button type="submit" id="submit-button">Enviar respuestas</button>
+        </form>
+        <p id="result" style="border: 1px solid black; padding: 16px"></p>
+        <script src="./js/ejercicio5.js"></script>
+    </body>
+</html>
