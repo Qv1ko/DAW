@@ -55,28 +55,45 @@
           - Otros métodos que tú consideres necesarios
     -->
 
+    <?php
+
+        require_once("./clase_victorg1.php");
+        require_once("./datos_aux.php");
+        require_once("./f_victorg1.php");
+
+        validarPrecio(isset($_POST["precio"])? $_POST["precio"] : "", $mensajePrecio);
+
+        if (strlen($mensajePrecio) == 0) {
+            $libro = new Libro($_POST["titulo"], $_POST["precio"]);
+            $resultado = "El libro " . $libro->titulo . " cuesta realmente " . $libro->calcularPrecio(0);
+        } else {
+            $resultado = "";
+        }
+
+    ?>
+
     <h1>Vivir sin leer es peligroso te oblia a creer en lo que te digan</h1>
-    <form action="" method="post">
+    <form action="#" method="post">
         <table cellpadding="8" align="center">
             <tr>
                 <td rowspan="4" style="background-color: #808080;">
                     <label for="titulo">Seleccione un título: </label>
                     <select name="titulo" id="titulo">
-                        <option value="atrapados">Atrapados</option>
-                        <option value="dune">Dune</option>
-                        <option value="viajando">Viajando</option>
-                        <option value="vivir">Vivir</option>
-                        <option value="contigo">Contigo</option>
-                        <option value="inferno">Inferno</option>
-                        <option value="flandes">Flandes</option>
-                        <option value="da_vinci">Da_Vinci</option>
+                        <?php
+                            foreach ($libros as $genero => $titulos) {
+                                foreach ($titulos as $titulo) {
+                                    echo "<option value=" . strtolower($titulo) . ">$titulo</option>";
+                                }
+                            }
+                        ?>
                     </select>
                 </td>
             </tr>
             <tr>
                 <td>
                     <label for="precio">Precio:</label>
-                    <input type="text" name="precio" id="precio"><span style="color: red;">* obligatorio</span>
+                    <input type="text" name="precio" id="precio"><span
+                        style="color: red;"><?php echo $mensajePrecio; ?></span>
                 </td>
             </tr>
             <tr>
@@ -97,6 +114,7 @@
             </tr>
         </table>
     </form>
+    <p><?php echo $resultado; ?></p>
 </body>
 
 </html>
