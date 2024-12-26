@@ -65,14 +65,20 @@
 
         if (strlen($mensajePrecio) == 0) {
             $libro = new Libro($_POST["titulo"], $_POST["precio"]);
-            $resultado = "El libro " . $libro->titulo . " cuesta realmente " . $libro->calcularPrecio(0);
+            if (isset($_POST["premium"]) && $_POST["premium"]) {
+                $descuento += 10;
+            }
+            if (isset($_POST["valeAventuras"]) && $_POST["valeAventuras"] && getGenero($libro->titulo) === GENERO_DESCONTADO) {
+                $descuento += 10;
+            }
+            $resultado = "El libro " . $libro->titulo . " cuesta realmente " . $libro->calcularPrecio($descuento);
         } else {
             $resultado = "";
         }
 
     ?>
 
-    <h1>Vivir sin leer es peligroso te oblia a creer en lo que te digan</h1>
+    <h1 style="color: blue; text-align: center;">Vivir sin leer es peligroso te oblia a creer en lo que te digan</h1>
     <form action="#" method="post">
         <table cellpadding="8" align="center">
             <tr>
@@ -82,7 +88,7 @@
                         <?php
                             foreach ($libros as $genero => $titulos) {
                                 foreach ($titulos as $titulo) {
-                                    echo "<option value=" . strtolower($titulo) . ">$titulo</option>";
+                                    echo "<option value='$titulo'>$titulo</option>";
                                 }
                             }
                         ?>
@@ -99,10 +105,10 @@
             <tr>
                 <td>
                     <p>Descuento <span style="font-style: italic;">(oferta acumulable)</span>:</p>
-                    <input type="checkbox" name="descuento[]" id="premium" value="cliente_premium">
+                    <input type="checkbox" name="premium" id="premium" value="cliente_premium">
                     <label for="premium">Cliente premium</label><br>
-                    <input type="checkbox" name="descuento[]" id="vale10aventuras" value="vale10aventuras">
-                    <label for="vale10aventuras">Vale 10% en libros de aventuras</label><br>
+                    <input type="checkbox" name="valeAventuras" id="valeAventuras" value="valeAventuras">
+                    <label for="valeAventuras">Vale 10% en libros de aventuras</label><br>
                 </td>
             </tr>
             <tr>
@@ -114,7 +120,7 @@
             </tr>
         </table>
     </form>
-    <p><?php echo $resultado; ?></p>
+    <p style="text-align: center;"><?php echo $resultado; ?></p>
 </body>
 
 </html>
