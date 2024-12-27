@@ -5,7 +5,7 @@
 #### Unidad 1 - Selección de arquitectura y herramientas de programación
 
 -   [Apuntes](./unidad1-seleccion_de_arquitecturas_y_herramientas_de_programacion/apuntes/)
--   [Ejercicios](./unidad1-fundamentos_de_javascript/ejercicios/)
+-   [Ejercicios](./unidad1-seleccion_de_arquitecturas_y_herramientas_de_programacion/ejercicios/)
 
 #### Unidad 2 - Elementos base de PHP
 
