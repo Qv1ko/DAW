@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Unidad 5 - Eventos</title>
+    </head>
+    <body>
+        <button
+            onclick="alert('Hola'); this.style.backgroundColor = 'red'"
+            style="padding: 10px 20px"
+        >
+            Botón
+        </button>
+        <a onclick="alert('Hola');" href="https://google.com" target="_blank"
+            >Enlace a Google</a
+        >
+        <a
+            onclick="alert('Hola'); return false;"
+            href="https://google.com"
+            target="_blank"
+            >Enlace a Google</a
+        >
+
+        <button onclick="cambiaColor(this)" style="padding: 10px 20px">
+            Botón
+        </button>
+
+        <script src="./js/clase1.js"></script>
+
+        <p id="p">Parrafo clase 1</p>
+
+        <a href="https://google.com" target="_blank" style="padding: 5px 10px"
+            >Link</a
+        >
+
+        <a
+            id="click3"
+            href="https://google.com"
+            target="_blank"
+            style="padding: 5px 10px"
+            >Link</a
+        >
+    </body>
+</html>
