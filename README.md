@@ -19,9 +19,9 @@ Repositorio de actividades realizadas en el Ciclo Formativo de Grado Superior de
 
 ### Segundo curso
 
--   [Desarrollo Web en Entorno Cliente](./Desarrollo%20Web%20en%20Entorno%20Cliente/)
--   [Desarrollo Web en Entorno Servidor](./Desarrollo%20Web%20en%20Entorno%20Servidor/)
--   [Despliegue de Aplicaciones Web](./Despliegue%20de%20Aplicaciones%20Web/)
--   [Diseño de Interfaces Web](./Diseño%20de%20Interfaces%20Web/)
+-   [Desarrollo Web en Entorno Cliente](./desarrollo_web_entorno_cliente/)
+-   [Desarrollo Web en Entorno Servidor](./desarrollo_web_entorno_servidor/)
+-   [Despliegue de Aplicaciones Web](./despliegue_aplicaciones_web/)
+-   [Diseño de Interfaces Web](./diseno_interfaces_web/)
 
 ## Proyecto de Fin de Grado

@@ -19,9 +19,9 @@ Repository of activities carried out in the Higher Level Training Cycle in Web A
 
 ### Second course
 
--   [Web Development in Client Environment](./Desarrollo%20Web%20en%20Entorno%20Cliente/)
--   [Web Development in Server Environment](./Desarrollo%20Web%20en%20Entorno%20Servidor/)
--   [Web Application Deployment](./Despliegue%20de%20Aplicaciones%20Web/)
--   [Web Interface Design](./Diseño%20de%20Interfaces%20Web/)
+-   [Web Development in Client Environment](./desarrollo_web_entorno_cliente/)
+-   [Web Development in Server Environment](./desarrollo_web_entorno_servidor/)
+-   [Web Application Deployment](./despliegue_aplicaciones_web/)
+-   [Web Interface Design](./diseno_interfaces_web/)
 
 ## End of Degree Project
