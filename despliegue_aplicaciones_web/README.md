@@ -1,5 +1,10 @@
 ## Módulo de Despliegue de Aplicaciones Web
 
+#### Lenguaje del README
+
+-   🇪🇸 **Español**
+-   🇺🇸 [Inglés](./README-en.md)
+
 ### Temario
 
 #### Unidad 1 - Arquitectura y tecnología web

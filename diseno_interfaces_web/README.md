@@ -1,5 +1,10 @@
 ## Módulo de Diseño de Interfaces Web
 
+#### Lenguaje del README
+
+-   🇪🇸 **Español**
+-   🇺🇸 [Inglés](./README-en.md)
+
 ### Temario
 
 #### Unidad 1 - Planificación y usabilidad de interfaces web

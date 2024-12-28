@@ -1,5 +1,10 @@
 ## Módulo de Desarrollo Web en Entorno Cliente
 
+#### Lenguaje del README
+
+-   🇪🇸 **Español**
+-   🇺🇸 [Inglés](./README-en.md)
+
 ### Temario
 
 #### Unidad 1 - Fundamentos de JavaScript

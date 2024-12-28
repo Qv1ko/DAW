@@ -1,5 +1,10 @@
 ## Módulo de Desarrollo Web en Entorno Servidor
 
+#### Lenguaje del README
+
+-   🇪🇸 **Español**
+-   🇺🇸 [Inglés](./README-en.md)
+
 ### Temario
 
 #### Unidad 1 - Selección de arquitectura y herramientas de programación
