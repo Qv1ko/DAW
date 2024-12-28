@@ -1,0 +1,12 @@
+#field {
+    width: 200px;
+    border: 10px groove black;
+    background-color: #00ff00;
+    position: relative;
+}
+
+#ball {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+}

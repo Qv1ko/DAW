@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#example {
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+    border: 25px solid #e8c48f;
+    padding: 20px;
+}
+
+.key {
+    cursor: pointer;
+    text-decoration: underline;
+}

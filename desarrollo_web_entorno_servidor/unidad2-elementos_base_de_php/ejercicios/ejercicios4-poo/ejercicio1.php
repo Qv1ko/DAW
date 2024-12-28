@@ -9,7 +9,8 @@
     <?php
 
         /*
-         * Utiliza las siguientes funciones predefinidas de PHP en un script desde el que puedas utilizar una clase:
+         * Utiliza las siguientes funciones predefinidas de PHP en un script desde el que puedas
+         *  utilizar una clase:
          *  - get_class()  
          *  - class_exists()  
          *  - get_declared_classes()  

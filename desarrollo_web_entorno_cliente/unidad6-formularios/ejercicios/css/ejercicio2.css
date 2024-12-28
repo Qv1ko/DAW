@@ -1,0 +1,15 @@
+input {
+    border: 1px solid #333;
+}
+
+input:focus {
+    box-shadow: none;
+}
+
+input.error {
+    box-shadow: 0 0 5px 1px red;
+}
+
+textarea {
+    width: 100%;
+}
