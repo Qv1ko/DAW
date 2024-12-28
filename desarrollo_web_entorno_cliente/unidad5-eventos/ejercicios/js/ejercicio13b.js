@@ -1,8 +1,8 @@
 console.log("--- Ejercicio 13 B ---");
 
 /*
- * Transformar el modelo de eventos en línea o el modelo de eventos
- *  tradicional, al modelo de eventos del W3C (addEventListener).
+ * Transformar el modelo de eventos en línea o el modelo de eventos tradicional, al modelo de eventos
+ *  del W3C (addEventListener).
  */
 
 img = document.body.querySelector("img");

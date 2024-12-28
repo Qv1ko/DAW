@@ -1,8 +1,8 @@
 console.log("--- Ejercicio 25 ---");
 
 /*
- * Escribe la función ordenarPorEdad(users) que recibe como parámetro
- *  un array de objetos con la propiedad edad y los ordena según edad.
+ * Escribe la función ordenarPorEdad(users) que recibe como parámetro un array de objetos con la
+ *  propiedad edad y los ordena según edad.
  */
 
 john = {

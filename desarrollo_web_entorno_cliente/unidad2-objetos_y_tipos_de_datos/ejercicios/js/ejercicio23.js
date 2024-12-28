@@ -1,8 +1,7 @@
 console.log("--- Ejercicio 23 ---");
 
 /*
- * Escribe una función copiaOrdenada(arr) que devuelva una copia del
- *  array ordenada con orden alfabético.
+ * Escribe una función copiaOrdenada(arr) que devuelva una copia del array ordenada con orden alfabético.
  * El array original no se tiene que modificar.
  */
 

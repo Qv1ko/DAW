@@ -2,11 +2,10 @@ console.log("--- Ejercicio 14 ---");
 
 /*
  * Añadir a nuestra calculadora dos botones más x3 y 1/x.
- * También se añadirá un campo informativo mediante la etiqueta <h3> con
- *  contenido inicial "Información sobre el número". El contenido del
- *  campo se debe actualizar cada vez que se hace un cálculo en la
- *  calculadora. Su contenido debe ser "Información: el resultado de
- *  la operación x2 | x3 | 1/x es número."
+ * También se añadirá un campo informativo mediante la etiqueta <h3> con contenido inicial "Información
+ *  sobre el número". El contenido del campo se debe actualizar cada vez que se hace un cálculo en
+ *  la calculadora. Su contenido debe ser "Información: el resultado de la operación x2 | x3 | 1/x
+ *  es número."
  */
 
 document.addEventListener("DOMContentLoaded", () => {

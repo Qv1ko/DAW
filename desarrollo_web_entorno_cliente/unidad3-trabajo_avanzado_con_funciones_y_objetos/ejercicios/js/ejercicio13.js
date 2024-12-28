@@ -1,8 +1,8 @@
 console.log("--- Ejercicio 13 ---");
 
 /*
- * Crea una función getSecondsToTomorrow() que devuelva la cantidad
- *  de segundos que faltan para el día de mañana.
+ * Crea una función getSecondsToTomorrow() que devuelva la cantidad de segundos que faltan para el
+ *  día de mañana.
  */
 
 console.log(getSecondsToTomorrow());

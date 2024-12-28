@@ -1,9 +1,8 @@
 console.log("--- Ejercicio 26 ---");
 
 /*
- * Escribe el código para crear otro array a partir de este, de objetos
- *  con id y nombreCompleto, donde nombreCompleto es generado a partir
- *  de nombre y apellido.
+ * Escribe el código para crear otro array a partir de este, de objetos con id y nombreCompleto, donde
+ *  nombreCompleto es generado a partir de nombre y apellido.
  */
 
 john = {

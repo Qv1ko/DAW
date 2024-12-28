@@ -1,11 +1,10 @@
 console.log("--- Ejercicio 12 ---");
 
 /*
- * Escribe una función contarBs que tome una cadena como argumento, y
- *  devuelva el número de "B mayúsculas que hay en la cadena.
- * A continuación, escribe una función contarCaracter, similar a
- *  contarBs, pero que su segundo argumento indica el carácter que se
- *  quiere contar (en lugar de contar "B" mayúsculas).
+ * Escribe una función contarBs que tome una cadena como argumento, y devuelva el número de "B"
+ *  mayúsculas que hay en la cadena.
+ * A continuación, escribe una función contarCaracter, similar a contarBs, pero que su segundo
+ *  argumento indica el carácter que se quiere contar (en lugar de contar "B" mayúsculas).
  */
 
 function contarBs(str) {

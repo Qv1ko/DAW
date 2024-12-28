@@ -1,8 +1,8 @@
 console.log("--- Ejercicio 14 ---");
 
 /*
- * Crea un programa que pida muestre el número de días que quedan
- *  desde hoy hasta el fin de curso (23 de junio).
+ * Crea un programa que pida muestre el número de días que quedan desde hoy hasta el fin de
+ *  curso (23 de junio).
  */
 
 let now = new Date();

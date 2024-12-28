@@ -1,12 +1,10 @@
 console.log("--- Ejercicio 8 ---");
 
 /*
- * Se pide que al hacer clic sobre un texto, si tiene nodos hijos, los
- *  muestre u oculte.
+ * Se pide que al hacer clic sobre un texto, si tiene nodos hijos, los muestre u oculte.
  * La solución tiene dos partes:
  *  - Envuelve cada nodo de texto del árbol dentro de <span>.
- *  - Establece el manejador al nodo raíz del árbol y maneja los clics
- *     en aquellos nodos que sean  <span>.
+ *  - Establece el manejador al nodo raíz del árbol y maneja los clics en aquellos nodos que sean <span>.
  */
 
 // Solución sin delegación de eventos

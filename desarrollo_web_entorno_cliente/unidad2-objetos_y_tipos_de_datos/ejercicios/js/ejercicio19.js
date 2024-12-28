@@ -1,9 +1,8 @@
 console.log("--- Ejercicio 19 ---");
 
 /*
- * Escribe una función filterRangeInPlace(arr, a, b) que recibe como
- *  parámetros un array y dos valores a, y b; y elimine de array
- *  todos los elementos excepto aquellos cuyo valor se encuentre
+ * Escribe una función filterRangeInPlace(arr, a, b) que recibe como parámetros un array y dos
+ *  valores a, y b; y elimine de array todos los elementos excepto aquellos cuyo valor se encuentre
  *  entre a y b (tampoco debe eliminar a ni b).
  * Los elementos del array, a y b: son numéricos.
  * La función solo debe modificar el array. No debe devolver nada.

@@ -1,8 +1,7 @@
 console.log("--- Ejercicio 20 ---");
 
 /*
- * Haz una copia "profunda" de alum1, alum2 y clase utilizando los
- *  métodos de JSON.
+ * Haz una copia "profunda" de alum1, alum2 y clase utilizando los métodos de JSON.
  */
 
 let alum1 = { nombre: "Fede", edad: 30, estudios: ["SMR"] };

@@ -9,10 +9,9 @@ console.log("--- Ejercicio 30 ---");
  * - Localización: almacenará un número de estantería.
  * - Prestado: almacenará un valor booleano. Por defecto será false.
  * La función constructora se puede llamar con o sin parámetros:
- * - Sin parámetros: las 4 primeras propiedades serán cadenas
- *    vacías, la localización será 0 por defecto y prestado estará a false.
- * - Con parámetros: se pasarán solo las cinco primeras propiedades; la
- *    propiedad prestado será false.
+ * - Sin parámetros: las 4 primeras propiedades serán cadenas vacías, la localización será 0 por
+ *    defecto y prestado estará a false.
+ * - Con parámetros: se pasarán solo las cinco primeras propiedades; la propiedad prestado será false.
  * Además, tendrá los siguientes métodos:
  * - Un método que permitirá cambiar el número de estantería en la localización.
  * - Un método que permitirá cambiar la propiedad prestado.

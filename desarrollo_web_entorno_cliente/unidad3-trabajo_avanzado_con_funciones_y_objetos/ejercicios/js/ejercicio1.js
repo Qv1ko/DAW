@@ -1,8 +1,8 @@
 console.log("--- Ejercicio 1 ---");
 
 /*
- * Escribe una funcion unicos(arr) que recibe un array y devuelve un
- *  array con los elementos únicos de arr.
+ * Escribe una funcion unicos(arr) que recibe un array y devuelve un array con los elementos únicos
+ *  de arr.
  */
 
 let values = [

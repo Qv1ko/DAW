@@ -1,9 +1,8 @@
 console.log("--- Ejercicio 28 ---");
 
 /*
- * Crea una función llamada vaciarArray(), que recibe como parámetro
- *  un array y vacía su contenido, es decir, después de llamar a esta
- *  función, el array pasado como parámetro no tendrá datos.
+ * Crea una función llamada vaciarArray(), que recibe como parámetro un array y vacía su contenido, es
+ *  decir, después de llamar a esta función, el array pasado como parámetro no tendrá datos.
  */
 
 arr = [1, 2, 3, 4];

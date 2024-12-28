@@ -2,8 +2,7 @@ console.log("--- Ejercicio 11 ---");
 
 /*
  * Escribe una función min(a,b) que devuelva el menor de dos números a y b.
- * Escríbela de tres modos: como función declarada, como expresión de
- *  función, y como función flecha.
+ * Escríbela de tres modos: como función declarada, como expresión de función, y como función flecha.
  */
 
 // Función declarada

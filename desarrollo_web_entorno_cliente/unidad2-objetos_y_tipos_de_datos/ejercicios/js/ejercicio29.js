@@ -2,12 +2,10 @@ console.log("--- Ejercicio 29 ---");
 
 /*
  * Crea un array, cuyo contenido son números.
- * - Haz una función que muestre en la página los números pares que
- *    hay en el array, utilizando un for, utilizando forEach(), for..in y for..of.
- * - Haz una función que muestre en la página el resultado de sumar
- *    todos los elementos del array.
- * - Haz una función que elimine el último elemento del array, y añada
- *    otro elegido por el usuario.
+ * - Haz una función que muestre en la página los números pares que hay en el array, utilizando un
+ *    for, utilizando forEach(), for..in y for..of.
+ * - Haz una función que muestre en la página el resultado de sumar todos los elementos del array.
+ * - Haz una función que elimine el último elemento del array, y añada otro elegido por el usuario.
  * - Haz una función que muestre el valor máximo que hay en el array.
  */
 

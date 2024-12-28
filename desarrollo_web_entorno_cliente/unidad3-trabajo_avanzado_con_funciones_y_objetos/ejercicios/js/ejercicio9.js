@@ -1,8 +1,7 @@
 console.log("--- Ejercicio 9 ---");
 
 /*
- * Escribe una función getLocalDay(date) que devuelva el día de la
- *  semana "europeo" para la variable date.
+ * Escribe una función getLocalDay(date) que devuelva el día de la semana "europeo" para la variable date.
  */
 
 date = new Date(2012, 0, 3);

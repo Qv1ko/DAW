@@ -1,8 +1,7 @@
 console.log("--- Ejercicio 4 ---");
 
 /*
- * Al hacer click sobre el texto Sweeties (click me)! , se debería
- *  mostrar/ocultar la lista que está debajo.
+ * Al hacer click sobre el texto Sweeties (click me)! , se debería mostrar/ocultar la lista que está debajo.
  */
 
 let btn = document.getElementsByTagName("span")[0];

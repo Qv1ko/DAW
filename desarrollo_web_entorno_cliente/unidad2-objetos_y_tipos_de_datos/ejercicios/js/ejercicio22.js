@@ -1,8 +1,8 @@
 console.log("--- Ejercicio 22 ---");
 
 /*
- * Escribe una función ordenaDecreciente(arr) que recibe un array como
- *  parámetro y lo ordena en orden decreciente matemático.
+ * Escribe una función ordenaDecreciente(arr) que recibe un array como parámetro y lo ordena en orden
+ *  decreciente matemático.
  * La función modifica el array.
  */
 

@@ -1,11 +1,10 @@
 console.log("--- Ejercicio 4 ---");
 
 /*
- * Escribir un script que simule el lanzamiento de dos dados. Hacer
- *  uso de la función Math.random() para obtener números aleatorios
- *  entre 1 y 6 para cada uno de los lanzamientos de los dados.
- * Repetir 36.000 veces el lanzamiento de los dos dados; sumar el
- *  resultado de cada dado y anotarlo en un map.
+ * Escribir un script que simule el lanzamiento de dos dados. Hacer uso de la función Math.random()
+ *  para obtener números aleatorios entre 1 y 6 para cada uno de los lanzamientos de los dados.
+ * Repetir 36.000 veces el lanzamiento de los dos dados; sumar el resultado de cada dado y anotarlo
+ *  en un map.
  * Al final del programa se deben mostrar el número de veces que ha aparecido cada suma.
  */
 

@@ -1,8 +1,8 @@
 console.log("--- Ejercicio 3 ---");
 
 /*
- * Nos gustaría obtener un array de map.keys() en una variable y luego
- *  aplicarle métodos específicos de arrays.
+ * Nos gustaría obtener un array de map.keys() en una variable y luego aplicarle métodos específicos
+ *  de arrays.
  */
 
 let map = new Map();

@@ -1,8 +1,7 @@
 console.log("--- Ejercicio 15 ---");
 
 /*
- * Crea una función binario, que pida un número y escriba ese número
- *  en binario.
+ * Crea una función binario, que pida un número y escriba ese número en binario.
  */
 
 function binary(number) {

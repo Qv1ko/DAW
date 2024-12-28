@@ -1,9 +1,8 @@
 console.log("--- Ejercicio 10 ---");
 
 /*
- * Crea una función getDateAgo(fecha, días) que devuelva el día del
- *  mes que era descontando el número de días indicados de la fecha
- *  que se pasa como parámetro.
+ * Crea una función getDateAgo(fecha, días) que devuelva el día del mes que era descontando el número
+ *  de días indicados de la fecha que se pasa como parámetro.
  * No se debe modificar la fecha que se pasa como parámetro.
  */
 

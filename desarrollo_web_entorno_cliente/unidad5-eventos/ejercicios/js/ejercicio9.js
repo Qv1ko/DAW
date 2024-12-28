@@ -1,11 +1,10 @@
 console.log("--- Ejercicio 9 ---");
 
 /*
- * Añade el JavaScript necesario para que, al hacer clic sobre los
- *  elementos <th>, la tabla se ordene por la columna correspondiente.
- * Cada <th> tiene un atributo que indica el tipo de datos de esa
- *  columna (sólo pueden ser "string" o "number"). La función de
- *  ordenamiento debe manejar el orden de acuerdo al tipo de datos.
+ * Añade el JavaScript necesario para que, al hacer clic sobre los elementos <th>, la tabla se
+ *  ordene por la columna correspondiente.
+ * Cada <th> tiene un atributo que indica el tipo de datos de esa columna (sólo pueden ser "string"
+ *  o "number"). La función de ordenamiento debe manejar el orden de acuerdo al tipo de datos.
  */
 
 // Solución sin delegación de eventos

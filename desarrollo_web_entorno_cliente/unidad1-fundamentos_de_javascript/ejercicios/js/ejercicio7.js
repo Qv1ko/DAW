@@ -2,12 +2,10 @@ console.log("--- Ejercicio 7 ---");
 
 /*
  * Crea una función que muestre por la consola un “tablero de ajedrez”.
- * La función recibirá dos números como parámetro, que indica el número
- *  de filas y de columnas.
- * Si la función no recibe algún parámetro, estos tomarán por defecto
- *  el valor de 8.
- * Si la función recibe algún parámetro incorrecto (sólo se admiten
- *  valores enteros positivos), no mostrará nada por consola.
+ * La función recibirá dos números como parámetro, que indica el número de filas y de columnas.
+ * Si la función no recibe algún parámetro, estos tomarán por defecto el valor de 8.
+ * Si la función recibe algún parámetro incorrecto (sólo se admiten valores enteros positivos), no
+ *  mostrará nada por consola.
  */
 
 const BLACK = "#",

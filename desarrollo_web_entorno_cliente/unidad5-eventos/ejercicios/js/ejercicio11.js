@@ -1,8 +1,7 @@
 console.log("--- Ejercicio 11 ---");
 
 /*
- * Crea una galería de imágenes donde la imagen principal cambia al
- *  hacer clic en una miniatura.
+ * Crea una galería de imágenes donde la imagen principal cambia al hacer clic en una miniatura.
  * Utiliza la delegación de eventos.
  */
 

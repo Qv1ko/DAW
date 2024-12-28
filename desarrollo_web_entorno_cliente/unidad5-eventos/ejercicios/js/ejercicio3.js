@@ -1,8 +1,7 @@
 console.log("--- Ejercicio 3 ---");
 
 /*
- * Agrega el código para que, al hacer clic en algún lugar del
- *  campo, el balón se mueva a ese lugar.
+ * Agrega el código para que, al hacer clic en algún lugar del campo, el balón se mueva a ese lugar.
  * - El balón debe quedar centrado donde se ha hecho click, si es posible.
  * - El balón no debería salir del campo.
  * - Si la página se desplaza, el balón debería seguir correctamente colocado.

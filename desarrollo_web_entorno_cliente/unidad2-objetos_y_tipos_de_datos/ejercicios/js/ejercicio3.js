@@ -1,8 +1,7 @@
 console.log("--- Ejercicio 3 ---");
 
 /*
- * Escribe el código para sumar todos los salarios y almacenar el
- *  resultado en una variable sum.
+ * Escribe el código para sumar todos los salarios y almacenar el resultado en una variable sum.
  * Si salaries está vacío, el valor de sum será 0.
  */
 

@@ -1,8 +1,8 @@
 console.log("--- Ejercicio 12 ---");
 
 /*
- * Escribe una función getSecondsToday() que devuelva la cantidad de
- *  segundos transcurridos desde el comienzo del día.
+ * Escribe una función getSecondsToday() que devuelva la cantidad de segundos transcurridos desde
+ *  el comienzo del día.
  */
 
 console.log(getSecondsToday());

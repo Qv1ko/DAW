@@ -1,30 +1,24 @@
 console.log("--- Ejercicio 31 ---");
 
 /*
- * Crea un script para gestionar información sobre los
- *  alumnos (nombre, apellido1, apellido2, dni). Esta información ha
- *  de almacenarse en un array de objetos.
- * Se utilizará la función para comprobar DNI, ya que no se puede dar
- *  de alta o modificar un alumno si su DNI es incorrecto.
- * No se puede dar de alta un alumno con un DNI que ya exista, ni
- *  modificar el DNI de un alumno, y asignarle un DNI que ya exista.
- * Para gestionar la información se presentará un menú que permita
- *  realizar las siguientes operaciones:
+ * Crea un script para gestionar información sobre los alumnos (nombre, apellido1, apellido2, dni). Esta
+ *  información ha de almacenarse en un array de objetos.
+ * Se utilizará la función para comprobar DNI, ya que no se puede dar de alta o modificar un alumno
+ *  si su DNI es incorrecto.
+ * No se puede dar de alta un alumno con un DNI que ya exista, ni modificar el DNI de un alumno, y
+ *  asignarle un DNI que ya exista.
+ * Para gestionar la información se presentará un menú que permita realizar las siguientes operaciones:
  * - Dar de alta un alumno.
- *   - Los campos nombre y apellido1 son obligatorios (no pueden ser
- *      la cadena vacía). El campo apellido2 no es obligatorio.
+ *   - Los campos nombre y apellido1 son obligatorios (no pueden ser la cadena vacía). El campo
+ *      apellido2 no es obligatorio.
  * - Eliminar un alumno.
- *   - Pedir el DNI para localizar el alumno. Si no existe, mostrar
- *      un mensaje de error.
+ *   - Pedir el DNI para localizar el alumno. Si no existe, mostrar un mensaje de error.
  * - Modifica los datos de un alumno.
- *   - Pedir el DNI para localizar el alumno. Si no existe, mostrar
- *      un mensaje de error.
+ *   - Pedir el DNI para localizar el alumno. Si no existe, mostrar un mensaje de error.
  * - Mostrar datos de un alumno por consola.
- *   - Pedir el DNI para localizar el alumno. Si no existe, mostrar
- *      un mensaje de error.
+ *   - Pedir el DNI para localizar el alumno. Si no existe, mostrar un mensaje de error.
  *   - Utiliza el método .find() para obtener la máxima calificación.
- * - Mostrar los datos de todos los alumnos por consola, ordenados
- *    por apellido1, apellido2 y nombre.
+ * - Mostrar los datos de todos los alumnos por consola, ordenados por apellido1, apellido2 y nombre.
  *   - Utiliza el método .sort() para obtener la máxima calificación.
  * - Salir.
  */

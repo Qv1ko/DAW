@@ -2,8 +2,8 @@
 console.log("--- Ejercicio 1 ---");
 
 /*
- * Crea un programa que pida al usuario que introduzca una edad y
- *  muestre el siguiente mensaje en función del número introducido:
+ * Crea un programa que pida al usuario que introduzca una edad y muestre el siguiente mensaje en
+ *  función del número introducido:
  * - 0-12: Niño
  * - 13-26: Joven
  * - 26-60: Adulto

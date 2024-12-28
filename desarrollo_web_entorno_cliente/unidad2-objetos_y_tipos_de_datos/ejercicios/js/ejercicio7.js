@@ -1,10 +1,8 @@
 console.log("--- Ejercicio 7 ---");
 
 /*
- * Crea una función constructora Calculator que crea objetos con tres
- *  métodos:
- * - read() pide dos valores y los almacena como propiedades de
- *    objeto, con nombres a y b.
+ * Crea una función constructora Calculator que crea objetos con tres métodos:
+ * - read() pide dos valores y los almacena como propiedades de objeto, con nombres a y b.
  * - sum() devuelve la suma de los valores almacenados.
  * - mul() multiplica los valores almacenados y devuelve el resultado.
  */

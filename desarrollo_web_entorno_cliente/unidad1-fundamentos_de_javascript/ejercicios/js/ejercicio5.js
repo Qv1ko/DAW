@@ -1,8 +1,8 @@
 console.log("--- Ejercicio 5 ---");
 
 /*
- * Modifica el ejercicio anterior, pero en este caso el intervalo será
- *  de 5 minutos. Los minutos se deben escribir siempre con 2 cifras.
+ * Modifica el ejercicio anterior, pero en este caso el intervalo será de 5 minutos. Los minutos se
+ *  deben escribir siempre con 2 cifras.
  */
 
 hour, min;

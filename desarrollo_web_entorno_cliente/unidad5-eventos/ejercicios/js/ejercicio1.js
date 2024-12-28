@@ -1,8 +1,7 @@
 console.log("--- Ejercicio 1 ---");
 
 /*
- * Agrega el código para que, al hacer clic en el button, desaparezca
- *  el texto del div con id="text".
+ * Agrega el código para que, al hacer clic en el button, desaparezca el texto del div con id="text".
  */
 
 let btn = document.getElementById("hider");

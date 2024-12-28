@@ -1,8 +1,8 @@
 console.log("--- Ejercicio 8 ---");
 
 /*
- * Escribe una función getWeekDay(date) que devuelva el día de la
- *  semana en formato corto: ‘MO’, ‘TU’, ‘WE’, ‘TH’, ‘FR’, ‘SA’, ‘SU’.
+ * Escribe una función getWeekDay(date) que devuelva el día de la semana en formato corto: 'MO',
+ *  'TU', 'WE', 'TH', 'FR', 'SA', 'SU'.
  */
 
 let date = new Date(2012, 0, 3);

@@ -1,8 +1,8 @@
 console.log("--- Ejercicio 6 ---");
 
 /*
- * Agrega el código para que funcionen los botones "arrow prev" y "arrow
- *  next". Para ello, basta con cambiar la propiedad margin-left del ul.
+ * Agrega el código para que funcionen los botones "arrow prev" y "arrow next". Para ello, basta con
+ *  cambiar la propiedad margin-left del ul.
  */
 
 let leftArrow = document.getElementsByClassName("prev")[0];

@@ -1,8 +1,8 @@
 console.log("--- Ejercicio 14 ---");
 
 /*
- * Crea una función para comprobar si un DNI o NIE es correcto (contiene
- *  8 dígitos y una letra, y que la letra es correcta).
+ * Crea una función para comprobar si un DNI o NIE es correcto (contiene 8 dígitos y una letra, y
+ *  que la letra es correcta).
  */
 
 function dni_nie(str) {

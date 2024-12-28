@@ -5,12 +5,9 @@ console.log("--- Ejercicio 5 ---");
  * - titular: su valor es “Alex”.
  * - saldo: su valor inicial es 0.
  * También deberá tener estos métodos:
- * - ingresar(cantidad): permite añadir dinero a la cuenta, pasando
- *    la cantidad como parámetro.
- * - extraer(cantidad): permite retirar dinero de la cuenta, pasando
- *    la cantidad como parámetro.
- * - informar(): devuelve la información del estado de la cuenta: un
- *    texto con el titular y el saldo.
+ * - ingresar(cantidad): permite añadir dinero a la cuenta, pasando la cantidad como parámetro.
+ * - extraer(cantidad): permite retirar dinero de la cuenta, pasando la cantidad como parámetro.
+ * - informar(): devuelve la información del estado de la cuenta: un texto con el titular y el saldo.
  */
 
 cuenta = {

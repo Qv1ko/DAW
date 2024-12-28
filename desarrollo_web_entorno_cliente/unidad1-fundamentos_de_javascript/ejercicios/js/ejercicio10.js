@@ -1,8 +1,8 @@
 console.log("--- Ejercicio 10 ---");
 
 /*
- * Escribe una función que recibe un parámetro n, y muestre por consola
- *  números primos en el intervalo de 2 a n.
+ * Escribe una función que recibe un parámetro n, y muestre por consola números primos en el intervalo
+ *  de 2 a n.
  */
 
 function prime(number) {
