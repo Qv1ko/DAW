@@ -1,0 +1,53 @@
+/* Importación del código CSS */
+@import "clase9.css";
+/* @import url(clase9.css); */
+
+:root {
+    font-size: 16px;
+}
+
+form {
+    .dos_columnas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        row-gap: 1rem;
+        column-gap: 1.5rem;
+        div {
+            label {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+    .una_columna {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem;
+        input[type="checkbox"] {
+            float: left;
+        }
+    }
+    input {
+        padding: 10px 0;
+        width: 100%;
+        &[type="radio"],
+        &[type="checkbox"] {
+            width: auto;
+        }
+        &[type="submit"] {
+            margin-top: 1rem;
+            background-color: #aaa;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    form .dos_columnas {
+        grid-template-columns: 1fr;
+    }
+    form input {
+        border-color: red;
+    }
+}

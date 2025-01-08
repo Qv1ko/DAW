@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Clase 9</title>
+        <link rel="stylesheet" href="./css/clase9.css" />
+    </head>
+
+    <body>
+        <main>
+            <h1>Registrate en la sweb</h1>
+
+            <form>
+                <fieldset class="dos_columnas">
+                    <legend>Datos personales</legend>
+                    <input
+                        type="text"
+                        placeholder="Nombre"
+                        name="nombre"
+                        title="El campo es obligatorio"
+                        required
+                    />
+                    <input
+                        type="text"
+                        placeholder="Apellidos"
+                        name="apellidos"
+                        title="El campo es obligatorio"
+                        required
+                    />
+                    <input type="number" placeholder="Edad" name="edad" />
+                    <input type="tel" placeholder="Telefono" name="telefono" />
+                    <div>
+                        <label for="Ciudadl">Lugar de nacimiento</label>
+                        <input
+                            list="Ciudad"
+                            placeholder="Burgos"
+                            id="Ciudadl"
+                        />
+                        <datalist id="Ciudad">
+                            <option value="Burgos">Burgos</option>
+                            <option value="Palencia">Palencia</option>
+                            <option value="Valladolid">Valladolid</option>
+                        </datalist>
+                    </div>
+                    <div>
+                        <label for="fechaNac">Fecha de nacimiento</label>
+                        <input type="date" id="fechaNac" />
+                    </div>
+                    <div>
+                        <label for="foto">Foto</label>
+                        <input type="file" id="foto" />
+                    </div>
+                    <div>
+                        <label> Sexo </label>
+                        <input type="radio" name="sexo" />Hombre
+                        <input type="radio" name="sexo" />Mujer
+                    </div>
+                </fieldset>
+                <div class="una_columna">
+                    <input
+                        type="email"
+                        placeholder="Dirección de email"
+                        name="email"
+                        title="El campo es obligatorio"
+                        required
+                    />
+                    <input
+                        type="password"
+                        placeholder="Password"
+                        name="passwd"
+                        title="El campo es obligatorio"
+                        required
+                    />
+                    <label>
+                        Acepto las condiciones de uso
+                        <input
+                            type="checkbox"
+                            name="condiciones"
+                            title="El campo es obligatorio"
+                            required
+                        />
+                    </label>
+                </div>
+                <input type="submit" value="Registrarse en la web" />
+            </form>
+        </main>
+    </body>
+</html>
