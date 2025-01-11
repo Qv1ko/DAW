@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Actividad 6</title>
+</head>
+
+<body>
+    <h2>Reglamento de Régimen Interior del centro</h2>
+    <ul>
+        <li>Ser puntual</li>
+        <li>No utilizar el móvil en el aula</li>
+        <li>Cuidar el material educativo</li>
+        <li>Respetar y empatizar con los demás</li>
+    </ul>
+</body>
+
+</html>
