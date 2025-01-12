@@ -10,13 +10,13 @@ Una **sesión** es el período en el que un usuario interactúa de manera contin
 
 **Administrar una sesión** implica identificar al usuario y realizar un seguimiento de su actividad mediante:
 
-- **Identificación del usuario:**
-    - Formularios, arrays, ficheros o bases de datos.
-    - Autenticación HTTP (función `header` y encabezados HTTP).
-- **Seguimiento del usuario:**
-    - Usar características nativas de PHP:
-        - `$_SESSION` (gestión de sesiones con funciones específicas).
-        - `$_COOKIE` (cookies para almacenar datos del usuario).
+-   **Identificación del usuario:**
+    -   Formularios, arrays, ficheros o bases de datos.
+    -   Autenticación HTTP (función `header` y encabezados HTTP).
+-   **Seguimiento del usuario:**
+    -   Usar características nativas de PHP:
+        -   `$_SESSION` (gestión de sesiones con funciones específicas).
+        -   `$_COOKIE` (cookies para almacenar datos del usuario).
 
 ## Características nativas de PHP para gestionar sesiones:
 
@@ -26,15 +26,15 @@ Cuando un cliente solicita una aplicación web, el servidor genera un **SID** (i
 
 **Funciones clave para la gestión de sesiones:**
 
-- `session_start()` → Abre o reactiva una sesión.
-- `session_id()` → Devuelve el SID.
-- `session_name()` → Devuelve el nombre de la variable que almacena el SID.
-- `session_abort()` → Cancela cambios en la sesión excepto los del script actual.
-- `session_reset()` → Revierte todos los cambios en la sesión.
-- `session_status()` → Devuelve el estado de las sesiones (0 = deshabilitadas, 1 = habilitadas, 2 = activas).
-- `session_destroy()` → Elimina la sesión y el SID.
-    - Para limpiar los datos: `$_SESSION = array();`
-    - Para eliminar la cookie de sesión: `setcookie(session_name(), "", time() - 1)`.
+-   `session_start()` → Abre o reactiva una sesión.
+-   `session_id()` → Devuelve el SID.
+-   `session_name()` → Devuelve el nombre de la variable que almacena el SID.
+-   `session_abort()` → Cancela cambios en la sesión excepto los del script actual.
+-   `session_reset()` → Revierte todos los cambios en la sesión.
+-   `session_status()` → Devuelve el estado de las sesiones (0 = deshabilitadas, 1 = habilitadas, 2 = activas).
+-   `session_destroy()` → Elimina la sesión y el SID.
+    -   Para limpiar los datos: `$_SESSION = array();`
+    -   Para eliminar la cookie de sesión: `setcookie(session_name(), "", time() - 1)`.
 
 ### Cookies (variable `$_COOKIE`)
 
@@ -47,8 +47,8 @@ Una cookie es un pequeño archivo almacenado en el dispositivo del usuario que p
 
 **Tipos de cookies:**
 
-- **De sesión:** Expiran al finalizar la sesión.
-- **Persistentes:** Permanecen según el tiempo definido en el parámetro `TimeUnix` de `setcookie`.
+-   **De sesión:** Expiran al finalizar la sesión.
+-   **Persistentes:** Permanecen según el tiempo definido en el parámetro `TimeUnix` de `setcookie`.
 
 ```php
 setcookie(string nombre_cookie, [string valor_cookie], [TimeUnix vencimiento_cookie])
@@ -56,11 +56,11 @@ setcookie(string nombre_cookie, [string valor_cookie], [TimeUnix vencimiento_coo
 
 ### Directivas `php.ini` control sesiones
 
-- `session.save_path` → Ruta para guardar las sesiones (`c:/wamp64/tmp`).
-- `session.use_cookies` → Habilita cookies para transmitir el SID (1 = habilitado).
-- `session.use_only_cookies` → Solo permite cookies para el SID (1 = habilitado).
-- `session.name` → Nombre predeterminado del SID (`PHPSESSID`).
-- `session.auto_start` → Controla si las sesiones inician automáticamente (0 = deshabilitado).
-- `session.use_trans_sid` → Evita el uso de URL para transmitir el SID (0 = deshabilitado).
+-   `session.save_path` → Ruta para guardar las sesiones (`c:/wamp64/tmp`).
+-   `session.use_cookies` → Habilita cookies para transmitir el SID (1 = habilitado).
+-   `session.use_only_cookies` → Solo permite cookies para el SID (1 = habilitado).
+-   `session.name` → Nombre predeterminado del SID (`PHPSESSID`).
+-   `session.auto_start` → Controla si las sesiones inician automáticamente (0 = deshabilitado).
+-   `session.use_trans_sid` → Evita el uso de URL para transmitir el SID (0 = deshabilitado).
 
 **Nota:** Estas configuraciones por defecto están orientadas a mejorar la seguridad.
