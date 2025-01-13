@@ -1,0 +1,18 @@
+{
+    "fechas": [{
+            "titulo": "Trabajo 1",
+            "fecha": "05-02-2021",
+            "texto": "Entendí como funciona una petición AJAX."
+        },
+        {
+            "titulo": "trabajo 2",
+            "fecha": "07-02-2021",
+            "texto": "Aprendí como se maneja un fichero XML cuando lo recibo con AJAX."
+        },
+        {
+            "titulo": "trabajo 3",
+            "fecha": "18-02-2021",
+            "texto": "Tengo el examen de AJAX!!!!!!."
+        }
+    ]
+}
