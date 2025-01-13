@@ -26,7 +26,7 @@ console.log("--- Ejercicio 6 ---");
 const FORM = document.forms["bagsController"];
 
 const DATE = FORM.elements["fecha_creacion"];
-const REGEX_DATE = /^([0-2][0-9]|3[0-1])\/(0[1-9]|1[0-2])\/(\d{4})$/;
+const REGEX_DATE = /^(0[1-9]|[1-2][0-9]|3[0-1])\/(0[1-9]|1[0-2])\/(\d{4})$/;
 
 const COOK = FORM.elements["cocinero"];
 const REGEX_COOK = /^[A-Z]{2}\W[0-9]{4}$/;
@@ -35,7 +35,7 @@ const RECIPIENT = FORM.elements["destinatario"];
 const REGEX_RECIPIENT = /^[A-Z]{2,3}_[a-z]+:[0-9]{4}$/;
 
 const GRAMS = FORM.elements["gramos"];
-const REGEX_GRAMS = /^(5000|[1-4][0-9]{2,3}|100)$/;
+const REGEX_GRAMS = /^(5000|[1-4][0-9]{3}|[1-9][0-9]{2})$/;
 
 const ACCOUNT = FORM.elements["numero_cuenta"];
 const REGEX_ACCOUNT = /^[A-Z]{2}[0-9]{2}-[0-9]{12}-[0-9]{4}$/;
