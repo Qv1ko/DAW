@@ -14,15 +14,15 @@
     -->
 
     <?php
-        if (isset($_COOKIE["language"])) {
-            if ($_COOKIE["language"] == "Español" || $_COOKIE["language"] == "Inglés") {
-                header("Location: " . "ejercicio6-rri_" . ($_COOKIE["language"] == "Español" ? "es" : "en" ). ".php");
+        if (isset($_COOKIE["lang"])) {
+            if ($_COOKIE["lang"] == "Español" || $_COOKIE["lang"] == "Inglés") {
+                header("Location: " . "./html/ejercicio6-rri_" . ($_COOKIE["lang"] == "Español" ? "es" : "en" ). ".html");
             } else {
-                setcookie("language", "", time() - 1);
+                setcookie("lang", "", time() - 1);
                 header("Refresh:0");
             }
         } else if (isset($_POST["language"])) {
-            setcookie("language", $_POST["language"], time() + 30);
+            setcookie("lang", $_POST["language"], time() + 30);
             header("Refresh:0");
         }
     ?>
