@@ -1,4 +1,4 @@
-console.log("--- Clase 3 ---");
+console.log("-- Clase 3 --");
 
 localStorage.setItem("test", 1);
 console.log(localStorage.getItem("test"));
