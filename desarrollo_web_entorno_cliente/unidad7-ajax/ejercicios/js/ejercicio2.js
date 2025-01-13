@@ -19,13 +19,13 @@ function createTable() {
             const DATA = JSON.parse(xhr.responseText);
             const TABLE = document.createElement("table");
 
-            for (let item in DATA) {
+            Object.keys(DATA).forEach((item) => {
                 let addTh = true;
                 let title = document.createElement("h2");
                 title.textContent = item;
                 DIV.append(title);
 
-                for (let row of DATA[item]) {
+                DATA[item].forEach((row) => {
                     let tr = document.createElement("tr");
 
                     if (addTh) {
@@ -41,15 +41,15 @@ function createTable() {
                         addTh = false;
                     }
 
-                    for (let cel in row) {
+                    Object.values(row).forEach((cell) => {
                         let td = document.createElement("td");
-                        td.textContent = row[cel];
+                        td.textContent = cell;
                         tr.append(td);
-                    }
+                    });
 
                     TABLE.append(tr);
-                }
-            }
+                });
+            });
 
             DIV.append(TABLE);
         }
