@@ -14,23 +14,27 @@
     <body>
         <div class="container border">
             <div class="row">
-                <div class="col-4 border">Contenedor</div>
+                <div class="col-4 border">
+                    Como maximo el tamaño de las columnas pueden sumar 12
+                </div>
                 <div class="col-2 border">Columna 2</div>
                 <div class="col-4 border">Columna 3</div>
                 <div class="col-2 border">Columna 4</div>
                 <div class="col border">
-                    Columna 5 - Se va a la fila siguiente
+                    Columna 5 - Se va a la fila siguiente, por que supera 12
                 </div>
             </div>
         </div>
+
         <br />
+
         <section class="container-fluid border">
             <div class="row">
                 <div class="col-xxl-2 col-lg-4 col-md-6 border">
-                    Contenedor fluid
+                    Grid responsive
                 </div>
-                <div class="col-xxl-2 col-lg-4 col-md-6 col-12 border">
-                    No hace falta incluir col-12
+                <div class="col-xxl-2 col-lg-4 col-md-6 border">
+                    No haria falta incluir col-12 para que funcione
                 </div>
                 <div class="col-xxl-2 col-lg-4 col-md-6 border">Columna 3</div>
                 <div class="col-xxl-2 col-lg-4 col-md-6 border">Columna 4</div>
@@ -38,14 +42,21 @@
                 <div class="col-xxl-2 col-lg-4 col-md-6 border">Columna 6</div>
             </div>
         </section>
+
         <br />
+
         <main class="container-xl border">
             <div class="row">
-                <div class="col-lg-6 col-xl border">Contenedor xl</div>
+                <div class="col-lg-6 col-xl border">
+                    Tamaño automatico de col en los breakpoints
+                </div>
                 <div class="col-lg col-xl border">Columna 2</div>
                 <div class="col-lg col-xl border">Columna 3</div>
             </div>
         </main>
+
+        <br />
+
         <section class="container">
             <div class="row">
                 <div class="col-auto border">
@@ -56,32 +67,37 @@
                 <div class="col border">Columna 4</div>
                 <div class="col border">Columna 5</div>
             </div>
+
             <div class="row bg-primary">
+                <div class="col-xxl-2 col-lg-4 col-md-6 border">Columna 1</div>
                 <div class="col-xxl-2 col-lg-4 col-md-6 border">
-                    Contenedor fluid
-                </div>
-                <div class="col-xxl-2 col-lg-4 col-md-6 col-12 border">
-                    No hace falta incluir col-12
+                    No haria falta incluir col-12 para que funcione
                 </div>
                 <div class="col-xxl-2 col-lg-4 col-md-6 border">Columna 3</div>
                 <div class="col-xxl-2 col-lg-4 col-md-6 border">Columna 4</div>
                 <div class="col-xxl-2 col-lg-4 col-md-6 border">Columna 5</div>
                 <div class="col-xxl-2 col-lg-4 col-md-6 border">Columna 6</div>
             </div>
+
             <div
                 class="row bg-success row-cols-xxl-4 row-cols-lg-3 row-cols-md-2 row-cols-1"
             >
                 <div class="col-lg-6 border">
-                    Podemos diseñar el grid desde la fila
+                    Podemos diseñar el grid desde la fila.
                 </div>
-                <div class="col-lg-3 border">Columna 2</div>
+                <div class="col-lg-3 border">
+                    Usamos row-cols-tamaño seguido del numero de columnas que
+                    queremos
+                </div>
                 <div class="col-lg-3 border">Columna 3</div>
                 <div class="border">Columna 4</div>
                 <div class="col-xxl-6 border">Columna 5</div>
                 <div class="col-xxl-6 border">Columna 6</div>
             </div>
         </section>
+
         <br />
+
         <section class="container">
             <div class="row">
                 <div class="col-lg-3 border">Menu lateral - Anidamiento</div>
@@ -109,27 +125,27 @@
                             platea dictumst. Nam congue tempor imperdiet. Morbi
                             at nibh quam. Proin fermentum hendrerit iaculis.
                         </div>
-                        <div class="col border">Contenido anidado</div>
-                        <div class="col border">Contenido anidado</div>
+                        <div class="border">Contenido anidado</div>
+                        <div class="border">Contenido anidado</div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <br />
+
         <section class="container">
-            <div class="row border align-items-start">
+            <div class="row border align-items-start" style="height: 150px">
                 <div class="col border">Vertical align</div>
                 <div class="col border">Top</div>
                 <div class="col border">Columna 3</div>
             </div>
-            <div
-                class="row border align-items-center bg-color-primary"
-                style="height: 150px"
-            >
+            <div class="row border align-items-center" style="height: 150px">
                 <div class="col border">Vertical align</div>
                 <div class="col border">Center</div>
                 <div class="col border">Columna 3</div>
             </div>
-            <div class="row border align-items-end">
+            <div class="row border align-items-end" style="height: 150px">
                 <div class="col border">Vertical align</div>
                 <div class="col border">Middle</div>
                 <div class="col border">Columna 3</div>
