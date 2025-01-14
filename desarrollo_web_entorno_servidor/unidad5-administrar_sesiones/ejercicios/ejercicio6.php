@@ -15,25 +15,24 @@
 
     <?php
         if (isset($_COOKIE["lang"])) {
-            if ($_COOKIE["lang"] == "Español" || $_COOKIE["lang"] == "Inglés") {
-                header("Location: " . "./html/ejercicio6-rri_" . ($_COOKIE["lang"] == "Español" ? "es" : "en" ). ".html");
+            if ($_COOKIE["lang"] == "spanish" || $_COOKIE["lang"] == "english") {
+                header("Location: " . "./html/ejercicio6-rri_" . ($_COOKIE["lang"] == "spanish" ? "es" : "en" ). ".html");
             } else {
                 setcookie("lang", "", time() - 1);
                 header("Refresh:0");
             }
-        } else if (isset($_POST["language"])) {
-            setcookie("lang", $_POST["language"], time() + 30);
+        } else if (isset($_POST["languages"])) {
+            setcookie("lang", $_POST["languages"], time() + 30);
             header("Refresh:0");
         }
     ?>
 
     <form action="#" method="post">
-        <label for="language">Seleccione un idioma del RRI:</label>
-        <input list="languages" type="text" name="language" id="language">
-        <datalist id="languages">
-            <option value="Español"></option>
-            <option value="Inglés"></option>
-        </datalist>
+        <label for="languages">Seleccione un idioma del RRI:</label>
+        <select name="languages" id="languages">
+            <option value="spanish">Español</option>
+            <option value="english">Inglés</option>
+        </select>
         <button type="submit">Continuar</button>
     </form>
 

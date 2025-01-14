@@ -17,51 +17,33 @@
     <?php
 
         $title = "<h2>Realiza las actividades</h2>";
-        $refresh = false;
+        $formHidden = "";
 
-        if (isset($_COOKIE["test"]) && isset($_COOKIE["exam"])) {
-            if (boolval($_COOKIE["test"]) && boolval($_COOKIE["exam"])) {
+        if (isset($_COOKIE["actividades"])) {
+            if (boolval(explode(",", $_COOKIE["actividades"])[0]) && boolval(explode(",", $_COOKIE["actividades"])[1])) {
                 $title = "<h2>✅ Realizaste todas las actividades</h2>";
+                $formHidden = "hidden";
             }
-        } else {
-            if (isset($_POST["test"])) {
-                if ($_POST["test"] == "on") {
-                    setcookie("test", "true", time() + 20);
-                }
-                $refresh = true;
-            } else {
-                if (isset($_COOKIE["test"])) {
-                    setcookie("test", "true", time() - 1);
-                }
+        }
+        
+        if (isset($_POST["test"]) || isset($_POST["exam"])) {
+            if (isset($_COOKIE["actividades"])) {
+                setcookie("actividades", "", time() - 1);
             }
-            
-            if (isset($_POST["exam"])) {
-                if ($_POST["exam"] == "on") {
-                    setcookie("exam", "true", time() + 20);
-                }
-                $refresh = true;
-            } else {
-                if (isset($_COOKIE["exam"])) {
-                    setcookie("exam", "true", time() - 1);
-                }
-            }
-            
-            if ($refresh) {
-                header("Refresh:0");
-            }
-
+            setcookie("actividades", implode(",", [(isset($_POST["test"]) ? boolval($_POST["test"]) : ""), (isset($_POST["exam"]) ? boolval($_POST["exam"]) : "")]), time() + 20);
+            header("Refresh:0");
         }
         
     ?>
 
     <?php echo $title; ?>
-    <form action="#" method="post">
+    <form action="#" method="post" <?php echo $formHidden; ?>>
         <input type="checkbox" name="test" id="test"
-            <?php echo isset($_COOKIE["test"]) ? (boolval($_COOKIE["test"]) ? "checked" : "") : "" ?>>
+            <?php echo isset($_COOKIE["actividades"]) ? (boolval(explode(",", $_COOKIE["actividades"])[0]) ? "checked" : "") : ""; ?>>
         <label for="test">Test</label>
         <br>
         <input type="checkbox" name="exam" id="exam"
-            <?php echo isset($_COOKIE["exam"]) ? (boolval($_COOKIE["exam"]) ? "checked" : "") : ""; ?>>
+            <?php echo isset($_COOKIE["actividades"]) ? (boolval(explode(",", $_COOKIE["actividades"])[1]) ? "checked" : "") : ""; ?>>
         <label for="exam">Examen</label>
         <br>
         <br>
