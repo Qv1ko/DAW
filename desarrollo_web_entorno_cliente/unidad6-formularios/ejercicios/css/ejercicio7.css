@@ -1,0 +1,64 @@
+#radio-box {
+    padding: 8px;
+    border: 1px solid #222222;
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+h4 {
+    margin: 0;
+}
+
+div {
+    margin: 16px;
+}
+
+button {
+    background-color: #ffffff;
+    border: 1px solid #222222;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow 0.2s, -ms-transform 0.1s, -webkit-transform 0.1s,
+        transform 0.1s;
+    user-select: none;
+    width: auto;
+}
+
+button:focus-visible {
+    box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+    transition: box-shadow 0.2s;
+}
+
+button:active {
+    background-color: #f7f7f7;
+    border-color: #000000;
+    transform: scale(0.96);
+}
+
+button:disabled {
+    border-color: #dddddd;
+    color: #dddddd;
+    cursor: not-allowed;
+    opacity: 1;
+}

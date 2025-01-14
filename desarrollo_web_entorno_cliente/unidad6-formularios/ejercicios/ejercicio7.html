@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ejercicio 7</title>
+        <link rel="stylesheet" href="./css/ejercicio7.css" />
+    </head>
+    <body>
+        <h1>Reserva online de salas para reuniones</h1>
+        <form action="#">
+            <div class="inputs">
+                <div>
+                    <label for="name">Nombre y apellidos: </label>
+                    <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="Luis Palacios"
+                    />
+                </div>
+                <div>
+                    <label for="dni">DNI: </label>
+                    <input
+                        type="text"
+                        name="dni"
+                        id="dni"
+                        placeholder="85845525A"
+                    />
+                </div>
+                <div>
+                    <label for="persons">Número de personas: </label>
+                    <input type="number" name="persons" id="persons" min="2" />
+                </div>
+                <div>
+                    <label for="partner">Número de socio: </label>
+                    <input
+                        type="text"
+                        name="partner"
+                        id="partner"
+                        placeholder="AA111"
+                    />
+                </div>
+            </div>
+            <div id="radio-box">
+                <h4>Tipo de sala</h4>
+                <div>
+                    <input type="radio" name="room_type" id="with-kitchen" />
+                    <label for="with-kitchen">Con cocina</label>
+                </div>
+                <div style="margin-bottom: 0">
+                    <input type="radio" name="room_type" id="without-kitchen" />
+                    <label for="without-kitchen">Sin cocina</label>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button id="reserve">Reservar sala</button>
+                <button id="view">Ver reservas</button>
+                <button id="cancel">Cancelar reserva</button>
+            </div>
+        </form>
+        <script src="./js/ejercicio7.js"></script>
+    </body>
+</html>
