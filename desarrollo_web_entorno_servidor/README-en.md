@@ -29,3 +29,8 @@
 #### Unit 4 - Errors and exceptions
 
 -   [Notes](./unidad4-errores_y_excepciones/apuntes/)
+
+#### Unit 5 - Forms and links management
+
+-   [Notes](./unidad5-administrar_sesiones/apuntes/)
+-   [Exercises](./unidad5-administrar_sesiones/ejercicios/)

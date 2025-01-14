@@ -29,3 +29,8 @@
 #### Unidad 4 - Errores y excepciones
 
 -   [Apuntes](./unidad4-errores_y_excepciones/apuntes/)
+
+#### Unidad 5 - Administrar sesiones
+
+-   [Apuntes](./unidad5-administrar_sesiones/apuntes/)
+-   [Ejercicios](./unidad5-administrar_sesiones/ejercicios/)
