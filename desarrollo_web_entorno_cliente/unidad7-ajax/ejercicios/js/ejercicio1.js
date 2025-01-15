@@ -13,9 +13,7 @@ console.log("--- Ejercicio 1 ---");
 document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("url").value = window.location;
     document.getElementById("contenido").value = "";
-});
-document.addEventListener("click", (e) => {
-    if (e.target == document.getElementById("mostrar")) {
+    document.getElementById("mostrar").addEventListener("click", (e) => {
         let xhr = new XMLHttpRequest();
         let url = document.getElementById("url").value;
 
@@ -27,5 +25,5 @@ document.addEventListener("click", (e) => {
         });
 
         xhr.send();
-    }
+    });
 });
