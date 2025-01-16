@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Ejercicio AE6</title>
+        <style>
+            h1 {
+                color: darkred;
+            }
+            ul,
+            li {
+                list-style: none;
+                padding: 0;
+            }
+            label {
+                display: inline-block;
+                width: 8em;
+                text-align: right;
+                margin-right: 0.5em;
+            }
+            input {
+                width: 20em;
+            }
+            .error {
+                color: red;
+                background-color: Khaki;
+            }
+        </style>
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <h1>Libros</h1>
+        <div id="datos">
+            <ul>
+                <li>
+                    <label for="titulo">Titulo (*): </label>
+                    <input type="text" id="titulo" name="titulo" />
+                </li>
+                <li>
+                    <label for="isbn">ISBN (*): </label>
+                    <input type="text" id="isbn" name="isbn" />
+                </li>
+                <li>
+                    <label for="categoria">Categoría: </label>
+                    <select id="categoria" name="categoria"></select>
+                </li>
+            </ul>
+        </div>
+        <p id="msgError" class="error"></p>
+        <button id="validar">Validar</button>
+    </body>
+</html>
