@@ -1,0 +1,23 @@
+table {
+    background-color: gainsboro;
+}
+td {
+    padding: 2px 8px;
+}
+table,
+td {
+    border: 1px solid black;
+}
+svg {
+    width: 20px;
+    height: auto;
+}
+.red {
+    color: red;
+}
+.yellow {
+    color: yellow;
+}
+.green {
+    color: green;
+}
