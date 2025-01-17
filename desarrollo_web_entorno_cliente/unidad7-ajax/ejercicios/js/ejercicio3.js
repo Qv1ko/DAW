@@ -16,10 +16,10 @@ document.addEventListener("keydown", (e) => {
 
     if (e.key === "Enter" && input.value !== "") {
         let xhr = new XMLHttpRequest();
-        let url = new URL("./php/ejercicio3.php");
-        url.addParameter("localidad", input.value);
+        let url = new URL("./php/ejercicio3.php", window.location.href);
+        url.searchParams.set("localidad", input.value);
 
-        xhr.open("GET", url.print());
+        xhr.open("GET", url.href);
         xhr.addEventListener("load", () => {
             if (!(xhr.status != 200)) {
                 let response = xhr.responseText === "S" ? true : false;
@@ -33,20 +33,3 @@ document.addEventListener("keydown", (e) => {
         xhr.send();
     }
 });
-
-class URL {
-    path;
-    params = [];
-
-    constructor(path) {
-        this.path = encodeURI(path);
-    }
-
-    addParameter(key, value) {
-        this.params.push(encodeURI(key + "=" + value));
-    }
-
-    print() {
-        return `${this.path}?${this.params.join("&")}`;
-    }
-}
