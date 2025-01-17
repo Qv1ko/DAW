@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Ejercicio 8</title>
+    <title>Ejercicio 8 A</title>
 </head>
 
 <body>
@@ -18,7 +18,6 @@
     -->
 
     <?php
-
         require_once("./php/ejercicio8-usuario.php");
 
         const USER = "YWRtaW4=";
@@ -39,7 +38,6 @@
                 $infoText = "Acceso denegado";
             }
         }
-        
     ?>
 
     <h2><?php echo $infoText; ?></h2>
