@@ -1,4 +1,4 @@
-console.log("--- Ejercicio 10 B ---");
+console.log("--- Ejercicio 10 A ---");
 
 /*
  * Utiliza el fichero .json.
@@ -15,15 +15,15 @@ console.log("--- Ejercicio 10 B ---");
  *    Para ello, utiliza una fuente de iconos como por ejemplo Font Awesome o una imagen.
  */
 
-document.addEventListener("DOMContentLoaded", () => {
-    const xhr = new XMLHttpRequest();
-    xhr.open("POST", new URL("./data/ejercicio10.json", window.location.href));
-    xhr.responseType = "json";
-    xhr.addEventListener("load", () => {
-        const body = document.body;
+document.addEventListener("DOMContentLoaded", async () => {
+    const body = document.body;
 
-        if (!(xhr.status != 200)) {
-            for (const [element, data] of Object.entries(xhr.response)) {
+    try {
+        let responseData = await fetch(
+            new URL("./data/ejercicio10.json", window.location.href)
+        ).then((response) => response.json());
+        if (responseData) {
+            for (const [element, data] of Object.entries(responseData)) {
                 let title = document.createElement("h2");
                 let table = document.createElement("table");
 
@@ -107,11 +107,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             }
         } else {
-            let error = document.createElement("p");
-            error.textContent =
-                "❗El archivo JSON no existe o no se ha podido cargar correctamente.";
-            body.append(error);
+            throw new Error(
+                "El archivo JSON no existe o no se ha podido cargar correctamente."
+            );
         }
-    });
-    xhr.send();
+    } catch (error) {
+        let errorOutput = document.createElement("p");
+        errorOutput.textContent = `⚠️${error}`;
+        body.append(errorOutput);
+    }
 });
