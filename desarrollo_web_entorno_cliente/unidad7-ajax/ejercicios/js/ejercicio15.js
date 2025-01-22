@@ -29,14 +29,19 @@ input.addEventListener("change", (e) => {
         url.searchParams.append("api_key", "DEMO_KEY");
 
         xhr.open("GET", url.href);
-        xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.responseType = "json";
 
         xhr.addEventListener("load", function () {
             if (xhr.status === 200) {
                 container.innerHTML = "";
                 let image = document.createElement("img");
-                image.src = JSON.parse(xhr.responseText).url;
-                image.alt = JSON.parse(xhr.responseText).explanation;
+
+                image.style.width = "512px";
+                image.style.height = "auto";
+
+                image.src = xhr.response.url;
+                image.alt = xhr.response.explanation;
+
                 container.append(image);
             }
         });
