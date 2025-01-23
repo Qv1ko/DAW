@@ -1,4 +1,4 @@
-console.log("--- Ejercicio 10 A ---");
+console.log("--- Ejercicio 9 A ---");
 
 /*
  * Utiliza el fichero .json.
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     try {
         let responseData = await fetch(
-            new URL("./data/ejercicio10.json", window.location.href)
+            new URL("./data/ejercicio9.json", window.location.href)
         ).then((response) => response.json());
         if (responseData) {
             for (const [element, data] of Object.entries(responseData)) {

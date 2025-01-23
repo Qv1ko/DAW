@@ -1,4 +1,4 @@
-console.log("--- Ejercicio 10 B ---");
+console.log("--- Ejercicio 9 B ---");
 
 /*
  * Utiliza el fichero .json.
@@ -17,7 +17,7 @@ console.log("--- Ejercicio 10 B ---");
 
 document.addEventListener("DOMContentLoaded", () => {
     const xhr = new XMLHttpRequest();
-    xhr.open("POST", new URL("./data/ejercicio10.json", window.location.href));
+    xhr.open("POST", new URL("./data/ejercicio9.json", window.location.href));
     xhr.responseType = "json";
     xhr.addEventListener("load", () => {
         const body = document.body;

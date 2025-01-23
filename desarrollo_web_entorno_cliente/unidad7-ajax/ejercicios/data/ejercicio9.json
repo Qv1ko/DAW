@@ -1,0 +1,32 @@
+{
+    "series": [
+        {
+            "titulo": "Dark",
+            "plataforma": "Netflix",
+            "director": "Baran bo Odar",
+            "anio": "2019",
+            "terminada": "Si"
+        },
+        {
+            "titulo": "Stranger Things",
+            "plataforma": "Netflix",
+            "director": "Hermanos Duffer",
+            "anio": "2016",
+            "terminada": "No"
+        },
+        {
+            "titulo": "Breaking Bad",
+            "plataforma": "AMC",
+            "director": "Vince Gilligan",
+            "anio": "2008",
+            "terminada": "Si"
+        },
+        {
+            "titulo": "Friends",
+            "plataforma": "NBC",
+            "director": "Marta Kauffman, David Crane",
+            "anio": "1994",
+            "terminada": "Si"
+        }
+    ]
+}
