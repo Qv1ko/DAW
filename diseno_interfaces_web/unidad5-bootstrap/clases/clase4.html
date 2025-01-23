@@ -22,8 +22,134 @@
         ></script>
     </head>
     <body>
+        <!-- Menu de navegación -->
+        <header class="container-fluid sticky-top">
+            <div class="row">
+                <div class="col-12 p-0">
+                    <nav
+                        class="navbar navbar-expand-md bg-secondary sticky"
+                        data-bs-theme="dark"
+                    >
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                                <img
+                                    src="./img/imagen-100x100.png"
+                                    class="img-fluid rounded"
+                                    width="64"
+                                    height="64"
+                                />
+                                Mi sitio web (home)</a
+                            >
+
+                            <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation"
+                            >
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div
+                                class="collapse navbar-collapse"
+                                id="navbarSupportedContent"
+                            >
+                                <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link active"
+                                            aria-current="page"
+                                            href="#"
+                                            >Home</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a
+                                            class="nav-link dropdown-toggle"
+                                            href="#"
+                                            role="button"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false"
+                                        >
+                                            Dropdown
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="#"
+                                                    >Action</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="#"
+                                                    >Another action</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <hr class="dropdown-divider" />
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="#"
+                                                    >Something else here</a
+                                                >
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link disabled"
+                                            aria-disabled="true"
+                                            >Disabled</a
+                                        >
+                                    </li>
+                                </ul> -->
+
+                                <div class="navbar-nav">
+                                    <a class="nav-link active">link 1</a>
+                                    <a class="nav-link">link 2</a>
+                                    <a class="nav-link">link 3</a>
+                                    <a class="nav-link">link 4</a>
+                                    <a class="nav-link">link 5</a>
+                                </div>
+                                <button
+                                    type="button"
+                                    class="btn btn-danger ms-auto mx-3"
+                                >
+                                    Subscribete
+                                </button>
+                                <form class="d-none d-lg-flex" role="search">
+                                    <input
+                                        class="form-control me-2"
+                                        type="search"
+                                        placeholder="Search"
+                                        aria-label="Search"
+                                    />
+                                    <button
+                                        class="btn btn-success"
+                                        type="submit"
+                                    >
+                                        Search
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
         <!-- Imagenes responsive -->
-        <div class="container">
+        <div class="container mt-4">
             <div class="row">
                 <div class="col-12">
                     <h3>Imagenes responsive a traves de la clase img-fluid</h3>
@@ -402,7 +528,7 @@
                         data-bs-keyboard="false"
                     >
                         <div
-                            class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl"
+                            class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl modal-fullscreen-md-down"
                         >
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -420,91 +546,170 @@
                                     ></button>
                                 </div>
                                 <div class="modal-body">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Pellentesque quis nulla
-                                        nec lacus lobortis scelerisque ut non
-                                        massa. In ac lobortis orci. Ut
-                                        ullamcorper nisi mattis sem posuere, sit
-                                        amet rhoncus dolor ullamcorper. Mauris
-                                        lacus dui, tristique aliquet vestibulum
-                                        id, dignissim non tortor. Vivamus
-                                        fermentum tempus enim, et mollis massa.
-                                        Pellentesque vitae scelerisque velit,
-                                        non tincidunt dui. Proin nec consequat
-                                        ligula. Sed non ante ac orci rutrum
-                                        cursus nec eu mauris. Sed quis tempor
-                                        orci. Maecenas tempus velit nulla, sit
-                                        amet finibus enim tincidunt at. Nullam
-                                        et augue non orci vestibulum maximus.
-                                    </p>
-                                    <!-- <p>
-                                        Mauris quis felis at nisl auctor
-                                        vulputate. Duis feugiat dictum volutpat.
-                                        Donec ut egestas mauris. In hac
-                                        habitasse platea dictumst. Ut
-                                        consectetur augue quam, id maximus
-                                        tortor hendrerit a. Donec ut eros
-                                        ligula. Integer mattis maximus elit, sed
-                                        mattis lorem aliquam non. Vestibulum
-                                        lobortis, magna congue ultricies varius,
-                                        leo tellus auctor mauris, ut vestibulum
-                                        neque libero nec justo. Cras vitae lacus
-                                        sed quam dignissim pharetra. Vivamus
-                                        pellentesque libero nec aliquet
-                                        accumsan.
-                                    </p>
-                                    <p>
-                                        Suspendisse fringilla metus ut auctor
-                                        pulvinar. Sed id ligula eu mauris porta
-                                        facilisis vel molestie leo. Phasellus
-                                        iaculis sit amet sapien id finibus.
-                                        Pellentesque congue purus id odio
-                                        condimentum, at dapibus ipsum laoreet.
-                                        In sapien nisl, tristique non faucibus
-                                        a, scelerisque vitae leo. Ut accumsan
-                                        rhoncus odio. Phasellus sagittis
-                                        vehicula quam, eu malesuada ipsum
-                                        commodo at. Nam nisl enim, cursus a
-                                        risus in, auctor scelerisque orci. Donec
-                                        ut lorem quis arcu scelerisque imperdiet
-                                        sed non mauris. Fusce venenatis non leo
-                                        et consectetur.
-                                    </p>
-                                    <p>
-                                        Maecenas tincidunt mauris lacus, at
-                                        tempor dui rutrum sit amet. Cras lacus
-                                        ipsum, tincidunt id metus at, faucibus
-                                        maximus lorem. Nulla feugiat, magna at
-                                        dictum posuere, leo augue aliquam lacus,
-                                        in vulputate justo metus id ante.
-                                        Quisque nec quam rutrum, pellentesque
-                                        augue nec, tincidunt mauris. Sed blandit
-                                        aliquet convallis. Aenean convallis leo
-                                        quis augue placerat, eget ultricies nunc
-                                        laoreet. Maecenas vitae libero eu metus
-                                        auctor gravida id vitae leo.
-                                    </p>
-                                    <p>
-                                        Quisque id vestibulum sem, nec lacinia
-                                        risus. In hac habitasse platea dictumst.
-                                        Morbi condimentum, ante vitae consequat
-                                        egestas, libero justo fringilla nisi, ut
-                                        dignissim diam purus sit amet nunc.
-                                        Mauris eget sodales lorem, sit amet
-                                        viverra lorem. Suspendisse ornare
-                                        tincidunt nunc eget iaculis. Donec
-                                        scelerisque diam elit. Ut id justo sed
-                                        orci lobortis facilisis quis vel dolor.
-                                        Vestibulum vel massa vehicula, malesuada
-                                        erat ut, viverra dui. Sed quis lectus
-                                        luctus mauris laoreet maximus. Aliquam
-                                        dolor dolor, mattis a nibh sed, finibus
-                                        eleifend lectus. Etiam iaculis quam
-                                        libero, sed gravida leo dictum at.
-                                        Vestibulum purus ante, ultrices sit amet
-                                        condimentum eget, finibus quis nulla.
-                                    </p> -->
+                                    <div class="container-fluid">
+                                        <div class="row g-2">
+                                            <div class="col-lg-6 p-2">
+                                                <h3 class="text-center">
+                                                    Subcribete al contenido
+                                                </h3>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet,
+                                                    consectetur adipiscing elit.
+                                                    Pellentesque quis nulla nec
+                                                    lacus lobortis scelerisque
+                                                    ut non massa. In ac lobortis
+                                                    orci. Ut ullamcorper nisi
+                                                    mattis sem posuere, sit amet
+                                                    rhoncus dolor ullamcorper.
+                                                    Mauris lacus dui, tristique
+                                                    aliquet vestibulum id,
+                                                    dignissim non tortor.
+                                                    Vivamus fermentum tempus
+                                                    enim, et mollis massa.
+                                                    Pellentesque vitae
+                                                    scelerisque velit, non
+                                                    tincidunt dui. Proin nec
+                                                    consequat ligula. Sed non
+                                                    ante ac orci rutrum cursus
+                                                    nec eu mauris. Sed quis
+                                                    tempor orci. Maecenas tempus
+                                                    velit nulla, sit amet
+                                                    finibus enim tincidunt at.
+                                                    Nullam et augue non orci
+                                                    vestibulum maximus.
+                                                </p>
+                                                <div
+                                                    class="d-flex justify-content-center"
+                                                >
+                                                    <button
+                                                        type="button"
+                                                        class="btn btn-primary"
+                                                    >
+                                                        Subscribete
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 p-2">
+                                                <h3 class="text-center">
+                                                    Accede gratuitamente
+                                                </h3>
+                                                <p>
+                                                    Mauris quis felis at nisl
+                                                    auctor vulputate. Duis
+                                                    feugiat dictum volutpat.
+                                                    Donec ut egestas mauris. In
+                                                    hac habitasse platea
+                                                    dictumst. Ut consectetur
+                                                    augue quam, id maximus
+                                                    tortor hendrerit a. Donec ut
+                                                    eros ligula. Integer mattis
+                                                    maximus elit, sed mattis
+                                                    lorem aliquam non.
+                                                    Vestibulum lobortis, magna
+                                                    congue ultricies varius, leo
+                                                    tellus auctor mauris, ut
+                                                    vestibulum neque libero nec
+                                                    justo. Cras vitae lacus sed
+                                                    quam dignissim pharetra.
+                                                    Vivamus pellentesque libero
+                                                    nec aliquet accumsan.
+                                                </p>
+                                                <div
+                                                    class="d-flex justify-content-center"
+                                                >
+                                                    <button
+                                                        type="button"
+                                                        class="btn btn-info"
+                                                    >
+                                                        Accede gratis
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="col-6 d-none d-sm-block"
+                                            >
+                                                <p>
+                                                    Suspendisse fringilla metus
+                                                    ut auctor pulvinar. Sed id
+                                                    ligula eu mauris porta
+                                                    facilisis vel molestie leo.
+                                                    Phasellus iaculis sit amet
+                                                    sapien id finibus.
+                                                    Pellentesque congue purus id
+                                                    odio condimentum, at dapibus
+                                                    ipsum laoreet. In sapien
+                                                    nisl, tristique non faucibus
+                                                    a, scelerisque vitae leo. Ut
+                                                    accumsan rhoncus odio.
+                                                    Phasellus sagittis vehicula
+                                                    quam, eu malesuada ipsum
+                                                    commodo at. Nam nisl enim,
+                                                    cursus a risus in, auctor
+                                                    scelerisque orci. Donec ut
+                                                    lorem quis arcu scelerisque
+                                                    imperdiet sed non mauris.
+                                                    Fusce venenatis non leo et
+                                                    consectetur.
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="col-6 d-none d-sm-block"
+                                            >
+                                                <p>
+                                                    Maecenas tincidunt mauris
+                                                    lacus, at tempor dui rutrum
+                                                    sit amet. Cras lacus ipsum,
+                                                    tincidunt id metus at,
+                                                    faucibus maximus lorem.
+                                                    Nulla feugiat, magna at
+                                                    dictum posuere, leo augue
+                                                    aliquam lacus, in vulputate
+                                                    justo metus id ante. Quisque
+                                                    nec quam rutrum,
+                                                    pellentesque augue nec,
+                                                    tincidunt mauris. Sed
+                                                    blandit aliquet convallis.
+                                                    Aenean convallis leo quis
+                                                    augue placerat, eget
+                                                    ultricies nunc laoreet.
+                                                    Maecenas vitae libero eu
+                                                    metus auctor gravida id
+                                                    vitae leo.
+                                                </p>
+                                            </div>
+                                            <div class="col-12">
+                                                <p>
+                                                    Quisque id vestibulum sem,
+                                                    nec lacinia risus. In hac
+                                                    habitasse platea dictumst.
+                                                    Morbi condimentum, ante
+                                                    vitae consequat egestas,
+                                                    libero justo fringilla nisi,
+                                                    ut dignissim diam purus sit
+                                                    amet nunc. Mauris eget
+                                                    sodales lorem, sit amet
+                                                    viverra lorem. Suspendisse
+                                                    ornare tincidunt nunc eget
+                                                    iaculis. Donec scelerisque
+                                                    diam elit. Ut id justo sed
+                                                    orci lobortis facilisis quis
+                                                    vel dolor. Vestibulum vel
+                                                    massa vehicula, malesuada
+                                                    erat ut, viverra dui. Sed
+                                                    quis lectus luctus mauris
+                                                    laoreet maximus. Aliquam
+                                                    dolor dolor, mattis a nibh
+                                                    sed, finibus eleifend
+                                                    lectus. Etiam iaculis quam
+                                                    libero, sed gravida leo
+                                                    dictum at. Vestibulum purus
+                                                    ante, ultrices sit amet
+                                                    condimentum eget, finibus
+                                                    quis nulla.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div
                                     class="modal-footer justify-content-center"
@@ -526,6 +731,35 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Paginación -->
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="Page navigation example">
+                        <ul
+                            class="pagination pagination-lg justify-content-center"
+                        >
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#">&laquo;</a>
+                            </li>
+                            <li class="page-item active">
+                                <a class="page-link" href="#">1</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">2</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">3</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">&raquo;</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
