@@ -22,10 +22,13 @@ let firstButton;
 let previousButton;
 let nextButton;
 let lastButton;
+let currentTheater = null;
+let currentProductionIndex = 0;
 
 document.addEventListener("DOMContentLoaded", () => {
     theatersDropdown = document.getElementById("theaters");
     productionsList;
+
     firstButton = document.getElementById("first");
     previousButton = document.getElementById("previous");
     nextButton = document.getElementById("next");
@@ -35,6 +38,10 @@ document.addEventListener("DOMContentLoaded", () => {
     saveProductions();
 
     theatersDropdown.addEventListener("change", displayProductions);
+    firstButton.addEventListener("click", showFirstProduction);
+    previousButton.addEventListener("click", showPreviousProduction);
+    nextButton.addEventListener("click", showNextProduction);
+    lastButton.addEventListener("click", showLastProduction);
 });
 
 async function loadTheater() {
@@ -44,7 +51,7 @@ async function loadTheater() {
         );
 
         if (!response.ok) {
-            throw new Error("No se puedo acceder al archivo teatros.json");
+            throw new Error("No se pudo acceder al archivo teatros.json");
         }
 
         const theaters = await response.json();
@@ -61,51 +68,87 @@ async function loadTheater() {
     }
 }
 
-async function saveProductions() {
-    try {
-        const response = await fetch(
-            new URL("./data/ejercicio11-cartelera.json", window.location.href)
-        );
-
-        if (!response.ok) {
-            throw new Error("No se puedo acceder al archivo cartelera.json");
-        }
-
-        const productions = await response.json();
-        let list = {};
-
-        for (const production of productions.obras) {
-            let theater = production.teatro;
-            if (!list[theater.toLowerCase()]) {
-                list[theater.toLowerCase()] = [];
+function saveProductions() {
+    fetch(new URL("./data/ejercicio11-cartelera.json", window.location.href))
+        .then((response) => {
+            if (!response.ok) {
+                throw new Error("No se pudo acceder al archivo cartelera.json");
             }
-            list[theater.toLowerCase()].push({
-                title: production.titulo,
-                price: production.precio,
-                synopsis: production.sinopsis,
-                image: `./${production.imagen}`,
-            });
-        }
-
-        productionsList = list;
-    } catch (err) {
-        console.error("⚠️", err);
-    }
+            return response.json();
+        })
+        .then((productions) => {
+            let list = {};
+            for (const production of productions.obras) {
+                let theater = production.teatro;
+                if (!list[theater.toLowerCase()]) {
+                    list[theater.toLowerCase()] = [];
+                }
+                list[theater.toLowerCase()].push({
+                    title: production.titulo,
+                    price: production.precio,
+                    synopsis: production.sinopsis,
+                    image: `./${production.imagen}`,
+                });
+            }
+            return list;
+        })
+        .then((list) => {
+            productionsList = list;
+        })
+        .catch((err) => {
+            console.error("⚠️", err);
+        });
 }
 
 function displayProductions(e) {
-    const theater = e.target.value.toLowerCase();
-    if (productionsList[theater]) {
+    currentTheater = e.target.value.toLowerCase();
+    currentProductionIndex = 0;
+    showProduction(currentProductionIndex);
+}
+
+function showProduction(index) {
+    if (
+        productionsList[currentTheater] &&
+        productionsList[currentTheater][index]
+    ) {
         const img = document.getElementById("image");
         const title = document.getElementById("title");
         const price = document.getElementById("price");
         const synopsis = document.getElementById("synopsis");
 
-        productionsList[theater].forEach((production) => {
-            img.src = production.image;
-            title.textContent = production.title;
-            price.textContent = production.price + " €";
-            synopsis.textContent = production.synopsis;
-        });
+        const production = productionsList[currentTheater][index];
+        img.src = production.image;
+        title.textContent = production.title;
+        price.textContent = production.price + " €";
+        synopsis.textContent = production.synopsis;
+    }
+}
+
+function showFirstProduction() {
+    currentProductionIndex = 0;
+    showProduction(currentProductionIndex);
+}
+
+function showPreviousProduction() {
+    if (currentProductionIndex > 0) {
+        currentProductionIndex--;
+        showProduction(currentProductionIndex);
+    }
+}
+
+function showNextProduction() {
+    if (
+        productionsList[currentTheater] &&
+        currentProductionIndex < productionsList[currentTheater].length - 1
+    ) {
+        currentProductionIndex++;
+        showProduction(currentProductionIndex);
+    }
+}
+
+function showLastProduction() {
+    if (productionsList[currentTheater]) {
+        currentProductionIndex = productionsList[currentTheater].length - 1;
+        showProduction(currentProductionIndex);
     }
 }

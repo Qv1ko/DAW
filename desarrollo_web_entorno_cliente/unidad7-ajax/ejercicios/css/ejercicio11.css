@@ -8,12 +8,10 @@ body {
     min-height: 100vh;
     background-color: #f5f5f5;
 }
-
 form {
     margin-bottom: 20px;
     text-align: center;
 }
-
 form select {
     padding: 10px;
     font-size: 1em;
@@ -23,11 +21,9 @@ form select {
     cursor: pointer;
     transition: border-color 0.3s;
 }
-
 form select:focus {
     border-color: #007bff;
 }
-
 .card {
     width: 400px;
     background: #fff;
@@ -38,9 +34,8 @@ form select:focus {
     padding: 20px;
 }
 .card img {
-    width: 100%;
-    height: auto;
     max-width: 360px;
+    max-height: 360px;
     margin: 0 auto;
 }
 .card h2 {
@@ -79,7 +74,6 @@ form select:focus {
 .card .buttons button:hover {
     background-color: #0056b3;
 }
-
 .card > div {
     margin: 0 auto;
     max-width: 360px;
