@@ -27,12 +27,6 @@
     <?php
         echo "<p>--- Opción procedimental ---</p>";
         require_once("./php/ejercicio1-procedimental.php");
-
-        echo "<p>--- Opción POO ---</p>";
-        require_once("./php/ejercicio1-poo.php");
-        
-        echo "<p>--- Opción PDO ---</p>";
-        require_once("./php/ejercicio1-pdo.php");
     ?>
 
 </body>
