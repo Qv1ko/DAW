@@ -1,0 +1,111 @@
+console.log("--- Ejercicio 11 ---");
+
+/*
+ * Crea una página HTML teniendo en cuenta contendrá un desplegable donde estén cargados los teatros
+ *  que se encuentran en un fichero teatros.json. La carga de los datos se ha de realizar de forma
+ *  asíncrona mediante AJAX.
+ * Su funcionamiento será el siguiente:
+ * - Al seleccionar un teatro del desplegable, se deben visualizar las obras que hay en cartelera
+ *    en ese teatro. Para ello se hará uso del fichero cartelera.json. Se mostrará el título de la
+ *    obra, el precio, la sinopsis y la imagen de la obra en campos separados. En principio se
+ *    mostrará la información de la primera obra.
+ * - Para poder acceder al resto de las obras de dicho teatro se mostrarán 4 botones: Primero,
+ *    Anterior, Siguiente y Último”. Se debe controlar que cuando se esté en la primera obra
+ *    solamente estén activos los botones de siguiente y último, etc.
+ * - Al cambiar de teatro no se visualizará la información del resto de teatros, es decir, se
+ *    limpiará la pantalla.
+ */
+
+let theatersDropdown;
+let productionsList;
+let firstButton;
+let previousButton;
+let nextButton;
+let lastButton;
+
+document.addEventListener("DOMContentLoaded", () => {
+    theatersDropdown = document.getElementById("theaters");
+    productionsList;
+    firstButton = document.getElementById("first");
+    previousButton = document.getElementById("previous");
+    nextButton = document.getElementById("next");
+    lastButton = document.getElementById("last");
+
+    loadTheater();
+    saveProductions();
+
+    theatersDropdown.addEventListener("change", displayProductions);
+});
+
+async function loadTheater() {
+    try {
+        const response = await fetch(
+            new URL("./data/ejercicio11-teatros.json", window.location.href)
+        );
+
+        if (!response.ok) {
+            throw new Error("No se puedo acceder al archivo teatros.json");
+        }
+
+        const theaters = await response.json();
+
+        for (const theater of theaters) {
+            let option = document.createElement("option");
+            option.setAttribute("id", theater.teatro);
+            option.setAttribute("value", theater.teatro);
+            option.textContent = theater.teatro;
+            theatersDropdown.append(option);
+        }
+    } catch (err) {
+        console.error("⚠️", err);
+    }
+}
+
+async function saveProductions() {
+    try {
+        const response = await fetch(
+            new URL("./data/ejercicio11-cartelera.json", window.location.href)
+        );
+
+        if (!response.ok) {
+            throw new Error("No se puedo acceder al archivo cartelera.json");
+        }
+
+        const productions = await response.json();
+        let list = {};
+
+        for (const production of productions.obras) {
+            let theater = production.teatro;
+            if (!list[theater.toLowerCase()]) {
+                list[theater.toLowerCase()] = [];
+            }
+            list[theater.toLowerCase()].push({
+                title: production.titulo,
+                price: production.precio,
+                synopsis: production.sinopsis,
+                image: `./${production.imagen}`,
+            });
+        }
+
+        productionsList = list;
+    } catch (err) {
+        console.error("⚠️", err);
+    }
+}
+
+function displayProductions(e) {
+    const theater = e.target.value.toLowerCase();
+    if (productionsList[theater]) {
+        const img = document.getElementById("image");
+        const title = document.getElementById("title");
+        const price = document.getElementById("price");
+        const synopsis = document.getElementById("synopsis");
+
+        productionsList[theater].forEach((production) => {
+            img.src = production.image;
+            title.textContent = production.title;
+            price.textContent = production.price + " €";
+            synopsis.textContent = production.synopsis;
+        });
+    }
+}

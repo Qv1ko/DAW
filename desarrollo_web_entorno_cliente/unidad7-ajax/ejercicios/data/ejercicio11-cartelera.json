@@ -1,0 +1,60 @@
+﻿{
+    "obras": [
+        {
+            "teatro": "Maravillas",
+            "titulo": "La llamada",
+            "precio": "9",
+            "imagen": "img/llamada.png",
+            "sinopsis": "Bernarda, una monja recién llegada, quiere salvar el campamento con su canción “Viviremos firmes en la fe”. Milagros, una novicia con dudas, recuerda lo mucho que le gustaba Presuntos Implicados. Y María y Susana, dos adolescentes castigadas, tienen un grupo que se llama Suma Latina"
+        },
+        {
+            "teatro": "Arlequin Gran Via",
+            "titulo": "Los gurús de la crisis",
+            "precio": "14 euros",
+            "imagen": "img/gurus.png",
+            "sinopsis": "El estreno teatral de Agustín Bravo va a dar mucho que hablar y más en una comedia dirigida por el televisivo Pepe Ruiz (Escenas de Matrimonio por ejemplo). Los Gurús de la Crisis es una comedia de máxima actualidad que no puedes perderte porque su trama te hará reir de principio a fín."
+        },
+        {
+            "teatro": "Maravillas",
+            "titulo": "El credito",
+            "precio": "15",
+            "imagen": "img/credito.png",
+            "sinopsis": "Si nos dedicamos a lubricar engranajes o a traducir manuales de instrucciones quizás no nos crucemos nunca con las personas a las que nuestro trabajo afecta íntimamente. "
+        },
+        {
+            "teatro": "Lara",
+            "titulo": "Jamming Show",
+            "precio": "20 euros",
+            "imagen": "img/jamming.png",
+            "sinopsis": "El espectáculo más divertido de Jamming Compañía Teatral, más de 1000.000 de espectadores, lo rompe en Madrid. Un show tremendamente original en el que cada actuación es única e irrepetible y se construye ante los ojos del público asistente. ¡Carcajadas aseguradas!"
+        },
+        {
+            "teatro": "Lara",
+            "titulo": "Burundanga",
+            "precio": "10",
+            "imagen": "img/burun.png",
+            "sinopsis": "Berta, una joven estudiante, está embarazada de Manel, su novio, pero todavía no se ha atrevido a decírselo.Y es que no sabe qué hacer. Por no saber, no sabe ni si su novio realmente la quiere"
+        },
+        {
+            "teatro": "Lara",
+            "titulo": "Pluto",
+            "precio": "10",
+            "imagen": "img/pluto.png",
+            "sinopsis": "Pluto, es la historia de una utopía, del sueño del reparto justo de la riqueza, del dinero, es decir de Pluto. Ahí es nada. Ya le preocupaba a Aristófanes en el siglo IV antes de Cristo. Le preocupaba en un país mediterráneo donde la democracia perdía pie. Donde algunos ciudadanos se hacían esclavos para trabajar y así poder comer… Atenas hace ahora 25 siglos. Si el humor nos democratiza porque la risa sana nos hace perder el sacrosanto respeto a los dogmas sociales, Pluto es humor del bueno porque además nos hace reflexionar. Un humor ácido, satírico, deslenguado, que nos invita a la fiesta. A la fiesta de la utopía. Una fiesta donde la pobreza esté erradicada y la riqueza, es decir Pluto, lejos de abusos, de exclusiones, de trampas, de mentiras… "
+        },
+        {
+            "teatro": "Maravillas",
+            "titulo": "El pequeño niño obeso quiere ser cineasta",
+            "precio": "13",
+            "imagen": "img/nino.png",
+            "sinopsis": "Es la historia de Luis y Modesto, dos amigos flipados con el cine que hace el realizador Hunder Kluender, (polifacético director de cine arrestado por asesinar a su familia)"
+        },
+        {
+            "teatro": "Maravillas",
+            "titulo": "Las amistades peligrosas",
+            "precio": "13",
+            "imagen": "img/amistades.png",
+            "sinopsis": "Esta adaptación de la novela  Las amistades peligrosas combina texto y música en directo con escenas coreografiadas a ritmo de rock y jazz,  conservando los pilares más determinantes del texto original."
+        }
+    ]
+}
