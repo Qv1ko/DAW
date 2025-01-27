@@ -1,4 +1,4 @@
-console.log("--- Ejercicio 15 ---");
+console.log("--- Ejercicio 14 A ---");
 
 /*
  * Haz una web que permita seleccionar una fecha y muestre la imagen del día de esa fecha.

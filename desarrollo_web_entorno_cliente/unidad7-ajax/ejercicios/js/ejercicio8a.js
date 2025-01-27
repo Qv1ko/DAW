@@ -1,4 +1,4 @@
-console.log("--- Ejercicio 8 ---");
+console.log("--- Ejercicio 8 A ---");
 
 /*
  * Repite el ejercicio anterior, utilizando el método POST en lugar de GET.

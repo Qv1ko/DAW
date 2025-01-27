@@ -1,4 +1,4 @@
-console.log("--- Ejercicio 7 ---");
+console.log("--- Ejercicio 7 A ---");
 
 /*
  * Repite el ejercicio 3, pero utilizando promesas en lugar de XMLHttpRequest.
