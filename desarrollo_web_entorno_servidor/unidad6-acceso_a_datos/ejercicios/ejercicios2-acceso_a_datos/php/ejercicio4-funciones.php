@@ -95,36 +95,29 @@
     
     function updateAlum($id, $name, $age) {
         try {
-            $connection = makeConnection();
-            // Comprueba que no haya errores en la conexión con el servidor MySQL
-            if ($connection->errno) {
-                throw new Exception("Fallo en la conexión con el servidor MySQL.");
+            $connection = new PDO("mysql:host=127.0.0.1;port=3306;dbname=ciclos", "root", "root");
+            $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+            $id = htmlspecialchars($id);
+            $name = htmlspecialchars($name);
+            $age = htmlspecialchars($age);
+
+            $query = "UPDATE alumno SET nombre = ?, edad = ? WHERE id_al = ?";
+
+            $exe = $connection->prepare($query);
+
+            $exe->execute([$name, $age, $id]);
+
+            if ($exe->rowCount()) {
+                echo "✅ El alumno con id_al $id se ha actualizo correctamente.";
             } else {
-                // Comprueba la conexión con la base de datos
-                if ($connection->select_db("ciclos")) {
-                    $id = htmlspecialchars($id);
-                    $name = htmlspecialchars($name);
-                    $age = htmlspecialchars($age);
-                    
-                    $query = "UPDATE alumno SET nombre = ?, edad = ? WHERE id_al = ?";
-
-                    $exe = $connection->prepare($query);
-                    $exe->bind_param("sii", $name, $age, $id);
-
-                    if ($exe->execute()) {
-                        if ($exe->affected_rows) {
-                            echo "✅ El alumno con id_al $id se ha actualizo correctamente.";
-                        } else {
-                            throw new Exception("No ha encontrado el alumno con id_al $id."); // Excepción que hay que recoger
-                        }
-                    }
-                } else {
-                    throw new Exception("Fallo en la conexión con la base de datos.");
-                }
-                $connection->close();
+                throw new Exception("No ha encontrado el alumno con id_al $id."); // Excepción que hay que recoger
             }
+
+            $connection = null;
         } catch (Exception $err) {
             echo "⚠️ " . $err->getMessage();
+            error_log($err->getMessage());
         }
     }
 
