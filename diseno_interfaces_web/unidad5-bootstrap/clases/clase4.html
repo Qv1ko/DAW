@@ -10,6 +10,7 @@
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="./css/clase4.css" />
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -760,6 +761,87 @@
                             </li>
                         </ul>
                     </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-12">
+                    <a
+                        class="btn btn-primary"
+                        data-bs-toggle="offcanvas"
+                        href="#offcanvasExample"
+                        role="button"
+                        aria-controls="offcanvasExample"
+                    >
+                        Link with href
+                    </a>
+                    <button
+                        class="btn btn-primary"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample"
+                        aria-controls="offcanvasExample"
+                    >
+                        Button with data-bs-target
+                    </button>
+
+                    <div
+                        class="offcanvas offcanvas-bottom"
+                        tabindex="-1"
+                        id="offcanvasExample"
+                        data-bs-backdrop="static"
+                        aria-labelledby="offcanvasExampleLabel"
+                    >
+                        <div class="offcanvas-header">
+                            <h5
+                                class="offcanvas-title"
+                                id="offcanvasExampleLabel"
+                            >
+                                Offcanvas
+                            </h5>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="offcanvas"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div>
+                                Some text as placeholder. In real life you can
+                                have the elements you have chosen. Like, text,
+                                images, lists, etc.
+                            </div>
+                            <div class="dropdown mt-3">
+                                <button
+                                    class="btn btn-secondary dropdown-toggle"
+                                    type="button"
+                                    data-bs-toggle="dropdown"
+                                >
+                                    Dropdown button
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Action</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Another action</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Something else here</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
