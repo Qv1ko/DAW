@@ -107,21 +107,17 @@ function displayProductions(e) {
 }
 
 function showProduction(index) {
-    if (
-        productionsList[currentTheater] &&
-        productionsList[currentTheater][index]
-    ) {
-        const img = document.getElementById("image");
-        const title = document.getElementById("title");
-        const price = document.getElementById("price");
-        const synopsis = document.getElementById("synopsis");
+    const img = document.getElementById("image");
+    const title = document.getElementById("title");
+    const price = document.getElementById("price");
+    const synopsis = document.getElementById("synopsis");
 
-        const production = productionsList[currentTheater][index];
-        img.src = production.image;
-        title.textContent = production.title;
-        price.textContent = production.price + " €";
-        synopsis.textContent = production.synopsis;
-    }
+    const production = productionsList[currentTheater]?.[index] || null;
+
+    img.src = production ? production.image : "";
+    title.textContent = production ? production.title : "";
+    price.textContent = production ? `${production.price} €` : "";
+    synopsis.textContent = production ? production.synopsis : "";
 }
 
 function showFirstProduction() {
