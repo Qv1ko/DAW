@@ -1,0 +1,42 @@
+[
+	{
+		"cifp": "9012096",
+		"ciclo": "IFC01B",
+		"desCiclo": "Informática y Comunicaciones"
+	},
+	{
+		"cifp": "9012096",
+		"ciclo": "IFC01M",
+		"desCiclo": "Sistemas Microinformáticos y Redes"
+	},
+	{
+		"cifp": "9012096",
+		"ciclo": "IFC01S",
+		"desCiclo": "Administración de Sistemas Informáticos en Red"
+	},
+	{
+		"cifp": "9012096",
+		"ciclo": "IFC02S",
+		"desCiclo": "Desarrollo de Aplicaciones Multiplataforma"
+	},
+	{
+		"cifp": "9012096",
+		"ciclo": "IFC03S",
+		"desCiclo": "Desarrollo de Aplicaciones Web"
+	},
+	{
+		"cifp": "09012187",
+		"ciclo": "IFC01M",
+		"desCiclo": "Sistemas Microinformáticos y Redes"
+	},
+	{
+		"cifp": "09012187",
+		"ciclo": "IFC03S",
+		"desCiclo": "Desarrollo de Aplicaciones Web"
+	},
+	{
+		"cifp": "09012229",
+		"ciclo": "IFC01B",
+		"desCiclo": "Informática y Comunicaciones"
+	}
+]
