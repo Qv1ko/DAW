@@ -77,7 +77,7 @@ async function cicloInfo(e) {
         );
 
         if (!response.ok) {
-            throw new Error("");
+            throw new Error("No se pudo acceder a la información");
         }
 
         data = await response.json();

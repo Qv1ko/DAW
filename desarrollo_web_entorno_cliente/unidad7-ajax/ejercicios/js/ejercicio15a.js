@@ -24,7 +24,7 @@ params.append("id", "123");
 console.log(params.toString()); // "usuario=juan&id=123"
 
 /*
- * Con XMLHttpRequest, si hacemos una llamada “GET” con parámetros, ¿cómo se envían los parámetros?
+ * Con XMLHttpRequest, si hacemos una llamada "GET" con parámetros, ¿cómo se envían los parámetros?
  */
 // Los parámetros se envían en la URL, después del ? y separados por &.
 xhr.open("GET", "https://ejemplo.com/api?usuario=juan&id=123");
@@ -34,9 +34,7 @@ xhr.send();
  * ¿Y si lo hacemos con fetch()?
  */
 // Los parámetros también se envían en la URL.
-fetch("https://ejemplo.com/api?usuario=juan&id=123")
-    .then((response) => response.json())
-    .then((data) => console.log(data));
+fetch("https://ejemplo.com/api?usuario=juan&id=123");
 
 /*
  * Con XMLHttpRequest, si recibimos un JSON del servidor, ¿qué comandos tenemos que utilizar?
@@ -60,10 +58,7 @@ xhr.send(formData);
 
 fetch(new URL("usuario.php", window.location.href), {
     method: "POST",
-    body: {
-        nombre: "Juan",
-        apellido: "Sierra",
-    },
+    body: formData,
     headers: {
         "Content-Type": "application/json",
     },
