@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:media="http://search.yahoo.com/mrss/"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+    xmlns:ue="http://www.elmundo.es/imasd/rss/">
+    <channel>
+        <title><![CDATA[Fútbol // elmundo]]></title>
+        <link>https://www.elmundo.es</link>
+        <description><![CDATA[Fútbol // elmundo]]></description>
+        <language>es</language>
+        <copyright><![CDATA[(c)  2025, Unidad Editorial, S.A.]]></copyright>
+        <pubDate>Tue, 04 Feb 2025 09:25:40 +0100</pubDate>
+        <lastBuildDate>Tue, 04 Feb 2025 09:25:41 +0100</lastBuildDate>
+        <category><![CDATA[News & Politics]]></category>
+        <ttl>60</ttl>
+        <atom:link href="http://www.elmundo.es/rss/deportes/futbol.xml" rel="self" type="application/rss+xml"/>
+        <image>
+            <title><![CDATA[Fútbol // elmundo]]></title>
+            <url>https://e00-elmundo.uecdn.es/imagen/canalima144.gif</url>
+            <link>https://www.elmundo.es</link>
+            <width>144</width>
+            <height>24</height>
+            <description><![CDATA[elmundo.es]]></description>
+        </image>
+        <item>
+            <title><![CDATA[La salida de los infiernos de Arambarri: "Volver a jugar al fútbol es un regalo"]]></title>
+            <description><![CDATA[El futbolista encadenó dos años de lesiones en las que apenas pudo disputar un encuentro, hoy es pichichi del Getafe y uno de los jugadores más destacados&nbsp;<a href="https://www.elmundo.es/deportes/futbol/copa-del-rey/2025/02/04/67a112e8e9cf4a63018b4591.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Luis Núñez-Villaveirán]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/copa-del-rey/2025/02/04/67a112e8e9cf4a63018b4591.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Fútbol]]></category>
+            <category><![CDATA[Copa del Rey]]></category>
+            <category><![CDATA[Atlético de Madrid]]></category>
+            <category><![CDATA[Getafe CF]]></category>
+            <category><![CDATA[Artículos Luis Núñez-Villaveirán]]></category>
+            <media:description type="html"><![CDATA[El futbolista encadenó dos años de lesiones en las que apenas pudo disputar un encuentro, hoy es pichichi del Getafe y uno de los jugadores más destacados]]></media:description>
+            <media:title type="html"><![CDATA[COPA DEL REY|Atlético - Getafe (21.30h)]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/03/17386085185009.jpg" medium="image" width="3072" height="2047"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/03/17386085185009_150x0.jpg" width="150" height="99"/>
+            <guid>https://www.elmundo.es/deportes/futbol/copa-del-rey/2025/02/04/67a112e8e9cf4a63018b4591.html</guid>
+            <pubDate>Tue, 04 Feb 2025 09:25:30 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Un invierno de racionamiento en el mercado de fichajes español: ¿Por qué LaLiga gasta menos que Qatar, Arabia o México?]]></title>
+            <description><![CDATA[El torneo español, con poco más de 13 millones gastados este invierno, se queda a la cola. La Premier invierte 427, con el City como mayor comprador. La fiscalidad, el control económico y la "burbuja" inglesa, claves&nbsp;<a href="https://www.elmundo.es/deportes/futbol/primera-division/2025/02/03/67a0eceffc6c83be4e8b4580.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Abraham P. Romero]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/primera-division/2025/02/03/67a0eceffc6c83be4e8b4580.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Fútbol]]></category>
+            <category><![CDATA[Liga Española]]></category>
+            <category><![CDATA[Javier Tebas]]></category>
+            <category><![CDATA[Artículos Abraham Romero]]></category>
+            <media:description type="html"><![CDATA[El torneo español, con poco más de 13 millones gastados este invierno, se queda a la cola. La Premier invierte 427, con el City como mayor comprador. La fiscalidad, el control económico y la "burbuja" inglesa, claves]]></media:description>
+            <media:title type="html"><![CDATA[LALIGA EA SPORTS 2024 - 2025]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/03/17386107721545.jpg" medium="image" width="3072" height="2048"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/03/17386107721545_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/primera-division/2025/02/03/67a0eceffc6c83be4e8b4580.html</guid>
+            <pubDate>Mon, 03 Feb 2025 23:43:49 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Los susurros de Rubiales y la tensión con el abogado de Hermoso en la primera sesión del juicio del beso: "No sé si hablo para chinos"]]></title>
+            <description><![CDATA[Tensión en la sala en el inicio de la vista oral por el incidente tras la victoria en Sidney entre el ex presidente de la RFEF y la jugadora de la selección&nbsp;<a href="https://www.elmundo.es/deportes/futbol/2025/02/03/67a1040afc6c833b378b4598.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Luis Núñez-Villaveirán]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/2025/02/03/67a1040afc6c833b378b4598.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Fútbol]]></category>
+            <category><![CDATA[RFEF]]></category>
+            <category><![CDATA[Luis Rubiales]]></category>
+            <category><![CDATA[Jenni Hermoso]]></category>
+            <category><![CDATA[Artículos Luis Núñez-Villaveirán]]></category>
+            <media:description type="html"><![CDATA[Tensión en la sala en el inicio de la vista oral por el incidente tras la victoria en Sidney entre el ex presidente de la RFEF y la jugadora de la selección]]></media:description>
+            <media:title type="html"><![CDATA[FÚTBOL]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/03/17386049238627.jpg" medium="image" width="3072" height="2048"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/03/17386049238627_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/2025/02/03/67a1040afc6c833b378b4598.html</guid>
+            <pubDate>Mon, 03 Feb 2025 22:32:12 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[El Real Madrid envía a la Federación y al Gobierno una carta durísima contra los árbitros: "No es un error más. El sistema está completamente viciado"]]></title>
+            <description><![CDATA[Tebas ha respondido en redes sociales: "Votamos para cambiar el sistema y el Real Madrid se opuso y no aportó soluciones". El organismo de Louzán reacciona con tibieza y pide respeto y diálogo&nbsp;<a href="https://www.elmundo.es/deportes/futbol/primera-division/2025/02/03/67a0fc7821efa058728b456f.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Orfeo Suárez]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/primera-division/2025/02/03/67a0fc7821efa058728b456f.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[fútbol]]></category>
+            <category><![CDATA[Real Madrid]]></category>
+            <category><![CDATA[La Liga]]></category>
+            <category><![CDATA[Artículos Orfeo Suárez]]></category>
+            <media:description type="html"><![CDATA[Tebas ha respondido en redes sociales: "Votamos para cambiar el sistema y el Real Madrid se opuso y no aportó soluciones". El organismo de Louzán reacciona con tibieza y pide respeto y diálogo]]></media:description>
+            <media:title type="html"><![CDATA[LALIGA EA SPORTS 2024 - 2025]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/03/17386059528104.jpg" medium="image" width="3072" height="2048"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/03/17386059528104_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/primera-division/2025/02/03/67a0fc7821efa058728b456f.html</guid>
+            <pubDate>Mon, 03 Feb 2025 22:00:10 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[El beso (y los seis días) que cambiaron el fútbol: "No te preocupes, que a la ministra le decimos lo que tiene que contar"]]></title>
+            <description><![CDATA[A partir de hoy, Luis Rubiales se enfrenta a dos años y medio de cárcel por delitos de agresión sexual y coacciones. EL MUNDO reconstruye las horas decisivas de finales de agosto de 2023.&nbsp;<a href="https://www.elmundo.es/deportes/futbol/2025/02/02/679e572a21efa08d278b45a4.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Miguel A. Herguedas]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/2025/02/02/679e572a21efa08d278b45a4.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[fútbol]]></category>
+            <category><![CDATA[Selección Femenina Fútbol España]]></category>
+            <category><![CDATA[Olga Carmona]]></category>
+            <category><![CDATA[Jenni Hermoso]]></category>
+            <category><![CDATA[Luis Rubiales]]></category>
+            <category><![CDATA[RFEF]]></category>
+            <category><![CDATA[Albert Luque]]></category>
+            <category><![CDATA[Reina Letizia]]></category>
+            <category><![CDATA[Sara Carbonero]]></category>
+            <category><![CDATA[Iker Casillas]]></category>
+            <category><![CDATA[Pablo Echenique]]></category>
+            <category><![CDATA[Emilio Butragueño - USA Latino]]></category>
+            <category><![CDATA[Isabel Rodríguez García]]></category>
+            <category><![CDATA[Pedro Sánchez]]></category>
+            <category><![CDATA[Luis de la Fuente]]></category>
+            <category><![CDATA[Jorge Vilda]]></category>
+            <category><![CDATA[Yolanda Díaz]]></category>
+            <category><![CDATA[Iñigo Errejón]]></category>
+            <category><![CDATA[Infanta Sofía]]></category>
+            <category><![CDATA[Gianni Infantino]]></category>
+            <category><![CDATA[FIFA]]></category>
+            <category><![CDATA[Artículos Miguel A. Herguedas]]></category>
+            <media:description type="html"><![CDATA[A partir de hoy, Luis Rubiales se enfrenta a dos años y medio de cárcel por delitos de agresión sexual y coacciones. EL MUNDO reconstruye las horas decisivas de finales de agosto de 2023.]]></media:description>
+            <media:title type="html"><![CDATA[FÚTBOL]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/02/17385219596851.jpg" medium="image" width="1016" height="666"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/02/17385219596851_150x0.jpg" width="150" height="98"/>
+            <guid>https://www.elmundo.es/deportes/futbol/2025/02/02/679e572a21efa08d278b45a4.html</guid>
+            <pubDate>Sun, 02 Feb 2025 22:48:18 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Los delitos a los que se enfrenta Luis Rubiales, bajo la lupa: "Las penas serán muy leves"]]></title>
+            <description><![CDATA[Varios juristas analizan para EL MUNDO la presunta agresión sexual y las coacciones del ex presidente.&nbsp;<a href="https://www.elmundo.es/deportes/futbol/2025/02/02/679fbc9fe9cf4a47318b4578.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Miguel A. Herguedas]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/2025/02/02/679fbc9fe9cf4a47318b4578.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[fútbol]]></category>
+            <category><![CDATA[RFEF]]></category>
+            <category><![CDATA[Luis Rubiales]]></category>
+            <category><![CDATA[Jorge Vilda]]></category>
+            <category><![CDATA[Albert Luque]]></category>
+            <category><![CDATA[Jenni Hermoso]]></category>
+            <category><![CDATA[Artículos Miguel A. Herguedas]]></category>
+            <media:description type="html"><![CDATA[Varios juristas analizan para EL MUNDO la presunta agresión sexual y las coacciones del ex presidente.]]></media:description>
+            <media:title type="html"><![CDATA[FÚTBOL]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/02/17385295395858.jpg" medium="image" width="3072" height="2048"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/02/17385295395858_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/2025/02/02/679fbc9fe9cf4a47318b4578.html</guid>
+            <pubDate>Sun, 02 Feb 2025 22:16:03 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Javi Guerra y Rioja aplican el desfibrilador al Valencia y meten al Celta en problemas]]></title>
+            <description><![CDATA[Un gol del canterano, cuatro minutos después de que los gallegos igualaran al filo del descanso, decanta la primera final en Mestalla (2-1).&nbsp;<a href="https://www.elmundo.es/deportes/futbol/primera-division/2025/02/02/679f8840fc6c83db188b4585.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Inma Lidón]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/primera-division/2025/02/02/679f8840fc6c83db188b4585.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Valencia CF]]></category>
+            <category><![CDATA[RC Celta de Vigo]]></category>
+            <category><![CDATA[Artículos Inma Lidón]]></category>
+            <category><![CDATA[fútbol]]></category>
+            <category><![CDATA[Primera División]]></category>
+            <category><![CDATA[Javi Guerra]]></category>
+            <category><![CDATA[Luis Rioja]]></category>
+            <category><![CDATA[Hugo Duro]]></category>
+            <category><![CDATA[Borja Iglesias]]></category>
+            <media:description type="html"><![CDATA[Un gol del canterano, cuatro minutos después de que los gallegos igualaran al filo del descanso, decanta la primera final en Mestalla (2-1).]]></media:description>
+            <media:title type="html"><![CDATA[LALIGA|2-1 en Mestalla]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/02/17385173247341.jpg" medium="image" width="2681" height="1788"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/02/17385173247341_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/primera-division/2025/02/02/679f8840fc6c83db188b4585.html</guid>
+            <pubDate>Sun, 02 Feb 2025 18:47:02 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[El Barça se reengancha a la Liga con un gol de Lewandowski]]></title>
+            <description><![CDATA[Un remate del polaco basta para batir a un rocoso Alavés y colocarse a cuatro puntos del Madrid (1-0).&nbsp;<a href="https://www.elmundo.es/deportes/futbol/primera-division/2025/02/02/679f8dcae4d4d814168b4594.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Amadeu García]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/primera-division/2025/02/02/679f8dcae4d4d814168b4594.html</link>
+            <category><![CDATA[fútbol]]></category>
+            <category><![CDATA[La Liga]]></category>
+            <category><![CDATA[FC Barcelona]]></category>
+            <category><![CDATA[Deportivo Alavés]]></category>
+            <category><![CDATA[Hansi Flick]]></category>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Gavi]]></category>
+            <category><![CDATA[Robert Lewandowski]]></category>
+            <category><![CDATA[Raphinha]]></category>
+            <category><![CDATA[Pedri]]></category>
+            <category><![CDATA[Lamine Yamal]]></category>
+            <category><![CDATA[Szczesny]]></category>
+            <category><![CDATA[Frenkie de Jong]]></category>
+            <media:description type="html"><![CDATA[Un remate del polaco basta para batir a un rocoso Alavés y colocarse a cuatro puntos del Madrid (1-0).]]></media:description>
+            <media:title type="html"><![CDATA[LALIGA|1-0 en Montjuïc]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/02/17385186761293.jpg" medium="image" width="3072" height="2048"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/02/17385186761293_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/primera-division/2025/02/02/679f8dcae4d4d814168b4594.html</guid>
+            <pubDate>Sun, 02 Feb 2025 16:25:14 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[El Madrid estalla contra el arbitraje de Cornellá: "Es inexplicable que no haya sacado tarjeta roja"]]></title>
+            <description><![CDATA[Los blancos, a través de Ancelotti y de su página web, se quejan de la actuación de Muñiz Ruiz y del VAR. "El VAR está para esto...", critica el técnico.&nbsp;<a href="https://www.elmundo.es/deportes/futbol/2025/02/02/679ea9c1fc6c83ed3b8b4576.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Abraham P. Romero]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/2025/02/02/679ea9c1fc6c83ed3b8b4576.html</link>
+            <category><![CDATA[Artículos Abraham Romero]]></category>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[fútbol]]></category>
+            <category><![CDATA[Primera División]]></category>
+            <category><![CDATA[Real Madrid]]></category>
+            <category><![CDATA[RCD Espanyol]]></category>
+            <category><![CDATA[Carlo Ancelotti]]></category>
+            <category><![CDATA[Mbappé]]></category>
+            <category><![CDATA[Vinicius Júnior]]></category>
+            <category><![CDATA[Antonio Rudiger]]></category>
+            <media:description type="html"><![CDATA[Los blancos, a través de Ancelotti y de su página web, se quejan de la actuación de Muñiz Ruiz y del VAR. "El VAR está para esto...", critica el técnico.]]></media:description>
+            <media:title type="html"><![CDATA[FÚTBOL]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/01/17384501099796.jpg" medium="image" width="3072" height="2048"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/01/17384501099796_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/2025/02/02/679ea9c1fc6c83ed3b8b4576.html</guid>
+            <pubDate>Sun, 02 Feb 2025 00:11:56 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[El Madrid se apaga en Cornellá y abre de nuevo la lucha por la Liga]]></title>
+            <description><![CDATA[Romero anotó el gol del Espanyol tras un contragolpe en el minuto 85. Los blancos, de menos a más, se estrellaron contra Joan García (1-0).&nbsp;<a href="https://www.elmundo.es/deportes/futbol/primera-division/2025/02/01/679e875ffdddff222a8b45a9.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Abraham P. Romero]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/primera-division/2025/02/01/679e875ffdddff222a8b45a9.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Real Madrid]]></category>
+            <category><![CDATA[Fútbol]]></category>
+            <category><![CDATA[La Liga]]></category>
+            <category><![CDATA[Artículos Abraham Romero]]></category>
+            <category><![CDATA[Antonio Rudiger]]></category>
+            <category><![CDATA[Mbappé]]></category>
+            <category><![CDATA[Luka Modric]]></category>
+            <category><![CDATA[Aurélien Tchouaméni]]></category>
+            <category><![CDATA[Rodrygo Goes]]></category>
+            <category><![CDATA[Raúl Asencio]]></category>
+            <category><![CDATA[Vinicius Júnior]]></category>
+            <category><![CDATA[Dani Ceballos]]></category>
+            <category><![CDATA[Fede Valverde]]></category>
+            <category><![CDATA[Carlo Ancelotti]]></category>
+            <category><![CDATA[Jude Bellingham]]></category>
+            <media:description type="html"><![CDATA[Romero anotó el gol del Espanyol tras un contragolpe en el minuto 85. Los blancos, de menos a más, se estrellaron contra Joan García (1-0).]]></media:description>
+            <media:title type="html"><![CDATA[LALIGA|22ª jornada]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/01/17384481166970.jpg" medium="image" width="3072" height="2048"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/01/17384481166970_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/primera-division/2025/02/01/679e875ffdddff222a8b45a9.html</guid>
+            <pubDate>Sat, 01 Feb 2025 23:15:39 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[El ejemplo de constancia de Kike García, el nómada del gol]]></title>
+            <description><![CDATA[El delantero, de 35 años, lidera el ataque del Alavés, que hoy visita al Barça en Montjuïc.&nbsp;<a href="https://www.elmundo.es/deportes/futbol/primera-division/2025/02/01/679e86ffe9cf4a46688b459b.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Amadeu García]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/primera-division/2025/02/01/679e86ffe9cf4a46688b459b.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[fútbol]]></category>
+            <category><![CDATA[Primera División]]></category>
+            <category><![CDATA[Deportivo Alavés]]></category>
+            <category><![CDATA[SD Eibar]]></category>
+            <category><![CDATA[CA Osasuna]]></category>
+            <category><![CDATA[Robert Lewandowski]]></category>
+            <category><![CDATA[Mbappé]]></category>
+            <category><![CDATA[Raphinha]]></category>
+            <media:description type="html"><![CDATA[El delantero, de 35 años, lidera el ataque del Alavés, que hoy visita al Barça en Montjuïc.]]></media:description>
+            <media:title type="html"><![CDATA[LALIGA|22ª jornada]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/01/17384425361813.jpg" medium="image" width="3072" height="2050"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/01/17384425361813_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/primera-division/2025/02/01/679e86ffe9cf4a46688b459b.html</guid>
+            <pubDate>Sat, 01 Feb 2025 21:51:30 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[El Villarreal da un repaso al Valladolid y se hace fuerte en casa]]></title>
+            <description><![CDATA[Un gol de Ayoze Pérez rompió la igualdad y los locales desbordaron al colista tras el descanso (5-1).&nbsp;<a href="https://www.elmundo.es/deportes/futbol/primera-division/2025/02/01/679e7fa2fc6c83a06b8b4577.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Edu Chova]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/primera-division/2025/02/01/679e7fa2fc6c83a06b8b4577.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[fútbol]]></category>
+            <category><![CDATA[Primera División]]></category>
+            <category><![CDATA[Villarreal CF]]></category>
+            <category><![CDATA[Real Valladolid CF]]></category>
+            <category><![CDATA[Ayoze Pérez]]></category>
+            <category><![CDATA[Marcelino García Toral]]></category>
+            <category><![CDATA[Gerard Moreno]]></category>
+            <category><![CDATA[Álex Baena]]></category>
+            <media:description type="html"><![CDATA[Un gol de Ayoze Pérez rompió la igualdad y los locales desbordaron al colista tras el descanso (5-1).]]></media:description>
+            <media:title type="html"><![CDATA[LALIGA|5-1 en La Cerámica]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/01/17384407128805.jpg" medium="image" width="3072" height="2048"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/01/17384407128805_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/primera-division/2025/02/01/679e7fa2fc6c83a06b8b4577.html</guid>
+            <pubDate>Sat, 01 Feb 2025 21:19:16 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Griezmann apuntilla al Mallorca y le pone picante al derbi]]></title>
+            <description><![CDATA[El Atlético se avanzó con un gol de Lino y, pese a la reacción visitante, el francés cerró la victoria en el tiempo añadido (2-0).&nbsp;<a href="https://www.elmundo.es/deportes/futbol/primera-division/2025/02/01/679e7d55e85ece0a278b4586.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Inma Lidón]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/primera-division/2025/02/01/679e7d55e85ece0a278b4586.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Atlético de Madrid]]></category>
+            <category><![CDATA[RCD Mallorca]]></category>
+            <category><![CDATA[Artículos Inma Lidón]]></category>
+            <category><![CDATA[Antoine Griezmann]]></category>
+            <category><![CDATA[Julián Álvarez]]></category>
+            <category><![CDATA[Diego Simeone]]></category>
+            <category><![CDATA[Alexander Sorloth]]></category>
+            <category><![CDATA[Pablo Barrios]]></category>
+            <category><![CDATA[Vedat Muriqi]]></category>
+            <category><![CDATA[Samuel Lino]]></category>
+            <category><![CDATA[Johan Mojica]]></category>
+            <category><![CDATA[Jagoba Arrasate]]></category>
+            <category><![CDATA[fútbol]]></category>
+            <category><![CDATA[Primera División]]></category>
+            <media:description type="html"><![CDATA[El Atlético se avanzó con un gol de Lino y, pese a la reacción visitante, el francés cerró la victoria en el tiempo añadido (2-0).]]></media:description>
+            <media:title type="html"><![CDATA[LALIGA|2-0 en el Metropolitano]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/01/17384399663045.jpg" medium="image" width="3072" height="2048"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/02/01/17384399663045_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/primera-division/2025/02/01/679e7d55e85ece0a278b4586.html</guid>
+            <pubDate>Sat, 01 Feb 2025 21:03:29 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Manolo González, de conductor de autobús a dirigir al Espanyol: "Entrenaba de tarde para hacer su turno de mañana"]]></title>
+            <description><![CDATA[Currante del fútbol, compaginaba su empleo con los banquillos hasta que llegó al equipo blanquiazul. "Es capaz de sacarle al jugador el 150%", señala 'Rodri', ex compañero en Badalona.&nbsp;<a href="https://www.elmundo.es/deportes/futbol/primera-division/2025/01/31/679ccc93fdddff0d998b456d.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Amadeu García]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/primera-division/2025/01/31/679ccc93fdddff0d998b456d.html</link>
+            <category><![CDATA[RCD Espanyol]]></category>
+            <category><![CDATA[La Liga]]></category>
+            <category><![CDATA[Barcelona]]></category>
+            <media:description type="html"><![CDATA[Currante del fútbol, compaginaba su empleo con los banquillos hasta que llegó al equipo blanquiazul. "Es capaz de sacarle al jugador el 150%", señala 'Rodri', ex compañero en Badalona.]]></media:description>
+            <media:title type="html"><![CDATA[LALIGA|Espanyol - Real Madrid (21:00 h.)]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/31/17383292574522.jpg" medium="image" width="2910" height="1941"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/31/17383292574522_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/primera-division/2025/01/31/679ccc93fdddff0d998b456d.html</guid>
+            <pubDate>Fri, 31 Jan 2025 19:57:54 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Del delirio del Bernabéu y el muro de Lunin al bombardeo del 4-0: las historias del Madrid-City, un clásico moderno en horas bajas]]></title>
+            <description><![CDATA[Españoles y británicos se cruzan en una eliminatoria de Champions por cuarta temporada seguida. 2-1 para los blancos en unos duelos con tensión, agonía y muchos goles. "Ya parece un derbi", se resignaba Guardiola este viernes.&nbsp;<a href="https://www.elmundo.es/deportes/futbol/2025/01/31/679cfb1121efa08b798b4598.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Abraham P. Romero]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/2025/01/31/679cfb1121efa08b798b4598.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Real Madrid]]></category>
+            <category><![CDATA[Manchester City]]></category>
+            <category><![CDATA[Fútbol]]></category>
+            <category><![CDATA[Pep Guardiola]]></category>
+            <category><![CDATA[Carlo Ancelotti]]></category>
+            <category><![CDATA[Champions League]]></category>
+            <category><![CDATA[Artículos Abraham Romero]]></category>
+            <media:description type="html"><![CDATA[Españoles y británicos se cruzan en una eliminatoria de Champions por cuarta temporada seguida. 2-1 para los blancos en unos duelos con tensión, agonía y muchos goles. "Ya parece un derbi", se resignaba Guardiola este viernes.]]></media:description>
+            <media:title type="html"><![CDATA[FÚTBOL]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/31/17383409223296.jpg" medium="image" width="3072" height="2051"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/31/17383409223296_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/2025/01/31/679cfb1121efa08b798b4598.html</guid>
+            <pubDate>Fri, 31 Jan 2025 19:57:38 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[El Real Madrid se enfrentará al Manchester City en el playoff de la Champions League]]></title>
+            <description><![CDATA[El sorteo ha deparado el mayor enfrentamiento posible. La ida de esos dieciseisavos se celebrará entre el martes 11 y el miércoles 12 de febrero y la vuelta la semana siguiente.&nbsp;<a href="https://www.elmundo.es/deportes/futbol/champions-league/2025/01/31/679cac27e9cf4a51088b4590.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Abraham P. Romero]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/31/679cac27e9cf4a51088b4590.html</link>
+            <category><![CDATA[Real Madrid]]></category>
+            <category><![CDATA[Champions League]]></category>
+            <category><![CDATA[Celtic Glasgow]]></category>
+            <category><![CDATA[Manchester City]]></category>
+            <category><![CDATA[Artículos Abraham Romero]]></category>
+            <media:description type="html"><![CDATA[El sorteo ha deparado el mayor enfrentamiento posible. La ida de esos dieciseisavos se celebrará entre el martes 11 y el miércoles 12 de febrero y la vuelta la semana siguiente.]]></media:description>
+            <media:title type="html"><![CDATA[CHAMPIONS LEAGUE]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/31/17383220852913.jpg" medium="image" width="2000" height="1333"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/31/17383220852913_150x0.jpg" width="150" height="99"/>
+            <guid>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/31/679cac27e9cf4a51088b4590.html</guid>
+            <pubDate>Fri, 31 Jan 2025 12:25:38 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La Champions anti-Superliga golea en emociones, pero con desequilibrios por resolver]]></title>
+            <description><![CDATA[&nbsp;<a href="https://www.elmundo.es/deportes/futbol/champions-league/2025/01/30/679bd13221efa0db5a8b45b1.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Orfeo Suárez]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/30/679bd13221efa0db5a8b45b1.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Fútbol]]></category>
+            <category><![CDATA[Real Madrid]]></category>
+            <category><![CDATA[Liga de Campeones]]></category>
+            <category><![CDATA[FC Barcelona]]></category>
+            <category><![CDATA[Artículos Orfeo Suárez]]></category>
+            <media:description type="html"><![CDATA[Uno de los argumentos de los promotores de la Superliga es el de poder presenciar partidos entre grandes de Europa desde el principio. La nueva Champions los ha ofrecido casi si]]></media:description>
+            <media:title type="html"><![CDATA[ANÁLISIS]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/30/17382766546723.jpg" medium="image" width="2300" height="1457"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/30/17382766546723_150x0.jpg" width="150" height="95"/>
+            <guid>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/30/679bd13221efa0db5a8b45b1.html</guid>
+            <pubDate>Thu, 30 Jan 2025 23:38:16 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Los extraños movimientos del presidente de la Federación: planea modificar los estatutos antes de que el Supremo se pronuncie sobre su condena por prevaricación]]></title>
+            <description><![CDATA[Louzán convoca con sigilo una asamblea para el 10 de febrero donde pretende la "adaptación" de esa normativa. Cinco días antes es la vista de su recurso contra los siete años de inhabilitación para cargo público en el Alto Tribunal. «Es una insensatez, no tiene salida», explica un experto en Derecho&nbsp;<a href="https://www.elmundo.es/deportes/futbol/2025/01/30/679bc470fdddff65238b458b.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Eduardo J. Castelao]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/2025/01/30/679bc470fdddff65238b458b.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[fútbol]]></category>
+            <category><![CDATA[Rafael Louzán]]></category>
+            <category><![CDATA[Artículos Eduardo J. Castelao]]></category>
+            <media:description type="html"><![CDATA[Louzán convoca con sigilo una asamblea para el 10 de febrero donde pretende la "adaptación" de esa normativa. Cinco días antes es la vista de su recurso contra los siete años de inhabilitación para cargo público en el Alto Tribunal. «Es una insensatez, no tiene salida», explica un experto en Derecho]]></media:description>
+            <media:title type="html"><![CDATA[FÚTBOL]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/30/17382616389182.jpg" medium="image" width="3072" height="2048"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/30/17382616389182_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/2025/01/30/679bc470fdddff65238b458b.html</guid>
+            <pubDate>Thu, 30 Jan 2025 23:35:07 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Todos los números de la Champions: un gol cada 28 minutos, 17 millones entre Barça y Madrid, 371 recuperaciones del Mónaco]]></title>
+            <description><![CDATA[La nueva primera fase de la competición engancha, pero no altera el orden europeo&nbsp;<a href="https://www.elmundo.es/deportes/futbol/champions-league/2025/01/30/679bbecafc6c8371388b457a.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Inma Lidón]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/30/679bbecafc6c8371388b457a.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Champions League]]></category>
+            <category><![CDATA[Liga de Campeones]]></category>
+            <category><![CDATA[Artículos Inma Lidón]]></category>
+            <media:description type="html"><![CDATA[La nueva primera fase de la competición engancha, pero no altera el orden europeo]]></media:description>
+            <media:title type="html"><![CDATA[CHAMPIONS LEAGUE]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/30/17382599388654.jpg" medium="image" width="3072" height="2047"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/30/17382599388654_150x0.jpg" width="150" height="99"/>
+            <guid>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/30/679bbecafc6c8371388b457a.html</guid>
+            <pubDate>Thu, 30 Jan 2025 19:14:20 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[El indignante Ancelotti de la Champions]]></title>
+            <description><![CDATA[&nbsp;<a href="https://www.elmundo.es/deportes/futbol/champions-league/2025/01/29/679aaf26fc6c83727b8b45c5.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Julián Ruiz]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/29/679aaf26fc6c83727b8b45c5.html</link>
+            <category><![CDATA[fútbol]]></category>
+            <category><![CDATA[Champions League]]></category>
+            <category><![CDATA[Carlo Ancelotti]]></category>
+            <category><![CDATA[Real Madrid]]></category>
+            <category><![CDATA[Artículos Julián Ruiz]]></category>
+            <media:description type="html"><![CDATA[Un soberbio <strong>Rodrygo </strong>maquilló otro partido estratégicamente vergonzoso del Madrid de <strong>Ancelotti</strong>. Sólo le salvan l]]></media:description>
+            <media:title type="html"><![CDATA[EL CORTADOR DE CÉSPED|El cortador de césped]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/29/17381906517704.jpg" medium="image" width="3072" height="2063"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/29/17381906517704_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/29/679aaf26fc6c83727b8b45c5.html</guid>
+            <pubDate>Wed, 29 Jan 2025 23:53:07 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA['Munichs', una visión distinta de la terrible tragedia aérea del Manchester United: "Es un libro sobre el norte de Inglaterra y su clase trabajadora"]]></title>
+            <description><![CDATA[David Peace, contrastado autor de novela negra, elabora una apasionada narración sobre el calado del legendario accidente que costó la vida en 1958 a ocho jugadores del equipo de Matt Busby&nbsp;<a href="https://www.elmundo.es/deportes/futbol/2025/01/29/678d2fc0e9cf4a64418b458e.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Javier Martínez]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/2025/01/29/678d2fc0e9cf4a64418b458e.html</link>
+            <category><![CDATA[Manchester United]]></category>
+            <category><![CDATA[Arsenal]]></category>
+            <category><![CDATA[Benfica]]></category>
+            <category><![CDATA[Artículos Javier Martínez]]></category>
+            <category><![CDATA[Bobby Charlton]]></category>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Selección de Fútbol de México]]></category>
+            <media:description type="html"><![CDATA[David Peace, contrastado autor de novela negra, elabora una apasionada narración sobre el calado del legendario accidente que costó la vida en 1958 a ocho jugadores del equipo de Matt Busby]]></media:description>
+            <media:title type="html"><![CDATA[FÚTBOL]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/20/17373969344253.jpg" medium="image" width="3072" height="1861"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/20/17373969344253_150x0.jpg" width="150" height="90"/>
+            <guid>https://www.elmundo.es/deportes/futbol/2025/01/29/678d2fc0e9cf4a64418b458e.html</guid>
+            <pubDate>Wed, 29 Jan 2025 23:37:18 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Un Barça inconformista liderado por Lamine se queda sin la guinda tras empatar con el Atalanta]]></title>
+            <description><![CDATA[No puede aprovechar el tropiezo del Liverpool para acabar primero de esta fase liguilla. El conjunto italiano fue remontando los tantos de Yamal y Araújo pero no se coló entre los ocho mejores&nbsp;<a href="https://www.elmundo.es/deportes/futbol/champions-league/2025/01/29/679aa947e9cf4a73588b45a3.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Inma Lidón]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/29/679aa947e9cf4a73588b45a3.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[FC Barcelona]]></category>
+            <category><![CDATA[Atalanta BC]]></category>
+            <category><![CDATA[Champions League]]></category>
+            <category><![CDATA[Liga de Campeones]]></category>
+            <category><![CDATA[Artículos Inma Lidón]]></category>
+            <media:description type="html"><![CDATA[No puede aprovechar el tropiezo del Liverpool para acabar primero de esta fase liguilla. El conjunto italiano fue remontando los tantos de Yamal y Araújo pero no se coló entre los ocho mejores]]></media:description>
+            <media:title type="html"><![CDATA[CHAMPIONS LEAGUE|Barcelona 2 Atalanta 2]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/29/17381896354544.jpg" medium="image" width="3072" height="2049"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/29/17381896354544_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/29/679aa947e9cf4a73588b45a3.html</guid>
+            <pubDate>Wed, 29 Jan 2025 23:28:26 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[El Real Madrid, contra el Manchester City o el Celtic en el 'playoff'; el Atlético o el Leverkusen le esperarían en octavos]]></title>
+            <description><![CDATA[Los de Guardiola se clasifican y se medirán a los blancos o al Bayern. El sorteo del viernes decidirá todo. El Liverpool y el Barça, primero y segundo, aguardan en octavos a PSG, Benfica, Mónaco o Brest.&nbsp;<a href="https://www.elmundo.es/deportes/futbol/champions-league/2025/01/29/679aaab5fc6c8347128b45a6.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Abraham P. Romero]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/29/679aaab5fc6c8347128b45a6.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Fútbol]]></category>
+            <category><![CDATA[Real Madrid]]></category>
+            <category><![CDATA[Manchester City]]></category>
+            <category><![CDATA[Champions League]]></category>
+            <category><![CDATA[FC Barcelona]]></category>
+            <category><![CDATA[Celtic Glasgow]]></category>
+            <category><![CDATA[Atlético de Madrid]]></category>
+            <category><![CDATA[Artículos Abraham Romero]]></category>
+            <media:description type="html"><![CDATA[Los de Guardiola se clasifican y se medirán a los blancos o al Bayern. El sorteo del viernes decidirá todo. El Liverpool y el Barça, primero y segundo, aguardan en octavos a PSG, Benfica, Mónaco o Brest.]]></media:description>
+            <media:title type="html"><![CDATA[CHAMPIONS LEAGUE]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/29/17381892235672.jpg" medium="image" width="2607" height="1738"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/29/17381892235672_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/29/679aaab5fc6c8347128b45a6.html</guid>
+            <pubDate>Wed, 29 Jan 2025 23:24:57 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Rodrygo lidera ante el Brest una victoria que no alcanza al Madrid para entrar en el 'Top 8']]></title>
+            <description><![CDATA[El brasileño logra dos goles en el triunfo (0-3) de los de Ancelotti. El Madrid disputará los dieciseisavos, donde puede cruzarse con el City de Guardiola&nbsp;<a href="https://www.elmundo.es/deportes/futbol/champions-league/2025/01/29/679aaa62fdddff126b8b457f.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Orfeo Suárez]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/29/679aaa62fdddff126b8b457f.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Fútbol]]></category>
+            <category><![CDATA[Rodrygo Goes]]></category>
+            <category><![CDATA[Real Madrid]]></category>
+            <category><![CDATA[Liga de Campeones]]></category>
+            <category><![CDATA[Artículos Orfeo Suárez]]></category>
+            <category><![CDATA[Mbappé]]></category>
+            <category><![CDATA[Thibaut Courtois]]></category>
+            <category><![CDATA[Dani Ceballos]]></category>
+            <category><![CDATA[Luka Modric]]></category>
+            <category><![CDATA[Stade Brestois 29]]></category>
+            <category><![CDATA[Lucas Vázquez]]></category>
+            <category><![CDATA[Brahim Díaz]]></category>
+            <category><![CDATA[Jude Bellingham]]></category>
+            <category><![CDATA[Aurélien Tchouaméni]]></category>
+            <media:description type="html"><![CDATA[El brasileño logra dos goles en el triunfo (0-3) de los de Ancelotti. El Madrid disputará los dieciseisavos, donde puede cruzarse con el City de Guardiola]]></media:description>
+            <media:title type="html"><![CDATA[CHAMPIONS|Octava jornada]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/29/17381893499597.jpg" medium="image" width="3072" height="2047"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/29/17381893499597_150x0.jpg" width="150" height="99"/>
+            <guid>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/29/679aaa62fdddff126b8b457f.html</guid>
+            <pubDate>Wed, 29 Jan 2025 23:24:47 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Savinho obra una remontada que vale la repesca para el City]]></title>
+            <description><![CDATA[El brasileño, decisivo en dos de los goles ante el Brujas, que se había adelantado en el Etihad (3-1). 'Hat-trick' de Dembélé para el PSG en Stuttgart (1-4).&nbsp;<a href="https://www.elmundo.es/deportes/futbol/champions-league/2025/01/29/679a89f8fc6c83ce518b45b2.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Miguel A. Herguedas]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/29/679a89f8fc6c83ce518b45b2.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[fútbol]]></category>
+            <category><![CDATA[Champions League]]></category>
+            <category><![CDATA[Club Brujas]]></category>
+            <category><![CDATA[Manchester City]]></category>
+            <category><![CDATA[PSG]]></category>
+            <category><![CDATA[VfB Stuttgart]]></category>
+            <category><![CDATA[Pep Guardiola]]></category>
+            <category><![CDATA[Luis Enrique]]></category>
+            <category><![CDATA[Artículos Miguel A. Herguedas]]></category>
+            <media:description type="html"><![CDATA[El brasileño, decisivo en dos de los goles ante el Brujas, que se había adelantado en el Etihad (3-1). 'Hat-trick' de Dembélé para el PSG en Stuttgart (1-4).]]></media:description>
+            <media:title type="html"><![CDATA[CHAMPIONS|Octava jornada]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/29/17381888363748.jpg" medium="image" width="3072" height="2047"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/29/17381888363748_150x0.jpg" width="150" height="99"/>
+            <guid>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/29/679a89f8fc6c83ce518b45b2.html</guid>
+            <pubDate>Wed, 29 Jan 2025 23:19:21 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Giuliano vale el Top 8 para el Atlético de Madrid]]></title>
+            <description><![CDATA[El argentino hizo el primer tanto y dio el segundo a Griezmann, que hizo un doblete ante el débil Salzburgo&nbsp;<a href="https://www.elmundo.es/deportes/futbol/champions-league/2025/01/29/679a841621efa00c268b4595.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Luis Núñez-Villaveirán]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/29/679a841621efa00c268b4595.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Fútbol]]></category>
+            <category><![CDATA[Champions League]]></category>
+            <category><![CDATA[Atlético de Madrid]]></category>
+            <category><![CDATA[Salzburg FC]]></category>
+            <category><![CDATA[Artículos Luis Núñez-Villaveirán]]></category>
+            <media:description type="html"><![CDATA[El argentino hizo el primer tanto y dio el segundo a Griezmann, que hizo un doblete ante el débil Salzburgo]]></media:description>
+            <media:title type="html"><![CDATA[CHAMPIONS LEAGUE|Salzburgo - Atlético (1-4)]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/29/17381852916005.jpg" medium="image" width="1655" height="1103"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/29/17381852916005_150x0.jpg" width="150" height="99"/>
+            <guid>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/29/679a841621efa00c268b4595.html</guid>
+            <pubDate>Wed, 29 Jan 2025 23:00:34 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[El Gobierno advierte a Louzán, presidente de la Federación: "Si el Supremo ratifica la condena, habrá elecciones"]]></title>
+            <description><![CDATA[La ministra de Deportes, Pilar Alegría, dice que el fútbol español lleva años trasladando una imagen "poco constructiva"&nbsp;<a href="https://www.elmundo.es/deportes/futbol/2025/01/29/679a1740fdddffeb748b45aa.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[EFE]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/2025/01/29/679a1740fdddffeb748b45aa.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[fútbol]]></category>
+            <category><![CDATA[Rafael Louzán]]></category>
+            <category><![CDATA[Pilar Alegría]]></category>
+            <category><![CDATA[Gobierno de España]]></category>
+            <media:description type="html"><![CDATA[La ministra de Deportes, Pilar Alegría, dice que el fútbol español lleva años trasladando una imagen "poco constructiva"]]></media:description>
+            <media:title type="html"><![CDATA[FÚTBOL]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/29/17381514096765.jpg" medium="image" width="3072" height="2048"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/29/17381514096765_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/2025/01/29/679a1740fdddffeb748b45aa.html</guid>
+            <pubDate>Wed, 29 Jan 2025 12:56:50 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La Champions, un filón de millones para el Barça]]></title>
+            <description><![CDATA[Con el nuevo formato, el club azulgrana ya se ha asegurado unos ingresos de 44,2 millones de euros.&nbsp;<a href="https://www.elmundo.es/deportes/futbol/champions-league/2025/01/28/6798fd74e85ece28038b45bc.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Amadeu García]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/28/6798fd74e85ece28038b45bc.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Champions League]]></category>
+            <media:description type="html"><![CDATA[Con el nuevo formato, el club azulgrana ya se ha asegurado unos ingresos de 44,2 millones de euros.]]></media:description>
+            <media:title type="html"><![CDATA[CHAMPIONS LEAGUE|Barça - Atalanta]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/28/17380804016730.jpg" medium="image" width="3072" height="2048"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/28/17380804016730_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/28/6798fd74e85ece28038b45bc.html</guid>
+            <pubDate>Tue, 28 Jan 2025 23:35:47 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Reinildo, el 'guerrero' tranquilo que nunca tiene frío: "Le gusta luchar contra sí mismo"]]></title>
+            <description><![CDATA[El mozambiqueño se levanta antes del amanecer, llega de los primeros a entrenar y siempre lo hace en manga corta.&nbsp;<a href="https://www.elmundo.es/deportes/futbol/champions-league/2025/01/28/679913d2e9cf4af92b8b45af.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Luis Núñez-Villaveirán]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/28/679913d2e9cf4af92b8b45af.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Fútbol]]></category>
+            <category><![CDATA[Champions League]]></category>
+            <category><![CDATA[Atlético de Madrid]]></category>
+            <category><![CDATA[Salzburg FC]]></category>
+            <category><![CDATA[Reinildo Mandava]]></category>
+            <category><![CDATA[Artículos Luis Núñez-Villaveirán]]></category>
+            <media:description type="html"><![CDATA[El mozambiqueño se levanta antes del amanecer, llega de los primeros a entrenar y siempre lo hace en manga corta.]]></media:description>
+            <media:title type="html"><![CDATA[CHAMPIONS LEAGUE|Salzburgo - Atlético (21.00h)]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/28/17380847194757.jpg" medium="image" width="2544" height="1696"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/28/17380847194757_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/28/679913d2e9cf4af92b8b45af.html</guid>
+            <pubDate>Tue, 28 Jan 2025 23:35:03 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La oportunidad única de Ceballos, "un obseso del fútbol": de la salida de Kroos a la necesidad de Ancelotti]]></title>
+            <description><![CDATA[El andaluz ha aprovechado las lesiones y las dudas en el juego del Madrid y se ha convertido en la brújula del equipo. Es "uno de los más escuchados" en el vestuario y le ven como futuro entrenador.&nbsp;<a href="https://www.elmundo.es/deportes/futbol/2025/01/28/67991bd4fdddff31678b459b.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Abraham P. Romero]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/2025/01/28/67991bd4fdddff31678b459b.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Dani Ceballos]]></category>
+            <category><![CDATA[Fútbol]]></category>
+            <category><![CDATA[Real Madrid]]></category>
+            <category><![CDATA[Artículos Abraham Romero]]></category>
+            <media:description type="html"><![CDATA[El andaluz ha aprovechado las lesiones y las dudas en el juego del Madrid y se ha convertido en la brújula del equipo. Es "uno de los más escuchados" en el vestuario y le ven como futuro entrenador.]]></media:description>
+            <media:title type="html"><![CDATA[FÚTBOL]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/28/17380872821285.jpg" medium="image" width="1544" height="1009"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/28/17380872821285_150x0.jpg" width="150" height="98"/>
+            <guid>https://www.elmundo.es/deportes/futbol/2025/01/28/67991bd4fdddff31678b459b.html</guid>
+            <pubDate>Tue, 28 Jan 2025 23:34:37 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Todo lo que hay en juego en la última jornada de la Champions: dos transatlánticos con la soga al cuello]]></title>
+            <description><![CDATA[El Manchester City debe ganar al Bujas para clasificarse y el PSG necesita un empate en Stuttgart. Arsenal e Inter, a falta de un punto para el pase directo a octavos. Sólo Liverpool y Barcelona tienen lugar seguro en el 'top 8'.&nbsp;<a href="https://www.elmundo.es/deportes/futbol/champions-league/2025/01/28/67991fbf21efa0885b8b45d9.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Javier Martínez]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/28/67991fbf21efa0885b8b45d9.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[fútbol]]></category>
+            <category><![CDATA[Champions League]]></category>
+            <category><![CDATA[Pep Guardiola]]></category>
+            <category><![CDATA[Artículos Javier Martínez]]></category>
+            <media:description type="html"><![CDATA[El Manchester City debe ganar al Bujas para clasificarse y el PSG necesita un empate en Stuttgart. Arsenal e Inter, a falta de un punto para el pase directo a octavos. Sólo Liverpool y Barcelona tienen lugar seguro en el 'top 8'.]]></media:description>
+            <media:title type="html"><![CDATA[CHAMPIONS LEAGUE 2024 - 2025]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/28/17381034343933.jpg" medium="image" width="3072" height="2049"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/28/17381034343933_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/champions-league/2025/01/28/67991fbf21efa0885b8b45d9.html</guid>
+            <pubDate>Tue, 28 Jan 2025 23:34:15 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[El triste ocaso (y el sueño imposible), de Neymar, el hombre de los 464 millones en traspasos]]></title>
+            <description><![CDATA[El brasileño, fichaje más caro de la historia del fútbol, regresa a Brasil tras rescindir su contrato en Arabia. Con pocos títulos en su palmarés, su mejor temporada la vivió en el Barça de Luis Enrique&nbsp;<a href="https://www.elmundo.es/deportes/futbol/2025/01/28/6798e087e4d4d8e9208b45c0.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Inma Lidón]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/2025/01/28/6798e087e4d4d8e9208b45c0.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[fútbol]]></category>
+            <category><![CDATA[Neymar]]></category>
+            <category><![CDATA[Artículos Inma Lidón]]></category>
+            <media:description type="html"><![CDATA[El brasileño, fichaje más caro de la historia del fútbol, regresa a Brasil tras rescindir su contrato en Arabia. Con pocos títulos en su palmarés, su mejor temporada la vivió en el Barça de Luis Enrique]]></media:description>
+            <media:title type="html"><![CDATA[FÚTBOL]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/28/17380707481470.jpg" medium="image" width="1866" height="1244"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/28/17380707481470_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/2025/01/28/6798e087e4d4d8e9208b45c0.html</guid>
+            <pubDate>Tue, 28 Jan 2025 16:41:30 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Los 104 días de incertidumbre para renovar a Luis de la Fuente: dos millones, ofertas "exóticas" y alguna mala cara por el camino]]></title>
+            <description><![CDATA[El seleccionador firma un contrato con la Federación hasta 2028 tras más de tres meses donde no todo fue sencillo para el entrenador riojano.&nbsp;<a href="https://www.elmundo.es/deportes/futbol/2025/01/27/6797d6fbfc6c83c9128b459e.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Eduardo J. Castelao]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/2025/01/27/6797d6fbfc6c83c9128b459e.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[fútbol]]></category>
+            <category><![CDATA[Luis de la Fuente]]></category>
+            <category><![CDATA[Selección de Fútbol de España]]></category>
+            <category><![CDATA[Pedro Rocha]]></category>
+            <category><![CDATA[Rafael Louzán]]></category>
+            <category><![CDATA[Fabián Ruiz]]></category>
+            <category><![CDATA[Alexia Putellas]]></category>
+            <category><![CDATA[Luis Rubiales]]></category>
+            <category><![CDATA[Eurocopa]]></category>
+            <category><![CDATA[Artículos Eduardo J. Castelao]]></category>
+            <media:description type="html"><![CDATA[El seleccionador firma un contrato con la Federación hasta 2028 tras más de tres meses donde no todo fue sencillo para el entrenador riojano.]]></media:description>
+            <media:title type="html"><![CDATA[FÚTBOL]]></media:title>
+            <guid>https://www.elmundo.es/deportes/futbol/2025/01/27/6797d6fbfc6c83c9128b459e.html</guid>
+            <pubDate>Tue, 28 Jan 2025 11:58:48 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Al Hilal anuncia la rescisión del contrato de Neymar]]></title>
+            <description><![CDATA[El club saudí ha anunciado su marcha a través de sus redes sociales, después de su llegada en agosto de 2023&nbsp;<a href="https://www.elmundo.es/deportes/futbol/2025/01/28/679818c7e85ecedb728b4585.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[EL MUNDO]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/2025/01/28/679818c7e85ecedb728b4585.html</link>
+            <category><![CDATA[Neymar]]></category>
+            <media:description type="html"><![CDATA[El club saudí ha anunciado su marcha a través de sus redes sociales, después de su llegada en agosto de 2023]]></media:description>
+            <media:title type="html"><![CDATA[FÚTBOL]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/28/17380208596433.jpg" medium="image" width="686" height="551"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/28/17380208596433_150x0.jpg" width="150" height="120"/>
+            <guid>https://www.elmundo.es/deportes/futbol/2025/01/28/679818c7e85ecedb728b4585.html</guid>
+            <pubDate>Tue, 28 Jan 2025 00:48:33 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Guerra civil en San Mamés: una minoría radical divide a la grada y echa un pulso al Athletic]]></title>
+            <description><![CDATA[Un millar de seguidores crítico con la actuación de la Ertzaintza decide no animar e intimida al resto. "Esta situación que estamos viviendo con la afición es una mierda", denuncia Unai Simón. Iñaki Williams expresa la inquietud en el vestuario.&nbsp;<a href="https://www.elmundo.es/deportes/futbol/primera-division/2025/01/27/6797d11bfdddffa7428b45bc.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Josean Izarra]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/primera-division/2025/01/27/6797d11bfdddffa7428b45bc.html</link>
+            <category><![CDATA[Athletic de Bilbao]]></category>
+            <category><![CDATA[Real Madrid]]></category>
+            <category><![CDATA[CD Leganés]]></category>
+            <category><![CDATA[CA Osasuna]]></category>
+            <category><![CDATA[Jon Uriarte]]></category>
+            <category><![CDATA[Ernesto Valverde]]></category>
+            <category><![CDATA[Unai Simón]]></category>
+            <category><![CDATA[Iñaki Williams]]></category>
+            <category><![CDATA[Getafe]]></category>
+            <category><![CDATA[José Bordalás]]></category>
+            <category><![CDATA[Artículos Josean Izarra]]></category>
+            <media:description type="html"><![CDATA[Un millar de seguidores crítico con la actuación de la Ertzaintza decide no animar e intimida al resto. "Esta situación que estamos viviendo con la afición es una mierda", denuncia Unai Simón. Iñaki Williams expresa la inquietud en el vestuario.]]></media:description>
+            <media:title type="html"><![CDATA[FÚTBOL]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/27/17380033992196.jpg" medium="image" width="1508" height="1039"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/27/17380033992196_150x0.jpg" width="150" height="103"/>
+            <guid>https://www.elmundo.es/deportes/futbol/primera-division/2025/01/27/6797d11bfdddffa7428b45bc.html</guid>
+            <pubDate>Mon, 27 Jan 2025 20:20:14 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Los primeros seis meses de Mbappé, mejor que Cristiano y Ronaldo Nazario: la noche de Bilbao y una versión actual con gol cada 74 minutos]]></title>
+            <description><![CDATA[Entre los grandes delanteros de los últimos años, sólo Lewandowski iguala sus 22 goles en los primeros seis meses. Ha marcado 12 en sus últimos 12 partidos.&nbsp;<a href="https://www.elmundo.es/deportes/futbol/2025/01/27/6797719ee9cf4a46668b4572.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Abraham P. Romero]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/2025/01/27/6797719ee9cf4a46668b4572.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Real Madrid]]></category>
+            <category><![CDATA[Mbappé]]></category>
+            <category><![CDATA[Fútbol]]></category>
+            <category><![CDATA[Robert Lewandowski]]></category>
+            <category><![CDATA[Luis Suárez]]></category>
+            <category><![CDATA[Radamel Falcao]]></category>
+            <category><![CDATA[Cristiano Ronaldo]]></category>
+            <category><![CDATA[Ronaldo Nazario]]></category>
+            <category><![CDATA[Erling Haaland]]></category>
+            <category><![CDATA[Mohamed Salah]]></category>
+            <category><![CDATA[Artículos Abraham Romero]]></category>
+            <media:description type="html"><![CDATA[Entre los grandes delanteros de los últimos años, sólo Lewandowski iguala sus 22 goles en los primeros seis meses. Ha marcado 12 en sus últimos 12 partidos.]]></media:description>
+            <media:title type="html"><![CDATA[FÚTBOL|Real Madrid]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/27/17379775435461.jpg" medium="image" width="3072" height="2048"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/27/17379775435461_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/2025/01/27/6797719ee9cf4a46668b4572.html</guid>
+            <pubDate>Mon, 27 Jan 2025 20:19:31 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[¿Qué fútbol nos quedaría si los jugadores se hartasen de los ultras?]]></title>
+            <description><![CDATA[&nbsp;<a href="https://www.elmundo.es/deportes/futbol/2025/01/27/6797a79f21efa06b1b8b4595.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Iñako Díaz-Guerra]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/2025/01/27/6797a79f21efa06b1b8b4595.html</link>
+            <category><![CDATA[Athletic de Bilbao]]></category>
+            <category><![CDATA[Atlético de Madrid]]></category>
+            <category><![CDATA[Unai Simón]]></category>
+            <category><![CDATA[Iñaki Williams]]></category>
+            <category><![CDATA[Diego Simeone]]></category>
+            <category><![CDATA[Artículos Iñako Díaz-Guerra]]></category>
+            <category><![CDATA[Liga Española]]></category>
+            <category><![CDATA[Fútbol]]></category>
+            <media:description type="html"><![CDATA["Los que no dejan animar, que se queden en casa", soltó <strong>Unai Simón</strong> y cambió el paradigma. Anda <strong>San Mamés</strong> revuel]]></media:description>
+            <media:title type="html"><![CDATA[LA CLÁUSULA]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/27/17379921774650.jpg" medium="image" width="3072" height="2048"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/27/17379921774650_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/2025/01/27/6797a79f21efa06b1b8b4595.html</guid>
+            <pubDate>Mon, 27 Jan 2025 19:06:16 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Admitida la querella del Nàstic: la jueza ve "indicios de delito" en el arbitraje de Mallo Fernández que otorgó el ascenso al Málaga]]></title>
+            <description><![CDATA[La magistrada señala en el auto que los hechos pueden constituir delitos de "falsedad documental y corrupción".&nbsp;<a href="https://www.elmundo.es/deportes/futbol/segunda-division-b/2025/01/27/6797c452e9cf4ab97c8b4594.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Efe]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/segunda-division-b/2025/01/27/6797c452e9cf4ab97c8b4594.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[fútbol]]></category>
+            <category><![CDATA[Segunda División]]></category>
+            <category><![CDATA[Málaga CF]]></category>
+            <media:description type="html"><![CDATA[La magistrada señala en el auto que los hechos pueden constituir delitos de "falsedad documental y corrupción".]]></media:description>
+            <media:title type="html"><![CDATA[SEGUNDA DIVISIÓN]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/27/17380000759256.jpg" medium="image" width="561" height="376"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/27/17380000759256_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/segunda-division-b/2025/01/27/6797c452e9cf4ab97c8b4594.html</guid>
+            <pubDate>Mon, 27 Jan 2025 18:50:45 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detenido el ex futbolista internacional belga Nainggolan en una investigación por narcotráfico]]></title>
+            <description><![CDATA[La investigación se centra en la importación de cocaína desde Sudamérica a través del puerto de Amberes&nbsp;<a href="https://www.elmundo.es/deportes/futbol/2025/01/27/6797813cfc6c83d2528b458e.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Afp]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/2025/01/27/6797813cfc6c83d2528b458e.html</link>
+            <category><![CDATA[Fútbol]]></category>
+            <category><![CDATA[Bélgica]]></category>
+            <media:description type="html"><![CDATA[La investigación se centra en la importación de cocaína desde Sudamérica a través del puerto de Amberes]]></media:description>
+            <media:title type="html"><![CDATA[FÚTBOL]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/27/17379821739789.jpg" medium="image" width="1024" height="736"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/27/17379821739789_150x0.jpg" width="150" height="107"/>
+            <guid>https://www.elmundo.es/deportes/futbol/2025/01/27/6797813cfc6c83d2528b458e.html</guid>
+            <pubDate>Mon, 27 Jan 2025 13:51:37 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Luis de la Fuente renueva como seleccionador con un contrato de larga duración hasta 2028]]></title>
+            <description><![CDATA[El seleccionador, de 63 años, amplía su vinculación con la Federación por varios cursos. Era uno de los objetivos de Rafael Louzán antes de su posible inhabilitación&nbsp;<a href="https://www.elmundo.es/deportes/futbol/2025/01/27/67974c51fdddff60068b4593.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Eduardo J. Castelao]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/2025/01/27/67974c51fdddff60068b4593.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Luis de la Fuente]]></category>
+            <category><![CDATA[Artículos Eduardo J. Castelao]]></category>
+            <media:description type="html"><![CDATA[El seleccionador, de 63 años, amplía su vinculación con la Federación por varios cursos. Era uno de los objetivos de Rafael Louzán antes de su posible inhabilitación]]></media:description>
+            <media:title type="html"><![CDATA[FÚTBOL|Selección española]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/27/17379689178743.jpg" medium="image" width="1024" height="683"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/27/17379689178743_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/2025/01/27/67974c51fdddff60068b4593.html</guid>
+            <pubDate>Mon, 27 Jan 2025 13:21:14 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[El detalle de Gavi que impresionó a Hansi Flick: "Le iba a poner los últimos 15 minutos y él me dijo 'no, mete a Pablo Torre'. Es fantástico"]]></title>
+            <description><![CDATA[Fermín, mermado por las lesiones en el arranque de la temporada, marcó sus dos primeros goles este curso en la Liga con el Barça y repartió también dos asistencias. El técnico alemán, sorprendido con la unión del equipo.&nbsp;<a href="https://www.elmundo.es/deportes/futbol/primera-division/2025/01/27/679735c6fc6c83781c8b457b.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Amadeu García]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/primera-division/2025/01/27/679735c6fc6c83781c8b457b.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[La Liga]]></category>
+            <category><![CDATA[Barcelona]]></category>
+            <media:description type="html"><![CDATA[Fermín, mermado por las lesiones en el arranque de la temporada, marcó sus dos primeros goles este curso en la Liga con el Barça y repartió también dos asistencias. El técnico alemán, sorprendido con la unión del equipo.]]></media:description>
+            <media:title type="html"><![CDATA[LALIGA|Barça 7 Valencia 1]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/27/17379661630545.jpg" medium="image" width="3072" height="2048"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/27/17379661630545_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/primera-division/2025/01/27/679735c6fc6c83781c8b457b.html</guid>
+            <pubDate>Mon, 27 Jan 2025 09:25:54 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[El Barça se reengancha a la Liga arrollando al Valencia con una escandalosa goleada]]></title>
+            <description><![CDATA[La lucidez de Fermín y el genio de Lamine lideran a los azulgrana ante un rival que reclamó dos penaltis y que no recibía un castigo así desde 1955 (7-1).&nbsp;<a href="https://www.elmundo.es/deportes/futbol/primera-division/2025/01/26/679684d8fdddffc3948b458d.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Inma Lidón]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/primera-division/2025/01/26/679684d8fdddffc3948b458d.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[FC Barcelona]]></category>
+            <category><![CDATA[Valencia CF]]></category>
+            <category><![CDATA[Artículos Inma Lidón]]></category>
+            <category><![CDATA[Robert Lewandowski]]></category>
+            <category><![CDATA[Lamine Yamal]]></category>
+            <category><![CDATA[Raphinha]]></category>
+            <category><![CDATA[Szczesny]]></category>
+            <category><![CDATA[Fermín López]]></category>
+            <category><![CDATA[Ferran Torres]]></category>
+            <category><![CDATA[Hansi Flick]]></category>
+            <media:description type="html"><![CDATA[La lucidez de Fermín y el genio de Lamine lideran a los azulgrana ante un rival que reclamó dos penaltis y que no recibía un castigo así desde 1955 (7-1).]]></media:description>
+            <media:title type="html"><![CDATA[LALIGA|Barcelona 7 - Valencia 1]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/26/17379300479656.jpg" medium="image" width="3072" height="2052"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/26/17379300479656_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/primera-division/2025/01/26/679684d8fdddffc3948b458d.html</guid>
+            <pubDate>Sun, 26 Jan 2025 23:24:09 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Así se fabricó la Quinta de Lamine en mitad del caos del Barcelona: las extrañas acciones de Yamal, la mala leche de Cubarsí o la protección de Fermín]]></title>
+            <description><![CDATA[La primera captación, cuando eran niños, y la comprensión del juego en el vivero del fútbol 7 son la clave del éxito dela cantera azulgrana según sus técnicos. Jordi Roura, descubridor de la nueva generación, dirigió sus primeros pasos&nbsp;<a href="https://www.elmundo.es/deportes/futbol/primera-division/2025/01/26/67952ee221efa0a8388b4595.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Orfeo Suárez]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/primera-division/2025/01/26/67952ee221efa0a8388b4595.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Fútbol]]></category>
+            <category><![CDATA[FC Barcelona]]></category>
+            <category><![CDATA[Lamine Yamal]]></category>
+            <category><![CDATA[Pau Cubarsí]]></category>
+            <category><![CDATA[Liga Española]]></category>
+            <category><![CDATA[Artículos Orfeo Suárez]]></category>
+            <media:description type="html"><![CDATA[La primera captación, cuando eran niños, y la comprensión del juego en el vivero del fútbol 7 son la clave del éxito dela cantera azulgrana según sus técnicos. Jordi Roura, descubridor de la nueva generación, dirigió sus primeros pasos]]></media:description>
+            <media:title type="html"><![CDATA[LALIGA]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/26/17378817186765.jpg" medium="image" width="900" height="596"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/26/17378817186765_150x0.jpg" width="150" height="99"/>
+            <guid>https://www.elmundo.es/deportes/futbol/primera-division/2025/01/26/67952ee221efa0a8388b4595.html</guid>
+            <pubDate>Sun, 26 Jan 2025 22:46:54 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Pérez, Trump y la invasión de la plutocracia]]></title>
+            <description><![CDATA[&nbsp;<a href="https://www.elmundo.es/deportes/futbol/primera-division/2025/01/26/67963c57e85ece90248b4586.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Carlos Toro]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/primera-division/2025/01/26/67963c57e85ece90248b4586.html</link>
+            <category><![CDATA[fútbol]]></category>
+            <category><![CDATA[Florentino Pérez Rodríguez]]></category>
+            <category><![CDATA[Donald Trump]]></category>
+            <category><![CDATA[Artículos Carlos Toro]]></category>
+            <media:description type="html"><![CDATA[Hace una semana, dos hombres tomaron posesión presidencial de, en sus distintos ámbitos, un par de primeras potencias mundiales con rango de impe]]></media:description>
+            <media:title type="html"><![CDATA[EL RUEDO IBÉRICO]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/26/17378989817465.jpg" medium="image" width="3072" height="2048"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/26/17378989817465_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/primera-division/2025/01/26/67963c57e85ece90248b4586.html</guid>
+            <pubDate>Sun, 26 Jan 2025 14:48:56 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[El FC Barcelona vuelve a someter al Real Madrid y se alza con la Supercopa de España (5-0)]]></title>
+            <description><![CDATA[Las azulgrana no han mostrado piedad y consuman una goleada que ya es clásica en estos duelos&nbsp;<a href="https://www.elmundo.es/deportes/futbol/2025/01/26/6796375d21efa06c758b4588.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[EFE]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/2025/01/26/6796375d21efa06c758b4588.html</link>
+            <category><![CDATA[Fútbol]]></category>
+            <category><![CDATA[FC Barcelona]]></category>
+            <category><![CDATA[Real Madrid]]></category>
+            <category><![CDATA[Supercopa España]]></category>
+            <media:description type="html"><![CDATA[Las azulgrana no han mostrado piedad y consuman una goleada que ya es clásica en estos duelos]]></media:description>
+            <media:title type="html"><![CDATA[FÚTBOL FEMENINO]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/26/17378978486714.jpg" medium="image" width="3072" height="2044"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/26/17378978486714_150x0.jpg" width="150" height="99"/>
+            <guid>https://www.elmundo.es/deportes/futbol/2025/01/26/6796375d21efa06c758b4588.html</guid>
+            <pubDate>Sun, 26 Jan 2025 14:36:40 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[El viaje interior de Gayà para retar a Lamine Yamal y rescatar al Valencia de la orfandad]]></title>
+            <description><![CDATA[El lateral zurdo, que nunca se ha cruzado en el campo con la joven estrella azulgrana, es el mejor jugador de la plantilla de Corberán. Sin él en el campo, el Valencia ha perdido el 46% de los puntos&nbsp;<a href="https://www.elmundo.es/deportes/futbol/2025/01/26/679501f9fc6c83cc168b457c.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Inma Lidón]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/2025/01/26/679501f9fc6c83cc168b457c.html</link>
+            <category><![CDATA[deportes]]></category>
+            <category><![CDATA[Valencia CF]]></category>
+            <category><![CDATA[FC Barcelona]]></category>
+            <category><![CDATA[José Gayá]]></category>
+            <category><![CDATA[Artículos Inma Lidón]]></category>
+            <media:description type="html"><![CDATA[El lateral zurdo, que nunca se ha cruzado en el campo con la joven estrella azulgrana, es el mejor jugador de la plantilla de Corberán. Sin él en el campo, el Valencia ha perdido el 46% de los puntos]]></media:description>
+            <media:title type="html"><![CDATA[FÚTBOL]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/25/17378182676347.jpg" medium="image" width="3072" height="2048"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/25/17378182676347_150x0.jpg" width="150" height="100"/>
+            <guid>https://www.elmundo.es/deportes/futbol/2025/01/26/679501f9fc6c83cc168b457c.html</guid>
+            <pubDate>Sun, 26 Jan 2025 08:33:36 +0100</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mbappé es el ángel exterminador]]></title>
+            <description><![CDATA[&nbsp;<a href="https://www.elmundo.es/deportes/futbol/primera-division/2025/01/25/679566d0fdddff60068b456e.html">Leer</a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes/futbol.xml" alt=""/>]]></description>
+            <dc:creator><![CDATA[Julián Ruiz]]></dc:creator>
+            <link>https://www.elmundo.es/deportes/futbol/primera-division/2025/01/25/679566d0fdddff60068b456e.html</link>
+            <category><![CDATA[Real Madrid]]></category>
+            <category><![CDATA[La Liga]]></category>
+            <category><![CDATA[Mbappé]]></category>
+            <media:description type="html"><![CDATA[Un <strong>Mbappé </strong>en absoluto estado de gracia se bastó el solito para cargarse a un colista Valladolid, que ya no tiene ni espíritu par]]></media:description>
+            <media:title type="html"><![CDATA[EL CORTADOR DE CÉSPED]]></media:title>
+            <media:content url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/25/17378443923732.jpg" medium="image" width="3072" height="2096"/>
+            <media:thumbnail url="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/01/25/17378443923732_150x0.jpg" width="150" height="102"/>
+            <guid>https://www.elmundo.es/deportes/futbol/primera-division/2025/01/25/679566d0fdddff60068b456e.html</guid>
+            <pubDate>Sat, 25 Jan 2025 23:41:54 +0100</pubDate>
+        </item>
+    </channel>
+</rss>

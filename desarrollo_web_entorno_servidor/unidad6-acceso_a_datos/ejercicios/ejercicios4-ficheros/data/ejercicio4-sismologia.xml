@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:gml="http://www.opengis.net/gml"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:georss="http://www.georss.org/georss"
+    xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" version="2.0">
+    <channel>
+        <title>GeoRSS Sismología IGN</title>
+        <link>http://www.ign.es/ign/rss</link>
+        <description>Este canal te permite consultar los terremotos ocurridos en España durante los últimos diez días. Esta información está sujeta a modificaciones como consecuencia de la continua revisión del análisis sísmico.</description>
+        <language>es</language>
+        <dc:language>es</dc:language>
+        <item>
+            <title>-Info.terremoto: 03/02/2025 1:53:17</title>
+            <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025cilro</link>
+            <description>Se ha producido un terremoto de magnitud 2.8 en ATLÁNTICO-CANARIAS en la fecha 03/02/2025 1:53:17 en la siguiente localización: 29.9601,-16.6918</description>
+            <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025cilro</guid>
+            <geo:lat>29.9601</geo:lat>
+            <geo:long>-16.6918</geo:long>
+        </item>
+        <item>
+            <title>-Info.terremoto: 02/02/2025 13:39:40</title>
+            <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025chnmf</link>
+            <description>Se ha producido un terremoto de magnitud 2.9 en MEDITERRÁNEO-BALEARES en la fecha 02/02/2025 13:39:40 en la siguiente localización: 40.3358,3.4036</description>
+            <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025chnmf</guid>
+            <geo:lat>40.3358</geo:lat>
+            <geo:long>3.4036</geo:long>
+        </item>
+        <item>
+            <title>-Info.terremoto: 02/02/2025 4:03:26</title>
+            <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025cgulw</link>
+            <description>Se ha producido un terremoto de magnitud 2.6 en SW SAN ROQUE.CA en la fecha 02/02/2025 4:03:26 en la siguiente localización: 36.1957,-5.4079</description>
+            <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025cgulw</guid>
+            <geo:lat>36.1957</geo:lat>
+            <geo:long>-5.4079</geo:long>
+        </item>
+        <item>
+            <title>-Info.terremoto: 31/01/2025 6:55:04</title>
+            <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025cdjck</link>
+            <description>Se ha producido un terremoto de magnitud 2.7 en ALBORÁN SUR en la fecha 31/01/2025 6:55:04 en la siguiente localización: 35.384,-3.6789</description>
+            <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025cdjck</guid>
+            <geo:lat>35.384</geo:lat>
+            <geo:long>-3.6789</geo:long>
+        </item>
+        <item>
+            <title>-Info.terremoto: 29/01/2025 23:33:05</title>
+            <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025cayzx</link>
+            <description>Se ha producido un terremoto de magnitud 2.8 en SW CABO DE SAN VICENTE en la fecha 29/01/2025 23:33:05 en la siguiente localización: 36.5467,-9.7008</description>
+            <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025cayzx</guid>
+            <geo:lat>36.5467</geo:lat>
+            <geo:long>-9.7008</geo:long>
+        </item>
+        <item>
+            <title>-Info.terremoto: 29/01/2025 9:41:09</title>
+            <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025bzxof</link>
+            <description>Se ha producido un terremoto de magnitud 3.0 en ALBORÁN OESTE en la fecha 29/01/2025 9:41:09 en la siguiente localización: 35.9224,-4.7587</description>
+            <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025bzxof</guid>
+            <geo:lat>35.9224</geo:lat>
+            <geo:long>-4.7587</geo:long>
+        </item>
+        <item>
+            <title>-Info.terremoto: 29/01/2025 7:44:43</title>
+            <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025bztsj</link>
+            <description>Se ha producido un terremoto de magnitud 2.6 en SE BALANEGRA.AL en la fecha 29/01/2025 7:44:43 en la siguiente localización: 36.6317,-2.8739</description>
+            <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025bztsj</guid>
+            <geo:lat>36.6317</geo:lat>
+            <geo:long>-2.8739</geo:long>
+        </item>
+        <item>
+            <title>-Info.terremoto: 28/01/2025 20:57:49</title>
+            <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025byyjj</link>
+            <description>Se ha producido un terremoto de magnitud 2.8 en ATLÁNTICO-CANARIAS en la fecha 28/01/2025 20:57:49 en la siguiente localización: 29.0637,-14.4927</description>
+            <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025byyjj</guid>
+            <geo:lat>29.0637</geo:lat>
+            <geo:long>-14.4927</geo:long>
+        </item>
+        <item>
+            <title>-Info.terremoto: 28/01/2025 14:58:36</title>
+            <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025bymnf</link>
+            <description>Se ha producido un terremoto de magnitud 3.7 en AZORES-CABO DE SAN VICENTE en la fecha 28/01/2025 14:58:36 en la siguiente localización: 36.5259,-12.5992</description>
+            <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025bymnf</guid>
+            <geo:lat>36.5259</geo:lat>
+            <geo:long>-12.5992</geo:long>
+        </item>
+        <item>
+            <title>-Info.terremoto: 28/01/2025 3:04:34</title>
+            <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025bxoyq</link>
+            <description>Se ha producido un terremoto de magnitud 2.8 en GOLFO DE CÁDIZ en la fecha 28/01/2025 3:04:34 en la siguiente localización: 36.7991,-7.6891</description>
+            <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025bxoyq</guid>
+            <geo:lat>36.7991</geo:lat>
+            <geo:long>-7.6891</geo:long>
+        </item>
+        <item>
+            <title>-Info.terremoto: 26/01/2025 15:30:17</title>
+            <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025buwnr</link>
+            <description>Se ha producido un terremoto de magnitud 2.8 en SE RINCÓN DE LA VICTORIA.MA en la fecha 26/01/2025 15:30:17 en la siguiente localización: 36.7026,-4.2692</description>
+            <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025buwnr</guid>
+            <geo:lat>36.7026</geo:lat>
+            <geo:long>-4.2692</geo:long>
+        </item>
+        <item>
+            <title>-Info.terremoto: 26/01/2025 2:56:16</title>
+            <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025btxqv</link>
+            <description>Se ha producido un terremoto de magnitud 2.9 en ATLÁNTICO-CANARIAS en la fecha 26/01/2025 2:56:16 en la siguiente localización: 28.6621,-14.3203</description>
+            <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025btxqv</guid>
+            <geo:lat>28.6621</geo:lat>
+            <geo:long>-14.3203</geo:long>
+        </item>
+        <item>
+            <title>-Info.terremoto: 25/01/2025 21:51:47</title>
+            <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025btnpq</link>
+            <description>Se ha producido un terremoto de magnitud 2.9 en SW ARBOLEAS.AL en la fecha 25/01/2025 21:51:47 en la siguiente localización: 37.316,-2.1064</description>
+            <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2025btnpq</guid>
+            <geo:lat>37.316</geo:lat>
+            <geo:long>-2.1064</geo:long>
+        </item>
+    </channel>
+</rss>
+
