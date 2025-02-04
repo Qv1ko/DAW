@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+    <alumno>
+        <id_al>10</id_al>
+        <nombre>Marcos</nombre>
+        <edad>23</edad>
+        <codigo>2</codigo>
+    </alumno>
+    <alumno>
+        <id_al>11</id_al>
+        <nombre>Mercedes</nombre>
+        <edad>22</edad>
+        <codigo>2</codigo>
+    </alumno>
+</alumnos>
