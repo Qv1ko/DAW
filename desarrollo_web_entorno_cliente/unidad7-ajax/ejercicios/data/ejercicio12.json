@@ -1,0 +1,20 @@
+{
+    "viajes": [
+        {
+            "descripcion": "Viaje en globo",
+            "precio": "300"
+        },
+        {
+            "descripcion": "Spa fin de semana",
+            "precio": "125"
+        },
+        {
+            "descripcion": "Marrakech 3 dias",
+            "precio": "200"
+        },
+        {
+            "descripcion": "Roma puente carnaval",
+            "precio": "350"
+        }
+    ]
+}

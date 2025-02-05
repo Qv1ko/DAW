@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <title>Ejercicio 12</title>
+        <script src="./js/ejercicio12.js"></script>
+    </head>
+    <body>
+        <div>
+            <table border="1" id="idTiposViajes" align="center"></table>
+            <input
+                type="button"
+                value="Mostar viajes Comprados"
+                id="mostrar"
+                disabled
+            />
+        </div>
+        <br />
+        <div id="idDatosViajes">
+            <table border="1" id="idViajes" align="center"></table>
+            <p>
+                <input type="button" value="Comprar" id="load" disabled />
+                <input
+                    type="button"
+                    value="Anular Viaje"
+                    id="anular"
+                    disabled
+                />
+            </p>
+        </div>
+        <div id="formularioCompra" style="display: none">
+            <br />
+            <label>Nombre comprador:</label
+            ><input type="text" id="idnombre" /><br />
+            <label>Descripción:</label
+            ><input type="text" id="idDescripcion" disabled /><br />
+            <label>Email:</label><input type="text" id="idEmail" /><br />
+            <label>Número de viajes:</label
+            ><input type="text" id="idDedicatoria" /><br />
+            <label>Precio:</label
+            ><input type="text" id="idPrecio" disabled /><br />
+            <label>Numero tarjeta:</label
+            ><input type="text" id="idnumero" /><br />
+            <label>CSV:</label><input type="text" id="idcsv" /><br />
+            <button id="comprar">Comprar el viaje</button>
+        </div>
+        <div id="todosViajes"></div>
+    </body>
+</html>
