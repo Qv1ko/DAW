@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Examen - Ejercicio 2</title>
+        <style>
+            .error {
+                color: red;
+            }
+        </style>
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <form>
+            <p>
+                <label for="nombre">Nombre: </label>
+                <input name="nombre" id="nombre" />
+                <span class="error" id="errorNombre"> </span>
+            </p>
+            <p>
+                <label for="email">Email: </label>
+                <input name="email" id="email" />
+                <span class="error" id="errorEmail"></span>
+            </p>
+            <p>
+                <label for="password">Contraseña: </label>
+                <input name="password" id="password" />
+                <span class="error" id="errorPassword"> </span>
+            </p>
+            <p>
+                <button id="enviar">Enviar datos</button>
+            </p>
+            <div id="resultado"></div>
+        </form>
+    </body>
+</html>
