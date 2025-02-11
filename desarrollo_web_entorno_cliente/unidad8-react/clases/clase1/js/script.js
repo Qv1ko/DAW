@@ -1,11 +1,6 @@
-import { create, createReportList } from "../modules/clase1-canvas.js";
-import {
-    name,
-    draw,
-    reportArea,
-    reportPerimeter,
-} from "../modules/clase1-square.js";
-import randomSquare from "../modules/clase1-square.js";
+import { create, createReportList } from "../modules/canvas.js";
+import { name, draw, reportArea, reportPerimeter } from "../modules/square.js";
+import randomSquare from "../modules/square.js";
 
 console.log("-- Clase 1 --");
 

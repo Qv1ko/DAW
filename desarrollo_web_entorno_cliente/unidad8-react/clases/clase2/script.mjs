@@ -1,7 +1,4 @@
-import {
-    sumar as sum,
-    multiplicar as mul,
-} from "../modules/clase2-operaciones.mjs";
+import { sumar as sum, multiplicar as mul } from "./modules/operaciones.mjs";
 
 function rand() {
     return Math.random() * 8;
