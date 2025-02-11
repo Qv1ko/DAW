@@ -1,0 +1,39 @@
+<h2 style="display: flex; justify-content: center">
+    GESTIÓN ACOGIDA DE MASCOTAS CyL
+</h2>
+<table border="1" cellspacing="4" cellpadding="8" align="center">
+    <tr>
+        <td>
+            <a href="./controllers/controladorIngresar.php"
+                ><button>Ingresar mascota</button></a
+            >
+        </td>
+        <td>
+            <a href="./controllers/controladorAcoger.php"
+                ><button>Acoger mascota</button></a
+            >
+        </td>
+        <td>
+            <h4 style="display: flex; justify-content: center">
+                Posibles consultas
+            </h4>
+            <form action="./controllers/controladorConsultas.php" method="post">
+                <select name="consulta" id="contulsa">
+                    <option value="localidad">Localidad de los centros</option>
+                    <option value="nombreyespecie">
+                        Nombre y especie de todas las mascotas registradas
+                    </option>
+                    <option value="numeropg">
+                        Nº de perros y nº de gatos actualmente en los centros
+                    </option>
+                </select>
+                <button type="submit">Seguir</button>
+            </form>
+        </td>
+        <td>
+            <a href="./controllers/controladorSalir.php"
+                ><button>SALIR</button></a
+            >
+        </td>
+    </tr>
+</table>
