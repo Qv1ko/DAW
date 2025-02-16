@@ -1,9 +1,13 @@
+<?php
+    namespace Views;
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <link rel="stylesheet" href="./css/classification.css">
+    <link rel="stylesheet" href="/public/css/classification.css">
 </head>
 
 <body>
@@ -21,14 +25,14 @@
     <div>
         <canvas id="chart" width="200" height="100"></canvas>
     </div>
-    <script src="./js/chart.js"></script>
+    <script src="/public/assests/js/chart.js"></script>
     <script>
     const labelsValues = [
         <?php foreach ($teamClassification as $team) { echo '"' . htmlspecialchars($team['team']) . '",'; } ?>
     ];
     const dataValues = [<?php foreach ($teamClassification as $team) { echo $team['points'] . ','; } ?>];
     </script>
-    <script src="./js/graph.js"></script>
+    <script src="/public/assests/js/graph.js"></script>
 </body>
 
 </html>

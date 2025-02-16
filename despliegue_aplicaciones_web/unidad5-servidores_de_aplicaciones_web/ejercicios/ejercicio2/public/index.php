@@ -1,3 +1,9 @@
+<?php
+    require_once dirname(__DIR__) . "/src/Controllers/ClassificationController.php";
+
+    use Controllers\ClassificationController;
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -23,7 +29,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ">
                     <li class="nav-item active">
-                        <a class="nav-link" href="">Inicio</a>
+                        <a class="nav-link" href="">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./views/raceView.html">Nueva carrera</a>
@@ -39,7 +45,8 @@
     <main class="container">
         <h2>Clasificación</h2>
         <?php
-            require_once("./controllers/classificationController.php");
+            $controller = new ClassificationController();
+            $controller->showClassification();
         ?>
     </main>
 
