@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
         e.preventDefault();
         // try {
         response = await fetch(
-            new URL("../controllers/raceController.php", window.location)
+            new URL("../Controllers/raceController.php", window.location)
         );
 
         if (!response.ok) {
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         await fetch(
-            new URL("../controllers/raceController.php", window.location),
+            new URL("../Controllers/raceController.php", window.location),
             {
                 method: "POST",
                 body: JSON.stringify(submit),

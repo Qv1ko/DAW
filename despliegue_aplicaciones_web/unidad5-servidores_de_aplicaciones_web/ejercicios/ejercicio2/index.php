@@ -26,10 +26,10 @@
                         <a class="nav-link" href="">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./src/views/raceView.html">Nueva carrera</a>
+                        <a class="nav-link" href="./src/Views/raceView.html">Nueva carrera</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./src/controllers/resetPointsController.php">Reiniciar temorada</a>
+                        <a class="nav-link" href="./src/Controllers/resetPointsController.php">Reiniciar temorada</a>
                     </li>
                 </ul>
             </div>
@@ -39,13 +39,13 @@
     <main class="container">
         <h2>Clasificación</h2>
         <?php
-            require_once("./src/controllers/classificationController.php");
+            require_once("./src/Controllers/classificationController.php");
         ?>
     </main>
 
     <footer>
         <div class="container-fluid bg-dark text-white text-center py-2">
-            <p>Derechos de autor &copy; 2025 - Despliegue web en Render</p>
+            <p>Derechos de autor &copy; 2025 - Despliegue web</p>
         </div>
     </footer>
 </body>
