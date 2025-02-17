@@ -35,7 +35,7 @@
                 $tabla = "";
 
                 if (($numero >= 0 and $numero < 10) or $noValidar) {
-                    $tabla = "<h3>Tabla de multiplicar " .  . " del $numero</h3>";
+                    $tabla = "<h3>Tabla de multiplicar " . " del $numero</h3>";
                     for ($i=1; $i < 11; $i++) { 
                         $tabla = $tabla . "<p>$numero x $i = " . $numero * $i . "</p>";
                     }

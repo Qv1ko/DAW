@@ -8,7 +8,7 @@
 <body>
     <?php
 
-        function multiplicar($valor2, $valor2) {
+        function multiplicar($valor1, $valor2) {
             return $valor1 * $valor2;
         }
         
@@ -25,7 +25,7 @@
         // Función anónima
         $a = function($b) {
 
-        }
+        };
 
         $a($b);
 
@@ -37,12 +37,12 @@
         // Función anónima
         $cb = function() {
             echo "Hola ";
-        }
+        };
 
         prueba('Ana', $cb);
         prueba('Marcos', function() {
             echo "Hola ";
-        })
+        });
 
         require_once("./php/clase6-mostrar.php");
 
