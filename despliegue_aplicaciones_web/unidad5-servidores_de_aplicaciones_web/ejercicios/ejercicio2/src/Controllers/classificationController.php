@@ -1,7 +1,7 @@
 <?php
-    require_once("./src/models/connectionModel.php");
+    require_once("./src/models/ConnectionModel.php");
 
-    require_once("./src/models/driverModel.php");
+    require_once("./src/models/DriverModel.php");
     $obj = new Driver(Connection::start());
 
     $classification = $obj->getClassification();

@@ -1,7 +1,7 @@
 <?php
-    require_once("../models/connectionModel.php");
+    require_once("../models/ConnectionModel.php");
 
-    require_once("../models/driverModel.php");
+    require_once("../models/DriverModel.php");
     $obj = new Driver(Connection::start());
 
     $inputData = json_decode(file_get_contents('php://input'), true);
