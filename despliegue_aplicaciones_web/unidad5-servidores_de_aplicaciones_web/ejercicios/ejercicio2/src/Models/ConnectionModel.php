@@ -1,24 +1,21 @@
 <?php
-    namespace Models;
-
-    use PDO;
-    use PDOException;
-
     class Connection {
-        private static string $host = "localhost";
-        private static string $port = "3306";
-        private static string $dbName = "clasificacion";
-        private static string $user = "root";
-        private static string $password = "";
-
-        public static function start(): ?PDO {
+        public static function start() {
             try {
-                $dbcon = new PDO("mysql:host=" . self::$host . ";port=" . self::$port . ";dbname=" . self::$dbName . ";charse=utf8", self::$user, self::$password);
+                $system = "mysql";
+                $host = "sql109.infinityfree.com";
+                $port = "3306";
+                $db = "if0_38338422_season";
+                $user = "if0_38338422";
+                $password = "gwrvnjJxTr0";
+
+                $dbcon = new PDO($system . ":host=" . $host . ":" . $port . ";dbname=" . $db, $user, $password);
                 $dbcon->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                return $dbcon;
-            } catch (Exception $e) {
-                die("Error de conexión: " . $e->getMessage());
+                $dbcon->exec("SET CHARACTER SET UTF8");
+            } catch (Exception $err) {
+                die("Error: " . $err->getMessage());
             }
+            return $dbcon;
         }
     }
 ?>

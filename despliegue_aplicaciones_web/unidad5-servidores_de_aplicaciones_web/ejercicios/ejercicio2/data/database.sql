@@ -1,7 +1,6 @@
 CREATE DATABASE clasificacion;
 USE clasificacion;
 
--- Tabla de pilotos
 CREATE TABLE drivers (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,

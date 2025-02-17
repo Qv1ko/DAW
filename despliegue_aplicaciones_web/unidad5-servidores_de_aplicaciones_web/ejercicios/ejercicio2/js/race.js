@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
         container.appendChild(resultsTable);
 
         a = document.createElement("a");
-        a.setAttribute("href", "../index.php");
+        a.setAttribute("href", "../../index.php");
         a.setAttribute("class", "btn");
         a.innerHTML = "Volver al Inicio";
 

@@ -5,11 +5,13 @@
 }
 body {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #f4f4f4;
+}
+.container {
+    text-align: center;
 }
 .table-container {
     margin-bottom: 20px;
@@ -30,8 +32,8 @@ th {
     color: white;
 }
 .btn {
-    font-size: 20px;
-    padding: 10px 20px;
+    font-size: 24px;
+    padding: 15px 30px;
     border: none;
     background-color: #007bff;
     color: white;
