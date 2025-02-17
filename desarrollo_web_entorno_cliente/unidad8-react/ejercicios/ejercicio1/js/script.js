@@ -1,4 +1,4 @@
-import { loadContent } from "../modules/ejercicio1-evento.js";
+import { loadContent } from "../modules/evento.js";
 
 console.log("--- Ejercicio 1 ---");
 

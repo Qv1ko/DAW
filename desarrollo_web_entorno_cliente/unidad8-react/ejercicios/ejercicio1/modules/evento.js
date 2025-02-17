@@ -1,4 +1,4 @@
-import { apiConnection } from "../modules/ejercicio1-conexion.js";
+import { apiConnection } from "./conexion.js";
 
 const input = document.getElementById("fecha");
 
