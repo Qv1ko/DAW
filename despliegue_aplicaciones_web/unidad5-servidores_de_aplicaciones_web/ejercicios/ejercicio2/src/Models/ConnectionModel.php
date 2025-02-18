@@ -9,7 +9,9 @@
                 $user = "if0_38338422";
                 $password = "gwrvnjJxTr0";
 
-                $dbcon = new PDO($system . ":host=" . $host . ":" . $port . ";dbname=" . $db, $user, $password);
+                $path = $system . ":host=" . $host . ":" . $port . ";dbname=" . $db;
+
+                $dbcon = new PDO($path, $user, $password);
                 $dbcon->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
                 $dbcon->exec("SET CHARACTER SET UTF8");
             } catch (Exception $err) {
