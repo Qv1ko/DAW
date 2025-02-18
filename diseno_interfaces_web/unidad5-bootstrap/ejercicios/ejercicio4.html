@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ejercicio 4</title>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        />
+        <link rel="stylesheet" href="./css/ejercicio4.css" />
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="container-fluid p-0">
+                <div class="row p-3 d-none d-sm-flex">
+                    <div class="col-12 col-lg-2 text-center text-lg-start">
+                        <h1 class="fw-bold">SIMEN</h1>
+                    </div>
+                    <div class="col-12 col-lg-10 d-flex justify-content-evenly">
+                        <div class="d-flex align-items-center">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                fill="currentColor"
+                                class="bi bi-truck"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"
+                                />
+                            </svg>
+                            <div class="ms-3">
+                                <p class="m-0">FREE DELIVERY WORLDWIDE</p>
+                                <p class="m-0">
+                                    <small>On order over $100</small>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                fill="currentColor"
+                                class="bi bi-cloud-arrow-up-fill"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2m2.354 5.146a.5.5 0 0 1-.708.708L8.5 6.707V10.5a.5.5 0 0 1-1 0V6.707L6.354 7.854a.5.5 0 1 1-.708-.708l2-2a.5.5 0 0 1 .708 0z"
+                                />
+                            </svg>
+                            <div class="ms-3">
+                                <p class="m-0">UP TO 20% OFF COSY LAYERS</p>
+                                <p class="m-0">
+                                    <small>Loremipsum dolor sit amet</small>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                fill="currentColor"
+                                class="bi bi-gift-fill"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A3 3 0 0 1 3 2.506zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43zM9 3h2.932l.023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9z"
+                                />
+                            </svg>
+                            <div class="ms-3">
+                                <p class="m-0">BUY 1 GET 1 FREE</p>
+                                <p class="m-0">
+                                    <small>On order over $100</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <nav class="navbar navbar-expand-lg navbar-light px-3 border-top border-bottom mt-sm-2 mb-4">
+                        <div class="container-fluid">
+                            <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation"
+                            >
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div
+                                class="collapse navbar-collapse"
+                                id="navbarSupportedContent"
+                            >
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active fw-bold"
+                                    href="#"
+                                    aria-current="page"
+                                    >HOME
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle fw-bold"
+                                    href="#"
+                                    id="dropdownId"
+                                    data-bs-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    >FUNITURE</a
+                                >
+                                <div
+                                    class="dropdown-menu"
+                                    aria-labelledby="dropdownId"
+                                >
+                                    <div class="container" style="width: 500px">
+                                        <div class="row p-2">
+                                            <div class="col-6">
+                                                <p class="fw-bold m-0">TABLE</p>
+                                                <ul
+                                                    class="border-top pt-2 p-0"
+                                                    style="list-style: none"
+                                                >
+                                                    <li>Living Room Tables</li>
+                                                    <li>Sofa Tables</li>
+                                                    <li>End Tables</li>
+                                                    <li>Coffee Tables</li>
+                                                    <li>Pedestal Tables</li>
+                                                    <li>Home Office Desks</li>
+                                                    <li>Kids' Furniture</li>
+                                                    <li>
+                                                        Kitchen & Dining Room
+                                                    </li>
+                                                    <li>Sets</li>
+                                                    <li>Sofa Tables</li>
+                                                    <li>End Tables</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="fw-bold m-0">CHAIR</p>
+                                                <ul
+                                                    class="border-top pt-2 p-0"
+                                                    style="list-style: none"
+                                                >
+                                                    <li>Dining Room Tables</li>
+                                                    <li>Folding Tables</li>
+                                                    <li>Living Room Tables</li>
+                                                    <li>Sofa Tables</li>
+                                                    <li>End Tables</li>
+                                                    <li>Coffee Tables</li>
+                                                    <li>Pedestal Tables</li>
+                                                    <li>Home Office Desks</li>
+                                                    <li>Kids' Furniture</li>
+                                                    <li>
+                                                        Kitchen & Dining Room
+                                                    </li>
+                                                    <li>Sets</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="#"
+                                    >ALL PRODUCTS
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="#">SHOP </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="#">MOBILE </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="#">OFFER </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="#">DEAL </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="#">BLOG </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="#"
+                                    >CONTACT US
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="#"
+                                    >CUSTOM MENU
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-4 col-lg-2 d-flex justify-content-end">
+                        <a class="nav-link" href="#"
+                            ><svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-search"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                                /></svg
+                        ></a>
+                        <a class="nav-link ms-4" href="#">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-cart"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+                                />
+                            </svg>
+                            <span>
+                                <span class="text-danger">3</span>
+                                (items)</span
+                            >
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container-fluid p-2">
+                <div class="row g-4">
+                    <div class="col-12 col-sm-8 col-lg-6">
+                        <div id="carouselId" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button
+                                    type="button"
+                                    data-bs-target="#carouselId"
+                                    data-bs-slide-to="0"
+                                    class="active"
+                                    aria-current="true"
+                                    aria-label="Slide 1"
+                                ></button>
+                                <button
+                                    type="button"
+                                    data-bs-target="#carouselId"
+                                    data-bs-slide-to="1"
+                                    aria-label="Slide 2"
+                                ></button>
+                                <button
+                                    type="button"
+                                    data-bs-target="#carouselId"
+                                    data-bs-slide-to="2"
+                                    aria-label="Slide 3"
+                                ></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img
+                                        src="./img/slideshow1.jpg"
+                                        class="d-block w-100"
+                                        alt="Furniture Wood Style"
+                                    />
+                                </div>
+                                <div class="carousel-item">
+                                    <img
+                                        src="./img/slideshow2.jpg"
+                                        class="d-block w-100"
+                                        alt="Furniture Wood Style"
+                                    />
+                                </div>
+                                <div class="carousel-item">
+                                    <img
+                                        src="./img/slideshow3.jpg"
+                                        class="d-block w-100"
+                                        alt="Furniture Wood Style"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-12 col-sm-4 col-lg-6 d-flex flex-column justify-content-between"
+                    >
+                        <div class="row d-flex d-sm-none d-lg-flex">
+                            <div class="col-md-12 mx-0 mx-sm-4 mx-md-0">
+                                <img
+                                    class="w-100"
+                                    src="./img/banner1.jpg"
+                                    alt="Banner 1"
+                                />
+                            </div>
+                        </div>
+                        <div class="row d-none d-sm-flex g-4">
+                            <div class="col-12 col-lg-6">
+                                <img
+                                    class="w-100"
+                                    src="./img/banner2.jpg"
+                                    alt="Banner 2"
+                                />
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <img
+                                    class="w-100"
+                                    src="./img/banner3.jpg"
+                                    alt="Banner 3"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
