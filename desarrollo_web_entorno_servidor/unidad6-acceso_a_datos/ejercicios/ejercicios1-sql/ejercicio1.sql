@@ -20,7 +20,7 @@ CREATE TABLE alumno(
     nombre VARCHAR(15),
     edad INT,
     id_curso INT,
-    CONSTRAINT fk_alumno foreign KEY (id_curso) REFERENCES curso(id_curso)
+    CONSTRAINT fk_alumno FOREIGN KEY (id_curso) REFERENCES curso(id_curso)
 ) engine='Innodb';
 
 -- Ver la arquitectura de la tabla
