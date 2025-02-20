@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class OpositorController extends AbstractController
 {
-    #[Route('/opositor', name: 'app_opositor')]
+    // #[Route('/opositor', name: 'app_opositor')]
     public function index(): JsonResponse
     {
         return $this->json([

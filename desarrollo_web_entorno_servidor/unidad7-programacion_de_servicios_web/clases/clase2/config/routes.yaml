@@ -8,4 +8,4 @@ kernel:
 
 index:
     path: /opositor
-    controller: App\Controller\OpositorController:index
+    controller: App\Controller\OpositorController::index
