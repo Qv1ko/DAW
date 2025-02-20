@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Datos del alumno</title>
+    </head>
+
+    <body>
+        <form
+            action="../controllers/modificarAlumnoController.php"
+            method="post"
+        >
+            <label for="id">ID:</label><input type="text" name="id" id="id" />
+            <label for="id">Nombre:</label
+            ><input type="text" name="nombre" id="nombre" />
+            <label for="id">Edad:</label
+            ><input type="text" name="edad" id="edad" />
+            <select name="curso" id="curso">
+                <option value="1">Primer curso</option>
+                <option value="2">Segundo curso</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
