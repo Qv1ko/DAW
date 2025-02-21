@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Ejercicio 13</title>
+        <link rel="stylesheet" href="./css/ejercicio13.css" />
+        <script src="./js/ejercicio13.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="zona pendientes">
+                <h2>Tareas pendientes</h2>
+                <input
+                    type="text"
+                    id="nuevaTarea"
+                    list="sugerencias"
+                    placeholder="Escribe una tarea"
+                />
+                <datalist id="sugerencias"></datalist>
+
+                <button id="agregarTarea">Añadir</button>
+                <button id="resetTarea">Eliminar</button>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tarea</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="listaPendientes"></tbody>
+                </table>
+            </div>
+            <div class="zona realizadas">
+                <h2>Tareas realizadas</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tarea</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="listaRealizadas"></tbody>
+                </table>
+            </div>
+            <div class="zona eliminadas">
+                <h2>Tareas eliminadas</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tarea</th>
+                        </tr>
+                    </thead>
+                    <tbody id="listaEliminadas"></tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
