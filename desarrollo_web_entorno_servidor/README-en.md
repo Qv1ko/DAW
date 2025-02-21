@@ -34,3 +34,14 @@
 
 -   [Notes](./unidad5-administrar_sesiones/apuntes/)
 -   [Exercises](./unidad5-administrar_sesiones/ejercicios/)
+
+#### Unit 6 - Data access
+
+-   [Notes](./unidad6-acceso_a_datos/apuntes/)
+-   [Classes](./unidad6-acceso_a_datos/clases/)
+-   [Exercises](./unidad6-acceso_a_datos/ejercicios/)
+-   [Exam](./unidad6-acceso_a_datos/examen/)
+
+#### Unit 7 - Web services programming
+
+-   [Classes](./unidad7-programacion_de_servicios_web/clases/)

@@ -34,3 +34,13 @@
 
 -   [Apuntes](./unidad5-administrar_sesiones/apuntes/)
 -   [Ejercicios](./unidad5-administrar_sesiones/ejercicios/)
+
+#### Unidad 6 - Acceso a datos
+
+-   [Apuntes](./unidad5-administrar_sesiones/apuntes/)
+-   [Ejercicios](./unidad5-administrar_sesiones/ejercicios/)
+
+#### Unidad 7 - Programación de servicios web
+
+-   [Apuntes](./unidad5-administrar_sesiones/apuntes/)
+-   [Ejercicios](./unidad5-administrar_sesiones/ejercicios/)
