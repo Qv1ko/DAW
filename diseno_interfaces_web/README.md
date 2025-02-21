@@ -34,6 +34,7 @@
 
 #### Unidad 5 - Bootstrap
 
+-   [Apuntes](./unidad5-bootstrap/apuntes/)
 -   [Clases](./unidad5-bootstrap/clases/)
 -   [Ejercicios](./unidad5-bootstrap/ejercicios/)
 -   [Examen](./unidad5-bootstrap/examen/)
