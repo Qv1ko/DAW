@@ -48,3 +48,16 @@
 -   [Classes](./unidad6-formularios/clases/)
 -   [Exercises](./unidad6-formularios/ejercicios/)
 -   [Exam](./unidad6-formularios/examen/)
+
+#### Unit 7 - AJAX
+
+-   [Notes](./unidad7-ajax/apuntes/)
+-   [Classes](./unidad7-ajax/clases/)
+-   [Exercises](./unidad7-ajax/ejercicios/)
+-   [Exam](./unidad7-ajax/examen/)
+
+#### Unit 8 - React
+
+-   [Notes](./unidad8-react/apuntes/)
+-   [Classes](./unidad8-react/clases/)
+-   [Exercises](./unidad8-react/ejercicios/)
