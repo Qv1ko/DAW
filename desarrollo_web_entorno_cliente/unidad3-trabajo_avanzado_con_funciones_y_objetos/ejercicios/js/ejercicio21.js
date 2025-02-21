@@ -10,7 +10,7 @@ arr = JSON.parse(cadenaJSON).map((number) => number * 2);
 
 console.log(arr);
 
-fetch("ejercicio21.json")
+fetch("./data/ejercicio21.json")
     .then((response) => {
         if (!response.ok) {
             throw new Error("La respuesta no es correcta");
