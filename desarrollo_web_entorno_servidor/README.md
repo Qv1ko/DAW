@@ -37,10 +37,10 @@
 
 #### Unidad 6 - Acceso a datos
 
--   [Apuntes](./unidad5-administrar_sesiones/apuntes/)
--   [Ejercicios](./unidad5-administrar_sesiones/ejercicios/)
+-   [Apuntes](./unidad6-acceso_a_datos/apuntes/)
+-   [Ejercicios](./unidad6-acceso_a_datos/ejercicios/)
 
 #### Unidad 7 - Programación de servicios web
 
--   [Apuntes](./unidad5-administrar_sesiones/apuntes/)
--   [Ejercicios](./unidad5-administrar_sesiones/ejercicios/)
+-   [Apuntes](./unidad7-programacion_de_servicios_web/apuntes/)
+-   [Clases](./unidad7-programacion_de_servicios_web/clases/)

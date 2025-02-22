@@ -44,4 +44,5 @@
 
 #### Unit 7 - Web services programming
 
+-   [Notes](./unidad7-programacion_de_servicios_web/apuntes/)
 -   [Classes](./unidad7-programacion_de_servicios_web/clases/)
