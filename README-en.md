@@ -24,4 +24,7 @@ Repository of activities carried out in the Higher Level Training Cycle in Web A
 -   [Web Application Deployment](./despliegue_aplicaciones_web/)
 -   [Web Interface Design](./diseno_interfaces_web/)
 
-## End of Degree Project
+## Final Degree Project
+
+Web application to manage motor racing.
+- [GitHub repository](https://github.com/Qv1ko/RacingTracker)
